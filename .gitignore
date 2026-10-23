@@ -13,3 +13,19 @@ studies/*/evidence/*
 !visual/mesh32-replay-4k60.mp4
 !visual/readout-replay-4k60.mp4
 *.mov
+
+# Image service studies hold generated programs, fixtures and raw traces.
+studies/*/service/
+studies/*/sources/
+studies/*/inputs/
+studies/*/frozen/
+studies/*/runs/
+studies/*/cpu_runs/
+studies/*/outbox*/
+studies/*/native_service
+studies/*/FROZEN_MANIFEST.json
+studies/*/ADMISSION.json
+studies/*/verify_native.py
+studies/*/verify_service.py
+studies/*/run_monitored.py
+!visual/network-replay-4k60.mp4

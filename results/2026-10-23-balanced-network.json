@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "status": "RECOUNTED_WITH_FAILURES_PRESERVED",
+  "physical_chips": 1,
+  "study": "20261023-balanced-network",
+  "execution": {
+    "status": "COMPLETE",
+    "owned_attempts": 6,
+    "physical_sessions": 6,
+    "passing_sessions": 6,
+    "failed_sessions": 0,
+    "forwards_reserved": 336,
+    "forwards": 336,
+    "verified_forwards": 336,
+    "research_admissions_closed": true,
+    "finish_utc": "2026-10-23T15:44:00.554179+00:00"
+  },
+  "fixtures": {
+    "fixtures__seed96101_banks3": {
+      "seed": 96101,
+      "inputs": 512,
+      "neurons": 64,
+      "banks": [
+        {
+          "index": 0,
+          "np": [
+            1,
+            3,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 1,
+          "np": [
+            2,
+            2,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 2,
+          "np": [
+            3,
+            1,
+            0
+          ],
+          "ram_words": 1282
+        }
+      ],
+      "threshold": 15,
+      "classes": 2,
+      "weights": 32,
+      "encoder": "dual_rail",
+      "fixed_placements": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ]
+      ]
+    },
+    "fixtures__seed96102_banks3": {
+      "seed": 96102,
+      "inputs": 512,
+      "neurons": 64,
+      "banks": [
+        {
+          "index": 0,
+          "np": [
+            1,
+            3,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 1,
+          "np": [
+            2,
+            2,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 2,
+          "np": [
+            3,
+            1,
+            0
+          ],
+          "ram_words": 1282
+        }
+      ],
+      "threshold": 15,
+      "classes": 2,
+      "weights": 32,
+      "encoder": "dual_rail",
+      "fixed_placements": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ]
+      ]
+    },
+    "fixtures__seed96103_banks3": {
+      "seed": 96103,
+      "inputs": 512,
+      "neurons": 64,
+      "banks": [
+        {
+          "index": 0,
+          "np": [
+            1,
+            3,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 1,
+          "np": [
+            2,
+            2,
+            0
+          ],
+          "ram_words": 1282
+        },
+        {
+          "index": 2,
+          "np": [
+            3,
+            1,
+            0
+          ],
+          "ram_words": 1282
+        }
+      ],
+      "threshold": 15,
+      "classes": 2,
+      "weights": 32,
+      "encoder": "dual_rail",
+      "fixed_placements": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ]
+      ]
+    }
+  },
+  "runs": [
+    {
+      "name": "banks3_balanced_smoke",
+      "status": "PASS",
+      "samples": 16,
+      "learning_mask": 7,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "banks3_balanced_smoke",
+        "seed": 96101,
+        "banks": 3,
+        "samples": 16,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 48,
+        "derived_response_bits": 3072,
+        "bank_connection_bit_edits": [
+          326,
+          340,
+          318
+        ],
+        "bank_changed_neuron_records": [
+          14,
+          14,
+          13
+        ],
+        "exact_output_values": 32,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 16,
+        "banks": 3,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "wall_ns": 2258189,
+        "thread_cpu_ns": 596800,
+        "polls": 16,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96101_banks3"
+    },
+    {
+      "name": "confirm_96101_all_learning",
+      "status": "PASS",
+      "samples": 64,
+      "learning_mask": 7,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_96101_all_learning",
+        "seed": 96101,
+        "banks": 3,
+        "samples": 64,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 192,
+        "derived_response_bits": 12288,
+        "bank_connection_bit_edits": [
+          1368,
+          1308,
+          1266
+        ],
+        "bank_changed_neuron_records": [
+          53,
+          45,
+          40
+        ],
+        "exact_output_values": 128,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 64,
+        "banks": 3,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "wall_ns": 9045294,
+        "thread_cpu_ns": 2391392,
+        "polls": 64,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96101_banks3"
+    },
+    {
+      "name": "confirm_96101_mask0",
+      "status": "PASS",
+      "samples": 64,
+      "learning_mask": 0,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_96101_mask0",
+        "seed": 96101,
+        "banks": 3,
+        "samples": 64,
+        "learning_mask": 0,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 192,
+        "derived_response_bits": 12288,
+        "bank_connection_bit_edits": [
+          0,
+          0,
+          0
+        ],
+        "bank_changed_neuron_records": [
+          0,
+          0,
+          0
+        ],
+        "exact_output_values": 128,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 64,
+        "banks": 3,
+        "learning_mask": 0,
+        "configured_learning_neurons": 192,
+        "wall_ns": 9367166,
+        "thread_cpu_ns": 2585056,
+        "polls": 64,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96101_banks3"
+    },
+    {
+      "name": "confirm_96101_mask5",
+      "status": "PASS",
+      "samples": 64,
+      "learning_mask": 5,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_96101_mask5",
+        "seed": 96101,
+        "banks": 3,
+        "samples": 64,
+        "learning_mask": 5,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 192,
+        "derived_response_bits": 12288,
+        "bank_connection_bit_edits": [
+          1368,
+          0,
+          1274
+        ],
+        "bank_changed_neuron_records": [
+          53,
+          0,
+          36
+        ],
+        "exact_output_values": 128,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 64,
+        "banks": 3,
+        "learning_mask": 5,
+        "configured_learning_neurons": 192,
+        "wall_ns": 9131283,
+        "thread_cpu_ns": 2389440,
+        "polls": 65,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96101_banks3"
+    },
+    {
+      "name": "confirm_96102_all_learning",
+      "status": "PASS",
+      "samples": 64,
+      "learning_mask": 7,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_96102_all_learning",
+        "seed": 96102,
+        "banks": 3,
+        "samples": 64,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 192,
+        "derived_response_bits": 12288,
+        "bank_connection_bit_edits": [
+          1414,
+          1302,
+          1300
+        ],
+        "bank_changed_neuron_records": [
+          51,
+          44,
+          42
+        ],
+        "exact_output_values": 128,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 64,
+        "banks": 3,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "wall_ns": 9078130,
+        "thread_cpu_ns": 2369280,
+        "polls": 65,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96102_banks3"
+    },
+    {
+      "name": "confirm_96103_all_learning",
+      "status": "PASS",
+      "samples": 64,
+      "learning_mask": 7,
+      "compiler_inference": false,
+      "binary_sha256": "a268397207e1aff96167c84084759156160e956545f90cad395a89bc87975c31",
+      "exit_code": 0,
+      "device_released": true,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_96103_all_learning",
+        "seed": 96103,
+        "banks": 3,
+        "samples": 64,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "measured_bank_snapshots": 192,
+        "derived_response_bits": 12288,
+        "bank_connection_bit_edits": [
+          1354,
+          1314,
+          1282
+        ],
+        "bank_changed_neuron_records": [
+          53,
+          46,
+          38
+        ],
+        "exact_output_values": 128,
+        "fixed_memory_unchanged": true,
+        "intermediate_activations": "reconstructed, not measured",
+        "source_sha256": "572b64a160414b54f3da374d1f484adb49817eead543fff62a033472b12f3a63"
+      },
+      "results": {
+        "status": "PASS",
+        "samples": 64,
+        "banks": 3,
+        "learning_mask": 7,
+        "configured_learning_neurons": 192,
+        "wall_ns": 11791696,
+        "thread_cpu_ns": 2492224,
+        "polls": 64,
+        "all_step_RAM_and_final_outputs_exact": true,
+        "fixed_RAM_unchanged": true,
+        "cleanup": "unprogrammed"
+      },
+      "fixture_key": "fixtures__seed96103_banks3"
+    }
+  ],
+  "archive_sha256": "a0e7596184b6f0c2783b8c2b60c4739b7cdcd1d293fa598977cf143f16d07878",
+  "limitations": [
+    "Three connected learning banks, not three independent input streams",
+    "Fixed encoders and two-count readout are supplied by us",
+    "Same external class label at all stages; local updates, no backpropagation",
+    "Intermediate responses reconstructed; per-event bank RAM and final output counts measured",
+    "No task accuracy or energy advantage follows from exact mechanism checks",
+    "CNP-interleaved larger family failed; no 4/7-bank physical expansion",
+    "No hidden-state restart or power-loss durability result"
+  ]
+}

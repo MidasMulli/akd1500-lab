@@ -1,0 +1,81 @@
+{
+  "status": "COMPLETE_WITH_PRESERVED_FAILURES",
+  "completed_utc": "2026-10-23T15:50:27.867295+00:00",
+  "studies": {
+    "20261023-host-offload": {
+      "status": "COMPLETE_WITH_PRESERVED_FAILURES",
+      "physical_sessions": 20,
+      "passing_sessions": 18,
+      "failed_sessions": 2,
+      "forwards_reserved": 3280,
+      "forwards": 3248,
+      "research_admissions_closed": true,
+      "finish_utc": "2026-10-23T15:33:40.334366+00:00",
+      "owned_attempts": 20,
+      "verified_forwards": 3248,
+      "forwards_are_verified_only": true
+    },
+    "20261023-resident-network": {
+      "status": "COMPLETE_WITH_PRESERVED_FAILURES",
+      "physical_sessions": 16,
+      "passing_sessions": 7,
+      "failed_sessions": 9,
+      "forwards_reserved": 512,
+      "forwards": 352,
+      "research_admissions_closed": true,
+      "finish_utc": "2026-10-23T15:33:40.335340+00:00",
+      "owned_attempts": 17,
+      "verified_forwards": 352,
+      "forwards_are_verified_only": true,
+      "physical_device_open_attempts": 16,
+      "pre_device_invalid_attempts": 1,
+      "observed_failed_forward_outputs": 4,
+      "failed_attempts": 10
+    },
+    "20261023-balanced-network": {
+      "status": "COMPLETE",
+      "owned_attempts": 6,
+      "physical_sessions": 6,
+      "passing_sessions": 6,
+      "failed_sessions": 0,
+      "forwards_reserved": 336,
+      "forwards": 336,
+      "verified_forwards": 336,
+      "research_admissions_closed": true,
+      "finish_utc": "2026-10-23T15:44:00.554179+00:00"
+    },
+    "20261023-image-offload": {
+      "status": "COMPLETE",
+      "physical_sessions": 5,
+      "passing_sessions": 5,
+      "failed_sessions": 0,
+      "research_admissions_closed": true,
+      "verified_forwards": 342,
+      "finish_utc": "2026-10-23T15:45:52.892148+00:00"
+    }
+  },
+  "verified_native_forwards": 4278,
+  "physical_device_open_attempts": 47,
+  "owned_attempts_including_one_pre_device_refusal": 48,
+  "successful_sessions_including_transfer_only": 36,
+  "verified_neural_program_sessions": 35,
+  "findings": [
+    "Same-score kernel DMA lowers caller CPU about 9.2 times at similar measured host latency",
+    "Three 64-neuron native banks communicate through fixed FNP3 encoders and pass exact every-step RAM/output checks",
+    "Balanced fixed encoding changes complete final-bank saturation from 135/192 matched inputs to 0/192; not useful-task validation",
+    "Two-memory image controller passes shorter-wait change on 24 real jobs with exact output/state equality and CPU action parity"
+  ],
+  "failures": [
+    "Two sparse-input format-adapter timeouts; sparse hardware capability remains unresolved",
+    "CNP-interleaved larger network fails physical reference; no four/seven-bank hardware expansion",
+    "Ten earlier network failed/diagnostic attempts retained: one pre-device refusal, three host cleanup crashes, one IO guard refusal, one frozen-label misuse and four first-step output/RAM mismatches"
+  ],
+  "remaining": [
+    "Direct calibrated card/host electrical energy measurement",
+    "CNP-interleaved graph discrepancy root cause",
+    "Independent learning streams and labels",
+    "Useful three-bank task and held-out generalization",
+    "Complete hidden-state/restart/power-loss durability"
+  ],
+  "claim_boundary": "Host CPU work and exact native mechanisms demonstrated; no electrical or useful-task advantage over optimized CPU established"
+}

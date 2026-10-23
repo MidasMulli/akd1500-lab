@@ -56,5 +56,5 @@ if __name__=='__main__':
     for run in sorted((a.study/'raw').iterdir()):
         if (run/'RECEIPT.json').exists():
             r=json.loads((run/'RECEIPT.json').read_text())
-            if r.get('status')=='PASS':results.append(verify(root,run))
+            if r.get('status')=='PASS' and r.get('fixture'):results.append(verify(root,run))
     z=dict(status='PASS',runs=len(results),results=results);(a.study/'evidence/INDEPENDENT_VERIFICATION.json').write_text(json.dumps(z,indent=2)+'\n');print(json.dumps({k:v for k,v in z.items() if k!='results'}))

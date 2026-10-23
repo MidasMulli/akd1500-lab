@@ -1,0 +1,10 @@
+{
+  "status": "BOUND_TO_NATIVE_RAM_AND_FINAL_OUTPUTS",
+  "sha256": {
+    "2026-10-23-balanced-network.json": "6adc70d4ab7252aa4993b66241c320027b692c904203cc558ce47f6b3c241dff",
+    "2026-10-23-balanced-network.npz": "a0e7596184b6f0c2783b8c2b60c4739b7cdcd1d293fa598977cf143f16d07878",
+    "2026-10-23-offload.json": "93c6c8ea8f1bd0f7046341b9f06519fe620e003421eea21c0b5e898c065b11bb",
+    "network-replay.json": "e4140a57431646e3a4e41c106ec70c309c1ec5492f3911c321b592b8e0165c5c"
+  },
+  "boundary": "Intermediate responses derived; RAM edits and final counts measured. Schematic geometry and expanded time."
+}

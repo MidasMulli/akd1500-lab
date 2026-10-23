@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "native_wait_path_pair_exact": true,
+  "CPU_actions_and_physical_outcomes_exact": true,
+  "runs": [
+    {
+      "completed": 24,
+      "attempts": 51,
+      "worker_failures": 3,
+      "all_goals_have_verified_PNGs": true,
+      "recorded_process_states_validate_timeouts": true,
+      "name": "confirm50",
+      "released_queues": 102,
+      "native_forwards": 153,
+      "mean_completion_wait_us": 172.7941176470588,
+      "mean_wait_calling_CPU_us": 16.083450980392158,
+      "full_native_audit": true,
+      "raw_MMIO_sha256": "20839098e9646f03d5ad4c5beb5838d8368f9164e96cdd69a620d258efa81379"
+    },
+    {
+      "completed": 24,
+      "attempts": 51,
+      "worker_failures": 3,
+      "all_goals_have_verified_PNGs": true,
+      "recorded_process_states_validate_timeouts": true,
+      "name": "confirm20000",
+      "released_queues": 102,
+      "native_forwards": 153,
+      "mean_completion_wait_us": 20084.13725490196,
+      "mean_wait_calling_CPU_us": 29.01521568627451,
+      "full_native_audit": true,
+      "raw_MMIO_sha256": "e5547d01bc3dea4193dabb2c734754639bc32ca1b1225de6dc70b37f032f4aa2"
+    }
+  ],
+  "limitations": [
+    "One seed/cohort per wait path; descriptive service wall times only",
+    "The old 20 ms wait was a deliberate demo guard; removing it is not a silicon speedup",
+    "Two-memory image controller remains separate from the three-bank synthetic cascade",
+    "Nano handles pixels; AKD consumes compact task/action/outcome codes",
+    "No direct card energy measurement or native-over-CPU task advantage"
+  ]
+}

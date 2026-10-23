@@ -1,0 +1,62 @@
+{
+  "status": "MATCHED_DESCRIPTIVE_REPRESENTATION_CHECK",
+  "rows": [
+    {
+      "seed": 96101,
+      "same_input_label_and_complete_initial_learning_RAM": true,
+      "results": {
+        "network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 43,
+          "mean_final_active_neurons": 56.625
+        },
+        "balanced-network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 0,
+          "mean_final_active_neurons": 35.703125
+        }
+      }
+    },
+    {
+      "seed": 96102,
+      "same_input_label_and_complete_initial_learning_RAM": true,
+      "results": {
+        "network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 50,
+          "mean_final_active_neurons": 57.953125
+        },
+        "balanced-network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 0,
+          "mean_final_active_neurons": 36.765625
+        }
+      }
+    },
+    {
+      "seed": 96103,
+      "same_input_label_and_complete_initial_learning_RAM": true,
+      "results": {
+        "network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 42,
+          "mean_final_active_neurons": 54.84375
+        },
+        "balanced-network": {
+          "inputs": 64,
+          "all_64_final_neurons_respond": 0,
+          "mean_final_active_neurons": 36.515625
+        }
+      }
+    }
+  ],
+  "all_active_inputs_positive": 135,
+  "all_active_inputs_balanced": 0,
+  "denominator_inputs": 192,
+  "endpoint": "Measured sum of final two native group counts equals 64",
+  "boundary": "Changes fixed input encoding, not native learning rule. No useful-task or generalization claim.",
+  "archives_sha256": {
+    "network": "d6b4ff507278350cd7cf56a5265a2dacecede29ddc4a56190faf98b8c397f810",
+    "balanced-network": "a0e7596184b6f0c2783b8c2b60c4739b7cdcd1d293fa598977cf143f16d07878"
+  }
+}

@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,datetime,fcntl,hashlib,json,os,subprocess,time
 P=Path(__file__).resolve().parents[1];S=P/os.environ.get('AKD_LAB_STUDY','studies/20261023-measurement')
 def main():
-    p=argparse.ArgumentParser();p.add_argument('name');p.add_argument('fixture');p.add_argument('--samples',type=int,default=64);p.add_argument('--learning',type=int,choices=[0,1],default=1);p.add_argument('--cpu-repeats',type=int,default=128);p.add_argument('--resident',action='store_true');p.add_argument('--bench',choices=['learning_bench','readout_bench'],default='learning_bench');p.add_argument('--cpu-fast-threshold',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('name');p.add_argument('fixture');p.add_argument('--samples',type=int,default=64);p.add_argument('--learning',type=int,choices=[0,1],default=1);p.add_argument('--cpu-repeats',type=int,default=128);p.add_argument('--resident',action='store_true');p.add_argument('--bench',choices=['learning_bench','readout_bench','offload_bench'],default='learning_bench');p.add_argument('--cpu-fast-threshold',action='store_true');p.add_argument('--wait-us',type=int,choices=[0,25,50,100],default=0);p.add_argument('--dma-read-min',type=int,choices=[0,128,256,512],default=0);p.add_argument('--dma-write-min',type=int,choices=[0,128,256,512],default=0);a=p.parse_args()
     auth=json.loads((S/'AUTHORITY.json').read_text());now=datetime.datetime.now(datetime.timezone.utc)
     state=S/'STATE.json'
     assert not state.exists() or not json.loads(state.read_text()).get('research_admissions_closed',False),'study admissions closed'
@@ -14,6 +14,7 @@ def main():
     d=S/'raw'/a.name;d.mkdir(exist_ok=False);prefix=P/a.fixture
     assert prefix.with_suffix('.bin').exists()
     rec=dict(name=a.name,fixture=a.fixture,samples=a.samples,learning=a.learning,cpu_repeats=a.cpu_repeats,start_utc=now.isoformat(),bench=a.bench,cpu_fast_threshold=a.cpu_fast_threshold,binary_sha256=hashlib.sha256((P/'build'/a.bench).read_bytes()).hexdigest(),program_sha256=hashlib.sha256(prefix.with_suffix('.bin').read_bytes()).hexdigest())
+    rec.update(wait_us=a.wait_us,dma_read_min=a.dma_read_min,dma_write_min=a.dma_write_min)
     if prefix.with_suffix('.output').exists():
         activated,threshold=map(int,prefix.with_suffix('.output').read_text().split());rec.update(activated=bool(activated),output_contract=activated,threshold=threshold)
     assert not a.cpu_fast_threshold or (a.bench=='readout_bench' and not a.learning and rec.get('activated'))
@@ -25,7 +26,9 @@ def main():
             execution_mode='resident' if mode=='native' and a.resident else 'cpu-fast' if mode=='cpu' and a.cpu_fast_threshold else mode
             args=['taskset','-c','2',str(P/'build'/a.bench),execution_mode,str(prefix),str(d/mode),str(a.samples),str(a.learning),str(a.cpu_repeats if mode=='cpu' else 1),'0']
             with (d/(mode+'.stdout')).open('w') as out,(d/(mode+'.stderr')).open('w') as err:
-                pr=subprocess.Popen(args,stdout=out,stderr=err);rec[mode+'_pid']=pr.pid;(d/'OWNER.json').write_text(json.dumps(rec,indent=2)+'\n')
+                env=os.environ.copy()
+                if mode=='native':env.update(AKD_LAB_WAIT_US=str(a.wait_us),AKD_LAB_DMA_READ_MIN=str(a.dma_read_min),AKD_LAB_DMA_WRITE_MIN=str(a.dma_write_min))
+                pr=subprocess.Popen(args,stdout=out,stderr=err,env=env);rec[mode+'_pid']=pr.pid;(d/'OWNER.json').write_text(json.dumps(rec,indent=2)+'\n')
                 try:code=pr.wait(timeout=180)
                 except subprocess.TimeoutExpired:
                     pr.terminate()

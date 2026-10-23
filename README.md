@@ -8,6 +8,81 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Connected learning and host offload — October 23, 2026
+
+**Three connected native learning banks passed exact physical checks.** Each
+has 64 configured neurons, 512 binary inputs and 32 selected connections per
+neuron. Two fixed encoders and a fixed two-count readout bring the graph to six
+FNP3 placements. Every stage receives the same external class label; updates
+are local native feature/connection selection, not backpropagation.
+
+We checked the full RAM of every bank after every input, final output counts,
+and fixed encoder/readout memory. Three seeds passed. Freezing the middle bank
+kept its complete RAM fixed while both neighbors continued learning; freezing
+all banks prevented every connection edit. Intermediate neuron responses in
+the replay are reconstructed from the exact reference; RAM edits and final
+counts are measured.
+
+A first positive-only fanout saturated all 64 final-bank responses in 135 of
+192 confirmation inputs. A fixed balanced code—four response copies and four
+complement copies—reduced that to 0/192 on the same seeds and input streams.
+This repairs a representation problem; it is not task-generalization evidence.
+
+The proposed larger CNP-interleaved family failed physical reference checks,
+including its untouched compiler inference graph. We stopped that family and
+retained all ten failed/diagnostic attempts, including one invalid pre-device
+invocation and three host cleanup crashes. The cleanup buffer-lifetime bug was
+fixed. No four- or seven-bank physical success is claimed.
+
+![Recorded three-bank state replay](visual/network-replay-4k.png)
+
+[4K60 recorded replay](visual/network-replay-4k60.mp4),
+[balanced-bank results](results/2026-10-23-balanced-network.json),
+[per-input RAM and outputs](results/2026-10-23-balanced-network.npz),
+[earlier branch and preserved failures](results/2026-10-23-network.json),
+[balanced protocol](studies/20261023-balanced-network/PROTOCOL.md).
+The routes, neuron positions and motion are schematic, with time expanded.
+
+The host-offload experiment also passed matched-output/RAM checks:
+
+| Same output within each pair | Host transaction, µs/input | Calling-thread CPU, µs/input |
+|---|---:|---:|
+| 512 scores / MMIO | 961.48 | 960.43 |
+| 512 scores / kernel DMA read | 951.65 | 104.56 |
+| Two counts / queued busy polling | 69.25 | 69.14 |
+| Two counts / queued 50 µs sleeps | 79.79 | 29.12 |
+
+Medians of three interleaved run means. DMA reduced calling-thread CPU about
+9.2 times at similar full-score latency. Queued sleeps reduced caller CPU
+about 2.4 times, with about 15% more latency. The initial small DMA smoke was
+much slower and remains preserved; its cause is unresolved. Caller CPU is not
+whole-system CPU/IRQ accounting. **No electrical-energy advantage is established.**
+Two sparse-input metadata adapters timed out and are preserved. The available
+driver source has DMA-transfer completion interrupts; this does not establish
+an exposed inference-completion interrupt. Exact loaded-module source identity
+is unverified. No installed driver/SDK was changed.
+
+![Host-offload measurements](visual/offload-results-4k.png)
+
+[Offload results and failures](results/2026-10-23-offload.json),
+[raw outputs, RAM and timing](results/2026-10-23-offload.npz),
+[protocol](studies/20261023-host-offload/PROTOCOL.md).
+
+The shorter wait was separately applied to the existing **two-memory image
+service**, which processes pixels on the Nano and sends compact job outcomes
+to the AKD. Both wait paths completed 24/24 real image jobs through owned worker
+outages, with identical actions/outcomes and every neural-memory snapshot.
+The CPU controller matched every decision/outcome too. Removing the previous
+deliberate 20 ms guard is an interface change, not a silicon-compute speedup.
+The new three-bank synthetic cascade is not yet this application controller.
+[Image-service evidence](results/2026-10-23-image-offload.json),
+[packaged image-service tooling](image_service/README.md).
+
+Hardware-free tests reconstruct all published passing offload and network
+streams and reject corrupted output/RAM even when their file hashes are
+updated. The remaining electrical gate is an assembled, calibrated direct
+card-power rig; module rail readings cannot replace it.
+
 ## Compact-output follow-up — October 23, 2026
 
 **28 additional physical sessions passed, covering 5,056 native inputs.** The

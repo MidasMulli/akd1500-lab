@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_AUDIT_ONLY",
+  "source": "akida-pcie-core.c",
+  "official_repository": "https://github.com/Brainchip-Inc/akida_dw_edma",
+  "local_git_head": "0847678a0aa832b42b11d99739f74e59481002cd",
+  "source_sha256": "5ec080eb92d159528ac1143fd81ee31c526c2c7ef0ae2aa4ad05a08ab15fb9a2",
+  "lines": {
+    "DMA_PREP_INTERRUPT": 182,
+    "wait_for_completion_timeout": 205,
+    "read_write_llseek_mmap": [
+      486,
+      487,
+      488,
+      489,
+      494,
+      495,
+      496,
+      497
+    ]
+  },
+  "poll_callback_found": false,
+  "interpretation": "The audited source waits on interrupt-driven DMA-transfer completion. It does not expose a poll callback for inference completion.",
+  "loaded_module_binary_source_identity": "UNVERIFIED: module loaded/bound but modinfo lookup failed",
+  "installed_driver_firmware_or_SDK_modified": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_WITH_PRESERVED_FAILURES",
+  "execution": {
+    "status": "COMPLETE_WITH_PRESERVED_FAILURES",
+    "physical_sessions": 16,
+    "passing_sessions": 7,
+    "failed_sessions": 9,
+    "forwards_reserved": 512,
+    "forwards": 352,
+    "research_admissions_closed": true,
+    "finish_utc": "2026-10-23T15:33:40.335340+00:00",
+    "owned_attempts": 17,
+    "verified_forwards": 352,
+    "forwards_are_verified_only": true,
+    "physical_device_open_attempts": 16,
+    "pre_device_invalid_attempts": 1,
+    "observed_failed_forward_outputs": 4,
+    "failed_attempts": 10
+  },
+  "summary": "See results/2026-10-23-extension-assessment.json and per-study public result files; raw receipts and failed attempts remain preserved."
+}

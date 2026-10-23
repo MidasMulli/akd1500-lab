@@ -1,0 +1,2058 @@
+{
+  "status": "PROSPECTIVE",
+  "assumptions": "Healthy workers pass artifact verification; paused owned workers time out; no extra unexpected worker failures. Exact policy algebra only, not a measured result.",
+  "forecasts": [
+    {
+      "seed": 71011,
+      "arm": "twohop",
+      "completed": 24,
+      "attempts": 51,
+      "failures": 3,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71011,
+      "arm": "onestep",
+      "completed": 24,
+      "attempts": 60,
+      "failures": 12,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71011,
+      "arm": "frozen_transition",
+      "completed": 8,
+      "attempts": 60,
+      "failures": 44,
+      "epochs": [
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": false,
+          "attempts": 4,
+          "failures": 4
+        }
+      ]
+    },
+    {
+      "seed": 71011,
+      "arm": "cpu",
+      "completed": 24,
+      "attempts": 51,
+      "failures": 3,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71012,
+      "arm": "twohop",
+      "completed": 24,
+      "attempts": 50,
+      "failures": 2,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71012,
+      "arm": "onestep",
+      "completed": 24,
+      "attempts": 59,
+      "failures": 11,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71012,
+      "arm": "frozen_transition",
+      "completed": 16,
+      "attempts": 60,
+      "failures": 28,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": false,
+          "attempts": 4,
+          "failures": 4
+        }
+      ]
+    },
+    {
+      "seed": 71012,
+      "arm": "cpu",
+      "completed": 24,
+      "attempts": 50,
+      "failures": 2,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71013,
+      "arm": "twohop",
+      "completed": 24,
+      "attempts": 51,
+      "failures": 3,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71013,
+      "arm": "onestep",
+      "completed": 24,
+      "attempts": 60,
+      "failures": 12,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "seed": 71013,
+      "arm": "frozen_transition",
+      "completed": 8,
+      "attempts": 60,
+      "failures": 44,
+      "epochs": [
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": false,
+          "attempts": 8,
+          "failures": 8
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": false,
+          "attempts": 4,
+          "failures": 4
+        }
+      ]
+    },
+    {
+      "seed": 71013,
+      "arm": "cpu",
+      "completed": 24,
+      "attempts": 51,
+      "failures": 3,
+      "epochs": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "jobs": [
+        {
+          "epoch": 0,
+          "job": 0,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 1,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 2,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 0,
+          "job": 3,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 4,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 5,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 6,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 1,
+          "job": 7,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 8,
+          "completed": true,
+          "attempts": 3,
+          "failures": 1
+        },
+        {
+          "epoch": 2,
+          "job": 9,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 10,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 2,
+          "job": 11,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 12,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 13,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 14,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 3,
+          "job": 15,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 16,
+          "completed": true,
+          "attempts": 4,
+          "failures": 2
+        },
+        {
+          "epoch": 4,
+          "job": 17,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 18,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 4,
+          "job": 19,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 20,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 21,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 22,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        },
+        {
+          "epoch": 5,
+          "job": 23,
+          "completed": true,
+          "attempts": 2,
+          "failures": 0
+        }
+      ]
+    }
+  ]
+}

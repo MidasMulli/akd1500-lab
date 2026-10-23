@@ -1,0 +1,4 @@
+{
+  "failure": "Pre-device watch smoke refused: admission key named smoke while CLI requires watch",
+  "repair": "Add the prospectively authorized watch admission key; no hardware was opened"
+}

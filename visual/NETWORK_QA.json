@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "video": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 720,
+    "seconds": 12,
+    "full_decode": "checked with ffmpeg"
+  },
+  "source_binding": "All source hashes checked",
+  "visual_review": "Poster inspected at full size; all labels visible; fixed/learning NPU roles labeled; measured RAM changes separated from reconstructed responses",
+  "video_sha256": "bfd61f45a7e373b1dd2f4612302566713fb532ed3367fc98f5531fb2238c7f91"
+}

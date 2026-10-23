@@ -1,0 +1,9 @@
+{
+  "status": "PROSPECTIVE_ENCODER_REPAIR",
+  "utc": "2026-10-23T15:27:38.130297+00:00",
+  "failure": "banks2_cnp_output_smoke: bank1 failed first update; frozen version output also wrong",
+  "change": "Replace signed dual-rail CNP encoders with previously validated positive-only 8-copy fanout; binary response replication, variable active count",
+  "guards": "same bank widths, weights, labels, every-step RAM and final output checks; no expansion until 2-bank gate passes",
+  "program_lifetime_repair": "Keep program backing storage alive through exception cleanup; previous scope caused unprogram crash and hid guard failure",
+  "output_contract_repair": "Compiler CNP sparse potential output is converted to two dense int32 counts by supported runtime; no IO metadata edit"
+}

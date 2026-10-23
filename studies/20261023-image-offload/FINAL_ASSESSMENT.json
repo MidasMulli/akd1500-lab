@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "execution": {
+    "status": "COMPLETE",
+    "physical_sessions": 5,
+    "passing_sessions": 5,
+    "failed_sessions": 0,
+    "research_admissions_closed": true,
+    "verified_forwards": 342,
+    "finish_utc": "2026-10-23T15:45:52.892148+00:00"
+  },
+  "summary": "See results/2026-10-23-extension-assessment.json and per-study public result files; raw receipts and failed attempts remain preserved."
+}
