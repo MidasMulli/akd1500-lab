@@ -20,6 +20,7 @@ studies/*/service/
 studies/*/sources/
 studies/*/inputs/
 studies/*/frozen/
+studies/*/reference/
 studies/*/runs/
 studies/*/cpu_runs/
 studies/*/outbox*/

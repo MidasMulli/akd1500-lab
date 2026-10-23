@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "purpose": "Orthogonal matched transport/CPU cost comparison on recorded Pong stream; no learning-success or fresh-control gate promotion",
+  "origin": "20261023-pong-relearning/development_nw64_s85301_relearn",
+  "samples": 2240,
+  "learning": 1,
+  "cpu_repeats": 32,
+  "repeats": 3,
+  "configurations": {
+    "mmio": {
+      "resident": false,
+      "wait_us": 0,
+      "dma_read_min": 0,
+      "dma_write_min": 0
+    },
+    "dma": {
+      "resident": false,
+      "wait_us": 0,
+      "dma_read_min": 128,
+      "dma_write_min": 128
+    },
+    "queued_dma": {
+      "resident": true,
+      "wait_us": 0,
+      "dma_read_min": 128,
+      "dma_write_min": 128
+    },
+    "queued_dma_sleep": {
+      "resident": true,
+      "wait_us": 25,
+      "dma_read_min": 128,
+      "dma_write_min": 128
+    }
+  },
+  "orders": [
+    [
+      "mmio",
+      "dma",
+      "queued_dma",
+      "queued_dma_sleep"
+    ],
+    [
+      "queued_dma_sleep",
+      "queued_dma",
+      "dma",
+      "mmio"
+    ],
+    [
+      "dma",
+      "queued_dma_sleep",
+      "mmio",
+      "queued_dma"
+    ]
+  ],
+  "gates": [
+    "transport scratch smoke must verify both DMA directions",
+    "each cell exact scores and full final RAM must match the saved sequential learning stream and CPU",
+    "review first configuration set before repeats",
+    "preserve every failed attempt; no fallback"
+  ],
+  "boundaries": [
+    "One chip and one recorded workload, not independent devices or fresh game control",
+    "Queue has eight jobs and nine slots; future labels are already recorded, so this does not prove batching of causal online game feedback",
+    "CPU exact-rule replay includes input packing, checksums and repeated fresh state; native timing excludes reference verification and programming",
+    "Calling-thread CPU is not total host/IRQ activity; no card/host energy measurement",
+    "Practical CPU online predictor accuracy and per-query compute are reported separately from exact-rule replay"
+  ]
+}

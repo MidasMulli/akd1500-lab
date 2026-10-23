@@ -1,0 +1,1229 @@
+{
+  "status": "EXACT_MATCHED_STREAM_CPU_REPLAY_LOWER_COST",
+  "physical_chips": 1,
+  "physical_sessions": 13,
+  "verified_native_forwards": 26880,
+  "transport_smoke": {
+    "name": "transport_smoke",
+    "samples": 0,
+    "native_forwards": 0,
+    "start_utc": "2026-10-23T22:14:33.658778+00:00",
+    "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+    "native_pid": 4115228,
+    "status": "PASS",
+    "exit_code": 0,
+    "device_released": true,
+    "results": {
+      "status": "PASS",
+      "mode": "transport",
+      "native_forwards": 0,
+      "bytes_per_direction_verified": 2688,
+      "DMA_reads": 3,
+      "DMA_writes": 3,
+      "wait_us": 0,
+      "sleep_calls": 0,
+      "DMA_read_calls": 3,
+      "DMA_write_calls": 3,
+      "DMA_read_bytes": 2688,
+      "DMA_write_bytes": 2688,
+      "cleanup": "unprogrammed"
+    }
+  },
+  "summary": {
+    "mmio": {
+      "native_elapsed_us_per_input": {
+        "mean": 342.6224229166666,
+        "min": 342.59572678571425,
+        "max": 342.6654589285714,
+        "runs": [
+          342.6654589285714,
+          342.59572678571425,
+          342.6060830357143
+        ]
+      },
+      "native_thread_cpu_us_per_input": {
+        "mean": 342.3139761904761,
+        "min": 342.2977571428571,
+        "max": 342.3239142857143,
+        "runs": [
+          342.3239142857143,
+          342.2977571428571,
+          342.32025714285714
+        ]
+      },
+      "exact_CPU_elapsed_us_per_input": {
+        "mean": 11.203887495349703,
+        "min": 11.190745382254464,
+        "max": 11.221474553571428,
+        "runs": [
+          11.199442550223214,
+          11.221474553571428,
+          11.190745382254464
+        ]
+      },
+      "exact_CPU_thread_us_per_input": {
+        "mean": 11.192713392857144,
+        "min": 11.179270535714286,
+        "max": 11.210737053571428,
+        "runs": [
+          11.188132589285715,
+          11.210737053571428,
+          11.179270535714286
+        ]
+      }
+    },
+    "dma": {
+      "native_elapsed_us_per_input": {
+        "mean": 452.8819535714286,
+        "min": 451.7314517857143,
+        "max": 453.62547991071426,
+        "runs": [
+          451.7314517857143,
+          453.28892901785713,
+          453.62547991071426
+        ]
+      },
+      "native_thread_cpu_us_per_input": {
+        "mean": 89.32825714285714,
+        "min": 88.7447,
+        "max": 89.9207,
+        "runs": [
+          89.9207,
+          88.7447,
+          89.31937142857143
+        ]
+      },
+      "exact_CPU_elapsed_us_per_input": {
+        "mean": 11.196315066964287,
+        "min": 11.186604617745536,
+        "max": 11.204948102678571,
+        "runs": [
+          11.204948102678571,
+          11.19739248046875,
+          11.186604617745536
+        ]
+      },
+      "exact_CPU_thread_us_per_input": {
+        "mean": 11.18024136904762,
+        "min": 11.174242857142858,
+        "max": 11.186353571428572,
+        "runs": [
+          11.180127678571429,
+          11.186353571428572,
+          11.174242857142858
+        ]
+      }
+    },
+    "queued_dma": {
+      "native_elapsed_us_per_input": {
+        "mean": 416.9779055059524,
+        "min": 398.8435776785715,
+        "max": 451.8846705357143,
+        "runs": [
+          398.8435776785715,
+          400.2054683035715,
+          451.8846705357143
+        ]
+      },
+      "native_thread_cpu_us_per_input": {
+        "mean": 87.97134285714287,
+        "min": 87.05157142857144,
+        "max": 88.81665714285715,
+        "runs": [
+          88.81665714285715,
+          88.0458,
+          87.05157142857144
+        ]
+      },
+      "exact_CPU_elapsed_us_per_input": {
+        "mean": 11.18840869140625,
+        "min": 11.186698367745535,
+        "max": 11.191422181919643,
+        "runs": [
+          11.187105524553571,
+          11.191422181919643,
+          11.186698367745535
+        ]
+      },
+      "exact_CPU_thread_us_per_input": {
+        "mean": 11.177310267857143,
+        "min": 11.175206696428571,
+        "max": 11.180007142857143,
+        "runs": [
+          11.176716964285713,
+          11.180007142857143,
+          11.175206696428571
+        ]
+      }
+    },
+    "queued_dma_sleep": {
+      "native_elapsed_us_per_input": {
+        "mean": 435.08907232142855,
+        "min": 393.7215178571428,
+        "max": 456.7792441964286,
+        "runs": [
+          454.7664549107143,
+          456.7792441964286,
+          393.7215178571428
+        ]
+      },
+      "native_thread_cpu_us_per_input": {
+        "mean": 60.657947619047626,
+        "min": 60.50652857142857,
+        "max": 60.92647142857143,
+        "runs": [
+          60.54084285714286,
+          60.50652857142857,
+          60.92647142857143
+        ]
+      },
+      "exact_CPU_elapsed_us_per_input": {
+        "mean": 11.199078994605657,
+        "min": 11.188122516741073,
+        "max": 11.212244321986606,
+        "runs": [
+          11.196870145089285,
+          11.188122516741073,
+          11.212244321986606
+        ]
+      },
+      "exact_CPU_thread_us_per_input": {
+        "mean": 11.184767410714286,
+        "min": 11.178351339285715,
+        "max": 11.18979017857143,
+        "runs": [
+          11.186160714285714,
+          11.178351339285715,
+          11.18979017857143
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "name": "r0_dma",
+      "configuration": "dma",
+      "native_elapsed_us_per_input": 451.7314517857143,
+      "native_thread_cpu_us_per_input": 89.9207,
+      "exact_CPU_elapsed_us_per_input": 11.204948102678571,
+      "exact_CPU_thread_us_per_input": 11.180127678571429,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 1011878452,
+          "thread_cpu_ns": 201422368,
+          "transaction_read_bytes": 1628040,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50921,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 803170680,
+          "thread_cpu_ns": 801391552,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.60 0.19 0.12 1/537 4115301",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.63 0.20 0.12 1/537 4115311",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r0_mmio",
+      "configuration": "mmio",
+      "native_elapsed_us_per_input": 342.6654589285714,
+      "native_thread_cpu_us_per_input": 342.3239142857143,
+      "exact_CPU_elapsed_us_per_input": 11.199442550223214,
+      "exact_CPU_thread_us_per_input": 11.188132589285715,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 767570628,
+          "thread_cpu_ns": 766805568,
+          "transaction_read_bytes": 1628160,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50951,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 0,
+          "transaction_DMA_writes": 0,
+          "transaction_DMA_read_bytes": 0,
+          "transaction_DMA_write_bytes": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 802776042,
+          "thread_cpu_ns": 801965344,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.60 0.19 0.12 1/539 4115289",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.60 0.19 0.12 1/537 4115301",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r0_queued_dma",
+      "configuration": "queued_dma",
+      "native_elapsed_us_per_input": 398.8435776785715,
+      "native_thread_cpu_us_per_input": 88.81665714285715,
+      "exact_CPU_elapsed_us_per_input": 11.187105524553571,
+      "exact_CPU_thread_us_per_input": 11.176716964285713,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 422974106,
+          "release_to_observed_completion_ns": 63152681,
+          "output_drain_ns": 407282827,
+          "wall_ns": 893409614,
+          "thread_cpu_ns": 198949312,
+          "transaction_read_bytes": 1621404,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25429538,
+          "polls": 32951,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 801891724,
+          "thread_cpu_ns": 801147072,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.63 0.20 0.12 3/537 4115311",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.66 0.22 0.13 1/537 4115378",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r0_queued_dma_sleep",
+      "configuration": "queued_dma_sleep",
+      "native_elapsed_us_per_input": 454.7664549107143,
+      "native_thread_cpu_us_per_input": 60.54084285714286,
+      "exact_CPU_elapsed_us_per_input": 11.196870145089285,
+      "exact_CPU_thread_us_per_input": 11.186160714285714,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 535938021,
+          "release_to_observed_completion_ns": 72123790,
+          "output_drain_ns": 410615048,
+          "wall_ns": 1018676859,
+          "thread_cpu_ns": 135611488,
+          "transaction_read_bytes": 1493192,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 25,
+          "sleep_calls": 898,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25259954,
+          "polls": 898,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 802591652,
+          "thread_cpu_ns": 801824000,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.66 0.22 0.13 1/537 4115378",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.69 0.23 0.13 1/537 4115386",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r1_dma",
+      "configuration": "dma",
+      "native_elapsed_us_per_input": 453.28892901785713,
+      "native_thread_cpu_us_per_input": 88.7447,
+      "exact_CPU_elapsed_us_per_input": 11.19739248046875,
+      "exact_CPU_thread_us_per_input": 11.186353571428572,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 1015367201,
+          "thread_cpu_ns": 198788128,
+          "transaction_read_bytes": 1628104,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50937,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 802629093,
+          "thread_cpu_ns": 801837824,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.23 0.19 0.13 2/537 4116049",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.29 0.20 0.13 1/537 4116058",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r1_mmio",
+      "configuration": "mmio",
+      "native_elapsed_us_per_input": 342.59572678571425,
+      "native_thread_cpu_us_per_input": 342.2977571428571,
+      "exact_CPU_elapsed_us_per_input": 11.221474553571428,
+      "exact_CPU_thread_us_per_input": 11.210737053571428,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 767414428,
+          "thread_cpu_ns": 766746976,
+          "transaction_read_bytes": 1628228,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50968,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 0,
+          "transaction_DMA_writes": 0,
+          "transaction_DMA_read_bytes": 0,
+          "transaction_DMA_write_bytes": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 804355296,
+          "thread_cpu_ns": 803585632,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.29 0.20 0.13 1/537 4116058",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.35 0.22 0.14 1/537 4116066",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r1_queued_dma",
+      "configuration": "queued_dma",
+      "native_elapsed_us_per_input": 400.2054683035715,
+      "native_thread_cpu_us_per_input": 88.0458,
+      "exact_CPU_elapsed_us_per_input": 11.191422181919643,
+      "exact_CPU_thread_us_per_input": 11.180007142857143,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 421149581,
+          "release_to_observed_completion_ns": 63157593,
+          "output_drain_ns": 412153075,
+          "wall_ns": 896460249,
+          "thread_cpu_ns": 197222592,
+          "transaction_read_bytes": 1621228,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25578190,
+          "polls": 32907,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 802201142,
+          "thread_cpu_ns": 801382912,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.23 0.19 0.13 1/536 4115979",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.23 0.19 0.13 1/537 4116049",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r1_queued_dma_sleep",
+      "configuration": "queued_dma_sleep",
+      "native_elapsed_us_per_input": 456.7792441964286,
+      "native_thread_cpu_us_per_input": 60.50652857142857,
+      "exact_CPU_elapsed_us_per_input": 11.188122516741073,
+      "exact_CPU_thread_us_per_input": 11.178351339285715,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 538108549,
+          "release_to_observed_completion_ns": 73254078,
+          "output_drain_ns": 411822880,
+          "wall_ns": 1023185507,
+          "thread_cpu_ns": 135534624,
+          "transaction_read_bytes": 1493192,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 25,
+          "sleep_calls": 898,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25263548,
+          "polls": 898,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 801964622,
+          "thread_cpu_ns": 801264224,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.16 0.18 0.12 2/541 4115965",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.23 0.19 0.13 1/536 4115979",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r2_dma",
+      "configuration": "dma",
+      "native_elapsed_us_per_input": 453.62547991071426,
+      "native_thread_cpu_us_per_input": 89.31937142857143,
+      "exact_CPU_elapsed_us_per_input": 11.186604617745536,
+      "exact_CPU_thread_us_per_input": 11.174242857142858,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 1016121075,
+          "thread_cpu_ns": 200075392,
+          "transaction_read_bytes": 1628020,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50916,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 801855819,
+          "thread_cpu_ns": 800969728,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.35 0.22 0.14 1/539 4116121",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.40 0.23 0.14 1/537 4116133",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r2_mmio",
+      "configuration": "mmio",
+      "native_elapsed_us_per_input": 342.6060830357143,
+      "native_thread_cpu_us_per_input": 342.32025714285714,
+      "exact_CPU_elapsed_us_per_input": 11.190745382254464,
+      "exact_CPU_thread_us_per_input": 11.179270535714286,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "native",
+          "samples": 2240,
+          "repeats": 1,
+          "wall_ns": 767437626,
+          "thread_cpu_ns": 766797376,
+          "transaction_read_bytes": 1628216,
+          "transaction_write_bytes": 2472960,
+          "driver_reads": 50965,
+          "driver_writes": 13507,
+          "dense_input": 1,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "transaction_DMA_reads": 0,
+          "transaction_DMA_writes": 0,
+          "transaction_DMA_read_bytes": 0,
+          "transaction_DMA_write_bytes": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 802152629,
+          "thread_cpu_ns": 801330112,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.40 0.23 0.14 1/537 4116143",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.45 0.24 0.15 1/536 4116215",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r2_queued_dma",
+      "configuration": "queued_dma",
+      "native_elapsed_us_per_input": 451.8846705357143,
+      "native_thread_cpu_us_per_input": 87.05157142857144,
+      "exact_CPU_elapsed_us_per_input": 11.186698367745535,
+      "exact_CPU_thread_us_per_input": 11.175206696428571,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 537765936,
+          "release_to_observed_completion_ns": 63135921,
+          "output_drain_ns": 411319805,
+          "wall_ns": 1012221662,
+          "thread_cpu_ns": 194995520,
+          "transaction_read_bytes": 1621428,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 0,
+          "sleep_calls": 0,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25271981,
+          "polls": 32957,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 801862539,
+          "thread_cpu_ns": 801038816,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.45 0.24 0.15 1/536 4116215",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.50 0.26 0.15 1/536 4116223",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    },
+    {
+      "name": "r2_queued_dma_sleep",
+      "configuration": "queued_dma_sleep",
+      "native_elapsed_us_per_input": 393.7215178571428,
+      "native_thread_cpu_us_per_input": 60.92647142857143,
+      "exact_CPU_elapsed_us_per_input": 11.212244321986606,
+      "exact_CPU_thread_us_per_input": 11.18979017857143,
+      "results": {
+        "native": {
+          "status": "PASS",
+          "mode": "resident",
+          "samples": 2240,
+          "repeats": 1,
+          "batch": 8,
+          "queue_slots": 9,
+          "setup_ns": 409288054,
+          "release_to_observed_completion_ns": 72002202,
+          "output_drain_ns": 400645944,
+          "wall_ns": 881936200,
+          "thread_cpu_ns": 136475296,
+          "transaction_read_bytes": 1493192,
+          "transaction_write_bytes": 2465120,
+          "wait_us": 25,
+          "sleep_calls": 898,
+          "dense_input": 1,
+          "transaction_DMA_reads": 2240,
+          "transaction_DMA_writes": 2240,
+          "transaction_DMA_read_bytes": 1433600,
+          "transaction_DMA_write_bytes": 2293760,
+          "verification_cpu_ns": 25359843,
+          "polls": 898,
+          "host_writes_during_execution": 0,
+          "exact_scores_and_full_RAM": true,
+          "cleanup": "unprogrammed"
+        },
+        "cpu": {
+          "status": "PASS",
+          "mode": "cpu",
+          "samples": 2240,
+          "repeats": 32,
+          "wall_ns": 803693673,
+          "thread_cpu_ns": 802084160,
+          "checksum": 15654771904368620000
+        }
+      },
+      "profile_before": {
+        "/proc/loadavg": "0.40 0.23 0.14 1/537 4116133",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      },
+      "profile_after": {
+        "/proc/loadavg": "0.40 0.23 0.14 1/537 4116143",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq": "1728000"
+      }
+    }
+  ],
+  "archive_sha256": "5d92872d17a984d8eb3e31b050631c9eec24c4bfa40b97a12b2f69cdf992c277",
+  "fixtures": {
+    "r0_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r0_mmio": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r0_queued_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r0_queued_dma_sleep": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r1_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r1_mmio": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r1_queued_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r1_queued_dma_sleep": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r2_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r2_mmio": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r2_queued_dma": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    },
+    "r2_queued_dma_sleep": {
+      "inputs": 1024,
+      "neurons": 160,
+      "num_weights": 64,
+      "classes": 5
+    }
+  },
+  "runs": [
+    {
+      "name": "r0_dma",
+      "fixture_key": "r0_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r0_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r0_mmio",
+      "fixture_key": "r0_mmio",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r0_mmio",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r0_queued_dma",
+      "fixture_key": "r0_queued_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r0_queued_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r0_queued_dma_sleep",
+      "fixture_key": "r0_queued_dma_sleep",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r0_queued_dma_sleep",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r1_dma",
+      "fixture_key": "r1_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r1_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r1_mmio",
+      "fixture_key": "r1_mmio",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r1_mmio",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r1_queued_dma",
+      "fixture_key": "r1_queued_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r1_queued_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r1_queued_dma_sleep",
+      "fixture_key": "r1_queued_dma_sleep",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r1_queued_dma_sleep",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r2_dma",
+      "fixture_key": "r2_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r2_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r2_mmio",
+      "fixture_key": "r2_mmio",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r2_mmio",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r2_queued_dma",
+      "fixture_key": "r2_queued_dma",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r2_queued_dma",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    },
+    {
+      "name": "r2_queued_dma_sleep",
+      "fixture_key": "r2_queued_dma_sleep",
+      "samples": 2240,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "r2_queued_dma_sleep",
+        "inputs": 1024,
+        "neurons": 160,
+        "samples": 2240,
+        "learning": true,
+        "changed_neuron_records": 120,
+        "connection_bit_edits": 26106,
+        "exact_score_values": 358400,
+        "fixture": "studies/20261023-pong-substrate/fixtures-replay01/pong",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "binary_sha256": "9c6562b36ff611e25339564b518ba85b967953257dbb0b2be86b0911f8b79288",
+      "program_sha256": "db19889554bb736aad76ba3ec38ef77bbb50a9269de893106364271bba6d5b85"
+    }
+  ],
+  "original_sequence_scores_sha256": "f69ed89d00d8c7e78019cccc9e488409d7e9672ae286cfeefe4272af3de7d603",
+  "original_final_RAM_sha256": "ba89b0e900553f4db1c435f07311c62379a73ca08052a84344922b46c06816eb",
+  "protocol": {
+    "version": 1,
+    "purpose": "Orthogonal matched transport/CPU cost comparison on recorded Pong stream; no learning-success or fresh-control gate promotion",
+    "origin": "20261023-pong-relearning/development_nw64_s85301_relearn",
+    "samples": 2240,
+    "learning": 1,
+    "cpu_repeats": 32,
+    "repeats": 3,
+    "configurations": {
+      "mmio": {
+        "resident": false,
+        "wait_us": 0,
+        "dma_read_min": 0,
+        "dma_write_min": 0
+      },
+      "dma": {
+        "resident": false,
+        "wait_us": 0,
+        "dma_read_min": 128,
+        "dma_write_min": 128
+      },
+      "queued_dma": {
+        "resident": true,
+        "wait_us": 0,
+        "dma_read_min": 128,
+        "dma_write_min": 128
+      },
+      "queued_dma_sleep": {
+        "resident": true,
+        "wait_us": 25,
+        "dma_read_min": 128,
+        "dma_write_min": 128
+      }
+    },
+    "orders": [
+      [
+        "mmio",
+        "dma",
+        "queued_dma",
+        "queued_dma_sleep"
+      ],
+      [
+        "queued_dma_sleep",
+        "queued_dma",
+        "dma",
+        "mmio"
+      ],
+      [
+        "dma",
+        "queued_dma_sleep",
+        "mmio",
+        "queued_dma"
+      ]
+    ],
+    "gates": [
+      "transport scratch smoke must verify both DMA directions",
+      "each cell exact scores and full final RAM must match the saved sequential learning stream and CPU",
+      "review first configuration set before repeats",
+      "preserve every failed attempt; no fallback"
+    ],
+    "boundaries": [
+      "One chip and one recorded workload, not independent devices or fresh game control",
+      "Queue has eight jobs and nine slots; future labels are already recorded, so this does not prove batching of causal online game feedback",
+      "CPU exact-rule replay includes input packing, checksums and repeated fresh state; native timing excludes reference verification and programming",
+      "Calling-thread CPU is not total host/IRQ activity; no card/host energy measurement",
+      "Practical CPU online predictor accuracy and per-query compute are reported separately from exact-rule replay"
+    ]
+  },
+  "paddle_control_admitted": false,
+  "learning_gate_unchanged": "Pong relearning gate failed; this is a separate cost study",
+  "interpretation": "DMA and queued waiting reduce caller CPU compared with MMIO; all tested native paths still cost more elapsed and calling-thread CPU time than exact CPU replay on this recorded workload",
+  "limitations": [
+    "One chip and one recorded workload, not independent devices or fresh game control",
+    "Queue has eight jobs and nine slots; future labels are already recorded, so this does not prove batching of causal online game feedback",
+    "CPU exact-rule replay includes input packing, checksums and repeated fresh state; native timing excludes reference verification and programming",
+    "Calling-thread CPU is not total host/IRQ activity; no card/host energy measurement",
+    "Practical CPU online predictor accuracy and per-query compute are reported separately from exact-rule replay",
+    "Elapsed/input for queued modes is batch-amortized cost, not individual response latency",
+    "Native per-step RAM snapshots are not taken in this throughput comparison; every output and complete final RAM match the independently reconstructed original stream",
+    "Runs are temporal repeats of one recorded stream, not independent game environments",
+    "This characterizes current model and host/runtime path, not silicon peak performance or all native learning banks"
+  ]
+}

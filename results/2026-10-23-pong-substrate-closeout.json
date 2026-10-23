@@ -1,0 +1,11 @@
+{
+  "status": "CLOSED",
+  "utc": "2026-10-23T22:19:38.790312+00:00",
+  "physical_sessions": 13,
+  "verified_native_forwards": 26880,
+  "frozen_source_hashes_rechecked": 17,
+  "confirmation_opened": false,
+  "paddle_control_admitted": false,
+  "device_free": true,
+  "shared_lock_free": true
+}

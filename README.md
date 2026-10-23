@@ -8,6 +8,46 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native relearning and a direct CPU cost comparison — October 23, 2026
+
+**The current Pong pipeline does not establish a neuromorphic advantage.**
+After identical new-rule teaching, an AKD learner without old court-A labels
+scores **46/64**, an old-A learner adapting to the new rule scores **28/64**,
+and trained-then-frozen scores **12/64**. The practical CPU recent-neighbour
+learner scores **44/64**. All three native arms retain **47/64** on court B
+without further B teaching. This is one physical initialization; no native
+accuracy advantage over CPU is established by the two-example difference.
+
+![Native learning-history diagnosis](visual/pong-relearning-4k.png)
+
+The fresh A arm fits its repeated teaching cases at 63/64, while relearning
+reaches 54/64. Prior learning history impairs this case; the physical cause is
+not uniquely isolated. Both prospectively fixed connection-count repairs fail
+their exact-rule CPU screens, so native seed expansion, confirmation and paddle
+control stay closed. Forecasts are labeled separately from native results.
+
+**The same recorded neural task is also cheaper on the CPU in every tested
+transport configuration.** Exact CPU replay uses about **11.2 µs/input**.
+Serial MMIO costs **342.6 µs/input** and **342.3 µs/input** of caller CPU.
+A targeted queued read-only DMA path reduces caller CPU to **54.7 µs/input**
+and elapsed cost to **256.0 µs/input**, averaged over three repeats. This is an
+84% reduction in caller CPU versus our MMIO path, while exact CPU replay still
+uses less. Queued elapsed/input is batch-amortized cost, not event latency.
+
+![Matched recorded-Pong transport and CPU cost](visual/pong-substrate-4k.png)
+
+[Tools and reproduction](pong/relearn/README.md),
+[learning assessment](studies/20261023-pong-relearning/ASSESSMENT.md),
+[primary cost assessment](studies/20261023-pong-substrate/ASSESSMENT.md),
+[read-only DMA follow-up](studies/20261023-pong-read-dma/ASSESSMENT.md).
+The primary four modes were frozen before execution; the read-only follow-up
+was separately frozen after reviewing their input/submit/fetch breakdown.
+All **47,072 new native forwards** pass independent checks: 6,752 have complete
+per-step RAM captures; the 40,320 transport replays have every score and full
+final RAM bound to the original physical stream. No installed driver or runtime
+was changed. These are current program/host-path costs, not silicon-only or
+electrical energy measurements, and do not establish chip-peak capability.
+
 ## Changing-physics Pong with a trained-then-frozen control — October 23, 2026
 
 **Native learning responds to the changed rule, but useful prediction remains
