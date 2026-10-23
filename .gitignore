@@ -40,3 +40,8 @@ mario/.data*/
 !visual/mario-live-responses-4k60.mp4
 !visual/mario-continuous-4k60.mp4
 !visual/pong-physics-4k60.mp4
+!visual/signal-relay-4k60.mp4
+studies/*/*.inputs
+studies/*/*.labels
+studies/*/*.masks
+studies/*/*.rows.json

@@ -1,0 +1,20 @@
+{
+  "status": "SOURCE_BOUND",
+  "sha256": {
+    "2026-10-23-signal-relay.json": "1ca42f70b2e9c435fb11f3fa77da979e1ccb2bafd5252e00ca23cc63295642ae",
+    "2026-10-23-signal-relay.npz": "30cfefbda873e007eded0dd3cec6b7823d63a7e4a53de129a45c7cee74539aeb",
+    "signal-relay-replay.json": "e9291c4fab2273dc107b8a73fee358be02a600a432f4fcc08746b3189167bc60"
+  },
+  "duration_seconds": 24,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 60,
+  "scope": "Recorded measured outputs/RAM; derived responses; schematic flow and expanded time",
+  "artifacts_sha256": {
+    "signal-relay-4k.png": "abae2a4090d158cf68b5ebd843657c5150902477310de71e66015d5c084fd1df",
+    "signal-relay-result-4k.png": "c3def0b5b7aee738228696390c9ec950941dd6c74c58b958f396babf28a3bfb0",
+    "signal-relay-4k60.mp4": "9dbe4e50f7fdaaadb2e3e9f70dc060148dd603e2e2071d99a487e5cf8fc58d22"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "closed_utc": "2026-10-23T23:19:59.838115+00:00",
+  "physical_sessions": 10,
+  "native_forwards": 9280,
+  "captured_full_bank_snapshots": 18560,
+  "research_admissions_closed": true,
+  "device_free": true,
+  "lock_free": true,
+  "owned_jobs_remaining": 0
+}

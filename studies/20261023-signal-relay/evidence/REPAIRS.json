@@ -1,0 +1,20 @@
+{
+  "status": "PRESERVED_BEFORE_PHYSICAL",
+  "repairs": [
+    {
+      "attempt": "COMPILER01",
+      "error": "Virtual SDK rejected mixed-stack int16 input",
+      "correction": "Explicit uint8 cast; no network or dataset change"
+    },
+    {
+      "attempt": "COMPILER02",
+      "error": "Selected compiler environment lacked flatbuffers",
+      "correction": "Use existing akida-cc-venv with the same Akida 2.19.3"
+    },
+    {
+      "attempt": "NATIVE_BUILD01",
+      "error": "Wrong FlatBuffers include directory",
+      "correction": "Use existing runtime-compatible C++ headers"
+    }
+  ]
+}

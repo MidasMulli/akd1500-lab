@@ -6,7 +6,8 @@
 | Queue | Preserved full-ring publication failure; corrected eight-job/nine-slot burst with exact outputs/RAM | Longer-duration ring wrap, asynchronous producers, fine-grained cycle timing |
 | FNP3 | Exact outputs and complete learning RAM through 512 neurons; reconstructed selector in CPU and Python | Larger connection budgets, input sparsity, near-capacity overlap and interference |
 | Mesh | Passing 27/29/31/32-NPU single-pass configurations | Peak useful throughput, contention, bandwidth and memory saturation |
-| Multi-learner | Three connected 64-neuron plastic banks with exact per-step RAM checks | Independent streams/labels, CNP-interleaved failure root cause, useful task training |
+| Multi-learner | Three connected 64-neuron plastic banks; a separate five-NPU recognition/routing graph has two distinct phase-gated teachers and exact per-step RAM checks | Simultaneously arriving independent streams, richer branching/messages, CNP-interleaved failure root cause |
+| Selective native repair | Three seeds: recognition-only updates restore 64/64 changed-signature destinations, retain 64/64 old responses, downstream RAM unchanged; frozen and routing-only 16/64 | Synthetic task on one chip; simple CPU also solves it. Test controlled communication interruption, real sensor streams, size/activity scaling and calibrated energy |
 | Recovery | Bounded probing corrects stale failure memories during real image-worker recovery; 72/72 completed | Reactive also completes 72/72 at two fewer operations; test value under a preregistered cost/latency objective |
 | Visual-action learning | Larger sealed bank: learned 551/640, frozen 534/640, constant 555/640; four of five pair wins, gate failed; all 1,280 selected outcomes freshly checked | Gain below preset threshold and conditional interval includes zero; useful visual/action generalization remains unqualified |
 | Continuous decisions | Native queries, 24-frame commitments and outcome feedback; 115 decisions, 507 online replacements, all frames and RAM verified | First pair regressed: learned 1,418 px versus frozen 1,554; stop gate closed seed/test expansion. Hazard coverage and consequence objective need development |
@@ -23,6 +24,16 @@ All 32 NPUs participating is a coverage result. It does not establish maximum
 clock, power, SRAM occupancy, bandwidth or arithmetic utilization. Silicon and
 firmware ownership here means progressively observable and testable boundaries,
 not a claim that inaccessible internals have been enumerated.
+
+The signal-relay experiment connects isolated learning, resident weights and
+native inter-NPU communication in a functional task. Each bank learns a
+different association with its own teacher. A fixed categorical message stays
+on-chip, allowing recognition to be repaired without updating downstream
+routing. That is a bounded modular-learning result. Its successful small task
+does not establish a substrate advantage: the software comparator also reaches
+100%. Efficiency still needs enough useful resident computation, matched
+accuracy/retention, optimized CPU alternatives and calibrated whole-system
+energy. Merely adding replicated classifiers is not sufficient.
 
 The larger Mario study added an observed frame-count cue after two RGB-only
 encodings aliased identical playfield observations with opposite consequences.

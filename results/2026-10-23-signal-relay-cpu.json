@@ -1,0 +1,34 @@
+{
+  "status": "CPU_TASK_BASELINE",
+  "algorithm": "Two binary exemplars per identity plus learned destination table",
+  "metrics": {
+    "old_probe": {
+      "n": 64,
+      "correct": 64,
+      "accuracy": 1.0
+    },
+    "changed_before": {
+      "n": 64,
+      "correct": 20,
+      "accuracy": 0.3125
+    },
+    "changed_after": {
+      "n": 64,
+      "correct": 64,
+      "accuracy": 1.0
+    },
+    "old_retention": {
+      "n": 64,
+      "correct": 64,
+      "accuracy": 1.0
+    }
+  },
+  "exemplars_per_class": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "design_status": "Post hoc diagnostic comparator, authored after inspecting the first native case; not a preregistered qualification",
+  "scope": "Functional software comparator; no CPU or electrical timing measurement"
+}

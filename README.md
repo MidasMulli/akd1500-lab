@@ -8,6 +8,38 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Two resident learning memories, selectively repaired — October 23, 2026
+
+**Recognition can adapt while a connected routing memory keeps its rule.**
+This synthetic sensor-routing task uses five native NPUs: two independently
+taught 64-neuron learning banks, a fixed native comparator and categorical
+encoder between them, and a fixed four-count output. All intermediate neural
+processing stays in one resident hardware pass.
+
+After beacon signatures change, recognition-only repair recovers **64/64**
+correct destinations while preserving **64/64** old-signature responses.
+Routing's complete captured learning RAM stays unchanged. Frozen and routing-
+only repair each reach **16/64** on changed signatures; routing-only repair
+also reduces old-signature performance to **48/64**. All three initializations
+reproduce these outcomes on one chip and one synthetic sensor world.
+
+![Selective native recognition repair](visual/signal-relay-4k.png)
+
+[Download 4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/signal-relay-4k60.mp4),
+[tools and explanation](relay/README.md),
+[assessment](studies/20261023-signal-relay/ASSESSMENT.md),
+[results](results/2026-10-23-signal-relay.json).
+
+Every one of **9,280 native forwards** and **18,560 complete learning-bank
+snapshots** passes independent reconstruction. The host supplies different
+teachers and schedules which bank learns; this is not autonomous teacher
+selection, simultaneous independent streams or recurrent planning. A simple
+CPU comparator also solves the task. **No CPU speed or energy advantage is
+established.** The 24-second film is a time-expanded recorded replay: RAM edits
+and final counts are measured; intermediate responses and flow are reconstructed
+or schematic. Sources and numerical archives are public; generated vendor
+programs and runtime remain external.
+
 ## Native relearning and a direct CPU cost comparison — October 23, 2026
 
 **The current Pong pipeline does not establish a neuromorphic advantage.**
