@@ -1,0 +1,422 @@
+{
+  "status": "REVIEWED_SOURCE_AND_REPAIR_CHAIN",
+  "receipts": {
+    "studies/20261023-mario-sealed/evidence/DESIGN_FREEZE.json": {
+      "sha256": "9a8995962d1f0424107dc4c8d5ac9489175543d9b8ea10be82f21bb55a32410a",
+      "receipt": {
+        "status": "SEALED_BEFORE_OUTCOMES",
+        "utc": "2026-10-23T19:04:53.331593+00:00",
+        "hashes": {
+          "mario/sealed/PROTOCOL.md": "d886c838dbf0257d5632b0c1b124c3d7a5b2da2e83aaf5358d073eed4a9b9c23",
+          "mario/sealed/bank.py": "fce57f43e47e3ae101e86ae30e5565441eab21f5eb4c887f032f70260de6b931",
+          "mario/sealed/collect.py": "d6a237e2981f5b0a0ea25b4433cdd9839db403036a58d80cf66da4078994b8e2",
+          "studies/20261023-mario-sealed/evidence/ENCOUNTER_MANIFEST.json": "f1e58978618d4c91a1b19cb3df7b729adde098d10c0ffe3ec4d3227030cd4791"
+        }
+      }
+    },
+    "studies/20261023-mario-sealed/evidence/PARENT_SOURCE_PRESERVATION.json": {
+      "sha256": "216feb09c059ee002a9bc360fcdff26a7a7d064f8a6a76a778dbe216c6ce2a20",
+      "receipt": {
+        "status": "ORIGINAL_DESIGN_HASHES_RESTORED_EXACTLY",
+        "restored": [
+          "bank.py",
+          "collect.py"
+        ],
+        "note": "Reconstructed from recorded edits, compared against pre-outcome design hashes. Fixture preparation was CPU-only and retained as raw fixtures; its producer source was not separately frozen before the failed parent screen."
+      }
+    },
+    "studies/20261023-mario-sealed-r1/evidence/PHYSICAL_SOURCE_FREEZE.json": {
+      "sha256": "1bd74e33dff202861d7470127f994f523154c254b94922757cce50755c059fcc",
+      "receipt": {
+        "utc": "2026-10-23T19:17:38.598421+00:00",
+        "hashes": {
+          "src/learning_bench.cpp": "9ad462e3b995cb3307f021ee57be3e970afa79fac485e9d4d81838bdd7a63c5a",
+          "src/binary_reference.hpp": "6383ce7375cfc6fc71130d0d7107a5f509a3ef70ceb714f688b9dbd8ac240fa6",
+          "src/mario_stream.cpp": "9faa7f0d04bd8b1fb615692400b3af65b774bda0e7d4936aef980689b1db956f",
+          "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+          "build/mario_stream": "38e2f939ffecf77991830e25ea6ec76a449f413a139a0e56b4ccd6209aa71ba6",
+          "build/learning_bench": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+          "mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb",
+          "mario/sealed/prepare.py": "60c5c9ee431223bf071d292b9cabce000b6b8f81a7e0aa901059555141a47aa6",
+          "mario/sealed/calibrate.py": "7f3b56a85cc03a00b4e11b67077ae1a776ebc4aedd252081a79645cb8d20fa82",
+          "mario/sealed/serve.py": "2dc7943e2737beed843b2df247d0bc24ec4eea42cc8ab44486bcaa1f716feccc",
+          "tools/run_cell.py": "eda3ee9a5882e21e152eda716e020bcebb0d5a5bf965f8fc389c8bd0bfa0233c",
+          "tools/verify.py": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.json": "7feed916100db8dbdb04c29db66d8f7d8d38e3fcbe7d3d966255f390f3b5f255",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.inputs": "08446af66c2403d1a28eae2b39eb056e2659ccb0b22d31dce72d32602f630ff3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.labels": "d75129ed18031f78626ee695e8d8436c853b3a04656ded7affab85f536bc1b25",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.bin": "bbdab77373d75e95dd6d4f50b7652d2ed3dd92f752c240908c0ae107d820a91c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_82812.fbz": "f44ce9ff14a1dca02ff768669b20ae606774efee2670c1b0e7e5f5f70c3ba416",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_82813.fbz": "6c7b53cd94e09d929cdbf7fc70d175f206a8df64dc0546d7dc880e69c6915b85",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.ram": "7d7d4566ac1bff79bfd9c3847abac38bdd5e81bffd27207f0457e89abd73673d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.bin": "bbdab77373d75e95dd6d4f50b7652d2ed3dd92f752c240908c0ae107d820a91c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.bin": "bbdab77373d75e95dd6d4f50b7652d2ed3dd92f752c240908c0ae107d820a91c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_82811.fbz": "1d0721251f0dd4d7981fc9253d378827f2a8784c141db7eddd9130f75d29b7a9",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.bin": "87c073627abf233d1ec0c4c9899292718af1edddd6eede573a97c0b50b3679a3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.inputs": "afb6a03f21a4fc659cc6e8e24085fe8239221b268da6eb90fe17fd618ba63775",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.bin": "1d1009568b4f93be8680e034e900ff8af95f7f35440625c86f9b775418ce603b",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/smoke32.inputs": "b8bd9a6b00585637f32dbf3fc004dcae8b6743085531f5f69d39c7c4f9a69b38",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.ram": "7d7d4566ac1bff79bfd9c3847abac38bdd5e81bffd27207f0457e89abd73673d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.json": "d5865f8da0de74b5550c5b007738b04e84bca75776fe6cb7f4135866f6b01c43",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.bin": "87c073627abf233d1ec0c4c9899292718af1edddd6eede573a97c0b50b3679a3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.json": "f815872c6ea9f3cf54a9a3f41a6a325100b805f6b6e43ef5b821fe177ad0cb79",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.inputs": "76ed8042769ce2942f861d594dc50976f160993e7ade2cfe102afa3d75b7893f",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/smoke32.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.ram": "89783d6d55ab0fc502175bb7299daef5682953e17737011ca6fe1efe0e60e743",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.bin": "1d1009568b4f93be8680e034e900ff8af95f7f35440625c86f9b775418ce603b",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.json": "393a7b371e09147d0bc3ac603a66f81e94c5a7b87dcb9b514edbe3968584a3ab",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.inputs": "72cbe31ef9ccc6bf95df7ba1e033598b2bc0311a9e69a4b408cf67796c772b3c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.labels": "8f5856f15ed69c86747e98510e78f03e1fac995bafbeeb41a1271b50143c882a",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.labels": "0d585be762c71a27038e54ac353a62dfaab70cde9d5eb17f0370306a7ac42a8d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.ram": "89783d6d55ab0fc502175bb7299daef5682953e17737011ca6fe1efe0e60e743",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.ram": "68fe32975ad78f35c51792f2865115fd4a88db1c56ddc9d8ee600ef2c8564132",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/smoke32.ram": "7d7d4566ac1bff79bfd9c3847abac38bdd5e81bffd27207f0457e89abd73673d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.json": "3e7265c44b1af81c27f311602b64afd36f0d5935229d3e62f3784941add3dbd7",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.json": "0e270c83ea9cf6729798ce2cb737132629163353a8cdfb839f93e3815e2a327d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/smoke32.labels": "c14385a05cb8b83763e1ec842b8f1b1d8b26e5b70d8106c8b6bf92c7468d10b3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.ram": "68fe32975ad78f35c51792f2865115fd4a88db1c56ddc9d8ee600ef2c8564132",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.inputs": "4ab8f14fcefd4552429708486ccf60549489b170c24f9da10f7f9dbf95f67fa2",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.ram": "68fe32975ad78f35c51792f2865115fd4a88db1c56ddc9d8ee600ef2c8564132",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_82813.fbz": "6c7b53cd94e09d929cdbf7fc70d175f206a8df64dc0546d7dc880e69c6915b85",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.json": "39f2a3da20e742c9f9709880c929cce21ca9c029a750d15551676c3296b9bc8a",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.labels": "0d585be762c71a27038e54ac353a62dfaab70cde9d5eb17f0370306a7ac42a8d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.inputs": "9ddce1f2f3740a76021e49b25cef96c08c740c9503bbc45f1d857981ddab9c83",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.ram": "7d7d4566ac1bff79bfd9c3847abac38bdd5e81bffd27207f0457e89abd73673d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.labels": "8f5856f15ed69c86747e98510e78f03e1fac995bafbeeb41a1271b50143c882a",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_full.bin": "1d1009568b4f93be8680e034e900ff8af95f7f35440625c86f9b775418ce603b",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.inputs": "76ed8042769ce2942f861d594dc50976f160993e7ade2cfe102afa3d75b7893f",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.ram": "68fe32975ad78f35c51792f2865115fd4a88db1c56ddc9d8ee600ef2c8564132",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.inputs": "72cbe31ef9ccc6bf95df7ba1e033598b2bc0311a9e69a4b408cf67796c772b3c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.bin": "87c073627abf233d1ec0c4c9899292718af1edddd6eede573a97c0b50b3679a3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.ram": "7d7d4566ac1bff79bfd9c3847abac38bdd5e81bffd27207f0457e89abd73673d",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/smoke32.bin": "1d1009568b4f93be8680e034e900ff8af95f7f35440625c86f9b775418ce603b",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.labels": "d75129ed18031f78626ee695e8d8436c853b3a04656ded7affab85f536bc1b25",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.inputs": "08446af66c2403d1a28eae2b39eb056e2659ccb0b22d31dce72d32602f630ff3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_frozen.inputs": "afb6a03f21a4fc659cc6e8e24085fe8239221b268da6eb90fe17fd618ba63775",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_full.json": "e28b873303576d7bf0051cdd4c4ad8edd8c500e76d97dc38ce8a3cca836f577e",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_full.inputs": "4ab8f14fcefd4552429708486ccf60549489b170c24f9da10f7f9dbf95f67fa2",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/BUILD.json": "13b151dc253cca29a4c84626871eb9de3d07a97ee0fbbaee94c77f87997473bf",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.ram": "89783d6d55ab0fc502175bb7299daef5682953e17737011ca6fe1efe0e60e743",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.json": "90ceb5a42075f1131640258bc92259bd98d174d335175e38cbc04287f4c3f6e2",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.inputs": "9ddce1f2f3740a76021e49b25cef96c08c740c9503bbc45f1d857981ddab9c83",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.bin": "bbdab77373d75e95dd6d4f50b7652d2ed3dd92f752c240908c0ae107d820a91c",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_frozen.json": "fdee28d8671c50035730d2ef2ff99d7e1ce810fec599cefef029936350a48c2f",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_full.bin": "87c073627abf233d1ec0c4c9899292718af1edddd6eede573a97c0b50b3679a3",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82812_full.ram": "89783d6d55ab0fc502175bb7299daef5682953e17737011ca6fe1efe0e60e743",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82811_frozen.bin": "1d1009568b4f93be8680e034e900ff8af95f7f35440625c86f9b775418ce603b",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_82812.fbz": "f44ce9ff14a1dca02ff768669b20ae606774efee2670c1b0e7e5f5f70c3ba416",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_82811.fbz": "1d0721251f0dd4d7981fc9253d378827f2a8784c141db7eddd9130f75d29b7a9",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82811_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82812_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/projection_s82813_frozen.json": "5c397def6796c4b878892246475c7defabb7f2ed7148e285d2e5e4325b43a228",
+          "studies/20261023-mario-sealed-r1/fixtures-cal01/legacy_s82813_full.json": "2ec47ac6f3e3c31ec49013eaf67e3bef71fcd6934b04b9f65c74095b50c5b426"
+        }
+      }
+    },
+    "studies/20261023-mario-sealed-r1/evidence/FIRST_NATIVE_PAIR_GATE.json": {
+      "sha256": "bb6b626ea559e55b6ed568cd2c588f782482cd63ec4dc75a4719f77ea0658292",
+      "receipt": {
+        "status": "PASS_EXACT_MECHANISM",
+        "native_full_success": 55,
+        "native_frozen_success": 50,
+        "contexts": 64,
+        "test_remains_unopened": true,
+        "main_test_admitted": false
+      }
+    },
+    "studies/20261023-mario-sealed-r1/evidence/REFERENCE_EXTRACTION.json": {
+      "sha256": "4400658b29db7ff7a125d419d5eda6fa644f99b9bf2563c9949761ee724b85c6",
+      "receipt": {
+        "status": "VERBATIM_KERNEL_REUSE",
+        "parent_commit": "71544fd6b5584e12191c8abb0a19ae15a066a913",
+        "kernel_body_sha256": "3398f27bf93b23fe16392ef198b3311410f8b2f6d62ae50acf3863800121e65a"
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/PIPELINE_LOCK_V1.json": {
+      "sha256": "8dc72c8546c2444a3badf8509c7967ac9b720ebc26860416d88e3bb19ee4d269",
+      "receipt": {
+        "status": "PIPELINE_FROZEN_BEFORE_TEST",
+        "encoder": "projection",
+        "clock": true,
+        "train_first": true,
+        "epochs": 4,
+        "seeds": [
+          82911,
+          82912,
+          82913,
+          82914,
+          82915
+        ],
+        "utc": "2026-10-23T19:53:27.138085+00:00",
+        "train_sha256": "248909a19105c4445b5cce6c16ffeba9c4f307306c226aaa1eaa4def06068b8b",
+        "source_hashes": {
+          "/Users/midas/akd1500-lab/mario/sealed/CONFIRMATION.md": "8be6d3df94bf61a8ab79da4d2afb532ad7600586ea5c0b757ad08a43a41ffe0b",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_design.py": "d9b549c29835621218e0388e1c600c5f40a30249d7c482713717082ad0fecda9",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_collect.py": "2642feadc1782911513eceae05d3cf4cafde8ce83bba0652cee421e0ebc7d61b",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_prepare.py": "c48b17134ad44f21dc082d7810e2b041ec7f6b71382ed8c9a8040621ff4a0f96",
+          "/Users/midas/akd1500-lab/mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb",
+          "/Users/midas/akd1500-lab/mario/sealed/collect.py": "3c29c1c3ea9c3c9971c402d06b535651bb02e38f15c3ce6a8c4576bc6d0bf449",
+          "/Users/midas/akd1500-lab/mario/sealed/prepare.py": "60c5c9ee431223bf071d292b9cabce000b6b8f81a7e0aa901059555141a47aa6"
+        }
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/PIPELINE_LOCK_V2.json": {
+      "sha256": "8486de3778bcb863fa74dfca01b65136443bf2bc1ca397fd5f61f32c53aed9b5",
+      "receipt": {
+        "status": "PIPELINE_FROZEN_BEFORE_TEST",
+        "encoder": "projection",
+        "clock": true,
+        "train_first": true,
+        "epochs": 4,
+        "seeds": [
+          82911,
+          82912,
+          82913,
+          82914,
+          82915
+        ],
+        "utc": "2026-10-23T19:53:27.138085+00:00",
+        "train_sha256": "248909a19105c4445b5cce6c16ffeba9c4f307306c226aaa1eaa4def06068b8b",
+        "source_hashes": {
+          "/Users/midas/akd1500-lab/mario/sealed/CONFIRMATION.md": "8be6d3df94bf61a8ab79da4d2afb532ad7600586ea5c0b757ad08a43a41ffe0b",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_design.py": "d9b549c29835621218e0388e1c600c5f40a30249d7c482713717082ad0fecda9",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_collect.py": "2642feadc1782911513eceae05d3cf4cafde8ce83bba0652cee421e0ebc7d61b",
+          "/Users/midas/akd1500-lab/mario/sealed/confirm_prepare.py": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+          "/Users/midas/akd1500-lab/mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb",
+          "/Users/midas/akd1500-lab/mario/sealed/collect.py": "3c29c1c3ea9c3c9971c402d06b535651bb02e38f15c3ce6a8c4576bc6d0bf449",
+          "/Users/midas/akd1500-lab/mario/sealed/prepare.py": "60c5c9ee431223bf071d292b9cabce000b6b8f81a7e0aa901059555141a47aa6"
+        },
+        "source_repair": "Mechanical duplicate-key construction fixed before compiler execution; scientific parameters unchanged"
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/PHYSICAL_SOURCE_FREEZE.json": {
+      "sha256": "3b48396c3d5dc17ddb7d4e071557f1f4174e55b7b6147a9f659ffb3697c41a7f",
+      "receipt": {
+        "utc": "2026-10-23T19:58:59.478337+00:00",
+        "initial_weights_independent_of_test_inputs": true,
+        "no_test_prequeries": true,
+        "hashes": {
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.json": "da2bdd966ab123f415fadfd68ed80eeab3ad5694e901b04abcdc2c368e203641",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.inputs": "4476e598ac40be0adf9f4d33ff6ca2aad0bc780d84b6e0b8c69d3abf94c5c5ab",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.labels": "7b02d51165057a25ff82f005295f0dfa818ad6647baa884ab175aebb15c8f666",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.json": "b5dd386f4153d141aafe6c918f2fa699f4e3558dd2d6b19a8879397667687358",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.json": "bf128ba132a69af2ecaaf745fd35b5503ab897556b1bb6decdf1060b2699b0dc",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.inputs": "24184432174f6d70fdb3aca74f7dba4a210671c1369e5e9fbc220029ca991e45",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.ram": "f3c2622fbb7eb21385818898036161c44927221b5f91a740f3f0305f1e2a94bb",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.json": "0e4d53ebda5036a3c5bf2740b61ac813fd289d2a02c17645d58b2d877987c902",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.ram": "7073b2fb46bac84c259b43eeec5bfbbeabe46840594d85c4ed4f8eabd5ace82a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.json": "cd4433944609e66588d80ac095ed3cfa334d954cc687a50a3aeaf09f3adb1f25",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.ram": "7073b2fb46bac84c259b43eeec5bfbbeabe46840594d85c4ed4f8eabd5ace82a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.bin": "7564b4f3b13cc41f982559f83f32ca9abe4ddb1f9fd2a516a8003c4fe7e63c8f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.inputs": "fa88da0de45250b11d2b1c929b9338e388fee7319a04573e498357775edc96a7",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.ram": "7c5dc1f43d174956110577e1eba2386770eea00c4e51e379e7969425f34560df",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.bin": "7204b1380563c04999839e9acdadfb88e861e30eb80cf29262b985cf5a9056b3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/smoke32.inputs": "dd36472f0e33bfa122104ed784fc3b389f0f4016287aa20bb2b96d50c73e8284",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.bin": "7204b1380563c04999839e9acdadfb88e861e30eb80cf29262b985cf5a9056b3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.labels": "73e0890c0e77c7ad594a283921a6c88bb491afd0356ce2796cad859c525d44c7",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.labels": "a05119cf446ec024c627bb2dce5b05031a736211ccb00c4da4d7fc22c47bb123",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.bin": "14fd2259828f238cffe28afeb87637b19a6dd927285ecc2c670572053da4c586",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/smoke32.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.json": "7ef270a4c5b1f6caf9a17e95967dc231f34b8419162381d7dd8b3f99a0441371",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.ram": "20e4336e28bd1a1d41b9e11b506779d405f25fd968cbd268e19f9fe5b3d307b5",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.inputs": "396e743de080ce3b04078c1e3968bc7394605411615a25ea90fd0fe40a36dbaa",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.ram": "f3c2622fbb7eb21385818898036161c44927221b5f91a740f3f0305f1e2a94bb",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.labels": "01903aba3c02d59a774154d7271f2773f9747212dad71e5791387b32cb81a170",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.bin": "14fd2259828f238cffe28afeb87637b19a6dd927285ecc2c670572053da4c586",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.ram": "20e4336e28bd1a1d41b9e11b506779d405f25fd968cbd268e19f9fe5b3d307b5",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.bin": "9e8a0b63d737f899294f389b64197d38eab8bea26a9e053f73562e04b32fa796",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.json": "443a9e7f90841189da15100e9269031f90a56f6ffd74c262e41c7dc405269854",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.bin": "79666b8e95ecd1cee0a2027f1addfce78b44cdea2d2e5db31d85f204204e08d9",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.inputs": "396e743de080ce3b04078c1e3968bc7394605411615a25ea90fd0fe40a36dbaa",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.ram": "ad506e2a8210ea4e193b47eec0745e0fc1134a909112cc9c945603be4cc2279a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.inputs": "55f349278f2979fa88f333bd0e1483fa64be704e47a86d8c89216ba99a1d1992",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/smoke32.ram": "ad506e2a8210ea4e193b47eec0745e0fc1134a909112cc9c945603be4cc2279a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.json": "a660bbc363d5d164f8076dcbf3d3b940dfe82ccfd319b72cc51a2768b2881a71",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.bin": "14fd2259828f238cffe28afeb87637b19a6dd927285ecc2c670572053da4c586",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.bin": "7204b1380563c04999839e9acdadfb88e861e30eb80cf29262b985cf5a9056b3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.inputs": "f7806f2d399bceec6994bf518f4b37e97a79e5903efc103ea3dec874ea016451",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.json": "552a9c4212289a94addd27726cdaadda3c84c7a86ff617417e489acfb3d5b174",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.ram": "ad506e2a8210ea4e193b47eec0745e0fc1134a909112cc9c945603be4cc2279a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/smoke32.labels": "7d61b6a71c7817dc1a4f8ea5ecf9cd1c912f940e2b73c3ffbc24784ba0034dfb",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.inputs": "cf36915ed7ac1a429ca2862da31494770accda3359dff1bcd4a7a25d10a7e6f3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.bin": "79666b8e95ecd1cee0a2027f1addfce78b44cdea2d2e5db31d85f204204e08d9",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.json": "a38f4817fd5f82738da8326dc3a8a62633d52ff33956948b41baf51f20fbfd1c",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.labels": "01903aba3c02d59a774154d7271f2773f9747212dad71e5791387b32cb81a170",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.inputs": "3444bfd50d789f95e6fc22954290583ef231e2b65bf738552fe059f6bd5d52f2",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.inputs": "3444bfd50d789f95e6fc22954290583ef231e2b65bf738552fe059f6bd5d52f2",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.bin": "9e8a0b63d737f899294f389b64197d38eab8bea26a9e053f73562e04b32fa796",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.bin": "9e8a0b63d737f899294f389b64197d38eab8bea26a9e053f73562e04b32fa796",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.labels": "73e0890c0e77c7ad594a283921a6c88bb491afd0356ce2796cad859c525d44c7",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.labels": "0be7f0047041aea42d68422c587b3d5a64d522257cbc80e3ae78024722befa25",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.ram": "20e4336e28bd1a1d41b9e11b506779d405f25fd968cbd268e19f9fe5b3d307b5",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.ram": "20e4336e28bd1a1d41b9e11b506779d405f25fd968cbd268e19f9fe5b3d307b5",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.json": "b92350dfdcb5357c238a215494ed37b90220e099937ab128b8e9a397ce2a55b7",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.ram": "f3c2622fbb7eb21385818898036161c44927221b5f91a740f3f0305f1e2a94bb",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.json": "31246ed7fb2154f250a74e59adf1ac0aedf8caa38b7e6bdc7c796d5265b5f56e",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.labels": "6fd678dd97ab9246f3131093c3b72bfab717a97862008d454930d863db8b997f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.inputs": "cf36915ed7ac1a429ca2862da31494770accda3359dff1bcd4a7a25d10a7e6f3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.json": "e3bf1e680e36740e16bc6a13fb8156756bf3251244b9625a1468e892df84f0e2",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.inputs": "94f537a2689110fcec4f50121e72bc677c10516e007dfaa077379bfdc62ffb36",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.json": "1363ef5ce2eee495691d1cd4b38517c23e5c3934a67ab976639ccf5b197bb8a8",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.labels": "97ab861ebe1864ca9ec9c59cd436bc4c5da4dcfba81ff660b57237bdd7dadf4b",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.ram": "ad506e2a8210ea4e193b47eec0745e0fc1134a909112cc9c945603be4cc2279a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.ram": "7c5dc1f43d174956110577e1eba2386770eea00c4e51e379e7969425f34560df",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.bin": "7204b1380563c04999839e9acdadfb88e861e30eb80cf29262b985cf5a9056b3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.inputs": "396e743de080ce3b04078c1e3968bc7394605411615a25ea90fd0fe40a36dbaa",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.inputs": "4476e598ac40be0adf9f4d33ff6ca2aad0bc780d84b6e0b8c69d3abf94c5c5ab",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.ram": "7073b2fb46bac84c259b43eeec5bfbbeabe46840594d85c4ed4f8eabd5ace82a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_full.json": "fb1ecb97d62e6d6c4b41ab2a8fabebadd1c0487155454ecae3af0d924e02c757",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.labels": "029e9647f041944999a81ec75b070f2f42aeedb0959e36e1255d95e36233bfaa",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.labels": "167a8d26de9fff7179cfb61b296f4ba48c7736566523d191fbae7febc7267fea",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.json": "d3cb9a23db0f44a144002138a64fcff1aa63c7c53db53a88761c6d89ae62c82f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.inputs": "f7806f2d399bceec6994bf518f4b37e97a79e5903efc103ea3dec874ea016451",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/smoke32.bin": "14fd2259828f238cffe28afeb87637b19a6dd927285ecc2c670572053da4c586",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.bin": "14fd2259828f238cffe28afeb87637b19a6dd927285ecc2c670572053da4c586",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.ram": "7c5dc1f43d174956110577e1eba2386770eea00c4e51e379e7969425f34560df",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.labels": "029e9647f041944999a81ec75b070f2f42aeedb0959e36e1255d95e36233bfaa",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.bin": "7564b4f3b13cc41f982559f83f32ca9abe4ddb1f9fd2a516a8003c4fe7e63c8f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.labels": "2026c37ce1bd48403cc5ad769c58ea773371d65030ae92933a759fd2b4830362",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_frozen.json": "67191e3e719b2a1e59a5c35fd55c942bf8da7a9ff759a2f06e4520529c361294",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.labels": "7ced242ad2ba69f2614afdbfb80f3474dea1a1300b7ab3dc56c7ee95884c546d",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_action_only.json": "c88bd43f087d75e4183b81f7bd46d16bf76d5ec2e31b2b63baab26b142220f02",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_shuffled.bin": "7564b4f3b13cc41f982559f83f32ca9abe4ddb1f9fd2a516a8003c4fe7e63c8f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_action_only.labels": "6fd678dd97ab9246f3131093c3b72bfab717a97862008d454930d863db8b997f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.bin": "9e8a0b63d737f899294f389b64197d38eab8bea26a9e053f73562e04b32fa796",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.inputs": "4476e598ac40be0adf9f4d33ff6ca2aad0bc780d84b6e0b8c69d3abf94c5c5ab",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/BUILD.json": "bfe92a6228041cf89e7da1559444ceb101b2b0c924f02f14365673b31c24a74c",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82913_full.bin": "7564b4f3b13cc41f982559f83f32ca9abe4ddb1f9fd2a516a8003c4fe7e63c8f",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.ram": "7c5dc1f43d174956110577e1eba2386770eea00c4e51e379e7969425f34560df",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_full.labels": "a05119cf446ec024c627bb2dce5b05031a736211ccb00c4da4d7fc22c47bb123",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_shuffled.ram": "7073b2fb46bac84c259b43eeec5bfbbeabe46840594d85c4ed4f8eabd5ace82a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_action_only.inputs": "48379cde7967f7b3664638c33eb45895bcb2aa68721a76227bb51a1a6e99788d",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_shuffled.json": "4ea58b8df06f4373cd1f3e06e9f8c04f58dadf0fee398c2f53bda1c5d45268f0",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_action_only.bin": "79666b8e95ecd1cee0a2027f1addfce78b44cdea2d2e5db31d85f204204e08d9",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_action_only.ram": "ad506e2a8210ea4e193b47eec0745e0fc1134a909112cc9c945603be4cc2279a",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.ram": "f3c2622fbb7eb21385818898036161c44927221b5f91a740f3f0305f1e2a94bb",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_shuffled.bin": "79666b8e95ecd1cee0a2027f1addfce78b44cdea2d2e5db31d85f204204e08d9",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82911_frozen.inputs": "cf36915ed7ac1a429ca2862da31494770accda3359dff1bcd4a7a25d10a7e6f3",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82912_full.inputs": "f7806f2d399bceec6994bf518f4b37e97a79e5903efc103ea3dec874ea016451",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82915_shuffled.inputs": "3444bfd50d789f95e6fc22954290583ef231e2b65bf738552fe059f6bd5d52f2",
+          "studies/20261023-mario-confirmation/fixtures-confirm02/projection_s82914_frozen.json": "79aa85dcb0a7b34bc47fe1ff2a16c518506c8fd08f0b5b29d0563578101c216c",
+          "src/learning_bench.cpp": "9ad462e3b995cb3307f021ee57be3e970afa79fac485e9d4d81838bdd7a63c5a",
+          "src/binary_reference.hpp": "6383ce7375cfc6fc71130d0d7107a5f509a3ef70ceb714f688b9dbd8ac240fa6",
+          "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+          "build/learning_bench": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+          "mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb",
+          "mario/sealed/prepare.py": "60c5c9ee431223bf071d292b9cabce000b6b8f81a7e0aa901059555141a47aa6",
+          "mario/sealed/confirm_prepare.py": "e149a335e153ecdc781068e76bbe65da64ee50df3625ffa180bff72063d055d6",
+          "tools/run_cell.py": "eda3ee9a5882e21e152eda716e020bcebb0d5a5bf965f8fc389c8bd0bfa0233c",
+          "tools/verify.py": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+        }
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/SMOKE_GATE.json": {
+      "sha256": "29cafa945588aeeff3e156dff92abfdc3fb6c4121809d26b99ad60e158f06cdf",
+      "receipt": {
+        "status": "PASS",
+        "query_suffix_unchanged": 16,
+        "training_prefix_changed": true
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/FIRST_PAIR_GATE.json": {
+      "sha256": "33ff53bcfa45582401cf61e79bff33735ccaf36102b7da293b3099e90840b3f3",
+      "receipt": {
+        "status": "PASS_FOR_FIXED_REMAINING_PAIRS",
+        "first_pair": {
+          "seed": 82911,
+          "learned": 110,
+          "frozen": 106,
+          "delta": 4
+        },
+        "data_adequacy": {
+          "valid_contexts": 128,
+          "conditional_contexts": 25,
+          "conditional_optimal_actions": [
+            9,
+            16
+          ]
+        },
+        "scientific_changes_allowed": false
+      }
+    },
+    "studies/20261023-mario-confirmation/evidence/REPAIRS.json": {
+      "sha256": "1584a6b1973b2e4d6a2c3884a191a561a692d96780f7da9ccd94183411aed48c",
+      "receipt": {
+        "PRODUCER_STATIC_REPAIR.json": {
+          "utc": "2026-10-23T19:54:56.414575+00:00",
+          "before_sha256": "c48b17134ad44f21dc082d7810e2b041ec7f6b71382ed8c9a8040621ff4a0f96",
+          "after_sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+          "reason": "Mechanical duplicate-key construction fixed before compiler execution; scientific parameters unchanged",
+          "test_dependent_scientific_changes": false,
+          "old_lock_preserved": true
+        },
+        "FAILED_BUILD01_REPAIR.json": {
+          "utc": "2026-10-23T19:55:56.742940+00:00",
+          "failed_attempt": "BUILD01.log",
+          "reason": "Python prepare module-name collision before data/compilation",
+          "repair": "Compiler wrapper uses standalone validated producer to avoid prepare module-name collision; scientific pipeline unchanged",
+          "old_source_sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+          "new_source_sha256": "e149a335e153ecdc781068e76bbe65da64ee50df3625ffa180bff72063d055d6",
+          "test_dependent_scientific_changes": false
+        },
+        "failed_attempt_log": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/mario/sealed/confirm_prepare.py\", line 6, in <module>\n    from prepare import prepare\n  File \"/home/nicklomeli/akd1500-lab/mario/sealed/prepare.py\", line 13, in <module>\n    from prepare import parts\nImportError: cannot import name 'parts' from partially initialized module 'prepare' (most likely due to a circular import) (/home/nicklomeli/akd1500-lab/mario/sealed/prepare.py)\n",
+        "preserved_sources": {
+          "confirm_prepare_before_static_fix.py": {
+            "sha256": "c48b17134ad44f21dc082d7810e2b041ec7f6b71382ed8c9a8040621ff4a0f96",
+            "source": "\"\"\"Use the fixed compiler, then remove every pre-training test query explicitly.\"\"\"\nfrom pathlib import Path\nimport argparse\nimport json\nimport shutil\nfrom prepare import prepare\nfrom bank import save, sha\n\n\ndef build(train,test,output,lock):\n    intermediate=output.with_name(output.name+'-UNADMITTED-PREQUERIES')\n    prepare(train,test,intermediate,'test',lock)\n    output.mkdir(parents=True,exist_ok=False);rows=[]\n    for row in json.loads((intermediate/'BUILD.json').read_text())['rows']:\n        source=intermediate/row['prefix'];target=output/row['prefix'];q=row['evaluation_samples']\n        n=int(source.with_suffix('.meta').read_text().split()[0])\n        for suffix in ['bin','ram','meta']:shutil.copy2(source.with_suffix('.'+suffix),target.with_suffix('.'+suffix))\n        target.with_suffix('.inputs').write_bytes(source.with_suffix('.inputs').read_bytes()[q*n:])\n        target.with_suffix('.labels').write_bytes(source.with_suffix('.labels').read_bytes()[q*4:])\n        meta=json.loads(source.with_suffix('.json').read_text());meta.update(samples=meta['samples']-q,prequeries=0,regime='INDUCTIVE_TRAIN_THEN_TEST')\n        save(target.with_suffix('.json'),meta);rows.append(dict(**row,samples=meta['samples'],prequeries=0))\n    save(output/'BUILD.json',dict(status='VIRTUAL_ONLY_PASS',phase='confirmation',prequeries=0,rows=rows,source_sha256=sha(__file__),physical_device_opened=False))\n    print('INDUCTIVE_VIRTUAL_PASS',len(rows))\n\n\nif __name__=='__main__':\n    p=argparse.ArgumentParser();p.add_argument('train',type=Path);p.add_argument('test',type=Path);p.add_argument('output',type=Path);p.add_argument('lock',type=Path);a=p.parse_args();build(a.train.resolve(),a.test.resolve(),a.output.resolve(),a.lock.resolve())\n"
+          },
+          "confirm_prepare_failed_import01.py": {
+            "sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+            "source": "\"\"\"Use the fixed compiler, then remove every pre-training test query explicitly.\"\"\"\nfrom pathlib import Path\nimport argparse\nimport json\nimport shutil\nfrom prepare import prepare\nfrom bank import save, sha\n\n\ndef build(train,test,output,lock):\n    intermediate=output.with_name(output.name+'-UNADMITTED-PREQUERIES')\n    prepare(train,test,intermediate,'test',lock)\n    output.mkdir(parents=True,exist_ok=False);rows=[]\n    for row in json.loads((intermediate/'BUILD.json').read_text())['rows']:\n        source=intermediate/row['prefix'];target=output/row['prefix'];q=row['evaluation_samples']\n        n=int(source.with_suffix('.meta').read_text().split()[0])\n        for suffix in ['bin','ram','meta']:shutil.copy2(source.with_suffix('.'+suffix),target.with_suffix('.'+suffix))\n        target.with_suffix('.inputs').write_bytes(source.with_suffix('.inputs').read_bytes()[q*n:])\n        target.with_suffix('.labels').write_bytes(source.with_suffix('.labels').read_bytes()[q*4:])\n        meta=json.loads(source.with_suffix('.json').read_text());meta.update(samples=meta['samples']-q,prequeries=0,regime='INDUCTIVE_TRAIN_THEN_TEST')\n        save(target.with_suffix('.json'),meta);rows.append(dict(row,samples=meta['samples'],prequeries=0))\n    save(output/'BUILD.json',dict(status='VIRTUAL_ONLY_PASS',phase='confirmation',prequeries=0,rows=rows,source_sha256=sha(__file__),physical_device_opened=False))\n    print('INDUCTIVE_VIRTUAL_PASS',len(rows))\n\n\nif __name__=='__main__':\n    p=argparse.ArgumentParser();p.add_argument('train',type=Path);p.add_argument('test',type=Path);p.add_argument('output',type=Path);p.add_argument('lock',type=Path);a=p.parse_args();build(a.train.resolve(),a.test.resolve(),a.output.resolve(),a.lock.resolve())\n"
+          }
+        }
+      }
+    }
+  },
+  "confirmation_collection": {
+    "manifest_sha256": "08a0c2a5749b43fa78f8f79054f59bdfb895fd1f1479131ed50c320480c58a8e",
+    "pipeline_lock_sha256": "8dc72c8546c2444a3badf8509c7967ac9b720ebc26860416d88e3bb19ee4d269",
+    "dataset_sha256": "4d1f18d704350dc1750c129443f1e590f193c9190fdf94ef6b8983f06eab58bd"
+  },
+  "note": "Local source paths and hashes are recorded provenance, not included vendor programs. Original pre-outcome lock retained; producer-only repairs were made after collection and before physical execution."
+}

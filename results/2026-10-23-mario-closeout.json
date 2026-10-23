@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_NEGATIVE_SCIENTIFIC_GATE",
+  "utc": "2026-10-23T20:19:04.346507+00:00",
+  "research_admissions_closed": true,
+  "device_released": true,
+  "shared_device_lock": "verified free after all jobs closed",
+  "physical_sessions": 21,
+  "verified_native_forwards": 25406,
+  "session_cap": 24,
+  "forward_cap": 150000,
+  "confirmation": {
+    "learned": 551,
+    "frozen": 534,
+    "best_constant": 555,
+    "opportunities": 640,
+    "initialization_wins": 4,
+    "total_initializations": 5,
+    "gate": "FAIL"
+  },
+  "fresh_selected_action_executions": 1280,
+  "tests": {
+    "count": 27,
+    "status": "PASS",
+    "seconds": 14.341
+  },
+  "first_test_suite_attempt": {
+    "status": "FAILED_TEST_FIXTURE_NAME",
+    "error": "StopIteration: test used full_s82911 instead of saved seed82911_full",
+    "repair": "Corrected test lookup; raw scientific evidence unchanged"
+  },
+  "video": {
+    "path": "visual/mario-live-responses-4k60.mp4",
+    "sha256": "b92faa4795736a6b9db4e1bb4c31671567513c9b7f26692229163fa8050ffd80",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 1062,
+    "duration_seconds": 17.7,
+    "full_decode": "PASS",
+    "visual_inspection": "Poster and later gameplay frame checked; no clipping",
+    "source": "Selected development cases with actual native replies and RAM, separate confirmation table"
+  },
+  "limitations": [
+    "Primary confirmation gate failed; no reliable useful Mario advantage",
+    "Live match-response telemetry is not electrical spike timing",
+    "Same fixed two motor primitives; no frame-by-frame replanning",
+    "No model tuning after confirmation outcome inspection; producer-only corrections preserved"
+  ]
+}

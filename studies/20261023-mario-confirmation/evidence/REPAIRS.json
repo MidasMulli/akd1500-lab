@@ -1,0 +1,30 @@
+{
+  "PRODUCER_STATIC_REPAIR.json": {
+    "utc": "2026-10-23T19:54:56.414575+00:00",
+    "before_sha256": "c48b17134ad44f21dc082d7810e2b041ec7f6b71382ed8c9a8040621ff4a0f96",
+    "after_sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+    "reason": "Mechanical duplicate-key construction fixed before compiler execution; scientific parameters unchanged",
+    "test_dependent_scientific_changes": false,
+    "old_lock_preserved": true
+  },
+  "FAILED_BUILD01_REPAIR.json": {
+    "utc": "2026-10-23T19:55:56.742940+00:00",
+    "failed_attempt": "BUILD01.log",
+    "reason": "Python prepare module-name collision before data/compilation",
+    "repair": "Compiler wrapper uses standalone validated producer to avoid prepare module-name collision; scientific pipeline unchanged",
+    "old_source_sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+    "new_source_sha256": "e149a335e153ecdc781068e76bbe65da64ee50df3625ffa180bff72063d055d6",
+    "test_dependent_scientific_changes": false
+  },
+  "failed_attempt_log": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/mario/sealed/confirm_prepare.py\", line 6, in <module>\n    from prepare import prepare\n  File \"/home/nicklomeli/akd1500-lab/mario/sealed/prepare.py\", line 13, in <module>\n    from prepare import parts\nImportError: cannot import name 'parts' from partially initialized module 'prepare' (most likely due to a circular import) (/home/nicklomeli/akd1500-lab/mario/sealed/prepare.py)\n",
+  "preserved_sources": {
+    "confirm_prepare_before_static_fix.py": {
+      "sha256": "c48b17134ad44f21dc082d7810e2b041ec7f6b71382ed8c9a8040621ff4a0f96",
+      "source": "\"\"\"Use the fixed compiler, then remove every pre-training test query explicitly.\"\"\"\nfrom pathlib import Path\nimport argparse\nimport json\nimport shutil\nfrom prepare import prepare\nfrom bank import save, sha\n\n\ndef build(train,test,output,lock):\n    intermediate=output.with_name(output.name+'-UNADMITTED-PREQUERIES')\n    prepare(train,test,intermediate,'test',lock)\n    output.mkdir(parents=True,exist_ok=False);rows=[]\n    for row in json.loads((intermediate/'BUILD.json').read_text())['rows']:\n        source=intermediate/row['prefix'];target=output/row['prefix'];q=row['evaluation_samples']\n        n=int(source.with_suffix('.meta').read_text().split()[0])\n        for suffix in ['bin','ram','meta']:shutil.copy2(source.with_suffix('.'+suffix),target.with_suffix('.'+suffix))\n        target.with_suffix('.inputs').write_bytes(source.with_suffix('.inputs').read_bytes()[q*n:])\n        target.with_suffix('.labels').write_bytes(source.with_suffix('.labels').read_bytes()[q*4:])\n        meta=json.loads(source.with_suffix('.json').read_text());meta.update(samples=meta['samples']-q,prequeries=0,regime='INDUCTIVE_TRAIN_THEN_TEST')\n        save(target.with_suffix('.json'),meta);rows.append(dict(**row,samples=meta['samples'],prequeries=0))\n    save(output/'BUILD.json',dict(status='VIRTUAL_ONLY_PASS',phase='confirmation',prequeries=0,rows=rows,source_sha256=sha(__file__),physical_device_opened=False))\n    print('INDUCTIVE_VIRTUAL_PASS',len(rows))\n\n\nif __name__=='__main__':\n    p=argparse.ArgumentParser();p.add_argument('train',type=Path);p.add_argument('test',type=Path);p.add_argument('output',type=Path);p.add_argument('lock',type=Path);a=p.parse_args();build(a.train.resolve(),a.test.resolve(),a.output.resolve(),a.lock.resolve())\n"
+    },
+    "confirm_prepare_failed_import01.py": {
+      "sha256": "151897d7c35df50e88200a9b5017e7cb368ac5e793c62affa1667148a6d2edd5",
+      "source": "\"\"\"Use the fixed compiler, then remove every pre-training test query explicitly.\"\"\"\nfrom pathlib import Path\nimport argparse\nimport json\nimport shutil\nfrom prepare import prepare\nfrom bank import save, sha\n\n\ndef build(train,test,output,lock):\n    intermediate=output.with_name(output.name+'-UNADMITTED-PREQUERIES')\n    prepare(train,test,intermediate,'test',lock)\n    output.mkdir(parents=True,exist_ok=False);rows=[]\n    for row in json.loads((intermediate/'BUILD.json').read_text())['rows']:\n        source=intermediate/row['prefix'];target=output/row['prefix'];q=row['evaluation_samples']\n        n=int(source.with_suffix('.meta').read_text().split()[0])\n        for suffix in ['bin','ram','meta']:shutil.copy2(source.with_suffix('.'+suffix),target.with_suffix('.'+suffix))\n        target.with_suffix('.inputs').write_bytes(source.with_suffix('.inputs').read_bytes()[q*n:])\n        target.with_suffix('.labels').write_bytes(source.with_suffix('.labels').read_bytes()[q*4:])\n        meta=json.loads(source.with_suffix('.json').read_text());meta.update(samples=meta['samples']-q,prequeries=0,regime='INDUCTIVE_TRAIN_THEN_TEST')\n        save(target.with_suffix('.json'),meta);rows.append(dict(row,samples=meta['samples'],prequeries=0))\n    save(output/'BUILD.json',dict(status='VIRTUAL_ONLY_PASS',phase='confirmation',prequeries=0,rows=rows,source_sha256=sha(__file__),physical_device_opened=False))\n    print('INDUCTIVE_VIRTUAL_PASS',len(rows))\n\n\nif __name__=='__main__':\n    p=argparse.ArgumentParser();p.add_argument('train',type=Path);p.add_argument('test',type=Path);p.add_argument('output',type=Path);p.add_argument('lock',type=Path);a=p.parse_args();build(a.train.resolve(),a.test.resolve(),a.output.resolve(),a.lock.resolve())\n"
+    }
+  }
+}

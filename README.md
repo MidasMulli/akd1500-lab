@@ -8,6 +8,42 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Larger sealed Mario test and live chip capture — October 23, 2026
+
+**Learning did not pass the larger confirmation gate.** Five matched physical
+learned/frozen pairs on 128 prospectively fixed encounter timings scored
+**551/640 learned versus 534/640 frozen**. Learning won four pairs, but the
+2.66 percentage-point gain missed the preset 5-point threshold. On the 25
+contexts where the action matters, the conditional gain was 13.6 points and
+its block-bootstrap 95% interval was **−2.86 to +25.6 points**, including zero.
+The best constant action scored **555/640**. These are repeated initializations
+on the same bank and one chip, not 640 independent environments.
+
+Every native response and captured RAM state passed the independent Python
+reconstruction. All 1,280 learned/frozen selected-action outcomes also matched
+fresh emulator executions. Earlier failed development gates remain failed;
+this separate confirmation was registered before collecting its test outcomes.
+No representation or training change was made in response to those outcomes.
+
+**The video contains actual hardware responses alongside wall-paced gameplay.**
+It preserves the measured timing: about 56 captured game frames/s and 8.4 pairs
+of chip queries/s. It shows 45 native connection replacements after four actual
+outcomes. Those clips use selected development cases; the table shows the
+separate sealed confirmation. Colored cells display measured match responses,
+not electrical spike traces. The host still supplies RGB/time features, ranking
+and two fixed 90-frame actions; shadow queries do not replan the action.
+
+![Synchronized gameplay and native responses](visual/mario-live-responses-4k.png)
+
+[Download 4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/mario-live-responses-4k60.mp4),
+[confirmation results](results/2026-10-23-mario-confirmation.json),
+[protocol and assessment](studies/20261023-mario-confirmation/ASSESSMENT.md),
+[tools and reproduction](mario/sealed/README.md).
+The public archives include all 25,406 native forwards from this extension,
+their inputs, labels, outputs and per-step RAM; no ROM or vendor runtime.
+This establishes working native learning and instrumentation, while a reliable
+Mario advantage and CPU/energy advantage remain unproven.
+
 ## Recovery and a first Mario skill screen — October 23, 2026
 
 **The image service now tests whether a failed route has recovered.** A supplied,
