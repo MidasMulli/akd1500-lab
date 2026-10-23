@@ -9,6 +9,7 @@
 | Multi-learner | Three connected 64-neuron plastic banks with exact per-step RAM checks | Independent streams/labels, CNP-interleaved failure root cause, useful task training |
 | Recovery | Bounded probing corrects stale failure memories during real image-worker recovery; 72/72 completed | Reactive also completes 72/72 at two fewer operations; test value under a preregistered cost/latency objective |
 | Visual-action learning | Larger sealed bank: learned 551/640, frozen 534/640, constant 555/640; four of five pair wins, gate failed; all 1,280 selected outcomes freshly checked | Gain below preset threshold and conditional interval includes zero; useful visual/action generalization remains unqualified |
+| Continuous decisions | Native queries, 24-frame commitments and outcome feedback; 115 decisions, 507 online replacements, all frames and RAM verified | First pair regressed: learned 1,418 px versus frozen 1,554; stop gate closed seed/test expansion. Hazard coverage and consequence objective need development |
 | Compact readout | Matched threshold masks and a fixed second-NPU two-count reducer; identical learning state | Sparse/event input adapters failed; compiler-supported ingress proof and task-specialized CPU alternatives |
 | FNP2 | Compiler selects external-memory records for larger cells | Decoder, verified transport and matching behavioral model before execution |
 | Persistence | Continuous learned state within a running native stream | Complete hidden-state capture, resumed plasticity and power-cycle durability |

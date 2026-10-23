@@ -8,6 +8,36 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Continuous Mario decisions with matched frozen controls — October 23, 2026
+
+**The native loop now chooses again every 24 game frames and learns from each
+executed action. Its first matched pair regressed, so expansion stopped.**
+Across four development starts, the learned arm advanced 1,418 pixels versus
+frozen 1,554. All eight episodes ended in death; neither arm completed a level.
+The predeclared regression gate closed new seeds and left confirmation starts
+unopened. This is a functioning continuous interface, not a learning advantage.
+
+One resident bank made 46 learned and 69 frozen decisions, with **507 native
+connection replacements online** in the learned arm and zero RAM changes in
+frozen. All 3,385 forwards, complete per-step RAM, rendered frames, input
+features and action/outcome bindings passed independent verification. Game
+resets occur only between labeled episodes; neural state stays resident across
+the four episodes. Short actions, RGB/time features, ranking and teaching labels
+are host supplied. The chip learns associations natively.
+
+![Continuous matched hardware recordings](visual/mario-continuous-4k.png)
+
+[Download paired 4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/mario-continuous-4k60.mp4),
+[results](results/2026-10-23-mario-continuous.json),
+[assessment](studies/20261023-mario-continuous/ASSESSMENT.md),
+[tools and reproduction](mario/continuous/README.md).
+The separate physical runs are aligned at each episode start. A darkened view
+means that arm died while its counterpart continues; later-episode responses
+are never displayed on the ended game. Cell brightness is a measured match
+response, not an electrical spike trace. Training had only 4 unsafe outcomes
+out of 192, limiting hazard coverage. A new data/representation development
+stage is needed before another qualification attempt.
+
 ## Larger sealed Mario test and live chip capture — October 23, 2026
 
 **Learning did not pass the larger confirmation gate.** Five matched physical

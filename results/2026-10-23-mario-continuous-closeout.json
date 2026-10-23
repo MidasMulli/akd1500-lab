@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE_NEGATIVE_FIRST_PAIR_GATE",
+  "utc": "2026-10-23T20:56:30.727488+00:00",
+  "admissions_closed": true,
+  "device_released": true,
+  "physical_sessions": 3,
+  "native_forwards": 3385,
+  "decisions": {
+    "learned": 46,
+    "frozen": 69
+  },
+  "online_connection_replacements": {
+    "learned": 507,
+    "frozen": 0
+  },
+  "outcome": {
+    "learned_advance": 1418,
+    "frozen_advance": 1554,
+    "completed_levels": 0,
+    "confirmation_unopened": true,
+    "additional_seeds_run": false
+  },
+  "tests": {
+    "count": 33,
+    "status": "PASS",
+    "seconds": 15.799
+  },
+  "source_hash_recheck": "PASS_53_FILES",
+  "visual": {
+    "path": "visual/mario-continuous-4k60.mp4",
+    "sha256": "38292a702a31ee1ab990085aecc5464c384b90bd9b9899158c3735a6552fb56a",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 1649,
+    "full_decode": "PASS",
+    "inspection": "Poster plus ended-arm comparison checked"
+  },
+  "repairs": [
+    {
+      "scope": "Visual render only",
+      "issue": "Overlapping owned render attempts and repeated decompression",
+      "repair": "Stopped own render processes; retained partial output; preloaded arrays; clean rerender"
+    },
+    {
+      "scope": "Visual timing only",
+      "issue": "Shorter ended arm could display replies from its later episode",
+      "repair": "Clamp response selection to own episode end; preserve displayed response age; added regression test"
+    }
+  ],
+  "limits": [
+    "First pair regressed; no useful learning qualification",
+    "One seed/one chip/four development starts",
+    "RGB/time and motor primitives remain host supplied",
+    "Actual match/RAM sampling, no electrical spike timing",
+    "Old sealed studies unchanged"
+  ]
+}

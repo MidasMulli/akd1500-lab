@@ -1,0 +1,481 @@
+{
+  "status": "MECHANISM_PASS_REGRESSION_STOP",
+  "physical_sessions": 3,
+  "native_forwards": 3385,
+  "archive_sha256": "b05661edd647bb24943c821677ba3d25758da393c83e8b3e638629f482ad0db7",
+  "fixtures": {
+    "dev_frozen01": {
+      "inputs": 1024,
+      "neurons": 192,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "dev_full01": {
+      "inputs": 1024,
+      "neurons": 192,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "smoke32": {
+      "inputs": 1024,
+      "neurons": 192,
+      "num_weights": 32,
+      "classes": 3
+    }
+  },
+  "runs": [
+    {
+      "name": "dev_frozen01",
+      "fixture_key": "dev_frozen01",
+      "samples": 1711,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "dev_frozen01",
+        "inputs": 1024,
+        "neurons": 192,
+        "samples": 1711,
+        "learning": true,
+        "changed_neuron_records": 0,
+        "connection_bit_edits": 0,
+        "exact_score_values": 328512,
+        "fixture": "studies/20261023-mario-continuous/raw/dev_frozen01/fixture",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "program_sha256": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec",
+      "binary_sha256": "38e2f939ffecf77991830e25ea6ec76a449f413a139a0e56b4ccd6209aa71ba6"
+    },
+    {
+      "name": "dev_full01",
+      "fixture_key": "dev_full01",
+      "samples": 1642,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "dev_full01",
+        "inputs": 1024,
+        "neurons": 192,
+        "samples": 1642,
+        "learning": true,
+        "changed_neuron_records": 54,
+        "connection_bit_edits": 4694,
+        "exact_score_values": 315264,
+        "fixture": "studies/20261023-mario-continuous/raw/dev_full01/fixture",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "program_sha256": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec",
+      "binary_sha256": "38e2f939ffecf77991830e25ea6ec76a449f413a139a0e56b4ccd6209aa71ba6"
+    },
+    {
+      "name": "smoke32",
+      "fixture_key": "smoke32",
+      "samples": 32,
+      "learning": 1,
+      "audit": {
+        "status": "PASS",
+        "run": "smoke32",
+        "inputs": 1024,
+        "neurons": 192,
+        "samples": 32,
+        "learning": true,
+        "changed_neuron_records": 6,
+        "connection_bit_edits": 348,
+        "exact_score_values": 6144,
+        "fixture": "studies/20261023-mario-continuous/fixtures-loop01/smoke32",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "program_sha256": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0"
+    }
+  ],
+  "gate": "STOP_DEVELOPMENT_REGRESSION_CONFIRMATION_UNOPENED",
+  "confirmation_outcomes_collected": false,
+  "native_pair": {
+    "full": {
+      "report": {
+        "status": "CONTINUOUS_CAPTURE_PASS",
+        "physical": true,
+        "arm": "full",
+        "seed": 84101,
+        "split": "dev",
+        "episodes": [
+          {
+            "context": "dev_1-1",
+            "valid": true,
+            "controlled_frames": 362,
+            "decisions": 16,
+            "advance_evaluation_only": 538,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_2-1",
+            "valid": true,
+            "controlled_frames": 122,
+            "decisions": 6,
+            "advance_evaluation_only": 173,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_3-1",
+            "valid": true,
+            "controlled_frames": 306,
+            "decisions": 13,
+            "advance_evaluation_only": 428,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_4-1",
+            "valid": true,
+            "controlled_frames": 250,
+            "decisions": 11,
+            "advance_evaluation_only": 279,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          }
+        ],
+        "forwards": 1642,
+        "frames": 1044,
+        "duration_seconds": 17.946336834,
+        "game_sha256": "09982605ba4f116919deb7fbdfabe7a46e1da9d96eb38ac725c0794a0d20c82e",
+        "events_sha256": "88985dfcee4471f2bb4faab826b763c2c3cd8cb523a3aed7e0b0fe8a1819bdd0",
+        "source_sha256": "bc93e6c3e7ce132b6d9e60b7cc7fe7bf6a943b91f20b92e5dbf5a3c360e1846b",
+        "cleanup": {
+          "kind": "closed",
+          "forwards": 1642,
+          "cleanup": "unprogrammed"
+        },
+        "training_presentations": 1504,
+        "constant_override": null,
+        "total_advance": 1418,
+        "surviving_episodes": 0
+      },
+      "audit": {
+        "status": "INDEPENDENT_CONTINUOUS_AUDIT_PASS",
+        "native_forwards": 1642,
+        "frames": 1044,
+        "repeated_decisions": 46,
+        "protected_queries": 92,
+        "connection_bit_edits": 4694,
+        "online_connection_replacements": 507,
+        "physical": true,
+        "all_RGB_frames_freshly_reproduced": true,
+        "all_live_inputs_reconstructed": true,
+        "source_sha256": "405f43c1405c06a4d963c5194505c88744546178762b8db56c703b22a55ebf08"
+      }
+    },
+    "frozen": {
+      "report": {
+        "status": "CONTINUOUS_CAPTURE_PASS",
+        "physical": true,
+        "arm": "frozen",
+        "seed": 84101,
+        "split": "dev",
+        "episodes": [
+          {
+            "context": "dev_1-1",
+            "valid": true,
+            "controlled_frames": 362,
+            "decisions": 16,
+            "advance_evaluation_only": 538,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_2-1",
+            "valid": true,
+            "controlled_frames": 122,
+            "decisions": 6,
+            "advance_evaluation_only": 173,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_3-1",
+            "valid": true,
+            "controlled_frames": 864,
+            "decisions": 36,
+            "advance_evaluation_only": 445,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          },
+          {
+            "context": "dev_4-1",
+            "valid": true,
+            "controlled_frames": 250,
+            "decisions": 11,
+            "advance_evaluation_only": 398,
+            "dead": true,
+            "flag": false,
+            "alive_at_cap": false
+          }
+        ],
+        "forwards": 1711,
+        "frames": 1602,
+        "duration_seconds": 27.261962625,
+        "game_sha256": "dad547090a8fcd0d4cdfd7a421c5514f1b86d6d01150b9884d97598d3d90d0d1",
+        "events_sha256": "c8731ef258322ae1ee8345c718c87c7ccc461c288b20e5de1d4163ebcef9ab0e",
+        "source_sha256": "bc93e6c3e7ce132b6d9e60b7cc7fe7bf6a943b91f20b92e5dbf5a3c360e1846b",
+        "cleanup": {
+          "kind": "closed",
+          "forwards": 1711,
+          "cleanup": "unprogrammed"
+        },
+        "training_presentations": 1504,
+        "constant_override": null,
+        "total_advance": 1554,
+        "surviving_episodes": 0
+      },
+      "audit": {
+        "status": "INDEPENDENT_CONTINUOUS_AUDIT_PASS",
+        "native_forwards": 1711,
+        "frames": 1602,
+        "repeated_decisions": 69,
+        "protected_queries": 1711,
+        "connection_bit_edits": 0,
+        "online_connection_replacements": 0,
+        "physical": true,
+        "all_RGB_frames_freshly_reproduced": true,
+        "all_live_inputs_reconstructed": true,
+        "source_sha256": "405f43c1405c06a4d963c5194505c88744546178762b8db56c703b22a55ebf08"
+      }
+    }
+  },
+  "total_advance": {
+    "learned": 1418,
+    "frozen": 1554
+  },
+  "training": {
+    "contexts": 96,
+    "valid_contexts": 96,
+    "action_outcomes": 192,
+    "unsafe": 4,
+    "safe": 188,
+    "epochs": 4,
+    "presentations": 1504,
+    "contradictory_encoded_inputs": 0
+  },
+  "cpu_constant_controls": {
+    "0": {
+      "status": "CONTINUOUS_CAPTURE_PASS",
+      "physical": false,
+      "arm": "frozen",
+      "seed": 84101,
+      "split": "dev",
+      "episodes": [
+        {
+          "context": "dev_1-1",
+          "valid": true,
+          "controlled_frames": 426,
+          "decisions": 18,
+          "advance_evaluation_only": 522,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        },
+        {
+          "context": "dev_2-1",
+          "valid": true,
+          "controlled_frames": 122,
+          "decisions": 6,
+          "advance_evaluation_only": 173,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        },
+        {
+          "context": "dev_3-1",
+          "valid": true,
+          "controlled_frames": 306,
+          "decisions": 13,
+          "advance_evaluation_only": 428,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        },
+        {
+          "context": "dev_4-1",
+          "valid": true,
+          "controlled_frames": 198,
+          "decisions": 9,
+          "advance_evaluation_only": 307,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        }
+      ],
+      "forwards": 1642,
+      "frames": 1056,
+      "duration_seconds": 1.0283965,
+      "game_sha256": "5da027bf4847271a89438230c7f1be15b34f063f97c9ac735c7ff92acb5f6971",
+      "events_sha256": "ba3231773939056aafc93832f0a3f3cbdd2fc720477d7c5a0f7124969b4596e1",
+      "source_sha256": "bc93e6c3e7ce132b6d9e60b7cc7fe7bf6a943b91f20b92e5dbf5a3c360e1846b",
+      "cleanup": {
+        "model_only": true
+      },
+      "training_presentations": 1504,
+      "constant_override": 0,
+      "total_advance": 1430,
+      "surviving_episodes": 0
+    },
+    "1": {
+      "status": "CONTINUOUS_CAPTURE_PASS",
+      "physical": false,
+      "arm": "frozen",
+      "seed": 84101,
+      "split": "dev",
+      "episodes": [
+        {
+          "context": "dev_1-1",
+          "valid": true,
+          "controlled_frames": 84,
+          "decisions": 4,
+          "advance_evaluation_only": 147,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        },
+        {
+          "context": "dev_2-1",
+          "valid": true,
+          "controlled_frames": 152,
+          "decisions": 7,
+          "advance_evaluation_only": 157,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        },
+        {
+          "context": "dev_3-1",
+          "valid": true,
+          "controlled_frames": 1200,
+          "decisions": 50,
+          "advance_evaluation_only": 349,
+          "dead": false,
+          "flag": false,
+          "alive_at_cap": true
+        },
+        {
+          "context": "dev_4-1",
+          "valid": true,
+          "controlled_frames": 818,
+          "decisions": 35,
+          "advance_evaluation_only": 173,
+          "dead": true,
+          "flag": false,
+          "alive_at_cap": false
+        }
+      ],
+      "forwards": 1792,
+      "frames": 2258,
+      "duration_seconds": 1.818831875,
+      "game_sha256": "f484c4d51870b2a4dd3cb1cf4dd38ad6117fd8071de243464549d3a6f718131d",
+      "events_sha256": "dd6655f4fb54c2b5fea0ccecee25e3a9826ac8c84e4851d82f235668c0f217f6",
+      "source_sha256": "bc93e6c3e7ce132b6d9e60b7cc7fe7bf6a943b91f20b92e5dbf5a3c360e1846b",
+      "cleanup": {
+        "model_only": true
+      },
+      "training_presentations": 1504,
+      "constant_override": 1,
+      "total_advance": 826,
+      "surviving_episodes": 1
+    }
+  },
+  "protocol_sha256": "fe96bdc0b56fe06020c3ab0d9f37729b1039cd94b7291f5048e1a58a23282963",
+  "design_freeze": {
+    "status": "FROZEN_BEFORE_NEW_OUTCOMES",
+    "utc": "2026-10-23T20:36:09.569898+00:00",
+    "hashes": {
+      "mario/continuous/PROTOCOL.md": "fe96bdc0b56fe06020c3ab0d9f37729b1039cd94b7291f5048e1a58a23282963",
+      "mario/continuous/environment.py": "a1fd5a3cafd9c8c0f5c320c46c82cb7180a3ec2b6c063802681818513e8f3a9d",
+      "mario/continuous/collect.py": "d20bdb847863a5a09a3f17e7ac9c02f9957c30d62eaec075b331110b0564a81b",
+      "mario/continuous/prepare.py": "65a7c08583e9cf2575bc0c250a2cf4c179606a144de5f56109813edf27045cab",
+      "mario/continuous/model.py": "21f4cb5f88708580c08b78337af7c41cf92a24031d152bbed2e23a9bd3ba841b",
+      "mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb"
+    }
+  },
+  "first_pair_gate": {
+    "status": "STOP_DEVELOPMENT_REGRESSION_CONFIRMATION_UNOPENED",
+    "learned_advance": 1418,
+    "frozen_advance": 1554,
+    "learned_survived": 0,
+    "frozen_survived": 0,
+    "native_CPU_trajectory_match": true,
+    "no_new_seeds": true
+  },
+  "source_freeze": {
+    "utc": "2026-10-23T20:39:15.737931+00:00",
+    "hashes": {
+      "mario/continuous/collect.py": "d20bdb847863a5a09a3f17e7ac9c02f9957c30d62eaec075b331110b0564a81b",
+      "mario/continuous/serve.py": "75fa023d7caecb3680b5c36f788a68d21e3fb1723bf12d5d44d2bb509715a176",
+      "mario/continuous/model.py": "21f4cb5f88708580c08b78337af7c41cf92a24031d152bbed2e23a9bd3ba841b",
+      "mario/continuous/loop.py": "bc93e6c3e7ce132b6d9e60b7cc7fe7bf6a943b91f20b92e5dbf5a3c360e1846b",
+      "mario/continuous/environment.py": "a1fd5a3cafd9c8c0f5c320c46c82cb7180a3ec2b6c063802681818513e8f3a9d",
+      "mario/continuous/prepare.py": "65a7c08583e9cf2575bc0c250a2cf4c179606a144de5f56109813edf27045cab",
+      "mario/sealed/bank.py": "76e648c8917a3a12e0d8534aad563f4665e2d7c504670e29d47a793c236fecdb",
+      "mario/sealed/live.py": "76fa323d9c19c7619d6a52b193417d0d642e88169562bfb2990b8e85a8987b80",
+      "src/mario_stream.cpp": "9faa7f0d04bd8b1fb615692400b3af65b774bda0e7d4936aef980689b1db956f",
+      "src/binary_reference.hpp": "6383ce7375cfc6fc71130d0d7107a5f509a3ef70ceb714f688b9dbd8ac240fa6",
+      "tools/verify.py": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.inputs": "f73ac58a4ecd21a5ab64317dee88f564eff18925bbb19de42e02546b1aae9ed5",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.inputs": "f73ac58a4ecd21a5ab64317dee88f564eff18925bbb19de42e02546b1aae9ed5",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.bin": "e63020524f02b60ce905a6c60f7cb8f9a4fba90f2014b8f984f6d898abde63e7",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.inputs": "86d49adb16ee0cd013eb209d863723e7139eddbeff2b37ca94253ed7e4945a04",
+      "studies/20261023-mario-continuous/fixtures-loop01/smoke32.labels": "decae6a1390c52aa2b33480273e8625230e3ffe80334e1d2b9c009117fe251a0",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.ram": "8b3f819bcb0d4fe679efb53f1f1471e830b61af4c05250504f9b14d99fc951a3",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.ram": "ca00adcdf5b3f5fec96e2d3c8e8d3dffe51106a1a0b40132550fb4bb42ad86b9",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/smoke32.ram": "0af1d38fd32fd8dce64e172a4d2d0f82ef7db765d160002e4cc52c8f59e7dc53",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.json": "26c97756baaa4a45beb3f6f60c034167f72d65086fa5f1c1cb3516dbd90362f4",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.labels": "565487b5dfbb4aec77532457e1a4dc1d35be96f2b7540e0b2c0be756d36c8e52",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.labels": "735037c4932411b5c84eb3a5a4a77e4702950606dd029caabe4600eaafaaa809",
+      "studies/20261023-mario-continuous/fixtures-loop01/smoke32.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.bin": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.bin": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.inputs": "86d49adb16ee0cd013eb209d863723e7139eddbeff2b37ca94253ed7e4945a04",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.ram": "ca00adcdf5b3f5fec96e2d3c8e8d3dffe51106a1a0b40132550fb4bb42ad86b9",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.json": "5748f90f8819f88b39dd47e62686d04bf8dfe522573eb14ae8819e52337ff645",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.json": "d52254f3ceec6a12b79cb82963f45ab30b14ab31c5940dd57c0eca192626acaa",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.labels": "3992f2ed2d2d7d7014675439df92024a67f35fb89142eafc8a5a1e7c8780ac49",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.labels": "735037c4932411b5c84eb3a5a4a77e4702950606dd029caabe4600eaafaaa809",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.ram": "0af1d38fd32fd8dce64e172a4d2d0f82ef7db765d160002e4cc52c8f59e7dc53",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.ram": "0af1d38fd32fd8dce64e172a4d2d0f82ef7db765d160002e4cc52c8f59e7dc53",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.bin": "c11b70a563d051ccca895f967bc5fb3a2002bd7578055f84bd92f14a22fe6071",
+      "studies/20261023-mario-continuous/fixtures-loop01/smoke32.inputs": "bc54034cd2338e210bec54ad2027a314fb713818b846728055b791b98b810371",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.labels": "735037c4932411b5c84eb3a5a4a77e4702950606dd029caabe4600eaafaaa809",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_frozen.json": "b81b471fada1b2a3af9ee84b0f71dc87c887a25bf7cb998a537e966e49f37228",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84101_full.meta": "141a6d823a7e152eb8b2028e3e460bcc6d59d607fd738a8c595aa848efbbc885",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_frozen.json": "a7ae72281b684dbaf17bd9a1344cd17836cd0ee6c41ce00bc02e21037e7b7cde",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.json": "2929f23ad5456a4ece7fe72a27ba3a77b4e95785d88098754883f459a9405ddc",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.inputs": "e88027cea4fd6674aef22c6e777d42d9550bc9fc003b8ec90cc28b03e173efce",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.inputs": "e88027cea4fd6674aef22c6e777d42d9550bc9fc003b8ec90cc28b03e173efce",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_frozen.ram": "8b3f819bcb0d4fe679efb53f1f1471e830b61af4c05250504f9b14d99fc951a3",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.bin": "c11b70a563d051ccca895f967bc5fb3a2002bd7578055f84bd92f14a22fe6071",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84103_full.bin": "e63020524f02b60ce905a6c60f7cb8f9a4fba90f2014b8f984f6d898abde63e7",
+      "studies/20261023-mario-continuous/fixtures-loop01/BUILD.json": "1b9c98684b654d8a01ae22ac4d50fa77108f7a29404f9c488a0cf93a2ec52427",
+      "studies/20261023-mario-continuous/fixtures-loop01/s84102_full.labels": "020293c967251f1dd61dd4bf1ef684360028b565161c3505da2926b400e3ade5",
+      "studies/20261023-mario-continuous/fixtures-loop01/smoke32.bin": "7846bf14eb3c1dadcbd019f9775b6bd118a999ec5243cb9f8cbc24dc204f53ec"
+    }
+  },
+  "limitations": [
+    "One seed, one chip, four development starts; no reliability or unseen-level claim",
+    "New24-frame actions and outcome labels; direct accuracy comparison with the earlier90-frame task is invalid",
+    "Natively chosen supplied motor primitives through authored RGB/time encoder; no learned visual perception or full-game RL",
+    "Actual measured match outputs and visible RAM, not electrical spike timing or complete hidden state",
+    "Matched arms were recorded sequentially on one chip; visual aligns episode starts, not simultaneous device execution",
+    "All episodes ended in death; no level completion or useful learning advantage"
+  ]
+}
