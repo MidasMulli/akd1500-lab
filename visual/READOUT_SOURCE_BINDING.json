@@ -1,0 +1,11 @@
+{
+  "status": "BOUND_TO_VERIFIED_NATIVE_RECORDS",
+  "sha256": {
+    "2026-10-23-readout.json": "65067f0e0a4f46a768e5067f5f8f149b734eaebec2c6e68466175bf55257fd41",
+    "2026-10-23-readout.npz": "3474a92b000fe2fe1bca43e6399262ac664f83af4bb6c8e8922790c7c2243326",
+    "readout-replay.json": "e55cfc295f54ec15ad5e6156229d4fff50803934131c8b9c723f3adf1110a297"
+  },
+  "geometry": "Logical two-NPU schematic",
+  "activity": "Recorded threshold responses and downstream counts from matched separate runs",
+  "timing": "Temporal replicate medians, host transactions; not electrical wire timing"
+}

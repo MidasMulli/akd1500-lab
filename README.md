@@ -8,6 +8,48 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Compact-output follow-up — October 23, 2026
+
+**28 additional physical sessions passed, covering 5,056 native inputs.** The
+first stage compared full potentials with threshold responses. After exact
+verification, the second added a fixed downstream NPU that sums each of two
+groups of 256 threshold responses. The 512-neuron bank still learns natively.
+
+| Output contract | Payload bytes/input | Matched CPU, µs/input | Native + host, µs/input |
+|---|---:|---:|---:|
+| 512 integer match scores | 2,048 | 16.52 | 961.88 |
+| 512 responses above threshold seven | 512 | 16.65 | 287.64 |
+| Two group-support counts | 8 | 17.56 | 73.70 |
+
+These are medians of three paired run means. Returning two counts reduced the
+measured native host transaction time about 13 times relative to full scores.
+**The contracts carry different information:** thresholds discard magnitudes;
+counts also discard neuron identity. This is not a speedup at the full-score
+contract, nor a classification-accuracy result. One-bit dense responses occupy
+one byte per neuron on this transport. Payload excludes headers, input traffic,
+descriptors and polling.
+
+Every response/count and the full learning state matched an independent Python
+selector model. All final learned connection/adaptive-threshold words agree across
+contracts; the mask and downstream-reducer versions also have exactly identical
+complete final learner RAM (10,242 words). The fixed downstream sum is programmed by
+us. This two-NPU experiment is separate from the 32-NPU routing-coverage study.
+
+Batching eight jobs did not materially improve the mask transaction in this
+screen. An inference-only early-exit CPU variant was also tested; it did not
+beat the regular CPU control in that single probe. The CPU remains faster in
+the confirmed matched learning comparisons. **No electrical efficiency
+advantage has been established.** Host busy polling remains part of the path.
+
+![Compact-output measurements](visual/readout-results-4k.png)
+
+[Verified results](results/2026-10-23-readout.json),
+[raw outputs, learning RAM and timings](results/2026-10-23-readout.npz),
+[4K60 paired recorded replay](visual/readout-replay-4k60.mp4),
+[threshold-output protocol](studies/20261023-compact-readout/PROTOCOL.md),
+[downstream-reducer protocol](studies/20261023-class-reduction/PROTOCOL.md).
+The replay pairs separate matched native executions; it is not live wire tracing.
+
 ## First measured study — October 23, 2026
 
 **22 passing physical sessions and two preserved failed burst attempts on one
@@ -47,6 +89,8 @@ transaction. That separation is not a measurement of core-only execution time.
 * A fixed-permutation mesh ladder ending in native association learning,
   including a compiler-generated single-pass 32-NPU configuration.
 * Input/submission/fetch timing and an experimental resident-burst instrument.
+* Matched potential, threshold-mask and two-count output contracts with a
+  guarded intermediate-learning program assembler and independent verifiers.
 * INA228 recorder firmware, raw capture, calibration gates and energy analysis.
 * Data-bound figures and a replay of logical placements and measured learning.
 
@@ -82,6 +126,23 @@ python tools/verify.py "$AKD_LAB_STUDY"
 # Compiler-only resource probe; inspect before admitting hardware work.
 python tools/prepare_mesh.py "$AKD_LAB_STUDY/mesh"
 ```
+
+For the compact-output instrument, build with `AKD_LAB_BENCH=readout_bench` and
+generate fixtures using `tools/prepare_readout.py`. Pass
+`--bench readout_bench` to `tools/run_cell.py`. Start with a 16-sample potential
+and mask pair, then use `tools/verify_readout_pair.py` before expansion.
+`tools/prepare_reduction.py` accepts the reviewed mask-fixture directory and a
+new output directory; `tools/verify_reduction_pair.py` checks its native counts
+and complete learned RAM against the matched direct-mask stream. The assembler
+supports only the reviewed SDK 2.19.3 single-pass FNP3 format and rejects other
+tracks or unfamiliar register differences. It does not change installed SDK,
+driver or firmware files. `program_codec.py` is reused from the earlier native
+image-service tooling; it is our adapter, not vendored runtime implementation.
+
+Hardware-free CI reconstructs and independently verifies all 28 published
+follow-up streams from the raw archive, and rejects deliberately corrupted
+counts even when the native and C++ reference files agree with each other.
+The earlier preserved failures remain in the first study's results.
 
 The local study envelope enforces an expiry, session/forward caps, a shared
 `/tmp/akd1500-research.lock`, occupied-device refusal and process cleanup.

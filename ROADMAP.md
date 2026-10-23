@@ -7,6 +7,7 @@
 | FNP3 | Exact outputs and complete learning RAM through 512 neurons; reconstructed selector in CPU and Python | Larger connection budgets, input sparsity, near-capacity overlap and interference |
 | Mesh | Passing 27/29/31/32-NPU single-pass configurations | Peak useful throughput, contention, bandwidth and memory saturation |
 | Multi-learner | One plastic destination in this study; fixed CNP routing before it | Many simultaneously plastic banks, independent streams and labels |
+| Compact readout | Matched threshold masks and a fixed second-NPU two-count reducer; identical learning state | Application-relevant sufficient outputs, sparse/event input, task-specialized CPU alternatives |
 | FNP2 | Compiler selects external-memory records for larger cells | Decoder, verified transport and matching behavioral model before execution |
 | Persistence | Continuous learned state within a running native stream | Complete hidden-state capture, resumed plasticity and power-cycle durability |
 | Power | Recorder driver, firmware, capture, calibration gates and synthetic tests | Assemble/interpose/calibrate hardware; matched card and host energy |
@@ -17,9 +18,15 @@ clock, power, SRAM occupancy, bandwidth or arithmetic utilization. Silicon and
 firmware ownership here means progressively observable and testable boundaries,
 not a claim that inaccessible internals have been enumerated.
 
-The next efficiency experiment should reduce unnecessary host transfers while
-preserving a genuinely useful output, then vary width, sparsity, number of
-resident contexts and event/update rates. Use optimized CPU task alternatives
+The first compact-readout experiment reduced host latency from about 962 to
+74 µs by narrowing outputs to two native group-support counts. The matched CPU
+still took about 18 µs. Neither that result nor the routing mesh establishes an
+AKD substrate advantage. Threshold counts are synthetic detector-bank outputs;
+their application relevance is still a separate question.
+
+The next efficiency experiment should test sparse/event input and task-relevant
+sufficient outputs, then vary width, sparsity, number of resident contexts and
+event/update rates. Use optimized CPU task alternatives
 as well as the exact neural-kernel reference. Include host CPU time and matched
 energy domains; keep any simulator-only forecast separate from physical results.
 

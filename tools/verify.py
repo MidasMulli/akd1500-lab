@@ -10,14 +10,17 @@ def verify(root,run):
     initial=read_words(f.with_suffix('.ram'));state=initial[:];assert len(state)==2+u*stride
     source=f.with_suffix('.cpu_inputs') if f.with_suffix('.cpu_inputs').exists() else f.with_suffix('.inputs')
     raw=source.read_bytes();labels=read_words(f.with_suffix('.labels'))
-    native=read_words(run/'native.scores');assert len(native)==u*count and native==read_words(run/'cpu.scores')
+    outputs=classes if rec.get('output_contract')==2 else u
+    native=read_words(run/'native.scores');assert len(native)==outputs*count and native==read_words(run/'cpu.scores')
     weights=[]
     for j in range(u):
         base=2+j*stride;weights.append(sum(state[base+4+k]<<(32*k) for k in range(n//32)));assert weights[-1].bit_count()==nw
     rot=cursor=0;changed_records=set();changed_bits=0
     for sample in range(count):
         x=sum(int(bool(v))<<k for k,v in enumerate(raw[sample*n:(sample+1)*n]));scores=[(w&x).bit_count() for w in weights]
-        assert scores==native[sample*u:(sample+1)*u],('independent score mismatch',sample)
+        expected=[int(v>rec['threshold']) for v in scores] if rec.get('activated') else scores
+        if rec.get('output_contract')==2:expected=[sum(expected[k*(u//classes):(k+1)*(u//classes)]) for k in range(classes)]
+        assert expected==native[sample*outputs:(sample+1)*outputs],('independent output mismatch',sample)
         if rec['learning']:
             mix=lambda p:((p>>2)&7)|((p&3)<<3)
             rot=(rot+sum(mix(p) for p in scores))&31;lo=labels[sample]*(u//classes);hi=lo+u//classes
@@ -46,7 +49,7 @@ def verify(root,run):
         snapshot=run/f'native.snapshot_{sample}.ram'
         if snapshot.exists():assert state==read_words(snapshot),('per-step measured RAM mismatch',sample)
     assert state==read_words(run/'native.ram')==read_words(run/'cpu.ram'),'complete final RAM mismatch'
-    return dict(status='PASS',run=run.name,inputs=n,neurons=u,samples=count,learning=bool(rec['learning']),changed_neuron_records=len(changed_records),connection_bit_edits=changed_bits,exact_score_values=count*u,fixture=rec['fixture'],source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest())
+    return dict(status='PASS',run=run.name,inputs=n,neurons=u,samples=count,learning=bool(rec['learning']),changed_neuron_records=len(changed_records),connection_bit_edits=changed_bits,exact_score_values=count*outputs,fixture=rec['fixture'],source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest())
 if __name__=='__main__':
     import argparse
     p=argparse.ArgumentParser();p.add_argument('study',type=Path);a=p.parse_args();root=Path(__file__).resolve().parents[1];results=[]

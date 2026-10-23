@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-23T13:48:52.175460+00:00",
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "60/1",
+        "nb_frames": "720"
+      }
+    ],
+    "format": {
+      "duration": "12.000000",
+      "size": "18492960"
+    }
+  },
+  "full_decode_exit_code": 0,
+  "visual_review": "Still and decoded midpoint reviewed; phase legend colors corrected; final-RAM boundary explicit",
+  "independent_native_sessions": 28,
+  "native_forwards": 5056,
+  "software_evidence_tests": 9,
+  "publication_review": "Own tools and sanitized synthetic-workload raw data; no vendor runtime, private paths, authorizations or credentials",
+  "sha256": {
+    "2026-10-23-readout.json": "65067f0e0a4f46a768e5067f5f8f149b734eaebec2c6e68466175bf55257fd41",
+    "2026-10-23-readout.npz": "3474a92b000fe2fe1bca43e6399262ac664f83af4bb6c8e8922790c7c2243326",
+    "readout-replay-4k60.mp4": "76803b5924721eb9e28da86ff6d1b92eb044a8cd8afd0a1d52cb0935555d307c",
+    "readout-replay-4k.png": "e53cfa1e25e447bb97ad792fc9c8e930576c23c1a2361afba437d6b4cd6a07d9",
+    "readout-results-4k.png": "6a56b06321fdcfab6bdb854101ca157cfcb37cdc6a5d7b708bf9dc884e861085",
+    "readout-results.svg": "5fd9f763576a37f46d891015b73c53ce2a288fcf9aa6f1506fe6d5bdf14205c4",
+    "READOUT_SOURCE_BINDING.json": "446a5eb755a865c48cb783148fa9e0349ab7c54e495a567234e5713bbf69b44d"
+  }
+}
