@@ -1,0 +1,45 @@
+{
+  "status": "PRESERVED_PROSPECTIVE_TOOL_REPAIRS",
+  "repairs": [
+    {
+      "id": "001",
+      "stage": "before hardware",
+      "failure": "Raw output directory was excluded from initial deployment",
+      "repair": "Create the private raw directory explicitly",
+      "hardware_sessions_consumed": 0
+    },
+    {
+      "id": "002",
+      "stage": "compiler-only frontier",
+      "failure": "FNP3-only parser read an FNP2 record as a vector",
+      "repair": "Detect record type before decoding; unsupported FNP2 mappings are mapped candidates, not compiler failures or physical chip limits",
+      "historical_record": "Original fixture directory and compiler logs retained locally",
+      "hardware_sessions_consumed": 0
+    },
+    {
+      "id": "003",
+      "stage": "compiler-only mesh",
+      "failure": "Installed runtime has no Flatten layer",
+      "repair": "Use the FullyConnected layer's spatial-input flattening; retain all four failed source attempts",
+      "hardware_sessions_consumed": 0
+    },
+    {
+      "id": "004",
+      "stage": "after correctness pilots, before timing confirmation",
+      "repair": "Add separate input/submission/fetch timing and permit diagnostic CPU input fixture for composed fixed mesh permutations",
+      "timing_boundary": "Native timing excludes reference computation, compilation, programming and RAM readback"
+    },
+    {
+      "id": "005",
+      "stage": "compiler-only mesh",
+      "failure": "Spatial flatten ordering was not independently matched by initial CPU fixture",
+      "repair": "Switch routing-integrity family to explicit 1x1 vector tensors; no hardware launched"
+    },
+    {
+      "id": "006",
+      "stage": "compiler-only mesh",
+      "failure": "Allocation-search callback treated as final placement; configuration targets incorrectly equated with executed components",
+      "repair": "Read per-layer mapping.nps; retain callback probes and configuration targets as separate metadata; no hardware launched"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "REPLACE_AFTER_PHYSICAL_CALIBRATION",
+  "zero_check_passed": false,
+  "known_load_check_passed": false,
+  "all_card_supply_paths_intercepted": false,
+  "relative_uncertainty": null,
+  "shunt_resistance_measured_ohms": null,
+  "reference_meter": null,
+  "measurement_domain": "akd_card_input"
+}

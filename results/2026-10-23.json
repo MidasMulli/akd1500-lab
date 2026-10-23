@@ -1,0 +1,4385 @@
+{
+  "schema": 1,
+  "status": "VERIFIED_BOUNDED_STUDY",
+  "date": "2026-10-23",
+  "physical_programming_sessions": 24,
+  "passing_sessions": 22,
+  "failed_sessions": 2,
+  "physical_chip_samples": 1,
+  "power_measurement": "NO_VALIDATED_CARD_SENSOR_CONNECTED",
+  "platform": {
+    "cpu": "Jetson Orin Nano Cortex-A78AE",
+    "affinity_core": 2,
+    "governor": "schedutil",
+    "pcie": "5 GT/s x2",
+    "clocks_changed": false
+  },
+  "capacity": {
+    "status": "COMPILER_ONLY",
+    "physical_device_opened": false,
+    "parameters": {
+      "num_weights": 32,
+      "num_classes": 2,
+      "initial_plasticity": 0.5,
+      "min_plasticity": 0.25,
+      "plasticity_decay": 0.125,
+      "learning_competition": 0.25
+    },
+    "cells": [
+      {
+        "name": "n128_u8",
+        "status": "MAPPED_SINGLE_PASS",
+        "inputs": 128,
+        "neurons": 8,
+        "selected_connections": 256,
+        "weight_packet_bytes": 264,
+        "learning_np": [
+          1,
+          3,
+          0
+        ],
+        "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef"
+      },
+      {
+        "name": "n512_u64",
+        "status": "MAPPED_SINGLE_PASS",
+        "inputs": 512,
+        "neurons": 64,
+        "selected_connections": 2048,
+        "weight_packet_bytes": 5128,
+        "learning_np": [
+          1,
+          3,
+          0
+        ],
+        "program_sha256": "a3b3806778a936935f5799f6fb904f4f2797b7a77b952e8cded46f67d134c74c"
+      },
+      {
+        "name": "n512_u256",
+        "status": "MAPPED_SINGLE_PASS",
+        "inputs": 512,
+        "neurons": 256,
+        "selected_connections": 8192,
+        "weight_packet_bytes": 20488,
+        "learning_np": [
+          1,
+          3,
+          0
+        ],
+        "program_sha256": "6f9b5b4145f4d5aec42c474115e818087df8356e1e74e4f38dc1c56e4961e315"
+      },
+      {
+        "name": "n512_u512",
+        "status": "MAPPED_SINGLE_PASS",
+        "inputs": 512,
+        "neurons": 512,
+        "selected_connections": 16384,
+        "weight_packet_bytes": 40968,
+        "learning_np": [
+          1,
+          3,
+          0
+        ],
+        "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61"
+      },
+      {
+        "name": "n1024_u256",
+        "status": "MAPPED_SINGLE_PASS",
+        "inputs": 1024,
+        "neurons": 256,
+        "selected_connections": 8192,
+        "weight_packet_bytes": 36872,
+        "learning_np": [
+          1,
+          3,
+          0
+        ],
+        "program_sha256": "27e09d4d8f003b1339d526b96e163c536c1977d5b2fb72457bd0e160bca38790"
+      },
+      {
+        "name": "n1024_u512",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 1024,
+        "neurons": 512,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n2048_u256",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 2048,
+        "neurons": 256,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n4096_u128",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 4096,
+        "neurons": 128,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n8192_u64",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 8192,
+        "neurons": 64,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n512_u1024",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 512,
+        "neurons": 1024,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n1024_u1024",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 1024,
+        "neurons": 1024,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n2048_u1024",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 2048,
+        "neurons": 1024,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n4096_u1024",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 4096,
+        "neurons": 1024,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      },
+      {
+        "name": "n8192_u1024",
+        "status": "MAPPED_UNSUPPORTED_BY_DECODER",
+        "inputs": 8192,
+        "neurons": 1024,
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it"
+      }
+    ]
+  },
+  "mesh": {
+    "status": "COMPILER_ONLY",
+    "physical_device_opened": false,
+    "cells": [
+      {
+        "name": "mesh_2",
+        "status": "MAPPED_SINGLE_PASS",
+        "np_count": 27,
+        "nps": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "layer_assignments": [
+          {
+            "layer": "route_00",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 5
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 3
+              }
+            ]
+          },
+          {
+            "layer": "memory",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  0
+                ],
+                "type": "Type.FNP3",
+                "filters": 64
+              }
+            ]
+          }
+        ],
+        "configuration_targets": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "permutation": [
+          47,
+          115,
+          56,
+          36,
+          111,
+          110,
+          27,
+          116,
+          68,
+          54,
+          53,
+          28,
+          63,
+          55,
+          34,
+          126,
+          98,
+          127,
+          64,
+          1,
+          9,
+          15,
+          45,
+          42,
+          101,
+          67,
+          94,
+          102,
+          76,
+          50,
+          18,
+          51,
+          26,
+          89,
+          61,
+          96,
+          103,
+          104,
+          39,
+          52,
+          79,
+          122,
+          69,
+          95,
+          86,
+          20,
+          112,
+          83,
+          117,
+          71,
+          77,
+          10,
+          44,
+          109,
+          70,
+          13,
+          49,
+          59,
+          100,
+          46,
+          74,
+          123,
+          97,
+          40,
+          4,
+          81,
+          120,
+          99,
+          107,
+          106,
+          43,
+          16,
+          80,
+          24,
+          105,
+          17,
+          125,
+          48,
+          0,
+          57,
+          30,
+          90,
+          3,
+          78,
+          19,
+          8,
+          35,
+          32,
+          108,
+          33,
+          12,
+          58,
+          5,
+          21,
+          121,
+          88,
+          114,
+          14,
+          73,
+          92,
+          62,
+          37,
+          41,
+          66,
+          75,
+          82,
+          6,
+          124,
+          7,
+          22,
+          65,
+          2,
+          11,
+          113,
+          84,
+          38,
+          23,
+          31,
+          118,
+          25,
+          85,
+          91,
+          119,
+          60,
+          87,
+          72,
+          93,
+          29
+        ],
+        "cpu_equivalence": "Fixed permutations composed; synthetic routing integrity, no full CNN performance claim"
+      },
+      {
+        "name": "mesh_8",
+        "status": "MAPPED_SINGLE_PASS",
+        "np_count": 29,
+        "nps": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "layer_assignments": [
+          {
+            "layer": "route_00",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  1,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  1,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_01",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_02",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_03",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_04",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_05",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "route_06",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 32
+              }
+            ]
+          },
+          {
+            "layer": "memory",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  0
+                ],
+                "type": "Type.FNP3",
+                "filters": 64
+              }
+            ]
+          }
+        ],
+        "configuration_targets": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "permutation": [
+          37,
+          102,
+          3,
+          50,
+          33,
+          36,
+          16,
+          46,
+          111,
+          93,
+          24,
+          18,
+          55,
+          116,
+          94,
+          66,
+          71,
+          77,
+          113,
+          13,
+          124,
+          28,
+          123,
+          7,
+          118,
+          67,
+          53,
+          103,
+          51,
+          9,
+          126,
+          68,
+          74,
+          108,
+          29,
+          107,
+          120,
+          40,
+          97,
+          59,
+          35,
+          122,
+          39,
+          100,
+          98,
+          86,
+          45,
+          82,
+          56,
+          104,
+          62,
+          21,
+          5,
+          30,
+          8,
+          34,
+          1,
+          58,
+          54,
+          96,
+          89,
+          15,
+          12,
+          75,
+          57,
+          73,
+          105,
+          2,
+          83,
+          44,
+          65,
+          17,
+          91,
+          25,
+          92,
+          125,
+          47,
+          88,
+          78,
+          6,
+          4,
+          27,
+          23,
+          80,
+          112,
+          76,
+          110,
+          121,
+          81,
+          26,
+          117,
+          72,
+          61,
+          95,
+          109,
+          38,
+          115,
+          48,
+          63,
+          41,
+          20,
+          106,
+          127,
+          64,
+          87,
+          84,
+          31,
+          60,
+          49,
+          119,
+          19,
+          52,
+          90,
+          114,
+          99,
+          101,
+          42,
+          11,
+          85,
+          22,
+          10,
+          69,
+          43,
+          79,
+          70,
+          0,
+          32,
+          14
+        ],
+        "cpu_equivalence": "Fixed permutations composed; synthetic routing integrity, no full CNN performance claim"
+      },
+      {
+        "name": "mesh_16",
+        "status": "MAPPED_SINGLE_PASS",
+        "np_count": 31,
+        "nps": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "layer_assignments": [
+          {
+            "layer": "route_00",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  1,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_01",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_02",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  1,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_03",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_04",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_05",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_06",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_07",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_08",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_09",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_10",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_11",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_12",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_13",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  2,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "route_14",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              },
+              {
+                "np": [
+                  3,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 64
+              }
+            ]
+          },
+          {
+            "layer": "memory",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  0
+                ],
+                "type": "Type.FNP3",
+                "filters": 64
+              }
+            ]
+          }
+        ],
+        "configuration_targets": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "permutation": [
+          48,
+          75,
+          36,
+          55,
+          82,
+          87,
+          38,
+          52,
+          23,
+          108,
+          58,
+          104,
+          105,
+          46,
+          122,
+          50,
+          83,
+          21,
+          16,
+          51,
+          64,
+          59,
+          121,
+          53,
+          42,
+          19,
+          101,
+          117,
+          47,
+          84,
+          127,
+          28,
+          95,
+          77,
+          85,
+          78,
+          114,
+          18,
+          67,
+          1,
+          81,
+          33,
+          61,
+          10,
+          15,
+          123,
+          93,
+          126,
+          79,
+          107,
+          110,
+          8,
+          94,
+          45,
+          115,
+          40,
+          96,
+          112,
+          3,
+          62,
+          99,
+          68,
+          41,
+          119,
+          103,
+          76,
+          14,
+          118,
+          4,
+          125,
+          66,
+          74,
+          9,
+          44,
+          92,
+          124,
+          116,
+          5,
+          98,
+          2,
+          70,
+          63,
+          60,
+          86,
+          100,
+          34,
+          97,
+          30,
+          7,
+          27,
+          90,
+          57,
+          71,
+          65,
+          89,
+          29,
+          22,
+          109,
+          43,
+          17,
+          6,
+          102,
+          69,
+          72,
+          35,
+          54,
+          24,
+          120,
+          31,
+          39,
+          91,
+          73,
+          56,
+          88,
+          20,
+          111,
+          11,
+          0,
+          106,
+          26,
+          113,
+          49,
+          32,
+          37,
+          13,
+          80,
+          12,
+          25
+        ],
+        "cpu_equivalence": "Fixed permutations composed; synthetic routing integrity, no full CNN performance claim"
+      },
+      {
+        "name": "mesh_32",
+        "status": "MAPPED_SINGLE_PASS",
+        "np_count": 32,
+        "nps": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "layer_assignments": [
+          {
+            "layer": "route_00",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_01",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_02",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_03",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_04",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_05",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_06",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_07",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_08",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_09",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_10",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_11",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_12",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_13",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_14",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_15",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_16",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_17",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_18",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_19",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_20",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_21",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  1
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_22",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  2
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_23",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  3
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_24",
+            "components": [
+              {
+                "np": [
+                  1,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_25",
+            "components": [
+              {
+                "np": [
+                  2,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_26",
+            "components": [
+              {
+                "np": [
+                  2,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_27",
+            "components": [
+              {
+                "np": [
+                  2,
+                  3,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_28",
+            "components": [
+              {
+                "np": [
+                  3,
+                  1,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_29",
+            "components": [
+              {
+                "np": [
+                  3,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "route_30",
+            "components": [
+              {
+                "np": [
+                  1,
+                  2,
+                  0
+                ],
+                "type": "Type.CNP1",
+                "filters": 128
+              }
+            ]
+          },
+          {
+            "layer": "memory",
+            "components": [
+              {
+                "np": [
+                  3,
+                  3,
+                  0
+                ],
+                "type": "Type.FNP3",
+                "filters": 64
+              }
+            ]
+          }
+        ],
+        "configuration_targets": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "permutation": [
+          113,
+          19,
+          10,
+          74,
+          12,
+          79,
+          86,
+          95,
+          27,
+          61,
+          114,
+          20,
+          62,
+          52,
+          3,
+          46,
+          30,
+          57,
+          70,
+          1,
+          48,
+          44,
+          31,
+          33,
+          32,
+          82,
+          92,
+          102,
+          5,
+          99,
+          90,
+          36,
+          0,
+          105,
+          126,
+          111,
+          81,
+          2,
+          93,
+          42,
+          6,
+          47,
+          16,
+          29,
+          15,
+          24,
+          98,
+          115,
+          118,
+          7,
+          125,
+          54,
+          49,
+          13,
+          108,
+          84,
+          39,
+          51,
+          69,
+          72,
+          109,
+          122,
+          8,
+          60,
+          96,
+          26,
+          17,
+          4,
+          91,
+          112,
+          63,
+          28,
+          78,
+          23,
+          40,
+          97,
+          77,
+          58,
+          73,
+          25,
+          88,
+          37,
+          120,
+          55,
+          100,
+          76,
+          14,
+          65,
+          83,
+          22,
+          117,
+          103,
+          87,
+          18,
+          38,
+          50,
+          64,
+          75,
+          106,
+          107,
+          11,
+          41,
+          123,
+          85,
+          124,
+          119,
+          21,
+          53,
+          80,
+          66,
+          101,
+          110,
+          67,
+          104,
+          43,
+          71,
+          116,
+          56,
+          59,
+          35,
+          68,
+          94,
+          121,
+          34,
+          127,
+          89,
+          45,
+          9
+        ],
+        "cpu_equivalence": "Fixed permutations composed; synthetic routing integrity, no full CNN performance claim"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "run": "confirm_0_n128_u8",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 11099728,
+        "thread_cpu_ns": 11083840,
+        "driver_reads": 3129,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 43.3583125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 29904104,
+        "thread_cpu_ns": 29788096,
+        "checksum": 16053308625581325312,
+        "mean_us_per_sample": 0.4563004150390625
+      },
+      "mean_input_us": 3.1939609375,
+      "mean_submit_us": 11.8294140625,
+      "mean_fetch_us": 28.3349375,
+      "cpu_to_native_latency_ratio": 95.02141806355408,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_0_n128_u8",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 844,
+        "exact_score_values": 2048,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_0_n512_u512",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u512",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 246140018,
+        "thread_cpu_ns": 245852544,
+        "driver_reads": 6995,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 961.4844453125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 1082051328,
+        "thread_cpu_ns": 1081063360,
+        "checksum": 17365928825060786176,
+        "mean_us_per_sample": 16.51079296875
+      },
+      "mean_input_us": 8.211578125,
+      "mean_submit_us": 11.89537890625,
+      "mean_fetch_us": 941.37748828125,
+      "cpu_to_native_latency_ratio": 58.23369278097684,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_0_n512_u512",
+        "inputs": 512,
+        "neurons": 512,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 228,
+        "connection_bit_edits": 8022,
+        "exact_score_values": 131072,
+        "fixture": "n512_u512",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_0_n512_u64",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u64",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "a3b3806778a936935f5799f6fb904f4f2797b7a77b952e8cded46f67d134c74c",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 39067931,
+        "thread_cpu_ns": 38938464,
+        "driver_reads": 3895,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 152.60910546875
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 222374222,
+        "thread_cpu_ns": 222098240,
+        "checksum": 11224460927270848000,
+        "mean_us_per_sample": 3.393161346435547
+      },
+      "mean_input_us": 8.15878125,
+      "mean_submit_us": 11.85190234375,
+      "mean_fetch_us": 132.598421875,
+      "cpu_to_native_latency_ratio": 44.97549331954492,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_0_n512_u64",
+        "inputs": 512,
+        "neurons": 64,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 64,
+        "connection_bit_edits": 4220,
+        "exact_score_values": 16384,
+        "fixture": "n512_u64",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_1_n128_u8",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 11127573,
+        "thread_cpu_ns": 11074496,
+        "driver_reads": 3129,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 43.46708203125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 29832006,
+        "thread_cpu_ns": 29765216,
+        "checksum": 16053308625581325312,
+        "mean_us_per_sample": 0.4552002868652344
+      },
+      "mean_input_us": 3.26775,
+      "mean_submit_us": 11.8252578125,
+      "mean_fetch_us": 28.37407421875,
+      "cpu_to_native_latency_ratio": 95.49001458366561,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_1_n128_u8",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 844,
+        "exact_score_values": 2048,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_1_n512_u512",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u512",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 246164278,
+        "thread_cpu_ns": 245908896,
+        "driver_reads": 6996,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 961.5792109375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 1083141605,
+        "thread_cpu_ns": 1082162624,
+        "checksum": 17365928825060786176,
+        "mean_us_per_sample": 16.527429275512695
+      },
+      "mean_input_us": 8.25858984375,
+      "mean_submit_us": 11.8513671875,
+      "mean_fetch_us": 941.46925390625,
+      "cpu_to_native_latency_ratio": 58.18080930239957,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_1_n512_u512",
+        "inputs": 512,
+        "neurons": 512,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 228,
+        "connection_bit_edits": 8022,
+        "exact_score_values": 131072,
+        "fixture": "n512_u512",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_1_n512_u64",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u64",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "a3b3806778a936935f5799f6fb904f4f2797b7a77b952e8cded46f67d134c74c",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 39031223,
+        "thread_cpu_ns": 38948512,
+        "driver_reads": 3891,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 152.46571484375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 221501873,
+        "thread_cpu_ns": 221222080,
+        "checksum": 11224460927270848000,
+        "mean_us_per_sample": 3.379850357055664
+      },
+      "mean_input_us": 8.17578125,
+      "mean_submit_us": 11.8264140625,
+      "mean_fetch_us": 132.46351953125,
+      "cpu_to_native_latency_ratio": 45.11019682438532,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_1_n512_u64",
+        "inputs": 512,
+        "neurons": 64,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 64,
+        "connection_bit_edits": 4220,
+        "exact_score_values": 16384,
+        "fixture": "n512_u64",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_2_n128_u8",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 11101333,
+        "thread_cpu_ns": 11076000,
+        "driver_reads": 3130,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 43.36458203125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 29899400,
+        "thread_cpu_ns": 29813760,
+        "checksum": 16053308625581325312,
+        "mean_us_per_sample": 0.4562286376953125
+      },
+      "mean_input_us": 3.11298046875,
+      "mean_submit_us": 11.81977734375,
+      "mean_fetch_us": 28.43182421875,
+      "cpu_to_native_latency_ratio": 95.05010963430705,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_2_n128_u8",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 844,
+        "exact_score_values": 2048,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_2_n512_u512",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u512",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 246761764,
+        "thread_cpu_ns": 245661920,
+        "driver_reads": 6997,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 963.913140625
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 1083072194,
+        "thread_cpu_ns": 1082117632,
+        "checksum": 17365928825060786176,
+        "mean_us_per_sample": 16.526370147705077
+      },
+      "mean_input_us": 8.34994921875,
+      "mean_submit_us": 12.05412109375,
+      "mean_fetch_us": 943.5090703125,
+      "cpu_to_native_latency_ratio": 58.325762524377026,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_2_n512_u512",
+        "inputs": 512,
+        "neurons": 512,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 228,
+        "connection_bit_edits": 8022,
+        "exact_score_values": 131072,
+        "fixture": "n512_u512",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "confirm_2_n512_u64",
+      "status": "PASS",
+      "samples": 256,
+      "learning": true,
+      "fixture": "n512_u64",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "a3b3806778a936935f5799f6fb904f4f2797b7a77b952e8cded46f67d134c74c",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 256,
+        "repeats": 1,
+        "wall_ns": 39085587,
+        "thread_cpu_ns": 38956096,
+        "driver_reads": 3895,
+        "driver_writes": 1603,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 152.67807421875
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 256,
+        "repeats": 256,
+        "wall_ns": 221911231,
+        "thread_cpu_ns": 221661536,
+        "checksum": 11224460927270848000,
+        "mean_us_per_sample": 3.386096664428711
+      },
+      "mean_input_us": 8.16276171875,
+      "mean_submit_us": 11.847,
+      "mean_fetch_us": 132.6683125,
+      "cpu_to_native_latency_ratio": 45.08969747457262,
+      "verification": {
+        "status": "PASS",
+        "run": "confirm_2_n512_u64",
+        "inputs": 512,
+        "neurons": 64,
+        "samples": 256,
+        "learning": true,
+        "changed_neuron_records": 64,
+        "connection_bit_edits": 4220,
+        "exact_score_values": 16384,
+        "fixture": "n512_u64",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "mesh27_smoke",
+      "status": "PASS",
+      "samples": 16,
+      "learning": true,
+      "fixture": "mesh_2",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "665b9505ccd4e8e1616ec45f71f8dc31bda49639035b14bf806f5a83af663ffd",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 16,
+        "repeats": 1,
+        "wall_ns": 2338032,
+        "thread_cpu_ns": 2328896,
+        "driver_reads": 356,
+        "driver_writes": 169,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 146.127
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 16,
+        "repeats": 16,
+        "wall_ns": 390797,
+        "thread_cpu_ns": 389920,
+        "checksum": 9123895573194875792,
+        "mean_us_per_sample": 1.52655078125
+      },
+      "mean_input_us": 3.328,
+      "mean_submit_us": 11.943,
+      "mean_fetch_us": 130.856,
+      "cpu_to_native_latency_ratio": 95.72364168609278,
+      "verification": {
+        "status": "PASS",
+        "run": "mesh27_smoke",
+        "inputs": 128,
+        "neurons": 64,
+        "samples": 16,
+        "learning": true,
+        "changed_neuron_records": 15,
+        "connection_bit_edits": 508,
+        "exact_score_values": 1024,
+        "fixture": "mesh_2",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "mesh29_gate",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "mesh_8",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "e9517d155ca1816ce466a46f946ee9da2b51ef93b0baa23cc52ba32fa94bdab3",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 9820201,
+        "thread_cpu_ns": 9778240,
+        "driver_reads": 1325,
+        "driver_writes": 493,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 153.440640625
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 16,
+        "wall_ns": 1724410,
+        "thread_cpu_ns": 1723392,
+        "checksum": 7103397363427888640,
+        "mean_us_per_sample": 1.683994140625
+      },
+      "mean_input_us": 3.165109375,
+      "mean_submit_us": 11.865390625,
+      "mean_fetch_us": 138.410140625,
+      "cpu_to_native_latency_ratio": 91.1170870036708,
+      "verification": {
+        "status": "PASS",
+        "run": "mesh29_gate",
+        "inputs": 128,
+        "neurons": 64,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 54,
+        "connection_bit_edits": 2008,
+        "exact_score_values": 4096,
+        "fixture": "mesh_8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "mesh31_gate",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "mesh_16",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "b587fb2fb0e6358612acf143da1b9119b76fcd4f6b7984537bfded4d1ed616bf",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 11389885,
+        "thread_cpu_ns": 11341408,
+        "driver_reads": 2208,
+        "driver_writes": 541,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 177.966953125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 16,
+        "wall_ns": 1751482,
+        "thread_cpu_ns": 1729536,
+        "checksum": 8537332544739905760,
+        "mean_us_per_sample": 1.710431640625
+      },
+      "mean_input_us": 3.159140625,
+      "mean_submit_us": 11.86321875,
+      "mean_fetch_us": 162.94459375,
+      "cpu_to_native_latency_ratio": 104.04797765549404,
+      "verification": {
+        "status": "PASS",
+        "run": "mesh31_gate",
+        "inputs": 128,
+        "neurons": 64,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 55,
+        "connection_bit_edits": 2012,
+        "exact_score_values": 4096,
+        "fixture": "mesh_16",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "mesh32_evidence",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "mesh_32",
+      "binary_sha256": "afe188704ef998c6b520a582ddd99f6470477896081589599efe2888fb35443c",
+      "program_sha256": "0e316bf596cc36a73323f010936b9002192f6b0c3e8bec565d918bdf97e461d4",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 17378786,
+        "thread_cpu_ns": 17336928,
+        "driver_reads": 5957,
+        "driver_writes": 1021,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 271.54353125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 16,
+        "wall_ns": 1784316,
+        "thread_cpu_ns": 1753952,
+        "checksum": 16228641421122661280,
+        "mean_us_per_sample": 1.74249609375
+      },
+      "mean_input_us": 3.790078125,
+      "mean_submit_us": 12.094359375,
+      "mean_fetch_us": 255.65909375,
+      "cpu_to_native_latency_ratio": 155.83594834098892,
+      "verification": {
+        "status": "PASS",
+        "run": "mesh32_evidence",
+        "inputs": 128,
+        "neurons": 64,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 54,
+        "connection_bit_edits": 2008,
+        "exact_score_values": 4096,
+        "fixture": "mesh_32",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "mesh32_gate",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "mesh_32",
+      "binary_sha256": "3d1848f18b7afbde42ee48dfae4c8fc8526ff0bcb04d47f8fa1840eb30b4f15b",
+      "program_sha256": "0e316bf596cc36a73323f010936b9002192f6b0c3e8bec565d918bdf97e461d4",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 17357158,
+        "thread_cpu_ns": 17296224,
+        "driver_reads": 5444,
+        "driver_writes": 637,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 271.20559375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 16,
+        "wall_ns": 1737818,
+        "thread_cpu_ns": 1717888,
+        "checksum": 16228641421122661280,
+        "mean_us_per_sample": 1.697087890625
+      },
+      "mean_input_us": 3.179578125,
+      "mean_submit_us": 11.957921875,
+      "mean_fetch_us": 256.06809375,
+      "cpu_to_native_latency_ratio": 159.80645153865365,
+      "verification": {
+        "status": "PASS",
+        "run": "mesh32_gate",
+        "inputs": 128,
+        "neurons": 64,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 54,
+        "connection_bit_edits": 2008,
+        "exact_score_values": 4096,
+        "fixture": "mesh_32",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "pilot_n1024_u256",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n1024_u256",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "27e09d4d8f003b1339d526b96e163c536c1977d5b2fb72457bd0e160bca38790",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 33321297,
+        "thread_cpu_ns": 33202080,
+        "driver_reads": 1808,
+        "driver_writes": 451,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 520.645265625
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 128,
+        "wall_ns": 135651896,
+        "thread_cpu_ns": 135451968,
+        "checksum": 17556783096879443072,
+        "mean_us_per_sample": 16.5590693359375
+      },
+      "cpu_to_native_latency_ratio": 31.44169850747976,
+      "verification": {
+        "status": "PASS",
+        "run": "pilot_n1024_u256",
+        "inputs": 1024,
+        "neurons": 256,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 60,
+        "connection_bit_edits": 2014,
+        "exact_score_values": 16384,
+        "fixture": "n1024_u256",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "pilot_n128",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 2829246,
+        "thread_cpu_ns": 2778976,
+        "driver_reads": 827,
+        "driver_writes": 451,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 44.20696875
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 256,
+        "wall_ns": 8904520,
+        "thread_cpu_ns": 8856768,
+        "checksum": 5874558266858552832,
+        "mean_us_per_sample": 0.54348876953125
+      },
+      "cpu_to_native_latency_ratio": 81.33924972935094,
+      "verification": {
+        "status": "PASS",
+        "run": "pilot_n128",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 712,
+        "exact_score_values": 512,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "pilot_n512_u256",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n512_u256",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "6f9b5b4145f4d5aec42c474115e818087df8356e1e74e4f38dc1c56e4961e315",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 32032830,
+        "thread_cpu_ns": 31905248,
+        "driver_reads": 1358,
+        "driver_writes": 451,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 500.51296875
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 128,
+        "wall_ns": 75689424,
+        "thread_cpu_ns": 75567968,
+        "checksum": 123152581736863104,
+        "mean_us_per_sample": 9.239431640625
+      },
+      "cpu_to_native_latency_ratio": 54.17140233488896,
+      "verification": {
+        "status": "PASS",
+        "run": "pilot_n512_u256",
+        "inputs": 512,
+        "neurons": 256,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 64,
+        "connection_bit_edits": 2040,
+        "exact_score_values": 16384,
+        "fixture": "n512_u256",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "pilot_n512_u512",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n512_u512",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 61612444,
+        "thread_cpu_ns": 61458400,
+        "driver_reads": 1813,
+        "driver_writes": 451,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 962.6944375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 128,
+        "wall_ns": 136257204,
+        "thread_cpu_ns": 136035808,
+        "checksum": 4942455683280256,
+        "mean_us_per_sample": 16.63295947265625
+      },
+      "cpu_to_native_latency_ratio": 57.87872200870935,
+      "verification": {
+        "status": "PASS",
+        "run": "pilot_n512_u512",
+        "inputs": 512,
+        "neurons": 512,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 61,
+        "connection_bit_edits": 2028,
+        "exact_score_values": 32768,
+        "fixture": "n512_u512",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "pilot_n512_u64",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n512_u64",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "a3b3806778a936935f5799f6fb904f4f2797b7a77b952e8cded46f67d134c74c",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "repeats": 1,
+        "wall_ns": 9840037,
+        "thread_cpu_ns": 9743232,
+        "driver_reads": 1014,
+        "driver_writes": 451,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 153.750578125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 256,
+        "wall_ns": 60938759,
+        "thread_cpu_ns": 60779168,
+        "checksum": 3615654611926422016,
+        "mean_us_per_sample": 3.7194066772460936
+      },
+      "cpu_to_native_latency_ratio": 41.33739369388865,
+      "verification": {
+        "status": "PASS",
+        "run": "pilot_n512_u64",
+        "inputs": 512,
+        "neurons": 64,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 51,
+        "connection_bit_edits": 1992,
+        "exact_score_values": 4096,
+        "fixture": "n512_u64",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "resident_diagnostic",
+      "status": "FAILED_PRESERVED",
+      "samples": 16,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "466b8f32d89ca8e906186115677e24cf65dfd3e495aaa5627685b0eeba7eeef8",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native_exit_code": 1,
+      "failure": "resident diagnostic: dense=1 target=16 observed=8 descriptor_word0=1056769 published_queue=458759\nFAIL: resident completion deadline"
+    },
+    {
+      "run": "resident_fixed_smoke",
+      "status": "PASS",
+      "samples": 16,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "afe188704ef998c6b520a582ddd99f6470477896081589599efe2888fb35443c",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "resident",
+        "samples": 16,
+        "repeats": 1,
+        "batch": 8,
+        "queue_slots": 9,
+        "setup_ns": 190726,
+        "release_to_observed_completion_ns": 139397,
+        "output_drain_ns": 336747,
+        "wall_ns": 666870,
+        "verification_cpu_ns": 18465,
+        "polls": 71,
+        "host_writes_during_execution": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 41.679375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 16,
+        "repeats": 128,
+        "wall_ns": 1478930,
+        "thread_cpu_ns": 1459552,
+        "checksum": 6091561503135527424,
+        "mean_us_per_sample": 0.7221337890625
+      },
+      "cpu_to_native_latency_ratio": 57.71697105339671,
+      "verification": {
+        "status": "PASS",
+        "run": "resident_fixed_smoke",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 16,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 420,
+        "exact_score_values": 128,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "resident_large",
+      "status": "PASS",
+      "samples": 64,
+      "learning": true,
+      "fixture": "n512_u512",
+      "binary_sha256": "afe188704ef998c6b520a582ddd99f6470477896081589599efe2888fb35443c",
+      "program_sha256": "449ebfe34e3b3bd3b4265890cb08057dd9f6b5bf1ff1ca303122ff7eb8502e61",
+      "native": {
+        "status": "PASS",
+        "mode": "resident",
+        "samples": 64,
+        "repeats": 1,
+        "batch": 8,
+        "queue_slots": 9,
+        "setup_ns": 1082372,
+        "release_to_observed_completion_ns": 2343856,
+        "output_drain_ns": 58158577,
+        "wall_ns": 61584805,
+        "verification_cpu_ns": 1053219,
+        "polls": 1233,
+        "host_writes_during_execution": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 962.262578125
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 128,
+        "wall_ns": 136114074,
+        "thread_cpu_ns": 135930304,
+        "checksum": 4942455683280256,
+        "mean_us_per_sample": 16.615487548828124
+      },
+      "cpu_to_native_latency_ratio": 57.91359268256125,
+      "verification": {
+        "status": "PASS",
+        "run": "resident_large",
+        "inputs": 512,
+        "neurons": 512,
+        "samples": 64,
+        "learning": true,
+        "changed_neuron_records": 61,
+        "connection_bit_edits": 2028,
+        "exact_score_values": 32768,
+        "fixture": "n512_u512",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    },
+    {
+      "run": "resident_smoke",
+      "status": "FAILED_PRESERVED",
+      "samples": 16,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "a95ac4b9af2b90ef3bd8b045b8ba28e416bd6901d3a158fc0e4b72b9150b59f1",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native_exit_code": 1,
+      "failure": "FAIL: resident completion deadline"
+    },
+    {
+      "run": "smoke_n128",
+      "status": "PASS",
+      "samples": 16,
+      "learning": true,
+      "fixture": "n128_u8",
+      "binary_sha256": "fd99627bd4247c8a241af6338520807f6689be840470f2ab92c0e3411b53802a",
+      "program_sha256": "5bc810729bee06387e063601da5218bd02be268a54253855d89d75abce7eeeef",
+      "native": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 16,
+        "repeats": 1,
+        "wall_ns": 720439,
+        "thread_cpu_ns": 710272,
+        "driver_reads": 251,
+        "driver_writes": 163,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed",
+        "mean_us_per_sample": 45.0274375
+      },
+      "cpu": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 16,
+        "repeats": 128,
+        "wall_ns": 1463601,
+        "thread_cpu_ns": 1462144,
+        "checksum": 6091561503135527424,
+        "mean_us_per_sample": 0.71464892578125
+      },
+      "cpu_to_native_latency_ratio": 63.00637400493713,
+      "verification": {
+        "status": "PASS",
+        "run": "smoke_n128",
+        "inputs": 128,
+        "neurons": 8,
+        "samples": 16,
+        "learning": true,
+        "changed_neuron_records": 8,
+        "connection_bit_edits": 420,
+        "exact_score_values": 128,
+        "fixture": "n128_u8",
+        "source_sha256": "97a593329fa7637b9e97d1103ed52ff93eb44eef13cbd1e62d38b602cd0aa31e"
+      }
+    }
+  ],
+  "limitations": [
+    "No energy advantage established",
+    "No peak utilization or full capacity claim",
+    "Mesh permutations are fixed and algebraically composable on CPU",
+    "FNP2 mappings are decoder gaps, not silicon failures",
+    "Timing replicates on one chip are not independent chips",
+    "Native timings include host interface costs; no core-only latency measurement"
+  ]
+}

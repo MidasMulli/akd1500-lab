@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "video": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 720,
+    "seconds": 12,
+    "codec": "h264",
+    "full_decode_exit_code": 0
+  },
+  "visual_review": "Final still and decoded midpoint inspected; chart labels and captions repaired and rechecked",
+  "public_bundle_review": "No private paths, credentials, runtime sources, program binaries or operator authorizations in staged files",
+  "sha256": {
+    "measurement-results-4k.png": "1540cbea4f4d8710ceb6f2397a35ca6632407f31d1766e8ea4cdd799c92b6245",
+    "measurement-results.svg": "cfc7656574f050ccb6fbb777391d9a70d1144f77d833f1f9d085c149fc45cb8f",
+    "mesh32-replay-4k.png": "cc2129b53ac2061336466561d312281ee562017b3e3918fb0a48fe2b09411522",
+    "mesh32-data.json": "2acc8a39c86369c2702b6f19a919cd2d27e4829eac9817df57e817204257b969",
+    "SOURCE_BINDING.json": "8fdadb74c08dfdfcc544dc38932e038f23f960524c78ee8c5f87a6511cdef823",
+    "mesh32-replay-4k60.mp4": "9ba78d74f9a25a48dbdfe2f30a7d2b7fbb0fcfd3ab1579f0ba304822d4e03864"
+  }
+}

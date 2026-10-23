@@ -1,0 +1,7 @@
+{
+  "results_sha256": "c3b27cd96a561114bbed5cc21498728eba1940a57b444f30d10e7a43a0330acd",
+  "replay_sha256": "2acc8a39c86369c2702b6f19a919cd2d27e4829eac9817df57e817204257b969",
+  "geometry": "Logical schematic",
+  "motion": "Illustrative replay, not electrical telemetry",
+  "video": "3840x2160, 60 fps, 12 seconds if generated"
+}

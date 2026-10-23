@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+build/
+.local.json
+studies/*/raw/
+studies/*/fixtures*/
+studies/*/mesh*/
+studies/*/AUTHORITY.json
+studies/*/STATE.json
+studies/*/evidence/*
+!studies/*/evidence/REPAIRS.json
+*.mp4
+!visual/mesh32-replay-4k60.mp4
+*.mov
