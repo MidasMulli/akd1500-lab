@@ -46,3 +46,42 @@ the fixture; this is not power-loss durability or resumed hidden-state proof.
 Only our source is packaged here. Generated vendor program images and runtime
 sources are excluded. `tools/audit_image_copy.py` checks an unchanged copied
 study with explicit path relocation for the source artifacts.
+
+## Bounded recovery probing
+
+The October 23 recovery revision adds a probe-request bit, separate from the
+native-selected action. Between queues, a four-byte aligned read/modify/write
+changes only byte20 and preserves bytes21..23. The fixed native circuit chooses
+the opposite of the last action in the current task state; an actual checked
+worker outcome then teaches the two memories. Exploration timing and decision
+wiring are supplied by us. Exploration itself is not learned.
+
+The [frozen protocol](../studies/20261023-recovery-r1/PROTOCOL.md) specifies
+24 jobs, 80 total operations, eight per job, shared warm-up, real owned-worker
+outages, fixed probe offsets and controls. Its [assessment](../studies/20261023-recovery-r1/ASSESSMENT.md)
+reports all costs and preserved failures. The reactive control also finishes
+every job; earlier recovery recognition is the added capability.
+
+For a new study, inspect the generated manifest and virtual checks, then admit
+only the mechanism/smoke stage first. `service/recovery.py` implements the
+protocol arms, `run_recovery_monitored.py` enforces the bounded parent process,
+and `verify_recovery.py` checks real image artifacts, probe clocks, control
+behavior and native trace integrity. Read each tool's `--help`; do not reuse
+the completed study's authority or reopen its admissions.
+
+After copying a completed study without changing raw bytes:
+
+```bash
+python tools/export_recovery.py studies/your-completed-recovery
+python tools/audit_recovery_mutations.py studies/your-completed-recovery
+python tools/visualize_recovery.py --video
+```
+
+The exporter uses explicit path relocation for artifact reads. The mutation
+audit retains its test cases and refuses to overwrite an existing test-case
+directory. It rejects an edited neighboring probe byte and a forged probe clock.
+The replay displays a measured connection set after each operation, with
+schematic link slots and expanded time; it is not an electrical spike trace.
+The dated exporter expects this frozen campaign's names/shape and its preserved
+parent sibling. Version those assumptions and output names before using a
+different campaign; it is not an automatic general-purpose study launcher.

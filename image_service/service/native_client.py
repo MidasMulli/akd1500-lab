@@ -41,8 +41,8 @@ class NativeClient:
     def send(self,command,kind):
         assert time.monotonic()-self.started<self.max_seconds,'native session time cap'
         self.commands.write(command+'\n');self.commands.flush();self.proc.stdin.write((command+'\n').encode());self.proc.stdin.flush();return self.read_until(kind)
-    def query(self):
-        self.counter+=1;return self.send(f'Q {self.counter}','chain')
+    def query(self,probe=False):
+        self.counter+=1;return self.send(f'{"P" if probe else "Q"} {self.counter}','chain')
     def observe(self,outcome):
         self.counter+=1;return self.send(f'O {self.counter} {outcome}','chain')
     def snapshot(self):

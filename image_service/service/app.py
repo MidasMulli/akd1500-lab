@@ -12,7 +12,7 @@ ASSIGNMENTS={71011:dict(decode=['cpu','gstreamer'],export=['cpu','gstreamer']),
              71012:dict(decode=['gstreamer','cpu'],export=['gstreamer','cpu']),
              71013:dict(decode=['cpu','gstreamer'],export=['gstreamer','cpu'])}
 
-def perform_job(src,job_id,d,workers,native,controller,assignments,budget,events):
+def perform_job(src,job_id,d,workers,native,controller,assignments,budget,events,probe_clock=None):
     src=Path(src).resolve()
     with Image.open(src) as im:
         assert im.format=='JPEG';width,height=im.size;assert 1<=width<=2048 and 1<=height<=2048
@@ -20,14 +20,15 @@ def perform_job(src,job_id,d,workers,native,controller,assignments,budget,events
     state=3;current=src;attempts=[];complete=False;final=None
     request_start=native.request_start() if native else None
     for local in range(min(8,budget)):
-        query=native.query() if native else None
+        probe=bool(probe_clock and probe_clock(job_id,local,state))
+        query=native.query(probe=probe) if native else None
         if native:
             y=query['slots'][-1]['after'][32:64];codes=[i for i,v in enumerate(y[:16]) if v]
             assert len(codes)==1 and 8<=codes[0]<16
             ctx=codes[0]-8;s,action=divmod(ctx,2);assert s==state,'native task state disagrees with actual artifacts'
             choice=dict(state=s,action=action,depth=1 if y[20] else 2 if y[21] else 0)
             native.snapshot()  # Positive protected-query isolation at every action.
-        else:choice=controller.choose(state);action=choice['action']
+        else:choice=controller.choose(state,probe=probe);action=choice['action']
         stage='decode' if state==3 else 'export';backend=assignments[stage][action];target=jobdir/f'operation_{local:02}_{stage}_{backend}.npy'
         req=dict(request_id=f'{job_id}:{local}',stage=stage,backend=backend,input=str(current),output=str(target),width=width,height=height)
         rpc=workers.call(req);check=None;actual=state
@@ -41,7 +42,7 @@ def perform_job(src,job_id,d,workers,native,controller,assignments,budget,events
             assert y[expected_state]==1 and sum(y[:16])==1 and bool(y[23])==(actual==0)
             native.snapshot()
         else:controller.observe(state,action,actual)
-        event=dict(job=job_id,local_attempt=local,state=state,action=action,choice=choice,stage=stage,backend=backend,
+        event=dict(job=job_id,local_attempt=local,state=state,action=action,probe=probe,choice=choice,stage=stage,backend=backend,
                    rpc=rpc,verification=check,outcome=actual,query_id=query['id'] if query else None,
                    observation_id=observation['id'] if observation else None,request_start_id=request_start['id'] if request_start else None)
         attempts.append(event);events.write(json.dumps(dict(kind='operation',**event))+'\n');events.flush()

@@ -1,0 +1,188 @@
+{
+  "status": "INDEPENDENT_RAW_RECOUNT_PASS",
+  "study": "20261023-recovery-r1",
+  "physical_chips": 1,
+  "rows": [
+    {
+      "seed": 71011,
+      "probe": {
+        "completed": 24,
+        "attempts": 52,
+        "failures": 4,
+        "first_preferred_return_job": 12,
+        "recovery_events": [
+          {
+            "job": 12,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 1
+          }
+        ],
+        "events_sha256": "5ff1a70d16666e6873e4f2ef8ca3c9f9ef2234e55edf40872509bb7fc060be31",
+        "raw_sha256": "0ae96c5daee8f4f140e568b95d45f5bd0e3b917fbcd80a16e57837e10adbb75d"
+      },
+      "reactive": {
+        "completed": 24,
+        "attempts": 52,
+        "failures": 4,
+        "first_preferred_return_job": null,
+        "recovery_events": [],
+        "events_sha256": "2a16b8ccb0f7d4afb2bfb24abf03996d7c0266c6a512a0885961ef71f3fe5860",
+        "raw_sha256": "877154e47286d301e07b7e31cea33d458d817371a171c97c6b9cea1a7a6c1e90"
+      },
+      "frozen": {
+        "completed": 16,
+        "attempts": 80,
+        "failures": 46,
+        "first_preferred_return_job": 13,
+        "recovery_events": [],
+        "events_sha256": "5301ab0e2cc9f6acb5cac7367842c2d0d722cbffeffc7c08d3975b5eaa929a68",
+        "raw_sha256": "d9db6a78523ebe97e9ed2abb410922ff1b38d1bd0dae658836c5e870a1375f15"
+      },
+      "cpu": {
+        "completed": 24,
+        "attempts": 52,
+        "failures": 4,
+        "first_preferred_return_job": 12,
+        "recovery_events": [
+          {
+            "job": 12,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 1
+          }
+        ],
+        "events_sha256": "02a1c393cf2b099ac61db6d55cd8f44a8a59685d3a2e97050c1d9ca25e7ab9c1",
+        "raw_sha256": null
+      }
+    },
+    {
+      "seed": 71012,
+      "probe": {
+        "completed": 24,
+        "attempts": 53,
+        "failures": 5,
+        "first_preferred_return_job": 13,
+        "recovery_events": [
+          {
+            "job": 13,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 2
+          }
+        ],
+        "events_sha256": "2e282f114d2f4f61665c489a4a84a6926a5311b90609aee8003d2d1d3747aad0",
+        "raw_sha256": "b2a4801e0ad8edf23c0a8084ac2e01a296bd5b8a9d57af76a5f4fbe907af3a6f"
+      },
+      "reactive": {
+        "completed": 24,
+        "attempts": 52,
+        "failures": 4,
+        "first_preferred_return_job": null,
+        "recovery_events": [],
+        "events_sha256": "33c3f49f264112f053aa7d71c1d45213658b80b500774e4ad238087e6b413e1e",
+        "raw_sha256": "d57792fa3899c1cca0b17e1bad464bf7f40f1af1c7114bd0b33615a98f73147b"
+      },
+      "frozen": {
+        "completed": 16,
+        "attempts": 80,
+        "failures": 45,
+        "first_preferred_return_job": 12,
+        "recovery_events": [],
+        "events_sha256": "2f4128c4d67d28d8217b3043e3893ea251ffdf22a154f022f1771a089bc3b9a5",
+        "raw_sha256": "508d1de8638cef45689861f5ac21cd77b322aeeb959389a9c93863e30418b884"
+      },
+      "cpu": {
+        "completed": 24,
+        "attempts": 53,
+        "failures": 5,
+        "first_preferred_return_job": 13,
+        "recovery_events": [
+          {
+            "job": 13,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 2
+          }
+        ],
+        "events_sha256": "bf6de605277e1da9addd7244c0db5a7aba9eec0e1295e212d351eb83b03115d9",
+        "raw_sha256": null
+      }
+    },
+    {
+      "seed": 71013,
+      "probe": {
+        "completed": 24,
+        "attempts": 51,
+        "failures": 3,
+        "first_preferred_return_job": 14,
+        "recovery_events": [
+          {
+            "job": 14,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 1
+          }
+        ],
+        "events_sha256": "41ca04e793e4e06e4afe85251eb4a2bce0db81a1ec0b59210286dc9e229eb040",
+        "raw_sha256": "aa9e3fcfc1f90b63226b176c933bcf736ea00b5f564b6253962ef3364a2f7fdf"
+      },
+      "reactive": {
+        "completed": 24,
+        "attempts": 50,
+        "failures": 2,
+        "first_preferred_return_job": null,
+        "recovery_events": [],
+        "events_sha256": "306ab730eacc115c94ade38860e68e4341a3e7833fbebb7b44a4287af6031ec0",
+        "raw_sha256": "36eaa29ea9d4da5b045271459a5f1135100f9c852b4b5353862b92b0bb028af9"
+      },
+      "frozen": {
+        "completed": 21,
+        "attempts": 67,
+        "failures": 25,
+        "first_preferred_return_job": 12,
+        "recovery_events": [],
+        "events_sha256": "867f8d117d88465e6446ed69390254eeae9e11919de9d8330997a08cbf15e298",
+        "raw_sha256": "3cf91f67418f5c114e60058204f003a6513d1cb4c67a018b73fdb22dcfc505ff"
+      },
+      "cpu": {
+        "completed": 24,
+        "attempts": 51,
+        "failures": 3,
+        "first_preferred_return_job": 14,
+        "recovery_events": [
+          {
+            "job": 14,
+            "probe": true,
+            "old_prediction": 3,
+            "actual": 1
+          }
+        ],
+        "events_sha256": "5f707f529973e4be21b158ce9d531e81ab871cfc60efecb6270216742962721f",
+        "raw_sha256": null
+      }
+    }
+  ],
+  "completed_probe": 72,
+  "completed_reactive": 72,
+  "completed_frozen": 53,
+  "probe_attempts": 156,
+  "reactive_attempts": 154,
+  "gate_status": "FIXED_GATES_PASS",
+  "claim": "Earlier recovery recognition through supplied bounded exploration and native updates; no completion advantage over reactive in this schedule",
+  "boundaries": [
+    "Identical CPU algorithm matches every native decision/outcome",
+    "Two additional operations overall; no throughput, energy or substrate advantage",
+    "Three encodings/probe offsets on one chip, not three independent applications",
+    "Native memory within one live session; no restart/power-loss persistence"
+  ],
+  "preserved_failures": [
+    "Prephysical missing FlatBuffers environment",
+    "Parent hardware attempt refused one-byte MMIO; cleaned up, sealed; r1 changed transport only"
+  ],
+  "passing_native_sessions": 11,
+  "preserved_failed_native_sessions": 1,
+  "verified_native_forwards": 1647,
+  "parent_neural_program_unchanged": true,
+  "parent_failed_prefix_counted_as_success": false
+}

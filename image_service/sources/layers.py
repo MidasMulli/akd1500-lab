@@ -8,7 +8,7 @@ def prediction_weights(mapping):
   if mapping[c] is None:w[480:484,c]=1
   else:w[224+4*mapping[c]:228+4*mapping[c],c]=1
  for j in range(8,32):w[480:512,j]=1
- feats=[28*c for c in range(8)]+[224+4*s for s in range(4)]+list(range(256,260))+list(range(260,265))
+ feats=[28*c for c in range(8)]+[224+4*s for s in range(4)]+list(range(256,260))+list(range(260,266))
  for j,f in enumerate(feats):w[[f,*range(480,511)],32+j]=1
  for j in range(len(feats),32):w[480:512,32+j]=1
  return w
@@ -22,7 +22,7 @@ def message_encoder():
  w[48,96:100]=-7;w[48,100:104]=1
  for out in range(4):w[40+out,112+4*out:116+4*out]=w[48,112+4*out:116+4*out]=1
  for s in range(4):w[44+s,258+s]=1
- for src,dst in [(48,262),(49,263),(50,264),(51,284),(52,285)]:w[src,dst]=1
+ for src,dst in [(48,262),(49,263),(50,264),(51,284),(52,285),(53,286)]:w[src,dst]=1
  for c in range(8):w[c,270+c]=w[44+c//2,270+c]=1;t[270+c]=1
  for s in range(4):w[2*s:2*s+2,280+s]=1;w[48,280+s]=2;t[280+s]=2
  return w,t
@@ -35,10 +35,9 @@ def history_weights(history):
   else:
    a,out=history[s];w[96+4*a:100+4*a,s]=1;w[112+4*out:116+4*out,s]=1
  for j in range(4,32):w[480:512,j]=1
- feats=[24*s for s in range(4)]+[112+4*s for s in range(4)]+[96,100]+list(range(258,262))+[262,263,264]+list(range(270,278))+list(range(280,284))+[284,285]
- assert len(feats)==31
+ feats=[24*s for s in range(4)]+[112+4*s for s in range(4)]+[96,100]+list(range(258,262))+[262,263,264]+list(range(270,278))+list(range(280,284))+[284,285,286]
+ assert len(feats)==32
  for j,f in enumerate(feats):w[[f,*range(480,511)],32+j]=1
- w[480:512,63]=1
  return w
 
 def policy(goal,start,twohop):
@@ -49,7 +48,7 @@ def policy(goal,start,twohop):
    j=4+2*s+act;w[49+2*s+act,j]=w[47,j]=1;t[j]=1;a[j,28+act]=a[j,31]=1
   j=12+s;w[57+s,j]=w[47,j]=1;t[j]=1;a[j,24+s]=1
   for k in range(6):
-   j=24+6*s+k;w[42+s,j]=1;w[47,j]=-4
+   j=24+6*s+k;w[42+s,j]=1;w[47,j]=-4;w[63,j]=-4
    if k==0:w[61,j]=1;t[j]=1;act=0
    elif k==1:w[62,j]=1;w[61,j]=-4;t[j]=1;act=1
    else:
@@ -70,4 +69,13 @@ def policy(goal,start,twohop):
  w[36+goal,84]=1;w[46,84]=-4;a[84,23]=1
  for s in range(4):w[s,85+s]=w[42+s,85+s]=1;t[85+s]=1;a[85+s,30]=1
  w[41,90]=1;w[46,90]=-4;a[90,16]=1
+ # Supplied exploration rule: on a probe query choose the opposite of the
+ # last executed action for this state. No host action or availability bit.
+ for s in range(4):
+  for act in range(2):
+   j=92+2*s+act;w[42+s,j]=w[63,j]=1;w[47,j]=-4
+   if act==0:w[s,j]=1;t[j]=2
+   else:w[s,j]=-4;t[j]=1
+   a[j,8+2*s+act]=1;a[j,22]=1
+ w[63,100]=w[47,100]=1;t[100]=1;a[100,20]=1
  return [('native_predecessor_and_two_step_action_logic',w,t),('commit_recurrent_state_and_prediction_caches',a,np.zeros(32,np.int32))]

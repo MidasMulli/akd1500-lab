@@ -6,7 +6,7 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('study',type=Path);a=p.parse_args();s=a.study.resolve()
     auth=json.loads((s/'AUTHORITY.json').read_text());assert not (s/'FROZEN_MANIFEST.json').exists()
     for name in ['service','sources']:shutil.copytree(P/'image_service'/name,s/name)
-    for name in ['verify_native.py','verify_service.py','run_monitored.py']:shutil.copy2(P/'image_service'/name,s/name)
+    for name in ['verify_native.py','verify_service.py','run_monitored.py','verify_recovery.py','run_recovery_monitored.py']:shutil.copy2(P/'image_service'/name,s/name)
     auth['maximum_physical_AKD_sessions']=auth.get('maximum_physical_sessions',8);auth['shared_device_lock']='/tmp/akd1500-research.lock'
     (s/'AUTHORITY.json').write_text(json.dumps(auth,indent=2)+'\n')
     for name in ['runs','cpu_runs','evidence']:(s/name).mkdir(exist_ok=True)

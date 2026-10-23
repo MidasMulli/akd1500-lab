@@ -7,6 +7,8 @@
 | FNP3 | Exact outputs and complete learning RAM through 512 neurons; reconstructed selector in CPU and Python | Larger connection budgets, input sparsity, near-capacity overlap and interference |
 | Mesh | Passing 27/29/31/32-NPU single-pass configurations | Peak useful throughput, contention, bandwidth and memory saturation |
 | Multi-learner | Three connected 64-neuron plastic banks with exact per-step RAM checks | Independent streams/labels, CNP-interleaved failure root cause, useful task training |
+| Recovery | Bounded probing corrects stale failure memories during real image-worker recovery; 72/72 completed | Reactive also completes 72/72 at two fewer operations; test value under a preregistered cost/latency objective |
+| Visual-action learning | Mario pilot: learned 21/24, frozen 20/24, action-only 15/24; 72 fresh executions checked | One frozen seed beats learning; larger sealed task bank and stronger representation before broad claims |
 | Compact readout | Matched threshold masks and a fixed second-NPU two-count reducer; identical learning state | Sparse/event input adapters failed; compiler-supported ingress proof and task-specialized CPU alternatives |
 | FNP2 | Compiler selects external-memory records for larger cells | Decoder, verified transport and matching behavioral model before execution |
 | Persistence | Continuous learned state within a running native stream | Complete hidden-state capture, resumed plasticity and power-cycle durability |

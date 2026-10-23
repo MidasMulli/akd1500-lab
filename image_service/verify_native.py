@@ -43,6 +43,12 @@ def verify(d,allow_failed_host=False):
             lo=mark('request_start_'+str(v['id']));hi=next((i for i,n in marks if i>lo),len(rows));bound('WRITE',lo,hi,v['address'],bytes(expected))
             allowed_custom_writes.update(i for i in range(lo,hi) if rows[i]['operation']=='WRITE' and int(rows[i]['address'])==v['address'] and rows[i]['data_hex']==bytes(expected).hex())
             vector=expected[:32];carry=v['address'];starts.append(v['id'])
+        elif v['kind']=='probe_request':
+            assert not pending and v['address']==carry+20 and v['before']==vector[20:24] and vector[20]==0
+            value=vector[20:24];value[0]=1;assert v['bytes']==value
+            lo=mark('probe_request_'+str(v['id']));hi=mark('chain_setup_'+str(v['id']))
+            bound('WRITE',lo,hi,v['address'],bytes(value));vector[20]=1
+            allowed_custom_writes.update(i for i in range(lo,hi) if rows[i]['operation']=='WRITE' and int(rows[i]['address'])==v['address'] and rows[i]['data_hex']==bytes(value).hex())
         elif v['kind']=='injection':
             assert pending and v['address']==carry+24 and v['before']==[0]*4 and vector[24:28]==[0]*4
             expected=[0]*4;expected[v['observed_state']]=1;assert v['bytes']==expected
@@ -97,16 +103,17 @@ def verify(d,allow_failed_host=False):
                 if idx<4:
                     assert phase=='Q' and step==0;s=idx
                     r1=[int(any(mapping[2*k+a]==0 for a in range(2))) for k in range(4)];direct=[int(mapping[2*s+a]==0) for a in range(2)]
-                    y[4+s]=1;y[16]=vector[16];y[17]=1;y[24:28]=r1;y[28:30]=direct;y[30]=int(history[s] is not None and history[s][0]==1);y[31]=int(any(direct))
+                    y[4+s]=1;y[16]=vector[16];y[17]=1;y[24:28]=r1;y[28:30]=direct;y[30]=int(history[s] is not None and history[s][0]==1);y[31]=int(any(direct));y[20]=vector[20]
                     event=dict(phase='predecessor_query',state=s,predecessor_set=[k for k in range(4) if r1[k]],direct=direct)
                 elif idx<8:
                     assert phase=='Q' and step==1;s=idx-4;direct=vector[28:30];targets={k for k in range(4) if vector[24+k]}
                     hop=[mapping[2*s+a] in targets if mapping[2*s+a] is not None else False for a in range(2)];last1=history[s] is not None and history[s][0]==1
-                    if any(direct):action=direct.index(1);depth=1
+                    if vector[20]:action=0 if last1 else 1;depth=0
+                    elif any(direct):action=direct.index(1);depth=1
                     elif rec['policy']=='twohop' and any(hop):action=hop.index(True);depth=2
                     else:action=0 if last1 else 1;depth=0
                     y[8+2*s+action]=1;y[16]=vector[16];y[18]=1;y[20 if depth==1 else 21 if depth==2 else 22]=1;y[30]=int(last1)
-                    event=dict(phase='choice',state=s,action=action,depth=depth,predicted_next_state=mapping[2*s+action],predecessor_set=sorted(targets))
+                    event=dict(phase='choice',state=s,action=action,depth=depth,probe=bool(vector[20]),predicted_next_state=mapping[2*s+action],predecessor_set=sorted(targets))
                 else:
                     assert phase=='O';ctx=idx-8;s,action=divmod(ctx,2);actual=vector[24:28].index(1);assert actual==v['observed_state']==injection['observed_state']
                     y[3 if actual==0 else actual]=1;y[16]=action;y[19]=1;y[23]=int(actual==0)

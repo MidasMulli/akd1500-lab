@@ -8,6 +8,7 @@ studies/*/mesh*/
 studies/*/AUTHORITY.json
 studies/*/STATE.json
 studies/*/evidence/*
+studies/*/failed_attempts/
 !studies/*/evidence/REPAIRS.json
 *.mp4
 !visual/mesh32-replay-4k60.mp4
@@ -28,4 +29,10 @@ studies/*/ADMISSION.json
 studies/*/verify_native.py
 studies/*/verify_service.py
 studies/*/run_monitored.py
+studies/*/run_recovery_monitored.py
+studies/*/verify_recovery.py
+**/.venv*/
+mario/.data*/
 !visual/network-replay-4k60.mp4
+!visual/recovery-replay-4k60.mp4
+!visual/mario-consequence-4k60.mp4

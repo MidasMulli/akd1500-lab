@@ -1,0 +1,1273 @@
+{
+  "status": "SMALL_SKILL_GATE_PASS_WITH_MIXED_FROZEN_CONTROL",
+  "physical_chips": 1,
+  "native_sessions": 10,
+  "native_forwards": 752,
+  "seed_results": [
+    {
+      "seed": 81701,
+      "full": 7,
+      "frozen": 6,
+      "action_only": 5,
+      "useful": true
+    },
+    {
+      "seed": 81702,
+      "full": 7,
+      "frozen": 8,
+      "action_only": 5,
+      "useful": false
+    },
+    {
+      "seed": 81703,
+      "full": 7,
+      "frozen": 6,
+      "action_only": 5,
+      "useful": true
+    }
+  ],
+  "successes": {
+    "learned": 21,
+    "frozen": 20,
+    "action_only": 15,
+    "best_constant": 18,
+    "opportunities": 24
+  },
+  "fresh_emulator_trials": 72,
+  "fresh_outcomes_match": true,
+  "encoded_train_test_overlap": 0,
+  "learned_visual_representation": false,
+  "actor_uses_game_RAM": false,
+  "description": "Native consequence associations from recorded pixel/action experience; fixed visual encoder, action ranking and two motor primitives.",
+  "limits": [
+    "Eight nearby starts at the first encounter in one level",
+    "Three initialization seeds on the same chip and same examples, not independent environments",
+    "One frozen seed scores 8/8 and exceeds its trained counterpart; aggregate benefit is only one start",
+    "Passing the predeclared two-of-three screen is not a robust generalization or statistical result",
+    "Fresh episodes execute saved native-selected macros; no frame-by-frame native control or autonomous full-game RL",
+    "Exact CPU reference reproduces every score and RAM word; no CPU, energy or power-loss persistence advantage"
+  ],
+  "archive_sha256": "7dff21c94d3ece8162b63266d68023dc2a30d73b41b15147a73f125aacaa9805",
+  "dataset_sha256": "36ac88b75db265e5718f0f21aafd1b413b0584ee434ab4a43635f7ce8b3afb42",
+  "independent_verifier_sha256": "af9393677eebbbf73e333a74f69b02a1a62d9683da897295fc178461110491fe",
+  "fresh_replay_sha256": "a20186aba6503e639546cc5dd8e5b42b625640cd394b2ea7da0f41d45c850709",
+  "fixtures": {
+    "s81701_action_only": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81701_frozen": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81701_full": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81702_action_only": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81702_frozen": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81702_full": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81703_action_only": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81703_frozen": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    },
+    "s81703_full": {
+      "inputs": 512,
+      "neurons": 96,
+      "num_weights": 32,
+      "classes": 3
+    }
+  },
+  "runs": [
+    {
+      "name": "s81701_action_only80",
+      "fixture_key": "s81701_action_only",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "d76c7ea255a96017693d0a618e773bb584ee24f854ebcb261e68eb0ded616490",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81701_action_only80",
+      "seed": 81701,
+      "arm": "action_only",
+      "audit": {
+        "status": "PASS",
+        "run": "s81701_action_only80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 190,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81701_action_only",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "after_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "before_actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before_successes": 5,
+      "successes": 5,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81701_frozen80",
+      "fixture_key": "s81701_frozen",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "d76c7ea255a96017693d0a618e773bb584ee24f854ebcb261e68eb0ded616490",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81701_frozen80",
+      "seed": 81701,
+      "arm": "frozen",
+      "audit": {
+        "status": "PASS",
+        "run": "s81701_frozen80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 0,
+        "connection_bit_edits": 0,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81701_frozen",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 80,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "after_margins": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "before_actions": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "before_successes": 6,
+      "successes": 6,
+      "selected_outcomes": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81701_full80",
+      "fixture_key": "s81701_full",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "d76c7ea255a96017693d0a618e773bb584ee24f854ebcb261e68eb0ded616490",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81701_full80",
+      "seed": 81701,
+      "arm": "full",
+      "audit": {
+        "status": "PASS",
+        "run": "s81701_full80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 364,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81701_full",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "after_margins": [
+        [
+          5,
+          -10
+        ],
+        [
+          2,
+          -7
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "before_actions": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_successes": 6,
+      "successes": 7,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81702_action_only80",
+      "fixture_key": "s81702_action_only",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "8dbcfb02d41736756cf08544c8fe88b67a0df9a0153b1dfbe6cb6c16c423d255",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81702_action_only80",
+      "seed": 81702,
+      "arm": "action_only",
+      "audit": {
+        "status": "PASS",
+        "run": "s81702_action_only80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 196,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81702_action_only",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "after_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "before_actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before_successes": 5,
+      "successes": 5,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81702_frozen80",
+      "fixture_key": "s81702_frozen",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "8dbcfb02d41736756cf08544c8fe88b67a0df9a0153b1dfbe6cb6c16c423d255",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81702_frozen80",
+      "seed": 81702,
+      "arm": "frozen",
+      "audit": {
+        "status": "PASS",
+        "run": "s81702_frozen80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 0,
+        "connection_bit_edits": 0,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81702_frozen",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 80,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "after_margins": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "before_actions": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "before_successes": 8,
+      "successes": 8,
+      "selected_outcomes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81702_full80",
+      "fixture_key": "s81702_full",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "8dbcfb02d41736756cf08544c8fe88b67a0df9a0153b1dfbe6cb6c16c423d255",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81702_full80",
+      "seed": 81702,
+      "arm": "full",
+      "audit": {
+        "status": "PASS",
+        "run": "s81702_full80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 336,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81702_full",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "after_margins": [
+        [
+          6,
+          -9
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -3
+        ]
+      ],
+      "before_actions": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "before_successes": 8,
+      "successes": 7,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81703_action_only80",
+      "fixture_key": "s81703_action_only",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "4b3fdd932d8076246101b999d8dd4f7a2d7c4f81fbdfb5ee814558fcf317f9a2",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81703_action_only80",
+      "seed": 81703,
+      "arm": "action_only",
+      "audit": {
+        "status": "PASS",
+        "run": "s81703_action_only80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 198,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81703_action_only",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "after_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "before_actions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before_successes": 6,
+      "successes": 5,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81703_frozen80",
+      "fixture_key": "s81703_frozen",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "4b3fdd932d8076246101b999d8dd4f7a2d7c4f81fbdfb5ee814558fcf317f9a2",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81703_frozen80",
+      "seed": 81703,
+      "arm": "frozen",
+      "audit": {
+        "status": "PASS",
+        "run": "s81703_frozen80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 0,
+        "connection_bit_edits": 0,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81703_frozen",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 80,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "after_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "before_actions": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "actions": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "before_successes": 6,
+      "successes": 6,
+      "selected_outcomes": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "s81703_full80",
+      "fixture_key": "s81703_full",
+      "samples": 80,
+      "learning": 1,
+      "program_sha256": "4b3fdd932d8076246101b999d8dd4f7a2d7c4f81fbdfb5ee814558fcf317f9a2",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "s81703_full80",
+      "seed": 81703,
+      "arm": "full",
+      "audit": {
+        "status": "PASS",
+        "run": "s81703_full80",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 80,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 356,
+        "exact_score_values": 7680,
+        "fixture": "studies/20261023-mario/fixtures/s81703_full",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 32,
+      "protected_class_unchanged": true,
+      "before_margins": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "after_margins": [
+        [
+          4,
+          -12
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "before_actions": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "actions": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "before_successes": 6,
+      "successes": 7,
+      "selected_outcomes": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "smoke32",
+      "fixture_key": "s81701_full",
+      "samples": 32,
+      "learning": 1,
+      "program_sha256": "d76c7ea255a96017693d0a618e773bb584ee24f854ebcb261e68eb0ded616490",
+      "binary_sha256": "63a5f1aeec44782b545542f1bb031ae4635d1f9dc752fbc8deff4e1be29a23d0",
+      "run": "smoke32",
+      "seed": 81701,
+      "arm": "full",
+      "audit": {
+        "status": "PASS",
+        "run": "smoke32",
+        "inputs": 512,
+        "neurons": 96,
+        "samples": 32,
+        "learning": true,
+        "changed_neuron_records": 4,
+        "connection_bit_edits": 272,
+        "exact_score_values": 3072,
+        "fixture": "studies/20261023-mario/fixtures/s81701_full",
+        "source_sha256": "02d2b49ed08a62c07f11f98d4dd5e4e9445c1a949670cefd8983d7c6feef4e37"
+      },
+      "protected_queries_unchanged": 16,
+      "protected_class_unchanged": true
+    }
+  ],
+  "fresh_receipt_sha256": "fb56f0389a3896ccbb54a0df541381ed940f83684ee0d73c0e9ce18c7e88273d"
+}

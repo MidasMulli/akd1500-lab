@@ -25,6 +25,8 @@ def front():
         w[24+s,224+4*s:228+4*s]=1
     w[:8,262]=1;w[16,262]=1;t[262]=1
     for k in range(2):w[4:8,263+k]=1;w[28+k,263+k]=1;t[263+k]=1
+    # Probe bit is meaningful on protected queries only, never a teacher bit.
+    w[:8,265]=1;w[20,265]=1;t[265]=1
     return w,t
 
 def expected(x,mapping,hist,twohop):
@@ -33,11 +35,12 @@ def expected(x,mapping,hist,twohop):
         s=idx;r1=[int(any(mapping[2*k+a]==0 for a in range(2))) for k in range(4)]
         direct=[int(mapping[2*s+a]==0) for a in range(2)]
         y[4+s]=1;y[16]=x[16];y[17]=1;y[24:28]=r1;y[28:30]=direct
-        y[30]=int(hist[s] is not None and hist[s][0]==1);y[31]=int(any(direct))
+        y[30]=int(hist[s] is not None and hist[s][0]==1);y[31]=int(any(direct));y[20]=x[20]
     elif idx<8:
         s=idx-4;direct=x[28:30];hop=[mapping[2*s+a] is not None and bool(x[24+mapping[2*s+a]]) for a in range(2)]
         last1=hist[s] is not None and hist[s][0]==1
-        if any(direct):act=direct.index(1);depth=1
+        if x[20]:act=0 if last1 else 1;depth=0
+        elif any(direct):act=direct.index(1);depth=1
         elif twohop and any(hop):act=hop.index(True);depth=2
         else:act=0 if last1 else 1;depth=0
         y[8+2*s+act]=1;y[16]=x[16];y[18]=1;y[20 if depth==1 else 21 if depth==2 else 22]=1;y[30]=int(last1)
@@ -51,6 +54,8 @@ def main():
     for ctx,out in itertools.product(range(8),range(4)):
         x=np.zeros(32,int);x[8+ctx]=1;x[24+out]=1;active=(x@ew>et).astype(int)
         assert active.sum()==32
+        x[20]=1
+        assert np.array_equal(active,(x@ew>et).astype(int)),'probe must not alter teaching features'
         mid=(active@mw>np.array([31]*32+[0]*32)).astype(int);active2=(mid@hw>ht).astype(int)
         assert active2.sum()==32
     rng=np.random.default_rng(71011);trials=[([None]*8,[None]*4)]+[
@@ -63,6 +68,9 @@ def main():
             x=[0]*32;x[4+s]=1;x[16]=prev;x[24:28]=[(r1>>k)&1 for k in range(4)];x[28:30]=[direct&1,direct>>1];xs.append(x)
     for ctx,out,prev in itertools.product(range(8),range(4),range(2)):
         x=[0]*32;x[8+ctx]=1;x[24+out]=1;x[16]=prev;xs.append(x)
+    query_xs=[x[:] for x in xs if next(i for i in range(16) if x[i])<8]
+    for x in query_xs:x[20]=1
+    xs+=query_xs
     for twohop in [True,False]:
         name='twohop' if twohop else 'onestep';m=akida.Model();m.add(akida.InputData(input_shape=(1,1,32),input_bits=1))
         fc(m,'external_outcome_and_protected_query_encoder',ew,et)

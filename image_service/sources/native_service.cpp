@@ -38,7 +38,13 @@ int main(int argc,char**argv){
     dr->mark("request_start_"+std::to_string(id));dr->write(initial,init.data(),64);carry=initial;
     std::cout<<"{\"kind\":\"request_start\",\"id\":"<<id<<",\"address\":"<<initial<<",\"bytes\":";arrayjson(init);std::cout<<"}\n"<<std::flush;continue;}
    if(cmd=="M"){int a,b;std::cin>>a>>b;require((a==0||a==1)&&(b==0||b==1),"mode bits");require(!pending_observation,"mode changes between actions only");dev->toggle_learn(true);mode(a?1:0);if(!b)mode(2);transition_learning=a;history_learning=b;std::cout<<"{\"kind\":\"mode\",\"transition\":"<<a<<",\"history\":"<<b<<"}\n"<<std::flush;continue;}
+   bool probe=cmd=="P";if(probe)cmd="Q";
    require(cmd=="Q"||cmd=="O","command type");int id;std::cin>>id;int count=cmd=="Q"?2:1;int outcome=-1;
+   if(probe){
+    require(!pending_observation,"probe before a new query only");std::array<uint8_t,4>before{},value{};dr->read(carry+20,before.data(),4);require(before[0]==0,"probe bit initially clear");value=before;value[0]=1;
+    dr->mark("probe_request_"+std::to_string(id));dr->write(carry+20,value.data(),4);
+    std::cout<<"{\"kind\":\"probe_request\",\"id\":"<<id<<",\"address\":"<<carry+20<<",\"before\":";arrayjson(before);std::cout<<",\"bytes\":";arrayjson(value);std::cout<<"}\n"<<std::flush;
+   }
    if(cmd=="Q")require(!pending_observation,"query requires completed prior observation");
    else{
     require(pending_observation,"observation requires native choice");std::cin>>outcome;require(outcome>=0&&outcome<4,"observed next state");

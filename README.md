@@ -8,6 +8,60 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Recovery and a first Mario skill screen — October 23, 2026
+
+**The image service now tests whether a failed route has recovered.** A supplied,
+bounded probe clock requests exploration; the native circuit chooses the action
+and updates its consequence memory from the actual worker result. In three fixed
+encodings on one chip, it corrected stale decoder-failure memories by requests
+13, 14 and 15. The reactive control made no recovery query during that window.
+Both completed 72/72 PNGs; probing cost 156 operations versus 154. Frozen
+transition-memory controls completed 53/72. Earlier knowledge is demonstrated;
+more completions than the reactive control and a substrate advantage are not.
+
+All native decisions, outputs and captured learning RAM passed independent raw
+recounts. The identical CPU algorithm reproduced every action and outcome.
+The missing-FlatBuffers build failure and an unaligned-access transport failure
+remain preserved. The repair used a fresh namespace and left neural programs
+byte-identical. No installed driver, runtime or firmware was changed.
+
+![Measured recovery replay](visual/recovery-replay-4k.png)
+
+[4K60 recovery replay](visual/recovery-replay-4k60.mp4),
+[results](results/2026-10-23-recovery.json),
+[protocol and assessment](studies/20261023-recovery-r1/ASSESSMENT.md),
+[reproduction](image_service/README.md). Link slots and placement are schematic;
+connection contents come from measured RAM. The example JPEG is our test fixture.
+
+**The first Mario test is mixed.** A 96-record native association bank received
+authored binary features from two rendered frames plus a candidate action.
+After four fixed epochs of 12 labeled experiences, each initialization selected successful
+actions at 7/8 nearby held-out starts. Frozen controls scored 6/8, 8/8 and 6/8;
+action-only controls scored 5/8 each. Learned totals were 21/24 versus frozen
+20/24 and best constant 18/24. The predeclared two-of-three screen passed, but
+this tiny aggregate gain and the stronger frozen seed prevent a robust learning
+claim. All 72 selected-action trials matched in fresh emulator episodes.
+
+The host supplies the visual encoder, ranking and two 90-frame motor primitives.
+The chip changes selected binary connections natively. This is recorded-experience
+consequence learning followed by fresh action execution, not full-game RL,
+learned perception, frame-by-frame native control or transfer to unseen levels.
+Every score and full RAM snapshot matched the C++ and independent Python models;
+queries left visible RAM unchanged. Hidden-selector or power-loss durability
+does not follow.
+
+![Mario pilot including a harmful update](visual/mario-consequence-4k.png)
+
+[4K60 comparison](visual/mario-consequence-4k60.mp4),
+[results and limitations](results/2026-10-23-mario.json),
+[public raw scores/RAM](results/2026-10-23-mario.npz),
+[fresh episode receipts](results/2026-10-23-mario-fresh.json),
+[protocol and reproduction](mario/README.md).
+Hardware-free tests reconstruct all 752 native inputs and reject forged matching
+CPU/native scores and query-state edits. The next useful gate is a larger,
+prospectively sealed encounter bank with enough independent variation to resolve
+the frozen-control result; do not tune this test after seeing its outcomes.
+
 ## Connected learning and host offload — October 23, 2026
 
 **Three connected native learning banks passed exact physical checks.** Each
