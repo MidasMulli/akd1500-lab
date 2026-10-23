@@ -13,7 +13,9 @@ advantage by assuming one.
 **The native loop now chooses again every 24 game frames and learns from each
 executed action. Its first matched pair regressed, so expansion stopped.**
 Across four development starts, the learned arm advanced 1,418 pixels versus
-frozen 1,554. All eight episodes ended in death; neither arm completed a level.
+frozen 1,554. Frozen suppresses both preparation and online learning; this
+comparison does not isolate online updates after shared training. All eight
+episodes ended in death; neither arm completed a level.
 The predeclared regression gate closed new seeds and left confirmation starts
 unopened. This is a functioning continuous interface, not a learning advantage.
 

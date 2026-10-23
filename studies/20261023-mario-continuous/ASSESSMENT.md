@@ -27,6 +27,13 @@ physical arm was independently recounted and freshly replayed before its
 matched frozen control. Both native trajectories exactly matched the CPU
 reference forecasts, including every captured RGB frame.
 
+The comparator suppresses both preparation and online learning. It compares
+the complete learning treatment against an untrained frozen bank; it does not
+isolate online adaptation after shared training. A separate prospective
+trained-then-frozen arm is needed for that causal question. Both arms should
+replay the identical training prefix before one suppresses online feedback,
+rather than restore only visible RAM and assume the hidden state also matches.
+
 The three physical sessions contain **3,385 native forwards**. Full native,
 C++ and independent Python outputs/RAM agree throughout; all protected queries
 leave visible RAM fixed. Frozen retains its entire initial RAM. The learned

@@ -32,6 +32,11 @@ observation. Frozen sees identical training inputs with protected labels and
 suppresses all online updates. Arms start with byte-identical RAM and programs;
 their subsequent paths differ when their choices differ.
 
+This frozen comparator disables **both preparation and online learning**. It
+does not isolate the incremental value of online updates after shared training.
+That would require a separate prospective trained-then-frozen control, with the
+same training prefix replayed in both arms. No hidden-state restore is needed.
+
 There are 96 training contexts, both actions evaluated by fresh prefix replay,
 four class-balanced epochs and 1,504 presentations. Only four of the 192 raw
 action outcomes were unsafe. Repeating them for class balance does not create
@@ -113,5 +118,6 @@ Controlled gameplay images and native query timestamps come from the capture.
 
 No reliable learning advantage, full-level completion, learned perception,
 autonomous search, CPU/energy advantage, full hidden-state restore or power-loss
-persistence is established. The immediate next scientific priority is broader
-hazard/consequence coverage and representation tests before a new sealed run.
+persistence is established. The next scientific stage needs the trained-then-
+frozen control, broader hazard/consequence coverage and representation tests
+before a new sealed run.

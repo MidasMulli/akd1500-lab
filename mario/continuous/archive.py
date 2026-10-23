@@ -46,6 +46,7 @@ def export(study,full,frozen):
         protocol_sha256=sha(study/'PROTOCOL.md'),design_freeze=json.loads((study/'evidence/DESIGN_FREEZE.json').read_text()),
         first_pair_gate=json.loads((study/'evidence/FIRST_PAIR_GATE.json').read_text()),source_freeze=json.loads((study/'evidence/PHYSICAL_SOURCE_FREEZE.json').read_text()),
         limitations=['One seed, one chip, four development starts; no reliability or unseen-level claim',
+          'Frozen suppresses preparation and online learning; not an isolated online-update comparison after shared training',
           'New24-frame actions and outcome labels; direct accuracy comparison with the earlier90-frame task is invalid',
           'Natively chosen supplied motor primitives through authored RGB/time encoder; no learned visual perception or full-game RL',
           'Actual measured match outputs and visible RAM, not electrical spike timing or complete hidden state',
