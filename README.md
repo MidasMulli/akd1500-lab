@@ -8,6 +8,34 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Changing-physics Pong with a trained-then-frozen control — October 23, 2026
+
+**Native learning responds to the changed rule, but useful prediction remains
+unqualified.** Both arms first replayed the same 512 labeled presentations and
+reached identical complete trained RAM and scores. After court A's physics
+changed, the continuing learner predicted the correct landing band on **12/48**
+separate development trajectories; the trained-then-frozen arm scored **4/48**.
+The evaluation-only best constant scored **19/48**. The preset 65% accuracy gate
+failed, so additional seeds, confirmation trajectories and learned paddle
+control stayed closed.
+
+![Changing-physics Pong and measured native predictions](visual/pong-physics-4k.png)
+
+[Download 4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/pong-physics-4k60.mp4),
+[results](results/2026-10-23-pong-physics.json),
+[assessment](studies/20261023-pong-physics/ASSESSMENT.md),
+[tools and reproduction](pong/README.md).
+
+The 23-second film captures 16 wall-paced serves per arm, sequentially aligned
+at their starts. Paddles remain fixed; the colored landing marker is the actual
+native prediction. Teaching follows the observed landing. All 160 integer
+match values and actual connection edits are traceable to the public raw
+archive: **4,140 physical forwards and complete per-forward RAM checks**.
+The filmed learner made 174 native connection replacements; its frozen control
+made zero after their shared training. The host supplies the simulator,
+position/velocity encoding and four-band decoder. No pixel-learning, electrical
+spike, full-chip, energy or useful Pong-control claim follows from this result.
+
 ## Continuous Mario decisions with matched frozen controls — October 23, 2026
 
 **The native loop now chooses again every 24 game frames and learns from each
