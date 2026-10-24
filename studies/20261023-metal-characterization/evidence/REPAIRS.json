@@ -1,0 +1,19 @@
+{
+  "status": "PRESERVED",
+  "failed_physical_sessions": 0,
+  "attempts": [
+    {
+      "kind": "COMPILER_VIRTUAL_FEASIBILITY_REJECTED",
+      "cell": "fork_AB",
+      "error": "branch_supports must have exactly 1 inbound layer",
+      "physical_device_opened": false,
+      "disposition": "Preserved. Single-branch variants pass virtual/compiler checks. Separate channel-partitioned CNP graphs were prospectively prepared and physically checked; no silicon branching incapability inferred."
+    },
+    {
+      "kind": "INTROSPECTION_CORRECTION",
+      "error": "inspect.signature does not expose this pybind Model.add signature",
+      "physical_device_opened": false,
+      "disposition": "Read installed callable documentation; actual branching feasibility then tested numerically and through compilation."
+    }
+  ]
+}

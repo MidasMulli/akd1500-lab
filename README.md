@@ -8,6 +8,29 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native execution and causal NPU checks — October 23, 2026
+
+**28 physical sessions, 9,824 forwards, exact numerical checks.** A hardware
+counter study separates neuron-population scaling, activation sensitivity,
+multi-NPU partitioning and teaching queue behavior. A separate causal ablation
+reads actual weight/threshold/readout memory from all three NPUs and suppresses
+each compute group's thresholds in turn: only that group's output disappears.
+
+At half-active inputs, 128 fixed convolution outputs on one compute NPU use
+16,213 median DMA-monitor cycles; 256 outputs on two use 16,223.5. In the tested
+FNP3 path, more neuron records instead add approximately 20 monitor cycles each.
+Eight-input teaching bursts reproduce exact outputs and RAM with both the
+normal setting and a bounded direct pipeline-flag test. These distinguish
+resource behavior; they do not establish per-neuron clock timing or a CPU/energy
+advantage.
+
+![Native execution measurements](visual/native-execution-4k.png)
+
+[Methods and open questions](metal/README.md) ·
+[execution assessment](studies/20261023-metal-characterization/ASSESSMENT.md) ·
+[causal ablation](studies/20261023-metal-ablation/ASSESSMENT.md) ·
+[public recount](metal/audit_public.py)
+
 ## Two resident learning memories, selectively repaired — October 23, 2026
 
 **Recognition can adapt while a connected routing memory keeps its rule.**

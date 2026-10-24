@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "suppress_A",
+      "changed_packets": [
+        1
+      ],
+      "entire_program_accounted_for": true,
+      "program_sha256": "6ecb48493ab5a0963b9f9d246bcf2b264f06575b050ee47310e41e78e9aef597"
+    },
+    {
+      "name": "suppress_B",
+      "changed_packets": [
+        3
+      ],
+      "entire_program_accounted_for": true,
+      "program_sha256": "f0291f42c1e3181f2516c3e30b1539e23fe59deec28a520ace8679feeba56f58"
+    },
+    {
+      "name": "suppress_both",
+      "changed_packets": [
+        1,
+        3
+      ],
+      "entire_program_accounted_for": true,
+      "program_sha256": "6a8996c8dcccc17b57d31914cc17db0f100b8627fab330faef67641c6ac9848d"
+    }
+  ]
+}

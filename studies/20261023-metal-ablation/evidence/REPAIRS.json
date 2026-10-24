@@ -1,0 +1,13 @@
+{
+  "status": "PRESERVED",
+  "failed_physical_sessions": 0,
+  "attempts": [
+    {
+      "attempt": "fixtures-ablation01",
+      "kind": "OFFLINE_DECODER_COUNT_CORRECTION",
+      "error": "Expected three RAM packets; observed five across three unique NPUs",
+      "physical_device_opened": false,
+      "disposition": "CNP weights and thresholds are separate memory regions. Preserve first attempt; corrected fixtures-ablation02 explicitly accounts for five regions and compares whole-program differences before hardware."
+    }
+  ]
+}

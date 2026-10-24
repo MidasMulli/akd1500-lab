@@ -1,0 +1,9 @@
+{
+  "status": "CLOSED",
+  "physical_sessions": 24,
+  "native_forwards": 9568,
+  "device_free": true,
+  "lock_acquired_for_closeout": true,
+  "closed_utc": "2026-10-24T00:30:15.918011+00:00",
+  "owned_jobs_remaining": 0
+}

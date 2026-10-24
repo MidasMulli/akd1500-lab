@@ -1,7 +1,21 @@
 # Evidence map and next hardware questions
 
+**Current priority: native resource characterization before another application
+demo.** Documentation is a hypothesis source. Resolve execution, queueing,
+interference and counter scope experimentally, then admit a CPU-differentiation
+workload only if a practical optimized CPU baseline is a meaningful comparator.
+The first [metal campaign](metal/README.md) is complete: 24 sessions, 9,568
+forwards, population-width and activity sweeps, CNP partition scaling, and direct
+teaching-pipeline tests. Numerical archives and mutation-tested recounts are
+public. Per-neuron clock overlap, independent simultaneous teachers, sparse
+host ingress and electrical efficiency remain separate questions.
+A separately bounded [causal ablation](studies/20261023-metal-ablation/ASSESSMENT.md)
+adds four sessions: full physical parameter readbacks and selective suppression
+confirm both compute NPUs contribute to their distinct output groups.
+
 | Layer | Evidence in this repository | Open boundary |
 |---|---|---|
+| Native execution resources | Counter-qualified FNP3 width scaling; nearly constant CNP monitor cost when 128 outputs/one CNP grows to 256/two CNPs; exact teaching bursts with pipeline flag OFF and ON | Counter is DMA-path scope, not per-neuron timing; isolate input-word service, mesh contention, concurrent plastic teachers and energy |
 | Host/PCIe | Bounded known-aperture adapter, MMIO counts, input/submission/fetch timing | Confirmed same-score kernel DMA lowers caller CPU; full system CPU/IRQ and card energy remain |
 | Queue | Preserved full-ring publication failure; corrected eight-job/nine-slot burst with exact outputs/RAM | Longer-duration ring wrap, asynchronous producers, fine-grained cycle timing |
 | FNP3 | Exact outputs and complete learning RAM through 512 neurons; reconstructed selector in CPU and Python | Larger connection budgets, input sparsity, near-capacity overlap and interference |
