@@ -8,6 +8,31 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Real images: quality passes, native mapping stops — October 23, 2026
+
+A 3,200-exemplar MNIST benchmark reaches **91% raw / 90% spatially compacted**
+on a fresh balanced 1,000-image test. The failed 480-exemplar parent remains
+preserved. Both larger native graphs then fail the compiler's **2,048 filters
+per layer** ceiling. This is an interface rejection, not measured chip capacity;
+**zero hardware sessions** were admitted.
+
+Three actual CPU implementations agree exactly over **18,000 timed
+classifications**. The compacted NEON nearest-neighbor hot path takes about
+**20.5µs median**, including input pooling, packing and class selection. That is
+the concrete target for a future verified native partitioned-bank design.
+There is no new AKD timing, learning or energy result here.
+
+![Real-image quality, CPU controls and compiler stop](visual/image-capacity-4k.png)
+
+[Tools and reproduction](recognition/README.md) ·
+[assessment](studies/20261023-image-capacity/ASSESSMENT.md) ·
+[preserved small-bank failure](studies/20261023-image-compaction/ASSESSMENT.md) ·
+[next native design gates](recognition/NEXT.md)
+
+```bash
+python -m recognition.archive audit-public
+```
+
 ## A native graph rewrite, with measured limits — October 23, 2026
 
 **16 physical sessions, 2,624 forwards, exact outputs and fixed parameter RAM.**

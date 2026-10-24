@@ -1,0 +1,16 @@
+{
+  "status": "BOUND_TO_INDEPENDENT_CPU_IMAGE_RECOUNT_AND_COMPILER_FAILURES",
+  "hashes": {
+    "results/2026-10-23-image-capacity.json": "5f4e1a9a5f92cdd894ea8e570c115e407ba85e53bee638f538f4082e338c1d59",
+    "results/2026-10-23-image-capacity.npz": "28003ef5440cf7ffee98dba49408138941c8dbf1ff5fbc0c482caab78a137eec",
+    "recognition/data.py": "809fbf6874bea5794993dffc5149b0be2019a15e16a925bb78d7abb23dc9287c",
+    "recognition/capacity.py": "5d0bca4e28360d66d7467f668c25390c7ecaef70b970fa08e83c9f4579e7b015",
+    "recognition/prepare.py": "3277fd86d9c703898449958e1e5ded6f43b770dca9169dbcf423eeff2c4516bd",
+    "recognition/cpu_bench.cpp": "16cda1138fc1a4e31548dc6816a869d49832d4beba10a4d4026ef9847a785982",
+    "recognition/archive.py": "74b9564038e4e3d0c11f7aab5c151173e79886583449b34f5ebecec750d481f7",
+    "tools/visualize_image_capacity.py": "3ab3af9f997968d860a55827b255747ac93a0c177f6efd2ca9d9ecf8d7116158",
+    "visual/image-capacity-4k.png": "125eece12aa93bb7612ffe5ddde720e37c4fa853939d331dec93bd9b5738a7e7",
+    "visual/image-capacity.svg": "f9acf38ba7643b65873d9d4bee3ae1223ab20c5c0e84b3f153044840f4f03f27",
+    "visual/image-capacity-data.csv": "e3476824323487eaa8feacea4bf3879f16ce27d4ee443e2d86800f2f19cf1b92"
+  }
+}

@@ -1,0 +1,7 @@
+representation,method,median_wall_ns,p95_wall_ns,median_thread_cpu_ns
+raw,exact_overlap,78466.0,79139.0,77792.0
+raw,scalar_packed,87363.0,97987.0,86592.0
+raw,NEON_packed,48049.5,55298.0,47296.0
+compacted,exact_overlap,21281.0,21633.0,20608.0
+compacted,scalar_packed,25601.0,35041.0,24928.0
+compacted,NEON_packed,20544.5,27777.0,19872.0

@@ -1,0 +1,45 @@
+{
+  "status": "POST_RUN_PROVENANCE_WITH_PRESERVED_PROSPECTIVE_DATA_DEFINITIONS",
+  "utc": "2026-10-24T02:49:14.789639+00:00",
+  "failed_parent_data_source_record": {
+    "utc": "2026-10-24T02:32:02.036203+00:00",
+    "note": "Recorded while initial download/CPU screen runs; no physical access",
+    "hashes": {
+      "recognition/data.py": "809fbf6874bea5794993dffc5149b0be2019a15e16a925bb78d7abb23dc9287c",
+      "studies/20261023-image-compaction/PROTOCOL.md": "477ede5e3729a3a1b1405dac32edace8443b10f988230919be2e5e4073627e73",
+      "studies/20261023-image-compaction/AUTHORITY.json": "e967ea891cf89117535fcd30633af682b6dc75b989a536a579cbadf034e4e038"
+    }
+  },
+  "capacity_data_freeze": {
+    "utc": "2026-10-24T02:34:55.961189+00:00",
+    "status": "FROZEN_BEFORE_REVISED_DATA_SCREEN",
+    "hashes": {
+      "recognition/data.py": "809fbf6874bea5794993dffc5149b0be2019a15e16a925bb78d7abb23dc9287c",
+      "recognition/capacity.py": "5d0bca4e28360d66d7467f668c25390c7ecaef70b970fa08e83c9f4579e7b015",
+      "studies/20261023-image-capacity/PROTOCOL.md": "285cfb07bccfc1fbfda98b5b16b3bc99349eb330daeffb6a6c0b2ae78d7332de",
+      "studies/20261023-image-capacity/AUTHORITY.json": "6615778ec30a7d081c2e9e82282c920a2642d10ff688da1b278fa9ce837a6f03"
+    }
+  },
+  "cpu_source_freeze": {
+    "status": "POST_COMPILER_FAILURE_CPU_CONTROL_ONLY",
+    "sha256": "16cda1138fc1a4e31548dc6816a869d49832d4beba10a4d4026ef9847a785982",
+    "flags": "-O3 -mcpu=native -std=c++17",
+    "native_execution_admitted": false
+  },
+  "executed_compiler_source_recorded_after_attempt": true,
+  "source_hashes": {
+    "recognition/capacity.py": "5d0bca4e28360d66d7467f668c25390c7ecaef70b970fa08e83c9f4579e7b015",
+    "recognition/__init__.py": "fd000b59091263b3701eaba97bbf8bf58df22dd37fcd0dec7a062793cc65ba96",
+    "recognition/archive.py": "74b9564038e4e3d0c11f7aab5c151173e79886583449b34f5ebecec750d481f7",
+    "recognition/prepare.py": "3277fd86d9c703898449958e1e5ded6f43b770dca9169dbcf423eeff2c4516bd",
+    "recognition/data.py": "809fbf6874bea5794993dffc5149b0be2019a15e16a925bb78d7abb23dc9287c",
+    "recognition/cpu_bench.cpp": "16cda1138fc1a4e31548dc6816a869d49832d4beba10a4d4026ef9847a785982"
+  },
+  "raw_report_hashes": {
+    "studies/20261023-image-compaction/fixtures-data01/DATA.json": "9b6ba35b94a68b1371c22efbd02b4d5ad3bd565502fefd4f5b719aa8c5e2f3a9",
+    "studies/20261023-image-capacity/fixtures-data01/DATA.json": "b162e8cf167383ca992570fac92f0aad0b6e73c724ff015d5cbcb9f1b066c957",
+    "studies/20261023-image-capacity/fixtures-native01/BUILD.json": "f642deab322da3662329a5016feea7f86aa3a0050aba89decf74607ce73f4b41",
+    "studies/20261023-image-capacity/evidence/CPU_PROVENANCE.json": "cd09b06df62eac8c77cdb36395363396675df2847e0e7870c5ab4e6f6f644bf3"
+  },
+  "no_physical_instrument_authored_or_executed": true
+}
