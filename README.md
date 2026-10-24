@@ -8,6 +8,22 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## FNP2: inference works, high-address learning fails — October 24, 2026
+
+The previously excluded FNP2 format now executes with records in the card's
+shared SRAM. Capacity prefixes pass through 8192 records; 11,264-record frozen
+inference also passes. **A targeted learning test reveals a separate limit:**
+record6500 updates correctly, while a unique record6600 winner changes record46.
+The host-write observer records zero host writes to the record buffer.
+
+The metadata change lands at an offset consistent with a 512-KiB alias; the
+complete root cause is unresolved. All partial data and both failed prefixes
+are preserved. Large inference populations are not qualified learning address
+coverage, and this is not a claim of a silicon erratum or CPU advantage.
+
+[Minimal reproducer, controls and limitations](coprocessor/FNP2.md) ·
+[Numeric evidence](results/2026-10-24-fnp2-contract.json)
+
 ## Documented PCIe environment: RGB to native learning — October 24, 2026
 
 **BrainChip explicitly intends PCIe/M.2 to work beside application processors.**

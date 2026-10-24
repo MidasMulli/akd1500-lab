@@ -1,0 +1,31 @@
+{
+  "status": "INDEPENDENT_FNP2_RECOUNT_WITH_PRESERVED_FAILURES",
+  "physical_sessions": 18,
+  "native_forwards": 246,
+  "full_record_snapshots": 246,
+  "cpu_sample_executions": 1200,
+  "failed_physical_sessions": 2,
+  "findings": [
+    {
+      "name": "guard_native_u11264_l1",
+      "actual_updated_records": [
+        2295,
+        2296
+      ],
+      "intended_records": [
+        8849
+      ]
+    },
+    {
+      "name": "boundary_native_above_l1",
+      "actual_updated_records": [
+        46
+      ],
+      "intended_records": [
+        6600
+      ]
+    }
+  ],
+  "largest_inference_population": 11264,
+  "maximum_learning_population": "Not established; full address coverage fails in the configured path"
+}

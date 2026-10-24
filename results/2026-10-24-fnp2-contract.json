@@ -1,0 +1,1813 @@
+{
+  "status": "FNP2_DECODE_AND_PRESERVED_OFF_TARGET_UPDATE_FAILURE",
+  "fixtures": {
+    "contract_544": {
+      "units": 544,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 544,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 10880,
+          "byte_count": 43520
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "2ec50d6c13858087aa5c60ce86abfd2bbb90ee94577e1101c65640dbe2821f42"
+    },
+    "capacity_1024": {
+      "units": 1024,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 1024,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 20480,
+          "byte_count": 81920
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "b46ee3f6a675cac0daad31fc4cb03a840e635ee2621709d553afac7c0679e48d"
+    },
+    "capacity_2048": {
+      "units": 2048,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 2048,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 40960,
+          "byte_count": 163840
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "7fb6c9d3e9363d4991c3be49386c0935f8874858feb8bee4c3cc984e89c6f13b"
+    },
+    "capacity_4096": {
+      "units": 4096,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 4096,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 81920,
+          "byte_count": 327680
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "fd5af83245ede422d68b27aac0065bb46280cf90f46e8bf04421ff42891408db"
+    },
+    "capacity_8192": {
+      "units": 8192,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 8192,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 163840,
+          "byte_count": 655360
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "eca0b2226f0189e3cd958bef73d1094e0c0e0f61417c5d07b089e37034f695b7"
+    },
+    "guard_11264": {
+      "units": 11264,
+      "compiler": {
+        "status": "COMPILER_VIRTUAL_AND_RECORD_DECODE_PASS",
+        "physical_device_opened": false,
+        "input_features": 512,
+        "records": 11264,
+        "record_words": 20,
+        "connections_per_record": 32,
+        "classes": 2,
+        "weights_seed": 107101,
+        "input_seed": 107102,
+        "parameters": {
+          "num_weights": 32,
+          "num_classes": 2,
+          "initial_plasticity": 0.5,
+          "min_plasticity": 0.25,
+          "plasticity_decay": 0.125,
+          "learning_competition": 0.25
+        },
+        "mapping": [
+          {
+            "layer": "external_record_learner",
+            "nps": [
+              {
+                "type": "Type.FNP2",
+                "np": [
+                  1,
+                  2,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          1,
+          2,
+          0
+        ],
+        "external_record": {
+          "program_data_offset": 152,
+          "word_count": 225280,
+          "byte_count": 901120
+        },
+        "synthetic_cpu_header_words": 2
+      },
+      "program_sha256": "ac31d96465c408d1bf8e8387dbf396a2f38499f683385aee0912e0c7750ba6f3"
+    },
+    "boundary_above": {
+      "units": 8192,
+      "compiler": {
+        "case": "above",
+        "target_record": 6600,
+        "records": 8192,
+        "record_offset_bytes": 528000,
+        "expected_potential": 31,
+        "expected_updated_records": [
+          6600
+        ],
+        "weight_seed": 107101,
+        "one_bit_removed": 1,
+        "one_bit_added": 0,
+        "physical_device_opened": false
+      },
+      "program_sha256": "eca0b2226f0189e3cd958bef73d1094e0c0e0f61417c5d07b089e37034f695b7"
+    },
+    "boundary_below": {
+      "units": 8192,
+      "compiler": {
+        "case": "below",
+        "target_record": 6500,
+        "records": 8192,
+        "record_offset_bytes": 520000,
+        "expected_potential": 31,
+        "expected_updated_records": [
+          6500
+        ],
+        "weight_seed": 107101,
+        "one_bit_removed": 8,
+        "one_bit_added": 0,
+        "physical_device_opened": false
+      },
+      "program_sha256": "eca0b2226f0189e3cd958bef73d1094e0c0e0f61417c5d07b089e37034f695b7"
+    }
+  },
+  "runs": [
+    {
+      "name": "contract_cpu_n64_l0",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 64,
+      "observed_count": 64,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.raw": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "OWNER.json": "5f1a0bbf4021efafecf2d73e7357282267e369d9f26754597a4d69a353680c03",
+        "result.scores": "d1480866d6b0808a2261b7dc437b0a969dbb73fb80112a39b32144a71e06092f",
+        "stdout": "c47b830bc643a25d6f61b82b3fe4d090800150eaa59409b82f0e8de07d387229",
+        "result.caller_ns": "6be9823f782709a08834d46cae43ba313a5699795cb5b1c86af78a858e45fbb0",
+        "result.latency_ns": "e208bd5a50e46f02fbdc830c8008b5d3e6c40bdce7cf99f290fe5daa8e3bf3ee",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:06:46.559225+00:00",
+      "finish_utc": "2026-10-24T15:06:46.576118+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "contract_cpu_n64_l1",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 64,
+      "observed_count": 64,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.raw": "67b17b5e86bd47a7da8d911bde6dfe2b0790ca0b225e8484c32bbf57c6ad2da9",
+        "OWNER.json": "119a4e1e52f32e63e2e5c02e628f4ef7f8d60776ea1051e75bc720a852630cbf",
+        "result.scores": "efcc15c2d247fb7bc29d8d749e1131c21f1a6876fdf28618232121df456c8e4b",
+        "stdout": "c47b830bc643a25d6f61b82b3fe4d090800150eaa59409b82f0e8de07d387229",
+        "result.caller_ns": "be5dc7d145500e22252da36a0ffdfc4d845004af6b443e1de933c704921e4e7e",
+        "result.latency_ns": "41c2459a8397e91978c09f6db068d8ab134487afa180334984a8628f8437d967",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:06:46.837504+00:00",
+      "finish_utc": "2026-10-24T15:06:46.854337+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 64,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "contract_native_n64_l0",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 64,
+      "observed_count": 64,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.snapshots": "6c7af88c4b496c518c6dcef8c33674d50b2ae5a48d68e7b18bb80a467bf49c33",
+        "result.initial": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.raw": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.expected_raw": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "OWNER.json": "a0e1cbd64f5e88f1bf614220a5f4f8689dde52b15f75c78f4fd1ddb6503d6e52",
+        "result.scores": "d1480866d6b0808a2261b7dc437b0a969dbb73fb80112a39b32144a71e06092f",
+        "stdout": "9e4f1dc43c9ff22b40beab3869313fc0d551335749b396d397beab7b31e55c64",
+        "result.storage": "645f81da2b51fed4e6fe427885aeaef67ef4168b8cceb89188a66db24ff2ea83",
+        "result.caller_ns": "b8a99930ff41d9fe79fde4711b75cc9b9929637c74666f2b1a443f4df2008c0a",
+        "result.latency_ns": "c25fc81c3dd6a0f848fc7f4aa87235670a57a4008e2d49c7849641805c8c940e",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:08:47.218161+00:00",
+      "finish_utc": "2026-10-24T15:08:49.849930+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "learning": false,
+        "records": 544,
+        "storage_address": 536871232,
+        "storage_bytes": 43520,
+        "memory_usage": 46432,
+        "memory_peak": 46432,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "contract_native_n64_l1",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 64,
+      "observed_count": 64,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.snapshots": "8fc5c95dfa08b360cc50b763503c970a0d12eb16537eb22e23119fa915281ca4",
+        "result.initial": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.raw": "67b17b5e86bd47a7da8d911bde6dfe2b0790ca0b225e8484c32bbf57c6ad2da9",
+        "result.expected_raw": "67b17b5e86bd47a7da8d911bde6dfe2b0790ca0b225e8484c32bbf57c6ad2da9",
+        "OWNER.json": "8ea8222bfe32b16abff0bba41bc38e79221c36e3fc2fb72ba46a1a0ec7d92e85",
+        "result.scores": "efcc15c2d247fb7bc29d8d749e1131c21f1a6876fdf28618232121df456c8e4b",
+        "stdout": "b6989693a8192a2490d629d81bfbaf5c05ec1600a18f8d6d80dd433d690a476d",
+        "result.storage": "645f81da2b51fed4e6fe427885aeaef67ef4168b8cceb89188a66db24ff2ea83",
+        "result.caller_ns": "fc482f4c932b14dea128ff5abf91c4b2247c7ac09060199dafc06ff4f8449014",
+        "result.latency_ns": "4c8060bac83d957cf2641f1d131b118019d61885ff65276adee392fca8f56f69",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:08:50.122432+00:00",
+      "finish_utc": "2026-10-24T15:08:52.753743+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 64,
+        "learning": true,
+        "records": 544,
+        "storage_address": 536871232,
+        "storage_bytes": 43520,
+        "memory_usage": 46432,
+        "memory_peak": 46432,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "contract_native_n8_l0",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.snapshots": "320a5bd45c5bb2947fb79deed9dccaca15487b6f31eafb7fa7d14fa1439cd003",
+        "result.initial": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.raw": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.expected_raw": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "OWNER.json": "b1af96c59e6339e851ce48588d3a98f7f6b45c62d41b6a9163000b3b725a3132",
+        "result.scores": "76f889333ee8150dfc59760ba67620dfe3d34a5a27ce95e769ea04d83323f80e",
+        "stdout": "a7fa57e6894f133a17d930ca960ffb15cc8d87ceb870b7b25f86cbc143e93f36",
+        "result.storage": "645f81da2b51fed4e6fe427885aeaef67ef4168b8cceb89188a66db24ff2ea83",
+        "result.caller_ns": "fc667fe499b263e6c6d40e47af0361a3b3ceb24583fca3b8e52cc7741fe665ad",
+        "result.latency_ns": "b77fcb303267607106552fdcd60534ec0d3727a99963087361b01411538dafdd",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:07:24.617700+00:00",
+      "finish_utc": "2026-10-24T15:07:25.046332+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 544,
+        "storage_address": 536871232,
+        "storage_bytes": 43520,
+        "memory_usage": 46432,
+        "memory_peak": 46432,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "contract_native_n8_l1",
+      "campaign": "contract",
+      "fixture": "contract_544",
+      "units": 544,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "04382b681c20bc7fdfd000e5c0a6c5003963727baf0fae37939bddd2808dee2a",
+      "raw_hashes": {
+        "result.snapshots": "84a90eb9e44fef7d3c3d333dad86ec4cad15237613ef76d4058cfe3a63cff289",
+        "result.initial": "653bcde91e209f2c7ad136de7f8d6e715c23acfe147b204f139454e388c1a6fb",
+        "result.raw": "c29046937834a682171b7d8442a88fcb6b6381b0c0bc673b6610bff8a611e583",
+        "result.expected_raw": "c29046937834a682171b7d8442a88fcb6b6381b0c0bc673b6610bff8a611e583",
+        "OWNER.json": "8a6e2733078666dc9dc9296a084e8ab6b636ec0918f0f97ce65e65b1e12c14bf",
+        "result.scores": "eaff34c9f37f3f60496b8e0653423dd1fc9451fb948024239dd48c6824e2305d",
+        "stdout": "9d79d87d6081bb560aa234c15e674b5dda17d4d1157c11d06768405055adaa40",
+        "result.storage": "645f81da2b51fed4e6fe427885aeaef67ef4168b8cceb89188a66db24ff2ea83",
+        "result.caller_ns": "8a1a95bc38a0fc333c3419483ab2c060a8e0b556ccfd967ad6d5624227f800b0",
+        "result.latency_ns": "8a2553e2ea3172ca8ae0a06f9c9348733694d709765b2532a834fbe2f247a17f",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:07:32.367737+00:00",
+      "finish_utc": "2026-10-24T15:07:32.796301+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 544,
+        "storage_address": 536871232,
+        "storage_bytes": 43520,
+        "memory_usage": 46432,
+        "memory_peak": 46432,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_cpu_u1024_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_1024",
+      "units": 1024,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "b1fc1c22deedccae29ec947a4f5ec990d738e599171cca87a961b7db6af397ab",
+        "OWNER.json": "1fcecea8e193c019bf862b7f97b62ce98ab98d8523067a95fc611091def77b81",
+        "result.scores": "0527bc57dd1f37e3bf24d36fb91c9364d8bc69ff107560540a89d9717ec68c78",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "3bce5f5ce0bb4b7f73858ca109f48de95150da370282fd30b33e4d22c349f9cf",
+        "result.latency_ns": "9590e686a2d7afcfd1528a24fcf3383d78f95091c071ef7c67bcebee8b919ea0",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:12:15.108666+00:00",
+      "finish_utc": "2026-10-24T15:12:15.117617+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u1024_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_1024",
+      "units": 1024,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "67d2705ce8bd8e112efadd3e4663264a0b8e51fcc7ca6abb74febfc6e735f257",
+        "OWNER.json": "69e97ea5ad02453fcd9a24ddf9ac8748a2b0ac0ad6596f4192aa651fc67b79f1",
+        "result.scores": "0976de9167893a3d9185b6f34d94a615d7de669f61254aee0ab0597acdd393ba",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "8d9a4c3d15f2b02d713e546500c827ea2f48eaec8bce8ee8eeb69a45d0ca0ad9",
+        "result.latency_ns": "9ab6757ccc8bd705d92e7e1dc78dc2c26966db2bfe0c1ec0c2bf0e6e55e64932",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:12:15.344896+00:00",
+      "finish_utc": "2026-10-24T15:12:15.353750+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u2048_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_2048",
+      "units": 2048,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "9a70ec1329bbdbbf596523a8420beb4e4071fa67268df61a464bf7b26f85c9b3",
+        "OWNER.json": "7fce0ec083780a07ea4cc453a4ee1954eebab28d5a6ed0a4bfa00c67dce6fbb4",
+        "result.scores": "96e2ff04512db7f2fa7eb19f26a6486499c67c2cbae7cbc018d333200deee1cf",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "2f5737c8ec64d811077dd5c526947a836e736bbf473a30cce7c5a67f72b41bf5",
+        "result.latency_ns": "0cbf09dbbd562d1930ad069bcd83d8ea70fb30eff9dfc34960b42edd6eacf774",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:25.101070+00:00",
+      "finish_utc": "2026-10-24T15:13:25.109918+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u2048_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_2048",
+      "units": 2048,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "92a6427fab9c44be567b06f1eaa2b72261a8d58cc6eb381e47867fd6946ed3ef",
+        "OWNER.json": "14cf90cff37ee158fc68807e56889f2881a378a1e5531ea6802923a0b3baebcf",
+        "result.scores": "c6a1380590427f1f15b6587caf57a442434ca54515b55eada95f25b9cea79913",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "5609a426ade8f55728e17d3e0c6423efd777d8b62e3fc320ac07c936a2ac6322",
+        "result.latency_ns": "270c6f54dfa48db99bc351d5c7aebd3772dd0bb410f02bc3b73e86e60bc3a54b",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:25.366434+00:00",
+      "finish_utc": "2026-10-24T15:13:25.375243+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u4096_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_4096",
+      "units": 4096,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "977333be4cda20a32f73f3bfd36da5bccd041d8afeee93a96e5fae4044d79383",
+        "OWNER.json": "1dd4ad6f37fd3f75e1a28ebc9691de6a4e824e57127f95537b43852820e06637",
+        "result.scores": "b6f515cad2a4bd7d0a15722514246eb685295524cba75631debc465d571fa274",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "3a09f7ff804113e155866ea2cd9c45ac71a189ef1d766bab437b261553f26c27",
+        "result.latency_ns": "15ceda5239cf39f1fa046708fd8038c14f2bca2090f347d6f7b019084ef980ba",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:59.023298+00:00",
+      "finish_utc": "2026-10-24T15:13:59.040198+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u4096_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_4096",
+      "units": 4096,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "09d8fb6d1dead27ca526a560ffc04b2684e7c633c6d63128f34f734f08dccb6a",
+        "OWNER.json": "7e8b8f287c7a09bed1deb7d9870f522dd4dd888d8b403708d11d6c61751382e6",
+        "result.scores": "5a1f2f83004e140501bafa746b79ac37917825fe7218a063d97ab778bc677e7d",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "db174da01357720940dd0b66934e05118aa51aae1fd6a5e9a2be4c0dbbd809f9",
+        "result.latency_ns": "dd9e5fe08b074b8ed3b5f5ab107f0f0ca2060d648d655b05bb47fd08c3fa581a",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:59.353089+00:00",
+      "finish_utc": "2026-10-24T15:13:59.370058+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u8192_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_8192",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "cdf7714dd87f3908b9e8fd659bd6986fbd41fb3a04def3f47731f831a09bb67a",
+        "result.scores": "24aa8573cc447710b2f4dbffa560954e57540a83e7657e800b78fcfea3e13168",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "9534415b704194ed35bd4869c1dbba5811a37dd72d4585c3281a32d5c4c0a21c",
+        "result.latency_ns": "a29bbb53c845f73484a18aabcb87079f868093131f06054af5dcee491a7db395",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:16:02.882867+00:00",
+      "finish_utc": "2026-10-24T15:16:02.899851+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_cpu_u8192_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_8192",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.raw": "4d3474353544cce78e457a1c915952f8d65ab874306c9aceb8399fbba3cb0203",
+        "OWNER.json": "37ee8a9fee21a3539ebe8bf02bb1b6cd0e21a77eb1e37068de043663e7847e3b",
+        "result.scores": "248caf320a5b713d60f756cdecfa422f3973a4afdaede3f066eb026179cf6bc2",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "22cfd3b4e71f418e5ec4e8c902b943338e85181860d5a5982cc16bd5e46707fc",
+        "result.latency_ns": "a21f5c819d43652c097a60f5d5bc4609ca32038605c8dff9ef3a078cfb80bed2",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:16:03.322604+00:00",
+      "finish_utc": "2026-10-24T15:16:03.355545+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "capacity_native_u1024_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_1024",
+      "units": 1024,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "1a382ea3b62dde2e08163cf4c748e483bd915b9298fdea3d4e70abefaf6499c3",
+        "result.initial": "b1fc1c22deedccae29ec947a4f5ec990d738e599171cca87a961b7db6af397ab",
+        "result.raw": "b1fc1c22deedccae29ec947a4f5ec990d738e599171cca87a961b7db6af397ab",
+        "result.expected_raw": "b1fc1c22deedccae29ec947a4f5ec990d738e599171cca87a961b7db6af397ab",
+        "OWNER.json": "82ec4a30484804769c1fc43efb03a291a4d5c5ea4a1fed773b6f8e62488643b7",
+        "result.scores": "0527bc57dd1f37e3bf24d36fb91c9364d8bc69ff107560540a89d9717ec68c78",
+        "stdout": "676c0864da3f25eded07ae9b9cf3eaebd8c27c5c1b934e786f5a4362ade61b52",
+        "result.storage": "58109961999d2b4872bc62e384776dab33654e190aab5641b3aadfb25329034b",
+        "result.caller_ns": "1caca9aaad20257f70958933f65d1c55d8c68abea35b5c1030b5f20f2913bf84",
+        "result.latency_ns": "607994cc575498f15851503d096feb0eacc9f9d6efc875a9b21742c711595c61",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:12:26.791210+00:00",
+      "finish_utc": "2026-10-24T15:12:27.520330+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 1024,
+        "storage_address": 536871232,
+        "storage_bytes": 81920,
+        "memory_usage": 86752,
+        "memory_peak": 86752,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u1024_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_1024",
+      "units": 1024,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "44f26ee7609cf83be545890d29670520c0101997f5223d5ad7ea3411919c9110",
+        "result.initial": "b1fc1c22deedccae29ec947a4f5ec990d738e599171cca87a961b7db6af397ab",
+        "result.raw": "67d2705ce8bd8e112efadd3e4663264a0b8e51fcc7ca6abb74febfc6e735f257",
+        "result.expected_raw": "67d2705ce8bd8e112efadd3e4663264a0b8e51fcc7ca6abb74febfc6e735f257",
+        "OWNER.json": "1f4d8f5b584d05adcb9d8495f54e8d32ff9cdc578a58fa542769e9047633b0a6",
+        "result.scores": "0976de9167893a3d9185b6f34d94a615d7de669f61254aee0ab0597acdd393ba",
+        "stdout": "5fc5a89954ec536a257caa8865a21cc8cdc68bd226b6ec75464ffd8696a08888",
+        "result.storage": "58109961999d2b4872bc62e384776dab33654e190aab5641b3aadfb25329034b",
+        "result.caller_ns": "ca8acd4bf1dba4967c3753d8a20cc5f10c91df91cb1ac6063a85fc0d3347c7ab",
+        "result.latency_ns": "3c2becb822c333d6ff72103b0b3178f89f1f4a5b0130a25fe2a73d49df547fb0",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:12:27.753688+00:00",
+      "finish_utc": "2026-10-24T15:12:28.483252+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 1024,
+        "storage_address": 536871232,
+        "storage_bytes": 81920,
+        "memory_usage": 86752,
+        "memory_peak": 86752,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u2048_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_2048",
+      "units": 2048,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "e8e46b2b6041b3a16e0b4b3f89925044348d4e6ecc5ee77fe679c1562158b340",
+        "result.initial": "9a70ec1329bbdbbf596523a8420beb4e4071fa67268df61a464bf7b26f85c9b3",
+        "result.raw": "9a70ec1329bbdbbf596523a8420beb4e4071fa67268df61a464bf7b26f85c9b3",
+        "result.expected_raw": "9a70ec1329bbdbbf596523a8420beb4e4071fa67268df61a464bf7b26f85c9b3",
+        "OWNER.json": "ea47770744df0e9e76e09216d7b0af696baed30dc1d9e35f5f57d064c9f01554",
+        "result.scores": "96e2ff04512db7f2fa7eb19f26a6486499c67c2cbae7cbc018d333200deee1cf",
+        "stdout": "45fed783729b3e60a10659f3b4b1d7efa3e7e770d451c43dad4a1fdfe44cb6f2",
+        "result.storage": "8a4d852775ef4960097fccbb8f64caa4982db6bff56d5ad7cb60d62fafa716af",
+        "result.caller_ns": "b61ef4bb4b680d8528f86fb622cd031c126d025365fe5325ef72b3e60ff32f86",
+        "result.latency_ns": "80fb29bb6ffd6763e54d2a93f46ea33f25e6c61d80e2a3f2ded404ef7e282181",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:25.638028+00:00",
+      "finish_utc": "2026-10-24T15:13:27.068279+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 2048,
+        "storage_address": 536871232,
+        "storage_bytes": 163840,
+        "memory_usage": 180960,
+        "memory_peak": 180960,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u2048_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_2048",
+      "units": 2048,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "f5517a8a5581ae2f1ef2033b1796c7cffe80a6d78600b1d114a670c0f3c8ef8a",
+        "result.initial": "9a70ec1329bbdbbf596523a8420beb4e4071fa67268df61a464bf7b26f85c9b3",
+        "result.raw": "92a6427fab9c44be567b06f1eaa2b72261a8d58cc6eb381e47867fd6946ed3ef",
+        "result.expected_raw": "92a6427fab9c44be567b06f1eaa2b72261a8d58cc6eb381e47867fd6946ed3ef",
+        "OWNER.json": "80a8c6839a1a7ea8c9d98f44ff1a49803292e1c29eb41ce43a7be4c577b5ea21",
+        "result.scores": "c6a1380590427f1f15b6587caf57a442434ca54515b55eada95f25b9cea79913",
+        "stdout": "ecb52d0032077729cdb7277f287a5fc7bec522b8c6f2303228bd2472ff4f8d9b",
+        "result.storage": "8a4d852775ef4960097fccbb8f64caa4982db6bff56d5ad7cb60d62fafa716af",
+        "result.caller_ns": "a889ec59d58312e5a8a31dbd2aad60a748660b97a41cd776fb62134216dde5e6",
+        "result.latency_ns": "5c7a15ddd18dae19ccbd983726b9c5fa168298d09141fec4dd9662fa19366c43",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:27.332515+00:00",
+      "finish_utc": "2026-10-24T15:13:28.762446+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 2048,
+        "storage_address": 536871232,
+        "storage_bytes": 163840,
+        "memory_usage": 180960,
+        "memory_peak": 180960,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u4096_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_4096",
+      "units": 4096,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "bd3bdc27db6b3cd0c86e0df9b163db7e7deff8b9d9e11120b5fc11768126ab79",
+        "result.initial": "977333be4cda20a32f73f3bfd36da5bccd041d8afeee93a96e5fae4044d79383",
+        "result.raw": "977333be4cda20a32f73f3bfd36da5bccd041d8afeee93a96e5fae4044d79383",
+        "result.expected_raw": "977333be4cda20a32f73f3bfd36da5bccd041d8afeee93a96e5fae4044d79383",
+        "OWNER.json": "6c99833853d9ce95a1024bee4c1b06ca2872ad79ca1e3f4bc3534d8056c0292d",
+        "result.scores": "b6f515cad2a4bd7d0a15722514246eb685295524cba75631debc465d571fa274",
+        "stdout": "8d677d0cbee27f681365605fa92951e21e0cd5d426a1021f780c02b90b665f52",
+        "result.storage": "6deac39cfd554fa1f14f6bdd5274dd79d641f76fd7723f0bed8ce7b4959b8dff",
+        "result.caller_ns": "3b6f1481ec11022171bea004312a9df19c62a405bc04966ca749161c1bec26df",
+        "result.latency_ns": "c977ae6cfe8f46739b0d8b751a2f4d3634435987e8b9fd60bf175b09d57c62c4",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:13:59.694837+00:00",
+      "finish_utc": "2026-10-24T15:14:02.476829+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 4096,
+        "storage_address": 536871232,
+        "storage_bytes": 327680,
+        "memory_usage": 361184,
+        "memory_peak": 361184,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u4096_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_4096",
+      "units": 4096,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "49475af3fbe04836d95eb0272f2dee82158dce418186d6515c4110f63c05fd70",
+        "result.initial": "977333be4cda20a32f73f3bfd36da5bccd041d8afeee93a96e5fae4044d79383",
+        "result.raw": "09d8fb6d1dead27ca526a560ffc04b2684e7c633c6d63128f34f734f08dccb6a",
+        "result.expected_raw": "09d8fb6d1dead27ca526a560ffc04b2684e7c633c6d63128f34f734f08dccb6a",
+        "OWNER.json": "d8f4211667d7d6ff5ed6fe75cb4c1a244b925c65595e884b396ef9046d6d1baf",
+        "result.scores": "5a1f2f83004e140501bafa746b79ac37917825fe7218a063d97ab778bc677e7d",
+        "stdout": "a65065110ff7b3b2e03dd0182513d2881658b63de00ac77d0176d4bb4b6b2e41",
+        "result.storage": "6deac39cfd554fa1f14f6bdd5274dd79d641f76fd7723f0bed8ce7b4959b8dff",
+        "result.caller_ns": "8e7a7e17187f434d4d28deee4701a5d6ceacbbf2b8bbf1e18553a6591a83018d",
+        "result.latency_ns": "aba5fde9eef0baecbc95269a815cd16bbc74a50a1273fe4ae5db8dd566b66285",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:14:02.801305+00:00",
+      "finish_utc": "2026-10-24T15:14:05.583247+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 4096,
+        "storage_address": 536871232,
+        "storage_bytes": 327680,
+        "memory_usage": 361184,
+        "memory_peak": 361184,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u8192_l0",
+      "campaign": "capacity",
+      "fixture": "capacity_8192",
+      "units": 8192,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "3f38885f072b1930c18e0fae13b68bce9a1fee24ce19de958825495d740d716c",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.expected_raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "ef1b3e2806493538a77e3909fd4e43c4eb12cf2d9d1b9e199257ca47b70e3ee7",
+        "result.scores": "24aa8573cc447710b2f4dbffa560954e57540a83e7657e800b78fcfea3e13168",
+        "stdout": "22df76f62b935bce307dd51a238d76fade3fc2bfb802269d0897db6bc9f0791e",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "result.caller_ns": "8dcb89a3d6919d1ff0b1d877ded7cdb7d4ea5d76ae4d00789d60562a712ef0a0",
+        "result.latency_ns": "12f87055eadf97f0223ceaca6fdd167e9edbcbc6fcb5e17cb2d680f4b08b7404",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:16:03.805884+00:00",
+      "finish_utc": "2026-10-24T15:16:09.292108+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 8192,
+        "storage_address": 536871232,
+        "storage_bytes": 655360,
+        "memory_usage": 721632,
+        "memory_peak": 721632,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "capacity_native_u8192_l1",
+      "campaign": "capacity",
+      "fixture": "capacity_8192",
+      "units": 8192,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "16c635f2fbe57074caa6ac13b3b4a9ebf84c6edf56dffe5380e69fe2c33d3bcd",
+      "raw_hashes": {
+        "result.snapshots": "0b83ff7d8b0efc4981e6748e1062502b2ca82276d11d874f3668e3b96e056cb6",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "4d3474353544cce78e457a1c915952f8d65ab874306c9aceb8399fbba3cb0203",
+        "result.expected_raw": "4d3474353544cce78e457a1c915952f8d65ab874306c9aceb8399fbba3cb0203",
+        "OWNER.json": "c1bce190460dfe1490e9632dbfb2dfb3662db1310c413bd66ffa7d663f105d17",
+        "result.scores": "248caf320a5b713d60f756cdecfa422f3973a4afdaede3f066eb026179cf6bc2",
+        "stdout": "d10526156e814abfa3472e4b25a880c95f04199b714f7a27d1c42e6903061f08",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "result.caller_ns": "53990b251b1e91af02e04b8fe523c54a5036c005c708f02995a2bbeab11cb081",
+        "result.latency_ns": "806ae54df9d19b21794f52a16e21b1e32c3f67a3c2560668aa7fd995a1e4b306",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:16:09.735502+00:00",
+      "finish_utc": "2026-10-24T15:16:15.221123+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 8192,
+        "storage_address": 536871232,
+        "storage_bytes": 655360,
+        "memory_usage": 721632,
+        "memory_peak": 721632,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "guard_cpu_u11264_l0",
+      "campaign": "guard",
+      "fixture": "guard_11264",
+      "units": 11264,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "e4cee38562b50053dfc39ab4afe8672e0f5f1a40a430b14b5e6414b31d3f0d6f",
+      "raw_hashes": {
+        "result.raw": "6b72a651d7865a10f83f81c5f7b8e3c634e770ed94063d852a0f88fbe1302043",
+        "OWNER.json": "e7d4230267800b54ff6eacd8b50e64c3d3f3ea9d77c4d9c4d7389e94b3cf3ce9",
+        "result.scores": "c739cf7b1a683ba1e59f9a36bc1014f277b54414b3402056a370100a7b1b9cae",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "c1d9e3fb813cbe3dbe9bf83905757971b6d6cb452307d9fc73b82a23bf3a8b4b",
+        "result.latency_ns": "8330925a8571b0a276eedb344a55b611fc1b8b158f1233143d2e4d54673f18a2",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:20:23.739107+00:00",
+      "finish_utc": "2026-10-24T15:20:23.772244+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "guard_cpu_u11264_l1",
+      "campaign": "guard",
+      "fixture": "guard_11264",
+      "units": 11264,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "e4cee38562b50053dfc39ab4afe8672e0f5f1a40a430b14b5e6414b31d3f0d6f",
+      "raw_hashes": {
+        "result.raw": "8dfea08f4a5fc0d530c8d12eb57b3e5f88d9ed880a0fc4458293e5f743be3580",
+        "OWNER.json": "e1cdaff262af9617b6e3be3bbc5a9021086bba617e3d52e69675ef8498aba39c",
+        "result.scores": "5df8fb0901e9d071006ab16adb40e3efe54a8de60d67f938e3ed4bb6f8b39645",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "7840c0b6ea7b454baf0318d61c35d463770b50103115231683741bd9f6b329ea",
+        "result.latency_ns": "e6f39d03dc9f6ab7bca0ecac48424b7057555bdb2cec0776223435f0617a87f0",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:20:24.272966+00:00",
+      "finish_utc": "2026-10-24T15:20:24.305930+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "guard_native_u11264_l0",
+      "campaign": "guard",
+      "fixture": "guard_11264",
+      "units": 11264,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "e4cee38562b50053dfc39ab4afe8672e0f5f1a40a430b14b5e6414b31d3f0d6f",
+      "raw_hashes": {
+        "result.snapshots": "0e567afd43986008ea28604d68cc2de5de57d0562e234817113b313b42d0ea40",
+        "result.initial": "6b72a651d7865a10f83f81c5f7b8e3c634e770ed94063d852a0f88fbe1302043",
+        "result.raw": "6b72a651d7865a10f83f81c5f7b8e3c634e770ed94063d852a0f88fbe1302043",
+        "result.expected_raw": "6b72a651d7865a10f83f81c5f7b8e3c634e770ed94063d852a0f88fbe1302043",
+        "OWNER.json": "1e268811b7a7f49b29513339484c36a88eaa69ea04ec214df97c24a660c04e85",
+        "result.scores": "c739cf7b1a683ba1e59f9a36bc1014f277b54414b3402056a370100a7b1b9cae",
+        "stdout": "9a90e6e4528cfe0ba43785a304995f648f7f58af13a9f5263d1993aee22b918e",
+        "result.storage": "1d30b5a64884d0cd6518d194b8619bde66726b2499ed0820fbd39bffe92e80d7",
+        "result.caller_ns": "e48b64822ffaed84926803320e9104de36c83a0742d21c92a07228e1ea0d10dd",
+        "result.latency_ns": "b4c9f8d368757ed80caa144ff828e3b6a784bcf37dfd95b3d6ea7ef40701837d",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:21:49.034201+00:00",
+      "finish_utc": "2026-10-24T15:21:56.572504+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 11264,
+        "storage_address": 536871232,
+        "storage_bytes": 901120,
+        "memory_usage": 991968,
+        "memory_peak": 991968,
+        "guarded_host_record_write_attempts": 0,
+        "guarded_host_write_calls": 182,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "guard_native_u11264_l1",
+      "campaign": "guard",
+      "fixture": "guard_11264",
+      "units": 11264,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 4,
+      "exit_code": 1,
+      "device_free": true,
+      "source_freeze_sha256": "e4cee38562b50053dfc39ab4afe8672e0f5f1a40a430b14b5e6414b31d3f0d6f",
+      "raw_hashes": {
+        "result.snapshots": "fc1e548d199c03dea8b4eb8da3675e6ed02ddc94ab5fd98ff0ae4248f5da37e2",
+        "result.initial": "6b72a651d7865a10f83f81c5f7b8e3c634e770ed94063d852a0f88fbe1302043",
+        "result.raw": "8d22e68dc5f51b3ba9f6128c7b5ed33852b25deaad2ac14026fa6cf44d717388",
+        "result.expected_raw": "de737ece7fa5966c733ad842c717cb9d012a54d53259b89d5608cfe9299e9f74",
+        "OWNER.json": "2a6bad7065b944837443405c0ea1a7d6b21bad1e8861fe7903606167746aa63a",
+        "result.scores": "e6361fb47b6dccade4327ed8882760bc05ff9fdf207fbbb5a3df41daa930ab11",
+        "stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "result.storage": "1d30b5a64884d0cd6518d194b8619bde66726b2499ed0820fbd39bffe92e80d7",
+        "stderr": "6965993a7b506d6c96dcdbb9762fdf8a16170ba328a81c37e900029d1a2c6a55"
+      },
+      "admitted_utc": "2026-10-24T15:22:50.552401+00:00",
+      "finish_utc": "2026-10-24T15:22:54.736156+00:00",
+      "error": "FAIL: FNP2 exact learning-state mismatch\n"
+    },
+    {
+      "name": "boundary_cpu_above_l0",
+      "campaign": "boundary",
+      "fixture": "boundary_above",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "e1c653fc8d490c7bfaae9324a99251170351bcb9d2470f87606229f1b9d6ed4d",
+        "result.scores": "ef74db9ca0a2e60c280040f1aff3a9be62923435ee48e958307a00004fb81845",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "1406648618a75945fdc0be846f2f6e476529d28ba52796aa8c45636df1780cfc",
+        "result.latency_ns": "03ea67eb8cc38b8aa2812a4113e17bd27d12bb9db6c459397812dfcef9dcd5cf",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:33:46.327196+00:00",
+      "finish_utc": "2026-10-24T15:33:46.344091+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "boundary_cpu_above_l1",
+      "campaign": "boundary",
+      "fixture": "boundary_above",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.raw": "8af733750af5561bfd448cb493639c084403a116709102803171b1de695c2629",
+        "OWNER.json": "4992235774f887b66a17425b177f8d8dd57b645a92e49eda37eb873d6d3524b8",
+        "result.scores": "ef74db9ca0a2e60c280040f1aff3a9be62923435ee48e958307a00004fb81845",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "4e7971640cdeea8d5a5969b9945c14ac4b06c076cf4a9e4ed10d7be24972384b",
+        "result.latency_ns": "d3f713c2c3dd5a653dc1bd7d26053c501c88e35265c6209de7a0e9d0caaabd5b",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:33:46.758025+00:00",
+      "finish_utc": "2026-10-24T15:33:46.774894+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "boundary_cpu_below_l0",
+      "campaign": "boundary",
+      "fixture": "boundary_below",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "e7595012fa8ee8b2b64dd0ed9cff990e5509eeff9ad8dddec2def79ca5913880",
+        "result.scores": "a7926a2a03be6fad622fbbc766f90d6258386f144675e92603252c3613b307c6",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "d6608cc328a9e6bbde4817ca7a7ce22a262a5b82eaf3fe66a6c00dfbf037ba9c",
+        "result.latency_ns": "f03fa9b30a0105396d149605a4f7061c4919a839afdf9605dc339cf0a48f13b3",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:33:45.427874+00:00",
+      "finish_utc": "2026-10-24T15:33:45.444886+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "boundary_cpu_below_l1",
+      "campaign": "boundary",
+      "fixture": "boundary_below",
+      "units": 8192,
+      "mode": "cpu",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.raw": "a802a9726bfcde58c5ced9b15fca5928f63f467000c40ca92f10e969f934ecca",
+        "OWNER.json": "9c7db6ef93ee890908994b77003b18ca952b7ddb925f55bce648ce7c6efee039",
+        "result.scores": "a7926a2a03be6fad622fbbc766f90d6258386f144675e92603252c3613b307c6",
+        "stdout": "6d3bc5cbe581a2210455e2a8d663adb7f130589f68accebc4066aad468ade858",
+        "result.caller_ns": "7f7ead9d9b12c0862f47c4bbf72fdffc083d1889580d8b22348ed1a291c5a193",
+        "result.latency_ns": "fbbca331c565e4f2764125e8f4ae7da73ec3397ba5d13320c1d20ff6a9d51021",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:33:45.859415+00:00",
+      "finish_utc": "2026-10-24T15:33:45.892430+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "cpu",
+        "samples": 8,
+        "repeats": 5,
+        "physical_device_opened": false
+      }
+    },
+    {
+      "name": "boundary_native_above_l0",
+      "campaign": "boundary",
+      "fixture": "boundary_above",
+      "units": 8192,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.snapshots": "3f38885f072b1930c18e0fae13b68bce9a1fee24ce19de958825495d740d716c",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.expected_raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "759b416ba8fca4000bc14eb8bd189ce6c8bd3347decd37f9c8d9653f160fb6cc",
+        "result.scores": "ef74db9ca0a2e60c280040f1aff3a9be62923435ee48e958307a00004fb81845",
+        "stdout": "d454ea945c90d0f7938731c294e409b351442d0efcc21c19fc4f568c05b5dac4",
+        "result.guard_counts": "9a75e9d63a49382cffc015e94c95bede01c896658a28b054675096ff4d94ee13",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "result.caller_ns": "1c7dd5d3d6bc88c927af3f4c37181e7ca498195b1861325a024cdd9beffb8b43",
+        "result.latency_ns": "c8d760de97a56e1a39491f000a615052ea49c24a44a604e357c3f6917dc5363e",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:35:31.478264+00:00",
+      "finish_utc": "2026-10-24T15:35:36.964069+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 8192,
+        "storage_address": 536871232,
+        "storage_bytes": 655360,
+        "memory_usage": 721632,
+        "memory_peak": 721632,
+        "guarded_host_record_write_attempts": 0,
+        "guarded_host_write_calls": 182,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "boundary_native_above_l1",
+      "campaign": "boundary",
+      "fixture": "boundary_above",
+      "units": 8192,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 2,
+      "exit_code": 1,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.snapshots": "53cc544a47a8f3832daeca9b6bee8a285abca8f0b8af5cceb0c7f8e1609c74a8",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "1bf43a44524c6093223fc1c915636bcf78563df995c9c2250d3605861b1578a2",
+        "result.expected_raw": "8af733750af5561bfd448cb493639c084403a116709102803171b1de695c2629",
+        "OWNER.json": "769268e912c24507f37b5eb49a5a9f5acd367d9be9293b091aead9ae59ef5ac1",
+        "result.scores": "f670988e4771313d7095c8cb4f1eddad2842bdd8c395ffb8c19250b54ddd4d48",
+        "stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "result.guard_counts": "df065f4871e06699366ccb668ce9b2a58f41b698fc7f95123d307a70c5379505",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "stderr": "6965993a7b506d6c96dcdbb9762fdf8a16170ba328a81c37e900029d1a2c6a55"
+      },
+      "admitted_utc": "2026-10-24T15:36:39.291613+00:00",
+      "finish_utc": "2026-10-24T15:36:41.172252+00:00",
+      "error": "FAIL: FNP2 exact learning-state mismatch\n"
+    },
+    {
+      "name": "boundary_native_below_l0",
+      "campaign": "boundary",
+      "fixture": "boundary_below",
+      "units": 8192,
+      "mode": "native",
+      "learn": false,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.snapshots": "3f38885f072b1930c18e0fae13b68bce9a1fee24ce19de958825495d740d716c",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.expected_raw": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "OWNER.json": "03617fd6ba86526f12635da576a525590803013a6cf94784239171176be600f0",
+        "result.scores": "a7926a2a03be6fad622fbbc766f90d6258386f144675e92603252c3613b307c6",
+        "stdout": "d454ea945c90d0f7938731c294e409b351442d0efcc21c19fc4f568c05b5dac4",
+        "result.guard_counts": "9a75e9d63a49382cffc015e94c95bede01c896658a28b054675096ff4d94ee13",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "result.caller_ns": "3a2cac5db74bff53c4d15d1b9adf7f06caeb601f582afaa1cc47be62e7562c49",
+        "result.latency_ns": "ca7cc26b80ce7ac01349e9e78e4b197de167f06d7354aff3b3b68cd946903885",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:34:11.320019+00:00",
+      "finish_utc": "2026-10-24T15:34:16.805732+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": false,
+        "records": 8192,
+        "storage_address": 536871232,
+        "storage_bytes": 655360,
+        "memory_usage": 721632,
+        "memory_peak": 721632,
+        "guarded_host_record_write_attempts": 0,
+        "guarded_host_write_calls": 182,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    },
+    {
+      "name": "boundary_native_below_l1",
+      "campaign": "boundary",
+      "fixture": "boundary_below",
+      "units": 8192,
+      "mode": "native",
+      "learn": true,
+      "intended_count": 8,
+      "observed_count": 8,
+      "exit_code": 0,
+      "device_free": true,
+      "source_freeze_sha256": "00346d1fc10621d0e9f9e3d5664ce842d4549b7e77589e0586116131cf0ebc0e",
+      "raw_hashes": {
+        "result.snapshots": "1d67e93946b36f5d4e6c6810ab430d3ff8f87c8273f230342d286da847586c2f",
+        "result.initial": "ac91997fcdd0cdf08473ad83f9c682b4c6560250d5ae709b4ccaebf5c67dd15f",
+        "result.raw": "a802a9726bfcde58c5ced9b15fca5928f63f467000c40ca92f10e969f934ecca",
+        "result.expected_raw": "a802a9726bfcde58c5ced9b15fca5928f63f467000c40ca92f10e969f934ecca",
+        "OWNER.json": "a082a4168439d500e79cd91565606d5552e3d6da73fa52f38dfd102f7bf4ffda",
+        "result.scores": "a7926a2a03be6fad622fbbc766f90d6258386f144675e92603252c3613b307c6",
+        "stdout": "c71e0f6bfa75394d5507f51f8b8a3ef145f45af8fd0f18090fe5bb9493e624a9",
+        "result.guard_counts": "04adea7d2cbb9eda6b5850f6503b476095f5a44516601dcb1db34605295dc129",
+        "result.storage": "45b55594009883f8c39882b17299b00cfc90289e62ded454b5536f10a19898e2",
+        "result.caller_ns": "e14a8221a25dd47c9df268831a0ec6f7b79469a4c9ee8638d8ed955cb1c85411",
+        "result.latency_ns": "03c82f25d46b068a6b20b54c4c764a02f77340d3007f6b7a1544d2e9d48eae5d",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "admitted_utc": "2026-10-24T15:34:17.238536+00:00",
+      "finish_utc": "2026-10-24T15:34:22.723880+00:00",
+      "error": null,
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "learning": true,
+        "records": 8192,
+        "storage_address": 536871232,
+        "storage_bytes": 655360,
+        "memory_usage": 721632,
+        "memory_peak": 721632,
+        "guarded_host_record_write_attempts": 0,
+        "guarded_host_write_calls": 54,
+        "storage_domain": "card_system_SRAM",
+        "host_DDR_used": false,
+        "exact_scores_and_full_records": true,
+        "cleanup": "unprogrammed"
+      }
+    }
+  ],
+  "executed_sources": {
+    "coprocessor/fnp2_bench.cpp": "9b4f733d2aea94b32ca3f4dee6eb15003af9e5a2a3753cab3ca9e07a0670cdf3",
+    "coprocessor/fnp2_prepare.py": "986dbedf1439baf0c576c63a5be75901ba960e5e24a25154db148b9a110d7e60",
+    "coprocessor/fnp2_run.py": "eef0af7168850f0896bdea2ebaeb1177ed3da69dba21a443900f51158a3a10a8",
+    "coprocessor/build_fnp2.sh": "7d7fe6b7f3a1d469aca07222275e97c3313ddb6d33e5f8433491c83e7449d783",
+    "src/readout_bench.cpp": "9b31fbdc8ee792b6f5324d5f2a32d57ca13543a41ac6d807821037911a5866ab",
+    "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+    "pong/relearn/model.py": "fc6be792ca47248823b33acab04eeed9ddf3ceeee5f192f05706b1c45d542d53",
+    "coprocessor/fnp2_capacity.cpp": "7248e594e353d27182bb1ee0f653ffd11d66e55d3199ae6b58be702d2e6abb5a",
+    "coprocessor/fnp2_capacity_prepare.py": "fa2033ba6b250548c910e1d83fa751cbb9fc025431255e09f577a4a95073a6ae",
+    "coprocessor/fnp2_capacity_run.py": "147b3ac8f7e003450b18749467cf7f0fb5273500bf62bb18802798becc378fc7",
+    "coprocessor/fnp2_guard.cpp": "c7258d5fa2d5467275df80ea624a6936ea7c4f15a635d9c08df610d5d9d376c7",
+    "coprocessor/fnp2_guard_prepare.py": "1ac9b2fa1de2502f45243da70277a5201279d25aa97e59e599625236c041cb40",
+    "coprocessor/fnp2_guard_run.py": "79c604aaf13a7f40382654946e5b74ba520357c02c46fe69302c9b257fa22928",
+    "coprocessor/record_write_guard.hpp": "e401aaf7873279f3aabf986e25a4cc3987c8f37dd633b94c98bcd99da815648f",
+    "coprocessor/record_range.hpp": "6818ae2188b8eff4925948c76e8a4426344fce46f8d92bcb2ad417897dc71f94",
+    "coprocessor/fnp2_boundary.cpp": "66491bb0b06f267e01ea2d05900b2629b4017d2ba711559eeab7d5e67b957e5c",
+    "coprocessor/fnp2_boundary_prepare.py": "78a2812ce7282d0c3bf56de26afc1fa7b5801b6812e279f50372a5352d2f5b10",
+    "coprocessor/fnp2_boundary_run.py": "ebc69a5bc8388c0dece1247a482e85bf4da728ac0e2e641a95b190aa36f71e52"
+  },
+  "executed_binary_sha256": {
+    "build/fnp2_contract": "2d9bc312e757e2457935715b86198130263402d07800d8245fe92bfa725c41a9",
+    "build/fnp2_capacity": "0eb957204a80cc0d1826d5bcbe2dd0bba64f5a664054f618e6c7093dcb47d505",
+    "build/fnp2_guard": "7fd812e29f05d50cff85711ab9c5a67f0ec96b38a7a012001ad32fd9539c2f62",
+    "build/fnp2_boundary": "9c0bb60b8c672b6a2630e9aa9b1991e1314d2ce93a842a1a1f4173a349cd5643"
+  },
+  "source_audit": {
+    "status": "READ_ONLY_SOURCE_AUDIT_PLUS_PHYSICAL_ADDRESS_CHECK",
+    "source_hashes": {
+      "src/device_programmer.cpp": "9dbdfc527c21edf02308c5fbe6ee5634f061cc3f4fd054edd901b07a1dd24537",
+      "src/external_mem_mgr.cpp": "0da8fb77c990448139217d90ef6ffc8a8bf9885c0f0fae757679595beda967f3",
+      "src/memory_utils.cpp": "0f2e6bf35f5051b117a3fbbe6bc412bbb9632e8bd9c5f56f59b5374d8132ed83",
+      "src/hardware_device_impl.cpp": "f2437fc53dda79ce4d0ff77602e593ba931b05d5aa25c4f2075726f553798b9c",
+      "src/fnp2_mem_conf_reg.h": "a89d1e61064c9eb6129dbc6e54d5236c443248793239e28a685f42fbdf28e17f",
+      "inc/engine/akida_program_info_generated.h": "ea08ec523d67bf14c32f1e6a285cc16ec0be0681f6d983214eb7b712fc59eda6"
+    },
+    "facts": [
+      "FNP2 descriptor is a 12-byte inline track plus NPU identity",
+      "FNP2 learn-memory API reads the registered external record buffer directly",
+      "Unaddressable caller tracks are copied into the runtime memory allocator",
+      "Current harness allocator is the card SRAM window, not mapped host DDR",
+      "Record shape n512: four metadata words plus sixteen connection words; no native two-word config-DMA header"
+    ]
+  },
+  "diagnosis": {
+    "status": "OBSERVED_OFF_TARGET_LEARNING",
+    "completed_forwards": 2,
+    "intended_target": 6600,
+    "unique_target_score": 31,
+    "expected_updated_records": [
+      6600
+    ],
+    "actual_updated_records": [
+      46
+    ],
+    "host_record_write_attempts": 0,
+    "guarded_host_write_calls": 12,
+    "changed_word_indices": [
+      930,
+      931,
+      932
+    ],
+    "metadata_source_word": 132003,
+    "metadata_alias_word": 931,
+    "metadata_alias_value": 1572878,
+    "expected_target_metadata": 1572878,
+    "address_period_hypothesis_bytes": 524288,
+    "root_cause": "Unresolved: configured runtime/compiler/hardware path; not a claimed silicon erratum"
+  },
+  "rejected_explanatory_models": {
+    "ALIAS_HYPOTHESIS.json": {
+      "status": "OFFLINE_ALIAS_RECOUNT",
+      "completed_forwards": 4,
+      "failing_index": 3,
+      "word_period": 131072,
+      "byte_period": 524288,
+      "exact_alias_model": false,
+      "expected_record_ids": [
+        8849
+      ],
+      "actual_changed_record_ids": [
+        2295,
+        2296
+      ],
+      "writes": [
+        {
+          "expected_word": 176983,
+          "observed_alias_word": 45911,
+          "expected_value": 1572878,
+          "actual_alias_value": 1572878
+        },
+        {
+          "expected_word": 176984,
+          "observed_alias_word": 45912,
+          "expected_value": 537133056,
+          "actual_alias_value": 562298880
+        },
+        {
+          "expected_word": 176985,
+          "observed_alias_word": 45913,
+          "expected_value": 4097,
+          "actual_alias_value": 138678273
+        },
+        {
+          "expected_word": 176986,
+          "observed_alias_word": 45914,
+          "expected_value": 6152,
+          "actual_alias_value": 10
+        },
+        {
+          "expected_word": 176991,
+          "observed_alias_word": 45919,
+          "expected_value": 16777248,
+          "actual_alias_value": 33554434
+        },
+        {
+          "expected_word": 176994,
+          "observed_alias_word": 45922,
+          "expected_value": 0,
+          "actual_alias_value": 32
+        },
+        {
+          "expected_word": 176995,
+          "observed_alias_word": 45923,
+          "expected_value": 2149581888,
+          "actual_alias_value": 16
+        },
+        {
+          "expected_word": 176997,
+          "observed_alias_word": 45925,
+          "expected_value": 32804,
+          "actual_alias_value": 32772
+        },
+        {
+          "expected_word": 176998,
+          "observed_alias_word": 45926,
+          "expected_value": 4194344,
+          "actual_alias_value": 4203008
+        },
+        {
+          "expected_word": 176999,
+          "observed_alias_word": 45927,
+          "expected_value": 16777728,
+          "actual_alias_value": 52428800
+        }
+      ],
+      "raw_hypothesis_only": true
+    },
+    "ALIAS_RMW_HYPOTHESIS.json": {
+      "model": "metadata pair overwrite plus connection-bit clear/set at offset modulo 524288 bytes",
+      "exact_all_words": false,
+      "mismatching_words": [
+        45912,
+        45913,
+        45914,
+        45915,
+        45925,
+        45926,
+        45927
+      ],
+      "source_record": 8849,
+      "source_word": 176980,
+      "aliased_word": 45908
+    },
+    "ALIAS_SELECTOR_HYPOTHESIS.json": {
+      "status": "OFFLINE_COUNTERFACTUAL",
+      "model": "forward scores from high record; learning metadata from selected record; connection updates operate on a record window modulo 131072 words; metadata pair overwritten",
+      "exact_all_words": false,
+      "mismatching_words": [
+        45913,
+        45914,
+        45915,
+        45916,
+        45917,
+        45918,
+        45919,
+        45920,
+        45926
+      ],
+      "winner": 8849,
+      "aliased_word": 45908,
+      "period_bytes": 524288
+    }
+  },
+  "limitations": [
+    "Successful eight-event capacity prefixes do not establish address coverage or converged learning",
+    "11,264-record frozen inference passes; teaching stops after four completed forwards",
+    "Controlled record6500 learns correctly; record6600 probe produces off-target record46 changes",
+    "Guard observes writes issued through this harness, not arbitrary kernel/device writers",
+    "512KiB-related metadata alias is an observation; internal cause and universal silicon limit unresolved",
+    "Current records reside in the card SRAM aperture; host DDR and multipass are not qualified",
+    "No CPU speed or electrical-energy win. Timings are unwarmed except the 544-record 64-event control"
+  ],
+  "numeric_archive_sha256": "23ef2c134657924302a9b6de0b3eb1c8a011e3b6841b3f1ebb759f19527364fb"
+}

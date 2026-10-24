@@ -32,6 +32,10 @@ See [reviewed sources and versions](DOCUMENTS.json).
 
 ## Compiler format frontier, not a silicon maximum
 
+The subsequent [FNP2 study](FNP2.md) resolves the decoder boundary below and
+then finds a separate off-target learning update. "External" record storage
+is physically observed in card system SRAM here; actual host DDR is untested.
+
 An additional compiler-only enumeration preserves all format changes. At
 512 binary inputs, 512 records produces one decoded FNP3 packet (40,968 bytes).
 At 544/560/576/1024 records, this compiler selects an FNP2 external-memory record
@@ -48,10 +52,10 @@ separate from this compiler-only extension.
 
 ## Highest-impact remaining gates
 
-1. **FNP2 / host-memory contract.** Decode its configuration and record format;
-   establish address translation and bounded ownership through the documented
-   driver; independently emulate output/state before eight-event physical tests.
-   No broad DMA address probes or silent substitution for the FNP3 controls.
+1. **FNP2 update-address contract.** The record format/card-SRAM path is now
+   executable, but the targeted record6600 update changes record46. Resolve
+   this failure before expanding plasticity. Treat real host-DDR mapping as a
+   separate address-translation/ownership gate; no broad DMA address probes.
 2. **Production output and transport.** Qualify compact binary/class outputs
    from the same RGB network. Include output encoding/decoding on both CPU and
    AKD sides; keep all native learning/state endpoints unchanged.

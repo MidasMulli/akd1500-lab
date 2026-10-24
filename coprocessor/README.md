@@ -1,5 +1,10 @@
 # PCIe co-processor environment
 
+**Follow-up:** the FNP2 record format is now decoded and executed. A controlled
+probe exposes an off-target native learning update above a particular address
+region; physical expansion is halted. See [FNP2.md](FNP2.md) and its preserved
+failed prefixes. Large-bank inference is not full plasticity qualification.
+
 **The Nano is an appropriate documented host.** BrainChip positions PCIe as
 an offload interface for ARM/x86/RISC-V application processors and M.2 as a
 drop-in accelerator for fanless industrial/commercial systems. See the
@@ -98,5 +103,6 @@ bypass a failed gate. The existing caller-buffer lifetime and nine-slot/eight-
 image queue protections remain in place. No driver, firmware, PLL or unknown
 register writes are needed. `coprocessor.inventory` is sysfs/descriptor-only.
 
-The code package is a characterization environment. Full FNP2 host-memory
-learning and multi-pass operation remain outside its qualified execution path.
+The code package is a characterization environment. FNP2 records in card SRAM
+are distinguished from actual host DDR. Complete FNP2 plasticity address
+coverage, host-DDR operation and multi-pass remain unqualified.

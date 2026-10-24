@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 200,
+  "seconds": 65.293,
+  "command": "python3 -m unittest discover -s tests -v",
+  "test_output_sha256": "d334e8364c0d0159428f1eb847dc4ca5c9d90507df9b72cd9cd21fcf91605f41",
+  "physical_device_opened": false,
+  "scope": "Offline tests and independent numeric replay; hardware failures remain failures"
+}

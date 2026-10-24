@@ -1,0 +1,10 @@
+{
+  "status": "RECORDED_OBSERVATION_NOT_INTERNAL_WIRE_TRACE",
+  "numeric_archive_sha256": "23ef2c134657924302a9b6de0b3eb1c8a011e3b6841b3f1ebb759f19527364fb",
+  "metadata_sha256": "23c0182d3bf00c8ed9b05550121b5b519a346012954770774f3892f2766396c9",
+  "renderer_sha256": "f96e5f5c0aefbc0a244d36923f49119bc2a2f9e1449d7d2b8a3e6f08ff32eb94",
+  "outputs": {
+    "fnp2-address-boundary-4k.png": "326ddb14c9902070a9a297b7453f9daf5a654093e48293a95147c3c877202f69",
+    "fnp2-address-boundary-4k.svg": "b4d809d0f0464edd1430e323ddf49756e8981e6eb6b3c48ac5bd031b764cd7e3"
+  }
+}

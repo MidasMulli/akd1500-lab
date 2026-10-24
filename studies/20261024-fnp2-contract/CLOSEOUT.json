@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED_BOUNDED_CHARACTERIZATION",
+  "closed_utc": "2026-10-24T15:23:58.105357+00:00",
+  "closeout_review_utc": "2026-10-24T15:50:20.628703+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "device_free_verification": "Final read-only fuser returned 1; no owned FNP2 runners found",
+  "physical_sessions": 4,
+  "native_forwards": 144,
+  "complete_record_snapshots": 144,
+  "cpu_sample_executions": 640,
+  "failed_native_prefixes": [],
+  "scientific_cutoff_utc": "2026-10-24T16:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T16:05:00+00:00",
+  "evidence": "results/2026-10-24-fnp2-contract.json",
+  "numeric_archive_sha256": "23ef2c134657924302a9b6de0b3eb1c8a011e3b6841b3f1ebb759f19527364fb",
+  "device_free_verification_utc_interval": [
+    "2026-10-24T15:48:02+00:00",
+    "2026-10-24T15:50:20.628703+00:00"
+  ]
+}
