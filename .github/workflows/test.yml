@@ -12,6 +12,6 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install numpy pillow
       - run: python -m unittest discover -s tests -v
-      - run: python -m py_compile tools/*.py power/*.py image_service/*.py image_service/service/*.py image_service/sources/*.py mario/*.py mario/sealed/*.py mario/continuous/*.py pong/*.py pong/relearn/*.py relay/*.py metal/*.py kernel/*.py recipe/*.py recognition/*.py resident/*.py capability/*.py
+      - run: python -m py_compile tools/*.py power/*.py image_service/*.py image_service/service/*.py image_service/sources/*.py mario/*.py mario/sealed/*.py mario/continuous/*.py pong/*.py pong/relearn/*.py relay/*.py metal/*.py kernel/*.py recipe/*.py recognition/*.py resident/*.py capability/*.py streaming/*.py
       - run: g++ -std=c++17 -fsyntax-only recognition/cpu_bench.cpp
       - run: g++ -std=c++17 -fsyntax-only src/primitive_cpu.cpp

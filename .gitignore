@@ -50,3 +50,5 @@ studies/*/*.rows.json
 !visual/fnp-or-relay-4k60.mp4
 
 !visual/native-primitives-4k60.mp4
+
+!visual/streaming-prediction-4k60.mp4

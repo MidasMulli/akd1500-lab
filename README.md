@@ -8,6 +8,25 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Streaming prediction: native adaptation; skipped inference held — October 24, 2026
+
+A frozen T202 Nano world model runs alongside native AKD delayed-feedback learning.
+On identical changed-stream cases, the learning chip scores **49/69**, versus
+**27/69** for its trained-then-frozen control. Unchanged-context retention is
+**56/74 in both arms**. The task CPU control scores **61/69** on the changed stream.
+
+**The first pilot fails its prediction/class-coverage gates. No forecasts are
+skipped and no further initialization seeds are admitted.** Every prediction is
+recorded before the future image arrives; all 2,148 forwards and full RAM captures
+independently check. One learning FNP, one initialization; no CPU/energy advantage.
+
+![Recorded stream and measured native feedback](visual/streaming-prediction-4k.png)
+
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/streaming-prediction-4k60.mp4) ·
+[tools and scope](streaming/README.md) ·
+[assessment](studies/20261024-streaming-prediction/ASSESSMENT.md) ·
+[next gates](streaming/NEXT.md)
+
 ## Native execution: causal NPU checks and blocked-host learning — October 24, 2026
 
 **Native capability and a CPU advantage are separate questions.** Identical binary

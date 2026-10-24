@@ -1,0 +1,8 @@
+[
+  {
+    "stage": "freeze_path_pre_admission",
+    "error": "Relative path passed to relative_to absolute root; manifest build failed. Subsequent remote attempt rejected old MODEL_INTERFACE_ONLY admission before driver access.",
+    "physical_forwards": 0,
+    "correction": "Retain already-relative manifest paths and fail-fast shell orchestration."
+  }
+]

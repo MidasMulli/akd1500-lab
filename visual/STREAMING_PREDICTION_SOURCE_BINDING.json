@@ -1,0 +1,37 @@
+{
+  "status": "RECORDED_STREAM_NATIVE_RESPONSE_REPLAY",
+  "selected_samples": [
+    149,
+    199,
+    200,
+    248,
+    249,
+    296,
+    342,
+    389,
+    390,
+    458,
+    459,
+    532
+  ],
+  "record_selection": "First record with a captured feedback connection edit; otherwise first maximum-score eligible record. Replay selection, not acting input.",
+  "selection": "Two fixed endpoints per evaluation phase; four evenly spaced adaptation samples. No selection by correctness.",
+  "fps": 60,
+  "seconds": 24,
+  "hashes": {
+    "results/2026-10-24-streaming-prediction.json": "f30e57c082903e7941424843106b0059b7d46eecd164790964a4e36ac4dcb439",
+    "results/2026-10-24-streaming-prediction.npz": "e3fd2c18e28a28fb3219979466438e60ed59fa1fbf0990356e336020604b09a0",
+    "streaming/visual.py": "641e42a7040b0d00bc8ac18c90a2a2a6ab88ec954badcefabcc2e86e690aa7a7",
+    "streaming/report.py": "3a2b4eb1e86ad4acbe0371cca8f28f7b4787f49cb85084d5424ce065ce4c656b",
+    "streaming/archive.py": "f9bcec03ac5521fc1cafb1890ffd33f8c79d985a9dca34eead9789bb3f1662e9",
+    "streaming/audit.py": "3301304205c74de531980b759bd5b3cbf780683ed16d4f0891b64d50e57d7578",
+    "streaming/design.py": "89041c5f809f3d93b9b10d51ab8906ac253ac65ce883175b0cf9f91e2c3f32fd",
+    "resident/or_archive.py": "396c1bf810e4c335fca86563c4f1f78a4adea8ce22d9c1faacc680f362985f36",
+    "pong/relearn/model.py": "fc6be792ca47248823b33acab04eeed9ddf3ceeee5f192f05706b1c45d542d53",
+    "visual/streaming-prediction-metrics.json": "cc2730408fe65c47eb12bdbb21e04a12c40c4f13b05abb2d50a3098650c34ecd",
+    "visual/streaming-prediction-results.png": "72645d17a6422e57fdee23020e05e108373797632a182133ae57bce1a9efcd2e",
+    "visual/streaming-prediction-4k.png": "51cb73a05b0921f1955c2b5420f5cc5475360d77d8a0dbe1e6030d90e7b137c9",
+    "visual/streaming-prediction-adapt-4k.png": "73997b2fed2a29de67b3ab5593b5697e6538403958d47340289ad973e2893250",
+    "visual/streaming-prediction-4k60.mp4": "c6214d6dddaae8f8ea42b87c877ba325495aec1e0cf36c9d2a99057a66b45d0f"
+  }
+}
