@@ -13,6 +13,18 @@ A separately bounded [causal ablation](studies/20261023-metal-ablation/ASSESSMEN
 adds four sessions: full physical parameter readbacks and selective suppression
 confirm both compute NPUs contribute to their distinct output groups.
 
+Two further closed studies added 70 sessions and 19,712 forwards. The
+[sparse-work screen](studies/20261023-sparse-work/ASSESSMENT.md) separates input
+size from selected connections: query service is consistent with record scanning,
+while teaching cost responds to connection budget. The
+[four-mask learning study](studies/20261023-learning-interference/ASSESSMENT.md)
+shows both banks can edit connections in the same job while matching their entire
+solo state trajectories across three seeds. Neither physical clock overlap nor
+independent simultaneous teachers follows. The CPU contextual control reproduces
+the same learning states; useful system differentiation remains unestablished.
+The next discriminator is compute-versus-mesh capacity and genuinely independent
+plastic input/teacher paths, followed by a qualified system comparison.
+
 | Layer | Evidence in this repository | Open boundary |
 |---|---|---|
 | Native execution resources | Counter-qualified FNP3 width scaling; nearly constant CNP monitor cost when 128 outputs/one CNP grows to 256/two CNPs; exact teaching bursts with pipeline flag OFF and ON | Counter is DMA-path scope, not per-neuron timing; isolate input-word service, mesh contention, concurrent plastic teachers and energy |

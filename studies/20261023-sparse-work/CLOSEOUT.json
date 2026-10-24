@@ -1,0 +1,12 @@
+{
+  "status": "CLOSED",
+  "utc": "2026-10-24T01:21:17.249922+00:00",
+  "physical_sessions": 54,
+  "native_forwards": 9696,
+  "complete_learning_RAM_snapshots": 7104,
+  "admissions_closed": true,
+  "failures": "One source-transfer command failed before preparation or physical access; preserved in REPAIRS.json",
+  "remaining_owned_jobs": 0,
+  "physical_source_manifest_sha256": "2e7a95019feb95df910fe4f892a00847b124a0d83052a759b312293adeb61339",
+  "executed_source_snapshot_sha256": "0104fb805fc007cbdeca9542820c564257220ac0bcedc61951bd7ea8daf1f122"
+}

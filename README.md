@@ -8,7 +8,42 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
-## Native execution and causal NPU checks — October 23, 2026
+## Sparse-work and coupled-learning limits — October 23, 2026
+
+**Two follow-up studies: 70 physical sessions, 19,712 forwards and 27,136 complete
+bank-state captures.** All outputs, recorded learning states and counter controls
+pass independent numerical reconstruction.
+
+* At fixed input size and population width, changing selected connections from
+  8 to 64 barely changes initial-query service cost. Increasing input dimensions
+  does. The tested FNP3 path is consistent with full-record scanning; sparse
+  connections do not establish sparse-query acceleration.
+* In a five-NPU resident graph, both learning banks make connection edits in the
+  same input job. Across three seeds, each bank's entire captured state trajectory
+  matches its solo-learning control. Fixed communication/readout memory stays
+  unchanged. The common teacher and feed-forward dependency remain explicit.
+* A compiled CPU control reproduces every output and both final learning states,
+  using about 5.07 µs per event when both banks learn. Native transport/fetch waits,
+  unmatched whole-host costs and absent calibrated power prevent a substrate
+  efficiency claim. Same-job edits do not prove physical update overlap.
+
+![Measured sparse-work and coupled-learning limits](visual/execution-limits-4k.png)
+
+[Sparse-work assessment](studies/20261023-sparse-work/ASSESSMENT.md) ·
+[coupled-learning assessment](studies/20261023-learning-interference/ASSESSMENT.md) ·
+[CPU control protocol](studies/20261023-coupled-cpu/PROTOCOL.md) ·
+[numerical chart data](visual/execution-limits-data.csv) ·
+[remaining hardware questions](metal/NEXT.md)
+
+Hardware-free recounts:
+
+```bash
+python -m metal.sparse audit-public
+python -m metal.interference audit-public
+python -m metal.cpu_compare audit-public
+```
+
+## Earlier native execution and causal NPU checks — October 23, 2026
 
 **28 physical sessions, 9,824 forwards, exact numerical checks.** A hardware
 counter study separates neuron-population scaling, activation sensitivity,

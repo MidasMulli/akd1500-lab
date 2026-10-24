@@ -1,5 +1,27 @@
 # Native execution characterization
 
+The next-stage sparse-work and coupled-learning studies are now closed. They add
+70 physical sessions, 19,712 forwards and 27,136 complete bank-state captures.
+Initial-query service follows input/record size rather than selected connection
+count in the tested FNP3 path. Two native banks can edit connections in the same
+job and preserve their exact solo-learning state trajectories. See the
+[sparse-work assessment](../studies/20261023-sparse-work/ASSESSMENT.md),
+[coupled-learning assessment](../studies/20261023-learning-interference/ASSESSMENT.md)
+and [source-bound chart](../visual/execution-limits-4k.png).
+
+```bash
+python -m metal.sparse audit-public
+python -m metal.interference audit-public
+python -m metal.cpu_compare audit-public
+```
+
+`sparse_prepare.py` uses the separately supplied compiler only. `sparse.py` owns
+bounded admissions and exact per-step recounts. `interference.py` verifies the
+four-mask state comparison; `cpu_compare.py` validates the contextual C++ CPU
+implementation. Executed source/binary snapshots are retained privately. Final
+export-completeness checks were strengthened after physical closeout; this is
+not a native rerun. Generated programs and vendor runtime remain external.
+
 This work tests execution-resource questions on the physical AKD1500 before
 claiming useful CPU differentiation. The first campaign has 24 physical sessions,
 9,568 forwards and a public numerical archive with a hardware-free recount.

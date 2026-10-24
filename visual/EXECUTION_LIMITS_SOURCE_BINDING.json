@@ -1,0 +1,13 @@
+{
+  "status": "BOUND_TO_RECOUNTED_NATIVE_OBSERVATIONS",
+  "hashes": {
+    "results/2026-10-23-sparse-work.json": "d25fe7bf6a3d21e2f9ec0fe4c0dc53bce30a723383936c47771e9e22097767d4",
+    "results/2026-10-23-sparse-work.npz": "9b95cc99169de8216afb1c9148e2aa1cef86e6b0bc6fd15111a0129f515380ca",
+    "results/2026-10-23-learning-interference.json": "680848f35276d16878d36421d73ed84f1acbad53eb29cd4b4161ce1311cd1462",
+    "results/2026-10-23-learning-interference.npz": "e2f6f28e2ef0169e2fdc1c99e4a96b13b6f21bebee3796507373e1caaa2c3445",
+    "tools/visualize_execution_limits.py": "263634ac1cbe6bb2749e8b202afce78d49154be2426c2aa9797df194096dd721",
+    "visual/execution-limits-4k.png": "fe4f0cc9e5e7f4836558dafd79a76efe1ed567ab945f57187e347496f00ab3ab",
+    "visual/execution-limits.svg": "2bccaf2e0b9f331841106f9c3521e42e8bf84cc028c4cdb80f0bbefd724ebc81",
+    "visual/execution-limits-data.csv": "ef57d6f92a35efc8682552d749ce965acf7eeda3a8084fbbf16e172d1e57d56b"
+  }
+}

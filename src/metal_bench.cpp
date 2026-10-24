@@ -11,13 +11,20 @@ int main(int argc, char** argv) {
  akida::HardwareDevicePtr dev;
  bool programmed = false;
  try {
-  need(argc == 6, "fixture stream output samples kind(learner|fixed)");
+  need(argc == 6, "fixture stream output samples kind(learner|compact|fixed)");
   std::string f=argv[1], stream=argv[2], out=argv[3], kind=argv[5];
-  bool learner=kind=="learner"; need(learner||kind=="fixed", "known kind");
+  bool compact=kind=="compact", learner=kind=="learner"||compact;
+  need(learner||kind=="fixed", "known kind");
   int count=std::stoi(argv[4]), n,u,nw,classes,outputs;
   std::ifstream meta(f+".meta"); meta>>n>>u>>nw>>classes;
-  need(bool(meta)&&n==512&&count>0&&count<=1024, "bounded metal fixture");
-  outputs=learner?u:2;
+  need(bool(meta)&&n>=128&&n<=1024&&n%32==0&&count>0&&count<=1024, "bounded metal fixture");
+  outputs=learner&&!compact?u:2;
+  int threshold=0; std::vector<uint32_t> fixed;
+  if(compact) {
+   std::ifstream contract(f+".threshold");contract>>threshold;
+   need(bool(contract)&&classes==2&&u%2==0,"compact contract");
+   fixed=load<uint32_t>(f+".fixed.ram");need(fixed.size()>2,"fixed readout packet");
+  }
   auto inputs=load<uint8_t>(stream+".inputs");
   auto labels=load<int32_t>(stream+".labels");
   auto modes=load<uint8_t>(stream+".modes");
@@ -31,12 +38,14 @@ int main(int argc, char** argv) {
   program=load<uint8_t>(f+".bin"); auto info=dev->program(program.data(),program.size()); programmed=true;
   need(info.number_of_passes()==1&&info.can_learn()==learner&&info.input_is_dense()&&!info.activation_enabled(), "native metal IO");
   auto impl=static_cast<akida::HardwareDeviceImpl*>(dev.get());
-  auto capture=[&]() {
-   std::vector<uint32_t> got(initial.size()); got[0]=initial[0]; got[1]=initial[1];
+  auto capture_packet=[&](const std::vector<uint32_t>& packet) {
+   std::vector<uint32_t> got(packet.size()); got[0]=packet[0]; got[1]=packet[1];
    akida::dma::dma_config_read(got.data()+2,uint32_t(got.size()-2),got.data(),impl->dma_config(),impl->mem(),driver.get(),true);
    return got;
   };
+  auto capture=[&]() { return capture_packet(initial); };
   if(learner) { auto got=capture(); dump(out+".initial.ram",got); need(got==initial,"initial full RAM"); }
+  if(compact) { auto got=capture_packet(fixed);dump(out+".fixed.initial",got);need(got==fixed,"initial readout RAM"); }
   dev->toggle_clock_counter(true);
   std::vector<uint32_t> idle; std::vector<int64_t> idle_times;
   for(int delay_us : {0,0,5000,50000}) {
@@ -82,6 +91,7 @@ int main(int argc, char** argv) {
     std::vector<uint32_t> bits(n/32);
     for(int k=0;k<n;k++) bits[k/32]|=uint32_t(inputs[i*n+k]!=0)<<(k%32);
     want=reference->forward(bits,labels[i],modes[i]);
+    if(compact) { std::vector<int32_t> reduced(2);for(int j=0;j<u;j++)reduced[j/(u/2)]+=want[j]>threshold;want=std::move(reduced); }
     auto ram=capture(); snapshots.write((char*)ram.data(),ram.size()*sizeof(uint32_t)); snapshots.flush();
     need(ram==reference->ram,"every-step complete native learning RAM");
    } else want=std::vector<int32_t>(expected_fixed.begin()+i*outputs,expected_fixed.begin()+(i+1)*outputs);
@@ -124,6 +134,7 @@ int main(int argc, char** argv) {
   idle.push_back(dev->read_clock_counter()); std::this_thread::sleep_for(std::chrono::milliseconds(50)); idle.push_back(dev->read_clock_counter());
   dump(out+".idle_counter",idle);
   if(learner) { auto final=capture(); dump(out+".final.ram",final); need(final==reference->ram,"frozen suffix changes no native memory"); }
+  if(compact) { auto got=capture_packet(fixed);dump(out+".fixed.final",got);need(got==fixed,"final readout RAM"); }
   for(auto a:addresses) dev->scratch_free(a);
   dev->scratch_free(address); dev->toggle_clock_counter(false); dev->unprogram(); programmed=false;
   std::cout<<"{\"status\":\"PASS\",\"kind\":\""<<kind<<"\",\"events\":"<<count<<",\"extra_frozen_forwards\":48,\"outputs\":"<<outputs

@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "numerical_export",
+    "status": "PROVISIONAL_VALID_SUBSET_PRESERVED",
+    "detail": "Export started before all confirmations finished. First archive contained 12 complete arms and passed recount. Preserved that draft and replaced final archive only after all 16 native runs finished and were reviewed."
+  },
+  {
+    "stage": "post_closeout_audit_hardening",
+    "status": "NO_PHYSICAL_RERUN",
+    "detail": "Final export now requires closed admissions and all16 planned runs; public recount checks full treatment set and accounting. Physical source retained in hashed snapshot."
+  }
+]

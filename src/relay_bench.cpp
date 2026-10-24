@@ -56,8 +56,11 @@ int main(int argc,char**argv){
    need(got==banks[k].cpu.ram,"relay initial bank readback");
   }
   need(dev->set_batch_size(1,false)==1,"single relay event queue");auto address=dev->scratch_alloc(n);
+  dev->toggle_clock_counter(true);std::vector<uint32_t> idle;
+  for(int us:{0,0,5000,50000}){if(us)std::this_thread::sleep_for(std::chrono::microseconds(us));idle.push_back(dev->read_clock_counter());}
   int current_mask=-1;uint64_t polls=0,mode_changes=0;int64_t wall=0,caller=0;
-  std::vector<int32_t> outputs;std::vector<int64_t> times;std::vector<uint64_t> write_counts;
+  std::vector<int32_t> outputs;std::vector<int64_t> times,caller_times;std::vector<uint64_t> write_counts;
+  std::vector<uint32_t> bounds,cycles,config_bounds,control_bounds;
   for(int i=0;i<count;i++){
    kick_watchdog();int mask=masks[i],label=labels[i];need(mask>=0&&mask<4&&label>=0&&label<4,"relay teaching event");
    if(mask!=current_mask){
@@ -67,11 +70,15 @@ int main(int argc,char**argv){
     }
     current_mask=mask;mode_changes++;
    }
+   auto q0=dev->read_config_clock_counter(),c0=dev->read_clock_counter(),control0=driver->read32(LabDriver::REG+0x28024);
    auto start=ns(),cstart=cpu_ns();driver->write(address,inputs.data()+i*n,n);
    need(dev->enqueue(address,&label),"relay enqueue");auto after_submit=driver->writes;
    akida::TensorUniquePtr y;auto deadline=Clock::now()+std::chrono::seconds(2);
    while(!(y=dev->fetch())){polls++;need(Clock::now()<deadline,"relay completion deadline");std::this_thread::sleep_for(std::chrono::microseconds(50));}
-   wall+=ns()-start;caller+=cpu_ns()-cstart;times.push_back(ns()-start);
+   auto elapsed=ns()-start,spent=cpu_ns()-cstart;wall+=elapsed;caller+=spent;times.push_back(elapsed);caller_times.push_back(spent);
+   auto c1=dev->read_clock_counter(),q1=dev->read_config_clock_counter(),control1=driver->read32(LabDriver::REG+0x28024);
+   bounds.push_back(c0);bounds.push_back(c1);cycles.push_back(c1-c0);config_bounds.push_back(q0);config_bounds.push_back(q1);
+   control_bounds.push_back(control0);control_bounds.push_back(control1);
    // Fetch may acknowledge/drain an output; no host intermediate activation is injected.
    write_counts.push_back(driver->writes-after_submit);
    need(y->type()==akida::TensorType::int32&&y->size()==size_t(classes),"four destination supports");
@@ -91,12 +98,15 @@ int main(int argc,char**argv){
    }
    if(actual!=support){std::cerr<<"sample="<<i<<" mask="<<mask<<" actual=";for(auto q:actual)std::cerr<<q<<",";std::cerr<<" expected=";for(auto q:support)std::cerr<<q<<",";std::cerr<<"\n";throw std::runtime_error("relay final output mismatch");}
   }
+  idle.push_back(dev->read_clock_counter());std::this_thread::sleep_for(std::chrono::milliseconds(50));idle.push_back(dev->read_clock_counter());
+  dump(out+".idle_counter",idle);dump(out+".cycles",cycles);dump(out+".counter_bounds",bounds);dump(out+".config_bounds",config_bounds);
+  dump(out+".control_bounds",control_bounds);dump(out+".caller_ns",caller_times);
   for(int k=0;k<nb;k++)dump(out+".bank"+std::to_string(k)+".ram",capture(banks[k].cpu.ram));
   for(int j=0;j<nf;j++){
    auto got=capture(fixed[j]);dump(out+".fixed"+std::to_string(j)+".final.ram",got);
    need(got==fixed[j],"fixed relay communication changed");
   }
-  dump(out+".writes_after_submit",write_counts);dev->scratch_free(address);dev->unprogram();programmed=false;
+  dump(out+".writes_after_submit",write_counts);dev->scratch_free(address);dev->toggle_clock_counter(false);dev->unprogram();programmed=false;
   std::cout<<"{\"status\":\"PASS\",\"samples\":"<<count<<",\"plastic_banks\":2,\"learning_neurons\":128,\"mode_changes\":"<<mode_changes<<",\"wall_ns\":"<<wall<<",\"thread_cpu_ns\":"<<caller<<",\"polls\":"<<polls<<",\"intermediate_inputs_from_host\":0,\"every_step_RAM_and_output_exact\":true,\"cleanup\":\"unprogrammed\"}\n";
  }catch(const std::exception& e){std::cerr<<"FAIL: "<<e.what()<<'\n';if(dev&&programmed)try{dev->unprogram();}catch(...){}return 1;}
 }

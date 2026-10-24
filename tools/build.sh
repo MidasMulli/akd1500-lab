@@ -5,7 +5,7 @@ cd "$(dirname "$0")/.."
 : "${FLATBUFFERS_INCLUDE:?Set to the runtime-compatible FlatBuffers include directory}"
 mkdir -p build
 bench=${AKD_LAB_BENCH:-learning_bench}
-case "$bench" in learning_bench|readout_bench|offload_bench|bank_bench|image_service|mario_stream|pong_stream|pong_relearn|relay_bench|metal_bench|queue_bench|ablation_bench) ;; *) exit 2;; esac
+case "$bench" in learning_bench|readout_bench|offload_bench|bank_bench|image_service|mario_stream|pong_stream|pong_relearn|relay_bench|metal_bench|queue_bench|ablation_bench|coupled_cpu_bench) ;; *) exit 2;; esac
 flags=(-std=c++17 -O3 -mcpu=native -DAKIDA_VERSION='"2.19.3"' -Isrc -I"$AKIDA_ENGINE_ROOT/api" -I"$AKIDA_ENGINE_ROOT/inc" -I"$AKIDA_ENGINE_ROOT/src" -I"$FLATBUFFERS_INCLUDE")
 benchmark_source="src/$bench.cpp"
 if [ "$bench" = image_service ]; then benchmark_source=image_service/sources/native_service.cpp; fi

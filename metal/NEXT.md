@@ -1,11 +1,20 @@
 # Next depth: distinguish shared execution, routing and plastic-state limits
 
-Status: prospective next study, not executed. The completed two studies remain
-closed. Create a fresh bounded authority/admission before physical execution;
+Status: the sparse-work screen and the four-mask coupled-learning study below
+have now been executed and closed. Their assessments are in
+`studies/20261023-sparse-work/ASSESSMENT.md` and
+`studies/20261023-learning-interference/ASSESSMENT.md`. The contextual CPU control
+also passed exact output/final-RAM checks; useful-application differentiation
+remains unestablished. Other proposed cells below remain unrun.
+Create a fresh bounded authority/admission before further physical execution;
 the user's standing research direction is core hardware characterization and a
 measured CPU distinction, not another small application demonstration.
 
 ## 1. Separate input-word scanning from selected-connection work
+
+Completed: 54 sessions/9696 forwards. Initial-query service followed input/record
+size, with almost no response to8/32/64 selected connections. This path does not
+qualify a sparse-query acceleration claim. Teaching was connection-budget-sensitive.
 
 Freeze seed 98201, widths 64 and 256, binary input dimensions 128/512/1024,
 selected connections 8/32/64, and half-active inputs. Compiler-map first, reject
@@ -32,6 +41,11 @@ cost, total host completion and burst throughput. Compare isolation and mixed
 load. Test alternate A/B ordering to expose ordering-dependent state effects.
 
 ## 3. Test coupled learning-resource interference
+
+Completed for a common teacher and the existing dependent feed-forward graph:
+16 sessions/10016 forwards, three seeds. Every solo/mixed captured state matched;
+both banks made connection edits in the same job. Independent streams, teachers,
+queued dual-bank teaching and literal update overlap remain untested.
 
 Begin with the already validated two-bank graph. Freeze a shared prefix and the
 same input/label stream; compare learning masks 00/01/10/11 with full per-bank

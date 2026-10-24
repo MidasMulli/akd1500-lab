@@ -1,0 +1,8 @@
+{
+  "status": "CLOSED",
+  "utc": "2026-10-24T01:29:21.244521+00:00",
+  "physical_device_opened": false,
+  "cpu_runs": 13,
+  "CPU_simulated_forwards": 1008272,
+  "timed_CPU_events": 196736
+}

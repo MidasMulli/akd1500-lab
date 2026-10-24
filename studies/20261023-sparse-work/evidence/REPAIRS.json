@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "source_transfer",
+    "status": "FAILED_BEFORE_COMPILER_OR_DEVICE",
+    "error": "Relative rsync path used from home rather than repository",
+    "repair": "Set explicit repository working directory"
+  },
+  {
+    "stage": "post_closeout_audit_hardening",
+    "status": "NO_PHYSICAL_RERUN",
+    "detail": "Final exports now require closed admissions and complete prospectively specified treatment sets. Recount also verifies saved assessments. Owned physical source/binaries retained in hashed source snapshot."
+  },
+  {
+    "stage": "publication_format_check",
+    "status": "REPAIRED_BEFORE_COMMIT",
+    "detail": "Default CSV CRLF terminators triggered git diff whitespace checks. Generator now explicitly writes LF, and chart/source bindings are regenerated. No numerical observation changed."
+  }
+]

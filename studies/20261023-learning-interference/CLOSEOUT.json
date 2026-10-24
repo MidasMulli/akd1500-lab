@@ -1,0 +1,16 @@
+{
+  "status": "CLOSED",
+  "utc": "2026-10-24T01:24:25.242159+00:00",
+  "physical_sessions": 16,
+  "native_forwards": 10016,
+  "complete_learning_RAM_snapshots": 20032,
+  "admissions_closed": true,
+  "remaining_owned_jobs": 0,
+  "limitations": [
+    "One chip, three initialization seeds",
+    "Shared teacher and serial feed-forward graph, not independent streams or per-cycle overlap",
+    "Artifact transfer/snapshot preparation overlapped late confirmation runs; host latency is descriptive and not a clean system benchmark"
+  ],
+  "physical_source_manifest_sha256": "1adfe71031062420392cb45778124c8f90a4a540e8a3882b6623fd5d89b5bdca",
+  "executed_source_snapshot_sha256": "821beb6c4e22bae6426c7f33d30a57af1ffa760eb8abf040c0a65ee7f47b90d9"
+}

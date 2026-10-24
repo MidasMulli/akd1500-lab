@@ -1,0 +1,303 @@
+{
+  "status": "CPU_CONTEXT_ONLY",
+  "physical_device_opened": false,
+  "native_report_sha256": "680848f35276d16878d36421d73ed84f1acbad53eb29cd4b4161ce1311cd1462",
+  "native_archive_sha256": "e2f6f28e2ef0169e2fdc1c99e4a96b13b6f21bebee3796507373e1caaa2c3445",
+  "archive_sha256": "3171f0c617111252e76c10a3cc0c97ddea8a3c26379e3a1d3fa4081f62213de8",
+  "runs": [
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97101_m0",
+      "native_run": "full_s97101_m0",
+      "seed": 97101,
+      "mask": 0,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4569.3984375,
+      "median_thread_cpu_ns_per_test_event": 4567.25,
+      "hashes": {
+        "cpu.probe_cpu_ns": "982f17424468ec48ce281dda0b653fc9c8ad611abb5f7b0b73f58330357b7092",
+        "cpu.bank1.ram": "820520924cfed280a5b221da0fa275318afaaa3524b066eef5b7dde42452a025",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "0946a49971a8cd784ed712653f27feb80e7c6ab6c87c25a8b40ebbe016acbf92",
+        "cpu.probe_wall_ns": "4a49d04b142401c01f91b296b13860a8af60f83d57a4726041936dc7d241271a",
+        "cpu.bank0.ram": "8d4feb50bdc7600f01a7a8c768db4fa65bfb8e545e38025cafde2b32cc3fdeaa",
+        "cpu.stdout": "c1df738f3f7957d99cddb179ed95c2adafd7ce681a2c9e2f829e5268d468f66b",
+        "HOST.json": "532929fb4b6124718f16f475d20d849df2f27d29825a5d063ed64be4983128f3",
+        "BEFORE.json": "217f4c5067a56babc077c8a4ab1797adeb1dd6a53a0dbf01c54298edb27ffe00"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97101_m1",
+      "native_run": "full_s97101_m1",
+      "seed": 97101,
+      "mask": 1,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4855.90234375,
+      "median_thread_cpu_ns_per_test_event": 4853.75,
+      "hashes": {
+        "cpu.probe_cpu_ns": "ea7714d62c17bce88c4ad79eeed06bd53373bd38d37e15f27a1716f429b44a12",
+        "cpu.bank1.ram": "820520924cfed280a5b221da0fa275318afaaa3524b066eef5b7dde42452a025",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "0946a49971a8cd784ed712653f27feb80e7c6ab6c87c25a8b40ebbe016acbf92",
+        "cpu.probe_wall_ns": "1142ac36d0db63f07a92ab6aba98cf587de49e0860a326bf90202e1eeb8f8e4e",
+        "cpu.bank0.ram": "3a56226a19e6879a32a768a1be50badd6f473d4663a48d10a358964014a31482",
+        "cpu.stdout": "c1df738f3f7957d99cddb179ed95c2adafd7ce681a2c9e2f829e5268d468f66b",
+        "HOST.json": "5dd858b5690cff8f12769750e32cc776036e2fe77d78c5accfbc62b0c56d7389",
+        "BEFORE.json": "5b0caa8558134d71554205d9424c9b4cce32e77ec0b0d60fc34a6b86fbc615ca"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97101_m2",
+      "native_run": "full_s97101_m2",
+      "seed": 97101,
+      "mask": 2,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4798.15625,
+      "median_thread_cpu_ns_per_test_event": 4796.25,
+      "hashes": {
+        "cpu.probe_cpu_ns": "a91584a40d3477686c0ce8fea251b2663770fb7f7c18f4eb91910881ac18bd98",
+        "cpu.bank1.ram": "bddeb30046853df5b96450243cf4b886a0dba441c599f5ba2d5dfd9983914f45",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "75a30603001b494f3950422c67b5d266b958e0edfaebea9e59d312233231a2c7",
+        "cpu.probe_wall_ns": "21f0944122e09b9b1affba4385d2123c44bc9c761c91db779603dc5d43ec3d09",
+        "cpu.bank0.ram": "8d4feb50bdc7600f01a7a8c768db4fa65bfb8e545e38025cafde2b32cc3fdeaa",
+        "cpu.stdout": "78be1fa3ca46cd4966466606e5355d3173c2be76e7241840c266d913dccb03bb",
+        "HOST.json": "456a60d8459cec28144997fdfebad3c4c4dc31c34e5c404ceba11924205d7ce5",
+        "BEFORE.json": "be33d384d209ad680eb50b63b28e62f5a21f5237c414a1ffc4b6354497bb22e6"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97101_m3",
+      "native_run": "full_s97101_m3",
+      "seed": 97101,
+      "mask": 3,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 5068.16015625,
+      "median_thread_cpu_ns_per_test_event": 5066.25,
+      "hashes": {
+        "cpu.probe_cpu_ns": "6ef07b9dfb32c5cfaa0f7a5973b32e59166b599e90a29e52f759115ec27abd55",
+        "cpu.bank1.ram": "bddeb30046853df5b96450243cf4b886a0dba441c599f5ba2d5dfd9983914f45",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "75a30603001b494f3950422c67b5d266b958e0edfaebea9e59d312233231a2c7",
+        "cpu.probe_wall_ns": "1a9434373180dc8a8a1794efbdee96de7750009ddff88d1cc7dde11bf069f0b0",
+        "cpu.bank0.ram": "3a56226a19e6879a32a768a1be50badd6f473d4663a48d10a358964014a31482",
+        "cpu.stdout": "78be1fa3ca46cd4966466606e5355d3173c2be76e7241840c266d913dccb03bb",
+        "HOST.json": "946d661f50cd4e5b64f12418992f48b5f9479fc7dda52e3258248e680dddfd5b",
+        "BEFORE.json": "2649b525433aedb63b202e065c2821694923706bbb7087ccbb97abeb6664a7dc"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97102_m0",
+      "native_run": "full_s97102_m0",
+      "seed": 97102,
+      "mask": 0,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4568.1484375,
+      "median_thread_cpu_ns_per_test_event": 4566.0,
+      "hashes": {
+        "cpu.probe_cpu_ns": "7db87960e0eac58c521fea05cb14fb57945acdb8cd834bc95eb37b83d3bc8bb8",
+        "cpu.bank1.ram": "780ff712f49cd50479181655245342badac44fb20ec33ee13f606dbd94679bc9",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "d3f66524eea88427be28779a9bb4441e6cb319c4478a09967cbf1878b187ae73",
+        "cpu.probe_wall_ns": "cdacca68ddbdb8cf6ce1e1c06281373c80506ba332ee9a6507593848b6d2b0e8",
+        "cpu.bank0.ram": "e2aad7321e237be80c1bf4d822af035fea724574431cc9170d40d6fda6a0be63",
+        "cpu.stdout": "ef7d9f42b94a11790bbf4bdcacdadf82dbc2e1d506fe6b0cfd771033c1d11a86",
+        "HOST.json": "036326b3c07d7b50277657cff6fde7b09e589bdb78fe72ace50e8d5eb5590513",
+        "BEFORE.json": "2475ca8d3c9065cbe0789ef625c0fda2aa3df45b8059f90a359d712e27325334"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97102_m1",
+      "native_run": "full_s97102_m1",
+      "seed": 97102,
+      "mask": 1,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4858.90625,
+      "median_thread_cpu_ns_per_test_event": 4857.125,
+      "hashes": {
+        "cpu.probe_cpu_ns": "ff810875ca24891621add88a6c4bedcd8085d4847687a7043d0b2be71b804002",
+        "cpu.bank1.ram": "780ff712f49cd50479181655245342badac44fb20ec33ee13f606dbd94679bc9",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "d3f66524eea88427be28779a9bb4441e6cb319c4478a09967cbf1878b187ae73",
+        "cpu.probe_wall_ns": "7188c318c450082566ea6cae51f81f8f9dcc24919264aa7e36739e2cb462dda9",
+        "cpu.bank0.ram": "302f7ec88a8b42e81c8c711431720a1446736a3cd55e43f26ac0825617f0e9b1",
+        "cpu.stdout": "ef7d9f42b94a11790bbf4bdcacdadf82dbc2e1d506fe6b0cfd771033c1d11a86",
+        "HOST.json": "b95c95fcd15aed8145f4bb99fa3171137c38f1dc499520cc8d0ede27dd30c81c",
+        "BEFORE.json": "c39cac8b0323ccdea5c87b713d813f637507040dbf70fc4943113e6387e22e55"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97102_m2",
+      "native_run": "full_s97102_m2",
+      "seed": 97102,
+      "mask": 2,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4797.77734375,
+      "median_thread_cpu_ns_per_test_event": 4795.75,
+      "hashes": {
+        "cpu.probe_cpu_ns": "9d92e201e93fb530725dcbd9ec77a355a0ac94e5e05c7be6b31bc8f4d54d3a36",
+        "cpu.bank1.ram": "4096c18311bc1c8c3e46e64c136c002d614c15734345e67ef78f1208e9c8ee91",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "3bef14ea3b9229541fd5d729076753cd6233f66b6613508f20246742b16eae10",
+        "cpu.probe_wall_ns": "cb3f3960846791ed31895fb79b941999be74936fd751c60feca35853bab3296f",
+        "cpu.bank0.ram": "e2aad7321e237be80c1bf4d822af035fea724574431cc9170d40d6fda6a0be63",
+        "cpu.stdout": "fc9d4316de0c825689bd45f8f813d9df1bdeaa77b14a94104d47b5daa50e28f1",
+        "HOST.json": "c4c5c2f43ceb1c6b17c2f4239f040425ae3196c7968d03edc37f21bc7bc4ec5e",
+        "BEFORE.json": "6a5abb936aadd3394a5fe253ccbb3d77ffa8de9d622241c6b3061d0b035cf840"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97102_m3",
+      "native_run": "full_s97102_m3",
+      "seed": 97102,
+      "mask": 3,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 5068.4140625,
+      "median_thread_cpu_ns_per_test_event": 5066.25,
+      "hashes": {
+        "cpu.probe_cpu_ns": "14b67e9e33f3d486ead54342e61ab6928a09b5cca0f4db568ccaa17fdcd071c4",
+        "cpu.bank1.ram": "4096c18311bc1c8c3e46e64c136c002d614c15734345e67ef78f1208e9c8ee91",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "3bef14ea3b9229541fd5d729076753cd6233f66b6613508f20246742b16eae10",
+        "cpu.probe_wall_ns": "01dc0c9a660d4a212fe1c285d666972f93da150ec6064bfc3551caed3c1e642b",
+        "cpu.bank0.ram": "302f7ec88a8b42e81c8c711431720a1446736a3cd55e43f26ac0825617f0e9b1",
+        "cpu.stdout": "fc9d4316de0c825689bd45f8f813d9df1bdeaa77b14a94104d47b5daa50e28f1",
+        "HOST.json": "52e4e15c78480716d66df5e425668a7e758a0142268ac424609b03d27566bedd",
+        "BEFORE.json": "b5e827cfc66ef16575570458a77de999d6868b07e1d9000e6080dcd8d74031f2"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97103_m0",
+      "native_run": "full_s97103_m0",
+      "seed": 97103,
+      "mask": 0,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4575.3984375,
+      "median_thread_cpu_ns_per_test_event": 4573.5,
+      "hashes": {
+        "cpu.probe_cpu_ns": "5801d1205763d15185e72c92264eb19a976258e5c6265eea8ed4cc634280d260",
+        "cpu.bank1.ram": "c5de551fee618edf422df0fb2bcf1f29b805b746373db235a1474421a6f63f8a",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "3805ecb1e7fdebf9e378606ed00990b88c94446b86092ed3e684bddf093051ee",
+        "cpu.probe_wall_ns": "a1d12b9abbd46cb6f13739f72a10aeda5a8492f89be74e361aac0dfad811ab0f",
+        "cpu.bank0.ram": "150ebae9e9d81a76a5bdcf7163a6d30f79a69900342d9bbc54cee848c8adad43",
+        "cpu.stdout": "ed0298e67d39df5b95b9be3012b6088a0405dcd400a2ddff8daa94117b73d62d",
+        "HOST.json": "a7b868894e96f23febe94a0da704dbb82d5f958b6f518ed4e6aff3036c4c0365",
+        "BEFORE.json": "587c1891b158004132269e14efdd7de882ce2d4082fb6587cc83b0902d6816ac"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97103_m1",
+      "native_run": "full_s97103_m1",
+      "seed": 97103,
+      "mask": 1,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4867.65625,
+      "median_thread_cpu_ns_per_test_event": 4865.625,
+      "hashes": {
+        "cpu.probe_cpu_ns": "246dc4b3318182eecbeff68605cc01cd6329e0ab2d94f224b76338ab2320aa82",
+        "cpu.bank1.ram": "c5de551fee618edf422df0fb2bcf1f29b805b746373db235a1474421a6f63f8a",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "3805ecb1e7fdebf9e378606ed00990b88c94446b86092ed3e684bddf093051ee",
+        "cpu.probe_wall_ns": "76f6c62ed46472272bf5b6d34a994996b22cce048cf44c6104322162e6126fa1",
+        "cpu.bank0.ram": "536f7f47ad2808913f8663c9eaa2cd4eea0922808d3d8722daa2450535d8f1b6",
+        "cpu.stdout": "ed0298e67d39df5b95b9be3012b6088a0405dcd400a2ddff8daa94117b73d62d",
+        "HOST.json": "99738ec6ac7f4d614e1d6ad03fcae472631c3481e5493073d9a063b38b01d207",
+        "BEFORE.json": "a194ac5467d27e4daec0298a0930b3f8c481e739da8b339e75b178a79f4ad4a0"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97103_m2",
+      "native_run": "full_s97103_m2",
+      "seed": 97103,
+      "mask": 2,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 4796.03125,
+      "median_thread_cpu_ns_per_test_event": 4794.25,
+      "hashes": {
+        "cpu.probe_cpu_ns": "96692a62a1c69ff521b9cd34c198834e655b0aa5da4dfd837afb75c68081c120",
+        "cpu.bank1.ram": "2e37cfe91991257fe261008a1483eabc64e87725db9f6da72ecbb016b9b9c712",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "49db3623b4cfc526b47f589f5ba4282ffef711dd7569ebd7b81b9c6b674b8335",
+        "cpu.probe_wall_ns": "aad58898276908ff28904f5523aef4c459e4c0f394c2c457a9c3bf40fcc180ed",
+        "cpu.bank0.ram": "150ebae9e9d81a76a5bdcf7163a6d30f79a69900342d9bbc54cee848c8adad43",
+        "cpu.stdout": "8cf5e840466545ba11c48bcaf2c62aa9580f4384c86d919ef095b6225f3ea761",
+        "HOST.json": "04a9a80f7755867b812bc0e0418b19f5f9730a87f3667edaecdd0037562902f5",
+        "BEFORE.json": "5b8ce0e14bb41152a07571e43cf2ea6f653fb2ea2e0afe234ada66ec1799f520"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "full_s97103_m3",
+      "native_run": "full_s97103_m3",
+      "seed": 97103,
+      "mask": 3,
+      "repeats": 128,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 5071.16015625,
+      "median_thread_cpu_ns_per_test_event": 5068.75,
+      "hashes": {
+        "cpu.probe_cpu_ns": "f9d2f382c62c1a2e576c3641a233d145c37d649c32c86483e4c2a5b647d70525",
+        "cpu.bank1.ram": "2e37cfe91991257fe261008a1483eabc64e87725db9f6da72ecbb016b9b9c712",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "49db3623b4cfc526b47f589f5ba4282ffef711dd7569ebd7b81b9c6b674b8335",
+        "cpu.probe_wall_ns": "f611245b933b0d6bdbf7645ca9ee9d56ce58c5f046100b2e0db7fad501a452a2",
+        "cpu.bank0.ram": "536f7f47ad2808913f8663c9eaa2cd4eea0922808d3d8722daa2450535d8f1b6",
+        "cpu.stdout": "8cf5e840466545ba11c48bcaf2c62aa9580f4384c86d919ef095b6225f3ea761",
+        "HOST.json": "684cc59db06283e9001d90bc13f29ecddaf6be65d5661a91953a3f5efbb04859",
+        "BEFORE.json": "8bcf58d535ce00b0e6846af164e1d41bcded3dd1c36b6c5c1639c5df585e2211"
+      }
+    },
+    {
+      "status": "EXACT_NATIVE_OUTPUTS_AND_FINAL_RAM_PASS",
+      "name": "pilot_full_s97101_m3",
+      "native_run": "full_s97101_m3",
+      "seed": 97101,
+      "mask": 3,
+      "repeats": 1,
+      "timed_events_per_repeat": 128,
+      "median_cpu_wall_ns_per_test_event": 5180.671875,
+      "median_thread_cpu_ns_per_test_event": 5164.5,
+      "hashes": {
+        "cpu.probe_cpu_ns": "a88f47db21b9ee527d49d88fe282904e72fad7fd0839d5a1f4b02f8aa269e27c",
+        "cpu.bank1.ram": "bddeb30046853df5b96450243cf4b886a0dba441c599f5ba2d5dfd9983914f45",
+        "cpu.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "cpu.scores": "75a30603001b494f3950422c67b5d266b958e0edfaebea9e59d312233231a2c7",
+        "cpu.probe_wall_ns": "b20af6c1a7b1e71b056c6b4d7ebda8967eac5fc5d84dd9d54a73eba73ec44b3c",
+        "cpu.bank0.ram": "3a56226a19e6879a32a768a1be50badd6f473d4663a48d10a358964014a31482",
+        "cpu.stdout": "268733d6f3d08410cf4185acd83596ed42d85f369e58868224746aa1924210f7",
+        "HOST.json": "5b714f52052a0d7ff5119a76916acf66405f268588eb0694b5623483c9ac5064",
+        "BEFORE.json": "4955d10e51c151552b54e4831ca072400f87d27b67178866d143f8da7e6e3729"
+      }
+    }
+  ],
+  "limitations": [
+    "Compiler-O3 binary-popcount implementation with direct categorical decoding; not a proven optimal CPU implementation",
+    "Same dense input, teacher stream, output contract and exact final learning state",
+    "Timed interval is 128 probe events after replaying the entire 512-event prefix each repetition",
+    "Native adapter uses transport and 50us fetch sleeps; CPU has no PCIe round trip",
+    "Late native confirmations overlapped artifact handling, so host-latency comparison is descriptive",
+    "No matched whole-host IRQ accounting, calibrated power or useful-application CPU differentiation established"
+  ]
+}
