@@ -72,10 +72,12 @@ def export():
 
 
 def recount(report,data):
+    assert [r['name'] for r in report['runs']]==['baseline','suppress_A','suppress_B','suppress_both'], 'complete causal treatment set'
     rng=np.random.default_rng(98120);w=np.zeros((512,256),np.int32)
     for j in range(256):w[rng.choice(512,32,replace=False),j]=1
     for run in report['runs']:
         name=run['name'];key=name+'__';x=data[key+'inputs'];out=data[key+'outputs']
+        assert x.shape==(64,512) and out.shape==(64,2) and np.all((x==0)|(x==1))
         thresholds=np.full(256,15)
         if name in ['suppress_A','suppress_both']:thresholds[:128]=32
         if name in ['suppress_B','suppress_both']:thresholds[128:]=32

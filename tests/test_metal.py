@@ -1,6 +1,7 @@
 """Reject corrupted native measurements and unsupported changes to queue evidence."""
 from pathlib import Path
 import copy
+import hashlib
 import json
 import unittest
 import numpy as np
@@ -81,6 +82,24 @@ class NativeMetalEvidence(unittest.TestCase):
         report['runs'][0]['fixture']['packets'][0]['np'] = [1,2,2]
         with self.assertRaisesRegex(AssertionError, 'physical target'):
             recount(report, self.ablation_data)
+
+    def test_a_missing_causal_arm_is_rejected(self):
+        report=copy.deepcopy(self.ablation);report['runs'].pop()
+        with self.assertRaisesRegex(AssertionError,'complete causal treatment set'):
+            recount(report,self.ablation_data)
+
+    def test_chart_artifacts_are_bound_to_the_reviewed_sources(self):
+        binding=json.loads((P/'visual/NATIVE_EXECUTION_SOURCE_BINDING.json').read_text())
+        paths={'report_sha256':'results/2026-10-23-metal.json',
+               'archive_sha256':'results/2026-10-23-metal.npz',
+               'generator_sha256':'tools/visualize_metal.py',
+               'png_sha256':'visual/native-execution-4k.png',
+               'svg_sha256':'visual/native-execution.svg',
+               'ablation_report_sha256':'results/2026-10-23-metal-ablation.json',
+               'ablation_archive_sha256':'results/2026-10-23-metal-ablation.npz',
+               'ablation_png_sha256':'visual/native-npu-ablation.png',
+               'ablation_svg_sha256':'visual/native-npu-ablation.svg'}
+        for key,path in paths.items():self.assertEqual(binding[key],hashlib.sha256((P/path).read_bytes()).hexdigest())
 
 
 if __name__ == '__main__': unittest.main()

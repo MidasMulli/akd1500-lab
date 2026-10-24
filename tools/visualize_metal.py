@@ -41,6 +41,7 @@ def ablation_figure():
     fig.text(.085,.08,'Four physical sessions · 256 native forwards · 40 region readbacks · contribution test, not a per-cycle simultaneity claim',fontsize=11,color=MUTED)
     png=P/'visual/native-npu-ablation.png';svg=P/'visual/native-npu-ablation.svg'
     fig.savefig(png,facecolor=BG,dpi=200);fig.savefig(svg,facecolor=BG);plt.close(fig)
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     return base,png,svg
 
 
@@ -108,6 +109,7 @@ def main():
     fig.text(.065,.04,'Source: MidasMulli/akd1500-lab  ·  results/2026-10-23-metal.{json,npz}  ·  exact numerical recount and preserved compiler rejection',fontsize=10,color=MUTED)
     png=P/'visual/native-execution-4k.png'; svg=P/'visual/native-execution.svg'
     fig.savefig(png,facecolor=BG,dpi=200);fig.savefig(svg,facecolor=BG);plt.close(fig)
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     ablation_base,ablation_png,ablation_svg=ablation_figure()
     h=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
     (P/'visual/NATIVE_EXECUTION_SOURCE_BINDING.json').write_text(json.dumps(dict(

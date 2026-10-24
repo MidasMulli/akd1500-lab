@@ -1,12 +1,12 @@
 {
   "report_sha256": "d3b30607efa59907269109ba208b0341d4cc60218e7ce1c82b74ee2ed1f1f739",
   "archive_sha256": "2ac6e2afbea3f18c08b4da6969a5f7e00d50d641fb84397f1c98f0a9a4732ac9",
-  "generator_sha256": "5f02df3966800f44c5bdfedc159d4a4c964305eac28635d0178798321b450eab",
+  "generator_sha256": "fd802e563c45bc39c3f076fd42dad64595e0820e592dada271d949c97898d837",
   "png_sha256": "504cb06e2a8284a8cc43582760aba2254bd6fbb8b6de21a2d91b78960172a499",
-  "svg_sha256": "93ff6c638941f03208235374a69fe82a92e6e6dc9d8a0b220ecbe5f76701b364",
+  "svg_sha256": "78023f3f01019db8a2939a76beacf61783d6bf4534a565bd8d0336ed3e8abf88",
   "ablation_report_sha256": "57365f1dd3995883e996941b5ee9687a5c6dfb4e114573af693bd23dc5ff4c85",
   "ablation_archive_sha256": "99c7dcebbc650b1c4cacb22055aa0b26bd8e28c8a58baa9e13e69800b51066c7",
   "ablation_png_sha256": "a59dca4c94d94556430c2d22de8d1cad1c10150687aafb19ada971c9c0bbd761",
-  "ablation_svg_sha256": "4c3193ef1d879f3d192a8cf43b75bffa78dac29196b2ef224fac3f444a1e4757",
+  "ablation_svg_sha256": "645544effdc03e466286644f99741349d8e28a1dfc8664c0859201a67ec1268d",
   "reconstruction": "Scientific plots of native counters and RAM record edits; no electrical spike animation"
 }
