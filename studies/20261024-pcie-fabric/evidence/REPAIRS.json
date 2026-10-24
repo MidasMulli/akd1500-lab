@@ -1,0 +1,26 @@
+{
+  "failures": [
+    {
+      "attempt": "compiler01",
+      "source_sha256": "6407d4b6a7bede377d2a1af1d47e309aa4475be60f309cfaef20bcc153b98599",
+      "physical_forwards": 0,
+      "error": "('independent CNP integer reference', 18657)",
+      "preserved_source": "studies/20261024-pcie-fabric/failed_attempts/compiler01/prepare.py"
+    },
+    {
+      "attempt": "compiler02",
+      "source_sha256": "67e63034537b13dcfe6f5264160f1bd3470b311dcb0c874ef030cac86cde8541",
+      "physical_forwards": 0,
+      "error": "end-to-end virtual contract",
+      "preserved_source": "studies/20261024-pcie-fabric/failed_attempts/compiler02/prepare.py"
+    },
+    {
+      "attempt": "descriptor-json-probe",
+      "physical_forwards": 0,
+      "error": "TypeError: Object of type SramSize is not JSON serializable",
+      "repair": "Serialize named budget fields explicitly; do not infer capacity from repr"
+    }
+  ],
+  "compiler_success": "fixtures03",
+  "native_failures": 0
+}

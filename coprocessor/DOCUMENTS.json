@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-10-24T14:29:16.091814+00:00",
+  "sources": [
+    {
+      "file": "pcie-datasheet-v1.5.pdf",
+      "url": "https://shop.brainchipinc.com/cdn/shop/files/AKD1500_PCIe_datasheet_V1.5.pdf?v=17163416319565603188",
+      "bytes": 2146872,
+      "sha256": "72fa58ea5005cbf54ebd2b46cf5301a4fc90146d38d6dcdf2f102fa2b8f242c7"
+    },
+    {
+      "file": "product-brief-v2.5.pdf",
+      "url": "https://shop.brainchipinc.com/cdn/shop/files/AKD1500_Co-Processor_Product_Brief_V2.5_Oct._26.pdf?v=8383063294282461472",
+      "bytes": 500947,
+      "sha256": "d94ea79243591868d5d091c1a86dcc16eb65688755d8cc514e0ae01e88f0acff"
+    },
+    {
+      "file": "pcie-board-guide-v1.pdf",
+      "url": "https://shop.brainchipinc.com/cdn/shop/files/Akida-PCIe_Board_UG_V1.0.pdf?v=499667687067763990",
+      "bytes": 1154294,
+      "sha256": "da2d6f848056fe24b8d52f86f1f90894e9f939d87a05bca446648e833422f748"
+    },
+    {
+      "file": "driver-guide-v1.pdf",
+      "url": "https://shop.brainchipinc.com/cdn/shop/files/Akida_Driver_UG_V1.0.pdf?v=2349947906719515385",
+      "bytes": 524942,
+      "sha256": "b3573435f9e5c86e30e850cd6a05a0feaa57fec84fcb43ad65f8e81f3ab7a94a"
+    }
+  ]
+}

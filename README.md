@@ -8,6 +8,33 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Documented PCIe environment: RGB to native learning — October 24, 2026
+
+**BrainChip explicitly intends PCIe/M.2 to work beside application processors.**
+We reproduced that path on the Nano: raw RGB enters the dedicated image
+converter, passes through a 4-bit convolutional layer, and reaches native binary
+learning in one resident compiler pass. The host does no intermediate feature
+extraction. Every potential and captured learner-state boundary independently
+replays across **3,872 native forwards and 1,016 full RAM snapshots**.
+
+This is a seeded hardware characterization, not a trained vision model. CPU
+remains faster overall. At the widest fixed workload, optimized CPU NEON takes
+248 µs/image with learning; queued mapped AKD takes 447 µs. DMA both ways lowers
+caller activity to about 99 µs/image but increases elapsed time to 707 µs.
+Calling CPU excludes kernel workers and is not electrical energy. Two failed
+compiler/reference attempts and all four transport profiles are preserved.
+
+![Verified PCIe neural pipeline and measured costs](visual/pcie-fabric-4k.png)
+
+[Environment and reproduction](coprocessor/README.md) ·
+[fabric, memory and routing map](coprocessor/FABRIC_MAP.md) ·
+[assessment](studies/20261024-pcie-fabric/ASSESSMENT.md) ·
+[numeric evidence](results/2026-10-24-pcie-fabric.json)
+
+```bash
+python -m coprocessor.archive audit-public
+```
+
 ## Streaming prediction: native adaptation; skipped inference held — October 24, 2026
 
 A frozen T202 Nano world model runs alongside native AKD delayed-feedback learning.

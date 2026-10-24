@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_BOUNDED_CHARACTERIZATION",
+  "closed_utc": "2026-10-24T14:39:05.757080+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "scientific_cutoff_utc": "2026-10-24T16:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T16:05:00+00:00",
+  "evidence": "results/2026-10-24-pcie-fabric.json",
+  "scope": "Completed bounded stages; global silicon limits remain unresolved"
+}

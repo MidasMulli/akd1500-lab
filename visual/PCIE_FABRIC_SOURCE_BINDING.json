@@ -1,0 +1,11 @@
+{
+  "status": "RECORDED_EVIDENCE_NOT_LIVE",
+  "source_archive_sha256": "9a2d3214eeda9e09ce5478aa0beb5fb18a5534209e9735292f5935d551a71c88",
+  "source_metadata_sha256": "fb9449ae6a683a794f6298a8a534bc754584727043fc54056e5d3cd736f705e6",
+  "renderer_sha256": "1a87fcb96260820d7ce808cf796a714b803fc7a08b835477ce6ab982f271061f",
+  "outputs": {
+    "pcie-fabric-4k.png": "36d5b60a1e1c0016a1823972eb22a398c1c666f9b3bf90de0b14fd89b2e607aa",
+    "pcie-fabric-4k.svg": "67f2a1187bb06a4ed89a673da200c50fa16698ce85ed4f6bb9a9ab2833cc4d77"
+  },
+  "coordinates": "SDK resource coordinates; no die-layout or router-hop claim"
+}

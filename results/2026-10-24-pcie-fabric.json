@@ -1,0 +1,3030 @@
+{
+  "status": "MEASURED_BOUNDED_CHARACTERIZATION",
+  "fixtures": [
+    {
+      "name": "rgb32_c16",
+      "status": "COMPILER_AND_INDEPENDENT_INTEGER_PASS",
+      "mapping": [
+        {
+          "layer": "rgb_to_native_events",
+          "nps": [
+            {
+              "type": "Type.HRC",
+              "np": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_spatial_features",
+          "nps": [
+            {
+              "type": "Type.CNP1",
+              "np": [
+                1,
+                2,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_binary_learner",
+          "nps": [
+            {
+              "type": "Type.FNP3",
+              "np": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "learning_np": [
+        3,
+        3,
+        0
+      ],
+      "input_shape": [
+        32,
+        32,
+        3
+      ],
+      "features": 512,
+      "learning_records": 128,
+      "learning_ram_bytes": 10248,
+      "nominal_dense_macs": 184320,
+      "feature_density": 0.48883056640625,
+      "program_sha256": "d17c9d25d461fa026b654b0bb47ef5db0722121bba170e0cdb543c5d9f42e09f",
+      "file_hashes": {
+        "rgb32_c16.expected": "6fdb5ad681c11532a9d7114d5538f73500f0ed248e502f5f87de40c95d5edfc4",
+        "rgb32_c16.fbz": "edd2c9588d3376b66146d43609b7e07f40a98b42996a2f37a8ffb74c30252908",
+        "rgb32_c16.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "rgb32_c16.front.fbz": "42acdda8d8ac52ac2b5b2d773f839a0d9f2336d567628dab6971765b4f1cf862",
+        "rgb32_c16.features": "998783c9a9f2950bb59f66b958a8937999ced1f34ed15a12af83c39555c36a65",
+        "rgb32_c16.inputs": "9073a2e79f730f7871191213df747fc1eda14dc77ab954f1b3de11e199e45e2a",
+        "rgb32_c16.meta": "6933e479acd5938e4f16ef1f86a05c551ca0f881a2c302ea72a61fa52b9c1d24",
+        "rgb32_c16.t0": "94221f58b79a2fb5efddb43ba6ba301dd80fa90ca8dcee05047d45a56daad7b0",
+        "rgb32_c16.w1": "6dea8a606b221640934a95cd885ef4dc70d76bf90c88326e24825a73e9597b87",
+        "rgb32_c16.w0": "35f6e0cee8577e23958af36cade6ecb734ef30f6345cb22211f7afd0af4c083b",
+        "rgb32_c16.t1": "7873c28ac3c54037017255579a092bd0f37396db37f9dc0f5b38a5ed1dc69b9b",
+        "rgb32_c16.bin": "d17c9d25d461fa026b654b0bb47ef5db0722121bba170e0cdb543c5d9f42e09f",
+        "rgb32_c16.labels": "894cd73e2e42673071c75ca78fbeacd25a32cd97f8868eff9e02e26328315376"
+      }
+    },
+    {
+      "name": "rgb32_c64",
+      "status": "COMPILER_AND_INDEPENDENT_INTEGER_PASS",
+      "mapping": [
+        {
+          "layer": "rgb_to_native_events",
+          "nps": [
+            {
+              "type": "Type.HRC",
+              "np": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_spatial_features",
+          "nps": [
+            {
+              "type": "Type.CNP1",
+              "np": [
+                1,
+                2,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_binary_learner",
+          "nps": [
+            {
+              "type": "Type.FNP3",
+              "np": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "learning_np": [
+        3,
+        3,
+        0
+      ],
+      "input_shape": [
+        32,
+        32,
+        3
+      ],
+      "features": 512,
+      "learning_records": 128,
+      "learning_ram_bytes": 10248,
+      "nominal_dense_macs": 737280,
+      "feature_density": 0.4800821940104167,
+      "program_sha256": "2085b5c7e16f17e3d96df48e7a54b489937ed5e8c138605f07ae8cb8cd7ac5d2",
+      "file_hashes": {
+        "rgb32_c64.meta": "112e25fe48cc6f27582f7b1cb157d7f991681f19393ca08bab273e90164dd009",
+        "rgb32_c64.labels": "894cd73e2e42673071c75ca78fbeacd25a32cd97f8868eff9e02e26328315376",
+        "rgb32_c64.t1": "49ab32c2f57c8d5d46273ba2f67fa91a60f435495c6cb06d2a7514ed3243b863",
+        "rgb32_c64.w0": "b39d2a8ce1dcac000167d556c97d48b7d19947a5fa2a9e1366c5a383f2065e10",
+        "rgb32_c64.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "rgb32_c64.w1": "64a80b7f165c54f430e55e67004a466319897445e8d91e02b36fa849fd659f0c",
+        "rgb32_c64.t0": "ea0cdb5ef4cc7cfd4cd0a248bebb548edb3a7428ae8364f50f1d319eefa5023d",
+        "rgb32_c64.fbz": "b4ec9cc31566cf69b822444b7384e3b221c25d2af505b8f4989bb4c9e988b553",
+        "rgb32_c64.bin": "2085b5c7e16f17e3d96df48e7a54b489937ed5e8c138605f07ae8cb8cd7ac5d2",
+        "rgb32_c64.front.fbz": "6ba5137d3c3fb0b83770cf37a2fb8030cae7824aaf15b9048f406f322370027f",
+        "rgb32_c64.features": "02d4713006b61bd28d005858056e1d2778c1c286f2483d7eab83f5bbb7b0b189",
+        "rgb32_c64.expected": "5e3ea45b389f0fc4e82d043a740ff14ae7273379c8577c69fc1e37b3e98ba6b2",
+        "rgb32_c64.inputs": "9073a2e79f730f7871191213df747fc1eda14dc77ab954f1b3de11e199e45e2a"
+      }
+    },
+    {
+      "name": "rgb32_c128",
+      "status": "COMPILER_AND_INDEPENDENT_INTEGER_PASS",
+      "mapping": [
+        {
+          "layer": "rgb_to_native_events",
+          "nps": [
+            {
+              "type": "Type.HRC",
+              "np": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_spatial_features",
+          "nps": [
+            {
+              "type": "Type.CNP1",
+              "np": [
+                1,
+                2,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "layer": "native_binary_learner",
+          "nps": [
+            {
+              "type": "Type.FNP3",
+              "np": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "learning_np": [
+        3,
+        3,
+        0
+      ],
+      "input_shape": [
+        32,
+        32,
+        3
+      ],
+      "features": 512,
+      "learning_records": 128,
+      "learning_ram_bytes": 10248,
+      "nominal_dense_macs": 1474560,
+      "feature_density": 0.4818522135416667,
+      "program_sha256": "fbaf5cf5e5583276623716c4c615b9d97f23ef5666c2e5485ccc243f84c8c33a",
+      "file_hashes": {
+        "rgb32_c128.front.fbz": "240a68f77833d8a8e56741762dc6bd90f7f4f7c9ece6a8db97f3ac60700a1919",
+        "rgb32_c128.meta": "a30c8e31ea648545d95affe83b816859390703ca81e95400fad431390e91a4b9",
+        "rgb32_c128.w0": "f26fd7b0ecc2725e92b98abb20540f1ee0da0ffb73a34de7d76e378525c494a4",
+        "rgb32_c128.t1": "7581159a4ef28e93ebca2c70cf621f73d8288c59ab3469fbeb0865c55e56c424",
+        "rgb32_c128.t0": "bdd3f42cc61e960d0f9591f1037331a471616fb58b21d11439e82cb1305c4a16",
+        "rgb32_c128.w1": "8af958e1bb806266ea8e4f88c0e2246cf203578cb5a4ee3f6f9a88cc4928f32f",
+        "rgb32_c128.labels": "894cd73e2e42673071c75ca78fbeacd25a32cd97f8868eff9e02e26328315376",
+        "rgb32_c128.bin": "fbaf5cf5e5583276623716c4c615b9d97f23ef5666c2e5485ccc243f84c8c33a",
+        "rgb32_c128.fbz": "8ea4313a9ad4599ef32f076e178c4c88cce4bb5a84c40822989e0f2b5fe62c59",
+        "rgb32_c128.expected": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "rgb32_c128.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "rgb32_c128.inputs": "9073a2e79f730f7871191213df747fc1eda14dc77ab954f1b3de11e199e45e2a",
+        "rgb32_c128.features": "b8723abaab57ed22a1bdca318acde985ed9d9c9ff875ba491eadc8e351098f20"
+      }
+    }
+  ],
+  "runs": [
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:27.691477+00:00",
+      "finish_utc": "2026-10-24T14:28:27.856585+00:00",
+      "name": "fabric_cpu-dense_rgb32_c128_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 1923338719321635538,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "28c26a557b00f5c6c149209a733bde86608600df69e4d4b1eb490b3bbb4f49a0",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "9b0749b429fdb4ec375b9177782452cbf58c2de65284cebb6471c942397eaf58",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "b51627fcb498160e9e28e5d598b844fb143af4f3601222f36b582d3229bcf84c",
+        "result.latency_ns": "8c75cb7bcbb4a948d779b807ba6c4eea4362b86654e73b6b069922b1ba3de3f6",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:26.871804+00:00",
+      "finish_utc": "2026-10-24T14:28:27.037049+00:00",
+      "name": "fabric_cpu-dense_rgb32_c128_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 14965698389702785003,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "e6f432ee48d4b5404f1132b621771b8eb782774d8ce2da973e9d9ccb79ea34db",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "786edc8a66ca392d308ce42927aaada69ae6f5763ade67d03af1fd2b8c2515b8",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "f81c6caa7dbe18dd5d18f093dc89caed9f42163b3b22d89dcc253264cfe046e5",
+        "result.latency_ns": "11655a09242d630d4729ef5006b21554a31fc1e1dc9065907fcb9e4c6aea9528",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c16",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:25:53.714110+00:00",
+      "finish_utc": "2026-10-24T14:25:53.747051+00:00",
+      "name": "fabric_cpu-dense_rgb32_c16_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 16554921061589758816,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "ac40d431dfa160a034674ca88e1c828eddd5c27c86932b536dea33774382e3bb",
+        "result.scores": "6fdb5ad681c11532a9d7114d5538f73500f0ed248e502f5f87de40c95d5edfc4",
+        "stdout": "303641cc43e937eda4a12c271164a6927618ab5ffd62d71c68c1e1d90d152833",
+        "result.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.caller_ns": "c616b209e54735181e3dc364d0cb013a9f8f9e3bec3cf61de658cf7ddf547732",
+        "result.latency_ns": "32e4afd5cf712b86ba1c57807bafdeb304b6bb0de08a2fdcbe8d05e7b75b9188",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c16",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:25:43.647181+00:00",
+      "finish_utc": "2026-10-24T14:25:43.680106+00:00",
+      "name": "fabric_cpu-dense_rgb32_c16_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 1762955863464923941,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "bba5ba7c6c828a8b87b82289585e66d5b9d2bdf4f8de1d44d57c3f6c67df6053",
+        "result.scores": "065f9b6728e70cbe263065b606132decd5140ecd47de315160a705392e581c83",
+        "stdout": "221529f00813420056d3ec89d6ac6d7257979ac7eb1418b56c32de6078f13dcb",
+        "result.ram": "a515edfe638a6a796de60b6c3bfecec0445efb07ebb0b12303c070f6803a54b2",
+        "result.caller_ns": "cc341bb1a14703d638e6aeee0818c36f024a33dc8050a80282e633bb080f1942",
+        "result.latency_ns": "ad2a1a220bd4c58cee306fe1239995f11dc54f602857cb6713c28ae62a84ffa4",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c64",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:10.236594+00:00",
+      "finish_utc": "2026-10-24T14:27:10.351750+00:00",
+      "name": "fabric_cpu-dense_rgb32_c64_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 10615638540436907456,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "f4c5a00d7d4b6b791b9863fa29cf57f88b83fb1f88b7d55a3d23e15fd405d683",
+        "result.scores": "5e3ea45b389f0fc4e82d043a740ff14ae7273379c8577c69fc1e37b3e98ba6b2",
+        "stdout": "a271a525a3b40c4ef69261e1957c79185dc9dc429cfba49eb65b94bf92740582",
+        "result.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.caller_ns": "b0c4ffdd86f1fdb0299b1ba6391f57ad1a01cb3fda24adcd00aea42d31e84c6d",
+        "result.latency_ns": "4e18cd5513e06734f1897fef96279f23ca19dcd0fd6baced398f9aa764511b5a",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-dense",
+      "cell": "rgb32_c64",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:09.567477+00:00",
+      "finish_utc": "2026-10-24T14:27:09.682557+00:00",
+      "name": "fabric_cpu-dense_rgb32_c64_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-dense",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 18416147109117599591,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "1fd1bf34da0707558439babb445d672f60696f717162f39025019000fd37e0ae",
+        "result.scores": "f14aadd12b7c116c2efbf11197cd7a501b5b0f7aa5d2270dcfcc2325f5fa284e",
+        "stdout": "65203cf05f3b90fa41c3ecb9bd807cd610a12a2375591599500c3c10f9b0a795",
+        "result.ram": "e3b77858cffb03522cab349c44468a47c2ba7ff26b89f1d43f2e0b559f9d50b1",
+        "result.caller_ns": "6608cc774dfa83f50d459975e2f6bda438d63a5442945f56eddb0f084aba8f06",
+        "result.latency_ns": "693f13717bfe396e88b1ef9b82f3f637c3ca95f3ce70eb2bf7a256b1cfc9e9ab",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:28.050684+00:00",
+      "finish_utc": "2026-10-24T14:28:28.316029+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c128_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 1923338719321635538,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "222065ef361f1d808c2110749099ba33a85345b516d7bd6ebe787a78635601fd",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "ba9253547364eb591b79b4920d0644ae44ec4531f888fc545dcd9be0d1f6b9e1",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "568a8743f27b4f360c5448617ff1c14eb51f29647781c242f1b707fc1f44b001",
+        "result.latency_ns": "8fd3f857dca5b1a61bf0623ee7a27ded3f24e3589f054fc016e0a88bc9fcca68",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:27.231506+00:00",
+      "finish_utc": "2026-10-24T14:28:27.496892+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c128_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 14965698389702785003,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "febdcb964b3da3e01e68c4b4bf14d619c3a268d3ea566ec1f7ede5b197f3e11d",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "b8939f55f384b3e01df6bad0b53ddd9a2a44f85b9b1fa11e08af1628f62bf06f",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "e19b2ce052a734b58b706c5d9ed319cc1fc3ed82be368f8f3f901c757185bf62",
+        "result.latency_ns": "e5ca21937b8f8d8b94c7fcf02e9c44f589e9f4c92ca4a5741d3373f78c66c200",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c16",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:25:53.940439+00:00",
+      "finish_utc": "2026-10-24T14:25:54.005438+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c16_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 16554921061589758816,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "6855ad315cb2990583f1c303a59680f358152b372dbe265221763b7823dfda3e",
+        "result.scores": "6fdb5ad681c11532a9d7114d5538f73500f0ed248e502f5f87de40c95d5edfc4",
+        "stdout": "d6592789718bf49b29624eeb04220c8f0a0807325d0a35bc6a8d64a8bf96583d",
+        "result.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.caller_ns": "8380fa70c6c125bb1f0a71fa67454562856a906c22987c002b8ca39dd774520b",
+        "result.latency_ns": "727d44658328259935b819fa3fb15ee9fb915ff4438a81f9beedf52603722449",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c16",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:25:53.453709+00:00",
+      "finish_utc": "2026-10-24T14:25:53.518949+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c16_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 1762955863464923941,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "bc186892f46ff491a894f9587975d8bdda49a6a2269a30e4957903d99c7a7e15",
+        "result.scores": "065f9b6728e70cbe263065b606132decd5140ecd47de315160a705392e581c83",
+        "stdout": "0f412117d7af45d7f2708d51d7944d5f4d35024aed8c9da2dd1d11d6e6012dd1",
+        "result.ram": "a515edfe638a6a796de60b6c3bfecec0445efb07ebb0b12303c070f6803a54b2",
+        "result.caller_ns": "b7b7b421f50e4a403e6c2ef18c55a7c60ca1bdf539cab51a06b83bbd0700d0bd",
+        "result.latency_ns": "c296deeddb924881d65e3d43e2489a900d7412a8d8b007923281c27d47a85854",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c64",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:10.545101+00:00",
+      "finish_utc": "2026-10-24T14:27:10.710244+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c64_l0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 10615638540436907456,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "5aeb7f6a2b563a58bef7ef8776347c7c3bab3319acecf9392be684b459621515",
+        "result.scores": "5e3ea45b389f0fc4e82d043a740ff14ae7273379c8577c69fc1e37b3e98ba6b2",
+        "stdout": "32cffb483addc7694d879552584780b5d5fef7840d2375bd3b2db29afb97ba03",
+        "result.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.caller_ns": "25a63c5fde20a3504a11eb4fb406bd9c01c8a38e703aa182ddf60f88de2210b6",
+        "result.latency_ns": "2db5220d86a501d4e977b7e9ff3a8e9668c12a1a85a12d06e0275fd94e63a307",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "cpu-sparse",
+      "cell": "rgb32_c64",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 5,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:09.876853+00:00",
+      "finish_utc": "2026-10-24T14:27:10.041998+00:00",
+      "name": "fabric_cpu-sparse_rgb32_c64_l1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "cpu-sparse",
+        "samples": 96,
+        "repeats": 5,
+        "checksum": 18416147109117599591,
+        "physical_device_opened": false
+      },
+      "profile": null,
+      "raw_hashes": {
+        "OWNER.json": "0b11bac6e23e036e7008cda656c159b310480b5bb1438965b5a344749fb56359",
+        "result.scores": "f14aadd12b7c116c2efbf11197cd7a501b5b0f7aa5d2270dcfcc2325f5fa284e",
+        "stdout": "b52f86b396e93fed41a936b043344ade31cd4a6b0bbce6b0f4c2fc039adc302a",
+        "result.ram": "e3b77858cffb03522cab349c44468a47c2ba7ff26b89f1d43f2e0b559f9d50b1",
+        "result.caller_ns": "d3e0721563e7a430c7eb14c2c9639be1e599ab6aacc6d679d6ef706dafc154f6",
+        "result.latency_ns": "0ba89122ca00bc30689e261c56f95b4e37b2e5c312781be6d6f09efe688ca973",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:00.471613+00:00",
+      "finish_utc": "2026-10-24T14:29:01.103992+00:00",
+      "name": "fabric_native_rgb32_c128_l0_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1128412,
+        "write_bytes_including_diagnostics": 358656,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "cd4016d57350eaea6b92da79d21f3ac28aa9aece3cd137b013a1734089ad1a64",
+        "OWNER.json": "dedf18ae6fefcb28370a73dd396b0134dce0878bc81c05e83b4f403cf8eab199",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "87b7b8f53fd3a3fd5231b1c8bc317259d374eb49943a91ce0285a6c0ee64831c",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "8125950eb8e625e7458657417ee6e993979a027fb6db5c80381c2856b1b5de36",
+        "result.latency_ns": "e14468a69d77491e2c08c9133e05ca909b5109369b0d87529c35d7e5e4ce84f9",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:15.178768+00:00",
+      "finish_utc": "2026-10-24T14:29:15.356823+00:00",
+      "name": "fabric_native_rgb32_c128_l0_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176840,
+        "write_bytes_including_diagnostics": 309600,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "c96df1b5820e4b8123ba1f7e6b99a74814474ee9081bc96478f0c4f5c6da604b",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "38b9ad4dd67051f9a9c4b1f50123e93f85eb320367b1255a104b426318af83aa",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "c18811d3dec4f202038a244132073c1b7a8b168c76a6ca59d4173bdfaf13ae2e",
+        "result.latency_ns": "fe66c637f4885bb5bc3090727931f79fdc40a1d3c83f7c4890df5c5e9ec7ac66",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:28.828559+00:00",
+      "finish_utc": "2026-10-24T14:29:29.006907+00:00",
+      "name": "fabric_native_rgb32_c128_l0_b8_n96_r1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176804,
+        "write_bytes_including_diagnostics": 309600,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "58a3ff4877360ba038055facfdd884eb9b4c57a653c14ddfb19aabd507bd5709",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "167a8f5f3ffb7dd336841e425fa167346393e90fb7c63f90982452f1f589f475",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "2a1ba114d1b7b9064c136fe5d17c37d7b6add2c38bee99996d0137fc5c5d7b04",
+        "result.latency_ns": "815c2bd5a11777004c49c9427a2bddf2e688c7fe9342af7caa6f621847378311",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:30.016277+00:00",
+      "finish_utc": "2026-10-24T14:29:30.194304+00:00",
+      "name": "fabric_native_rgb32_c128_l0_b8_n96_r2",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176772,
+        "write_bytes_including_diagnostics": 309600,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "646eaafcb9f3793e6d9ce5964cf7743f926ec337ad4de9208336cd4ac931c466",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "a68168994907d9971b2d30153501a9b90d8185c7ec8fda2efa962a2f90bb837a",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "e5b8c7f4b5da3dfd381813349a313d701f8773d389fb91b753e0e6ac8a1c566a",
+        "result.latency_ns": "f0d164ac5aad8ea24eea65676af6f0b7a36b17bbc99f30a803d630b5a17d6dce",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:59.621620+00:00",
+      "finish_utc": "2026-10-24T14:29:00.250532+00:00",
+      "name": "fabric_native_rgb32_c128_l1_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1122616,
+        "write_bytes_including_diagnostics": 307968,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "d32eedef4284f6465aed7a0d5f41e8e4db06c4bdde72a1ac55b5512b7da5ef8e",
+        "OWNER.json": "d1907ae87017e5fae4605a9d4e935c3dbe22ca72875c13ba3f4d975f67468b84",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "df3e506e57c76208cb8e1e712cb89da7ae0d2e4243dc7e673cc33a472a7eac74",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "e1c224062a10843cc4d30f2af9c276f6c8ee857d7a3bd295c42e1de13a8d12ea",
+        "result.latency_ns": "0963d577b000422062613b6fe503bd48ae05c24bd65f6205bf5fc649972bdf6a",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:14.781750+00:00",
+      "finish_utc": "2026-10-24T14:29:14.959925+00:00",
+      "name": "fabric_native_rgb32_c128_l1_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207656,
+        "write_bytes_including_diagnostics": 303264,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "94a8c72c6588a568ce1eb07319cbdd5c1463669c71b7615de00bcbb7083de12d",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "3a2161341e5644ccfffdb600e7a0a0b41b891700a0b9a75d95f67a0091d52c4c",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "37dd9f232e3c72468e330b7b5110548006be2c406be727737bb5a2616eb23801",
+        "result.latency_ns": "940ac7a6cf412701b0317330926d1c967336dbd679c646fa560be36ec0c3b095",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:29.225775+00:00",
+      "finish_utc": "2026-10-24T14:29:29.403903+00:00",
+      "name": "fabric_native_rgb32_c128_l1_b8_n96_r1",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207684,
+        "write_bytes_including_diagnostics": 303264,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "b197c7e3dcfa2aad3d7197831be36dc2ca1904220781255d57daada60f2b682d",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "e874eabf97663580d7c2d03d79233f4bffa6474515529c3289b15270d0771af9",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "f09f19857aa1dd7973b1961fb9ab969042582021bda761eba3c47168ae00898a",
+        "result.latency_ns": "994b414e729018d176dd23d28854132443d3b74d97e26f6577f542a124de1527",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:29:29.620131+00:00",
+      "finish_utc": "2026-10-24T14:29:29.798508+00:00",
+      "name": "fabric_native_rgb32_c128_l1_b8_n96_r2",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207636,
+        "write_bytes_including_diagnostics": 303264,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "9409a3900b5a3028830de290a1709d7fc6bc8449c8dc0c88d607a4a2a8da5dcb",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "10e9782966e4d073cdc6dcf14a8273f5447c0b7f65cceb32ef0dd3fc5e676585",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "1a505e4fa6f0a0cfd85514359ffa2e1dfff1d4f36873ed66e4eccf15e3f2235e",
+        "result.latency_ns": "bdfc5535321e9cccd35a05fc5d8d8e9ff59f30177866ecadfe0f194de4922d71",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c16",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:26:10.995610+00:00",
+      "finish_utc": "2026-10-24T14:26:11.524148+00:00",
+      "name": "fabric_native_rgb32_c16_l0_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1058820,
+        "write_bytes_including_diagnostics": 358656,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "566b823b581297471a1b6d9708caf04db77454a6991b1c5c17d51760bb12273a",
+        "OWNER.json": "f7589fec639be34be45c0afd4850613854dc3a0e240e010c0e1d3e5dd60ca069",
+        "result.scores": "6fdb5ad681c11532a9d7114d5538f73500f0ed248e502f5f87de40c95d5edfc4",
+        "stdout": "b78cf5134efbc5a901c4b8d4846b49e1970537b18838407affb3147813c6f1d2",
+        "result.initial.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.caller_ns": "629996123b7152702781a68fc86f4d4cbc601a6e5e9b37ce39db05078e699785",
+        "result.latency_ns": "ee508b52789f9962ef4ac8acd2229ef72dc4a438a38352e4227e9b8400ea209d",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c16",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:09.222292+00:00",
+      "finish_utc": "2026-10-24T14:27:09.350432+00:00",
+      "name": "fabric_native_rgb32_c16_l0_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "dd523573fe17c00a1fd7b6e92d7fe9a7819101c642f4c6bf05a9740172db060c",
+        "OWNER.json": "ce831a658ea05735038a6014771c1507cb206f94488e549ef8d9741b27eee401",
+        "result.scores": "6fdb5ad681c11532a9d7114d5538f73500f0ed248e502f5f87de40c95d5edfc4",
+        "stdout": "a6ece2232e51785e89d01f96097c7765ebf76f2b9c0e058e2f34bafc0b9e4c48",
+        "result.initial.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.caller_ns": "bbbc0fdb066415a4631331230c03bdabd15303bd6d1582b7e9fc7737c88c4ebe",
+        "result.latency_ns": "005f9c4292e3959a38d6c36b9cb5d7e0acfc71816de3e80d51215ee6ec2cf3f3",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c16",
+      "learn": true,
+      "count": 8,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:26:01.319873+00:00",
+      "finish_utc": "2026-10-24T14:26:01.447780+00:00",
+      "name": "fabric_native_rgb32_c16_l1_b1_n8_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 87732,
+        "write_bytes_including_diagnostics": 25664,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "957b8845c6cf35d3624dfe566a460760353e29b4d9c23c9e638c5f91cc63efbc",
+        "OWNER.json": "3bdefe9e700a805290fc097bea1c3982648df6944219fbc8f55c8fca6a1bc0e9",
+        "result.scores": "142c8840d18fd1c31ae308a1dd6552ba3290fa7a806ed40ea0e41d0b95d585c7",
+        "stdout": "86c55b39e4d7cb62f318da37105baf3dcd8c90f31d894e56af53a47da3c35e68",
+        "result.initial.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.ram": "f13973d12a252f73a1473434687ac84cb35bffb33f636b53125de135882036e1",
+        "result.caller_ns": "df86243db5851ce1902f7a4fa4182c2ac769a02cd7f94ed069daa8608ad27db9",
+        "result.latency_ns": "813c041b8a0271e33aeaeb782f055914e8b61acc52215afe7d138245b790080d",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c16",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:26:10.246174+00:00",
+      "finish_utc": "2026-10-24T14:26:10.774832+00:00",
+      "name": "fabric_native_rgb32_c16_l1_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1052756,
+        "write_bytes_including_diagnostics": 307968,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "10530bd2003071833a3aff8b591ddf2fe949e563f823386395f63bdf3d14125a",
+        "OWNER.json": "fc8ead7e9d7eb1f2bda70111caa11c6a383bdfa6d9b2c88ea8aee2b98fb2dc87",
+        "result.scores": "065f9b6728e70cbe263065b606132decd5140ecd47de315160a705392e581c83",
+        "stdout": "3134f4d855030f985ab2669dbe45710d2ac67ebd4feb78224afefe3fd3b1830c",
+        "result.initial.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.ram": "a515edfe638a6a796de60b6c3bfecec0445efb07ebb0b12303c070f6803a54b2",
+        "result.caller_ns": "3bf21d3e45a4707971cb159faef1aa73f280917c99d53377bedbd476ed5846d7",
+        "result.latency_ns": "f40ea9421e8f230995e59ea6b5762313c284c3ff245a25b841abe48cb8292770",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c16",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:26:48.455735+00:00",
+      "finish_utc": "2026-10-24T14:26:48.583884+00:00",
+      "name": "fabric_native_rgb32_c16_l1_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "5c742181e6930946690d6c9be174c44d0fa2ad985d1a2fb2ea96030f38e20f26",
+        "OWNER.json": "b1d5362f536512dfc13f53d325a2d84a61a02a99310cde4e69d5c5064965b889",
+        "result.scores": "065f9b6728e70cbe263065b606132decd5140ecd47de315160a705392e581c83",
+        "stdout": "6a6f0defab105b67b1481d70ca18601c1169fb206246b133f8945fd9b94d2d61",
+        "result.initial.ram": "4a16aa491b5cbab3693b314d3fcc9144501b085f1584a2516c73edbc14242c63",
+        "result.ram": "a515edfe638a6a796de60b6c3bfecec0445efb07ebb0b12303c070f6803a54b2",
+        "result.caller_ns": "12b583cefc39fab8d31f25e19bc3caa1c6a9d827a43cf415a6c9a735d92a72f2",
+        "result.latency_ns": "9fa91f4262f553781d7f49b9d5017e6ffb1ef92661bf12dc25a4890377c314b1",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c64",
+      "learn": false,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:50.273797+00:00",
+      "finish_utc": "2026-10-24T14:27:50.852419+00:00",
+      "name": "fabric_native_rgb32_c64_l0_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1088580,
+        "write_bytes_including_diagnostics": 358656,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "5b1976fb52af2f0c7c9bd69af141b712a089f8278b10509144cd49681dbfb70e",
+        "OWNER.json": "d57476674fcc281f5230c91a2da4adbf8aad053698e471a3321b073c20a1439d",
+        "result.scores": "5e3ea45b389f0fc4e82d043a740ff14ae7273379c8577c69fc1e37b3e98ba6b2",
+        "stdout": "84d01c9888b844e572b5bb8753936a18ab15d261d7128c67a25ee618356f13cf",
+        "result.initial.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.caller_ns": "4e386fef72bf6623c3daabcd7f14f14c260ec395943ff33fede1e260f60c1f97",
+        "result.latency_ns": "7fd566f8864dfc4bf2285eb191300055b574c7eed586d3c3f3dc017d1cfd93cd",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c64",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:26.475880+00:00",
+      "finish_utc": "2026-10-24T14:28:26.653854+00:00",
+      "name": "fabric_native_rgb32_c64_l0_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176048,
+        "write_bytes_including_diagnostics": 309600,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "3b5800fdca26a3a867bd9f0f94602b80bda3a219b5990510c435ca8c69c10973",
+        "OWNER.json": "97e73854f030f5d0f1803a6f5fb0f30abe1bf2afa779f37b2f3a57da93b692b0",
+        "result.scores": "5e3ea45b389f0fc4e82d043a740ff14ae7273379c8577c69fc1e37b3e98ba6b2",
+        "stdout": "107634da601bbdaea45fc24caaf4692bb3a94ae74ac0506f715e65da21689dde",
+        "result.initial.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.caller_ns": "a19ac1d978b5f78f91accea3feedadb3409ffe8d27aa16ae711eab1f64bf4a4b",
+        "result.latency_ns": "515a3962a96b7bb42563a3d0a2f8942e505c47d733b41a45adc61afb8326123b",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c64",
+      "learn": true,
+      "count": 96,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:27:49.474097+00:00",
+      "finish_utc": "2026-10-24T14:27:50.053112+00:00",
+      "name": "fabric_native_rgb32_c64_l1_b1_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 1082768,
+        "write_bytes_including_diagnostics": 307968,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "eec645e4e392eae9be2d95d87652e4b140a4cf700babfa1e04cf2d58ded3d4b5",
+        "OWNER.json": "dddd8b21681ddb3daa257dfaf32c77d3191af9eb6f5da77625f00c8652cde979",
+        "result.scores": "f14aadd12b7c116c2efbf11197cd7a501b5b0f7aa5d2270dcfcc2325f5fa284e",
+        "stdout": "6857d1f3bef1d05d08cb4c7c0f6addad2f87cfbd2b88b0e94a259cc7ce75e45d",
+        "result.initial.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.ram": "e3b77858cffb03522cab349c44468a47c2ba7ff26b89f1d43f2e0b559f9d50b1",
+        "result.caller_ns": "d07418420fe73896d60b16ac09746c84aba54e487b80013ccc7e82fc2abd0814",
+        "result.latency_ns": "6ba1e47cd9b27fa744234616efd1e8d9dca783f1ac4045b4dcaf37c741b4d744",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c64",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "7462b202d5450e423fb42086bb9df8c8ce3d46551527d883ee149133181883ab",
+      "admitted_utc": "2026-10-24T14:28:26.078174+00:00",
+      "finish_utc": "2026-10-24T14:28:26.256381+00:00",
+      "name": "fabric_native_rgb32_c64_l1_b8_n96_r0",
+      "campaign": "20261024-pcie-fabric",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": null,
+      "raw_hashes": {
+        "result.snapshots": "57429e6903230928534cd319a6828412b51f554886c7e390e4c4d6248027df71",
+        "OWNER.json": "cda2b74c09205646dc8d054e869219a251bb7b99e8c242c85b23b4ea001b542a",
+        "result.scores": "f14aadd12b7c116c2efbf11197cd7a501b5b0f7aa5d2270dcfcc2325f5fa284e",
+        "stdout": "6a6f0defab105b67b1481d70ca18601c1169fb206246b133f8945fd9b94d2d61",
+        "result.initial.ram": "e9121fcfcf36995b3381f22e16c7a9941d709e157baffea86c384f45ff4347fc",
+        "result.ram": "e3b77858cffb03522cab349c44468a47c2ba7ff26b89f1d43f2e0b559f9d50b1",
+        "result.caller_ns": "dd936dbd20fc9e8a65a580098b8aa554ba81360a28cb6cca253db2f0a2182c0a",
+        "result.latency_ns": "9d4c9751ad17f3ab2455260b98d6763fb392cf4b9024d7446d139296054a8142",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 0,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:32:17.366975+00:00",
+      "finish_utc": "2026-10-24T14:32:17.545310+00:00",
+      "name": "transport_copy_gate",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "transport",
+        "forwards": 0,
+        "bytes_verified_per_direction": 3712,
+        "cleanup": "unprogrammed"
+      },
+      "profile": -1,
+      "raw_hashes": {
+        "OWNER.json": "df4bf8ec45465585196c5e97c2297a8488fe13b292f63ac19e97325055bd6fae",
+        "stdout": "20e839d0c4055432be0c003c3dc61d4f1588be5f6dd13c72c1f9e862192d057b",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:07.829884+00:00",
+      "finish_utc": "2026-10-24T14:33:08.008209+00:00",
+      "name": "transport_p0_l0_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176848,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "5e8cc1dc5cfe83c4f1563aa570eeb5d5a6f78421df2d3701bad81e867207e4cc",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "2406789e57e1a3128734312dab50a7abb6ee148f9823def927a7d795eb634863",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "191379c28ff55db0a11593e2e3d8989e98a71a63048181f1711dfdbf81f2d409",
+        "result.latency_ns": "6a56b8cff23def368557a2c055647f57a6f2c4c3eea6ab59812366f108821d65",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:18.085586+00:00",
+      "finish_utc": "2026-10-24T14:34:18.263682+00:00",
+      "name": "transport_p0_l0_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176808,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "31b1a4b0f7d94f8ec904426b4880a6e2718d6742a27f7af5db9c427f48a3af10",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "88eed059059e0d2fc03ca8ad9ad9af0dde9fb874a6085c086fbe4148c4bdcd1a",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "f15fb29f6285219240f3a80e874874704e6bae555fce1750fac387bc0650ad1c",
+        "result.latency_ns": "842dd2fabf05c56699244263e6d3d2138394db0e5d0bd03cf7398dfe15a8c934",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:13.112762+00:00",
+      "finish_utc": "2026-10-24T14:35:13.290744+00:00",
+      "name": "transport_p0_l0_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176816,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "6accdceef285d31794113d19ce9ddafc263b7bca16543caed6517db4a209e836",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "a44caaf0aab5e75c9d5f654befeba0263931b03d9639d6365291164e9dcfa32a",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "cc5df42a73399f52598953dcd647e83ce6ede5e630f1faa729df46b9384c5f3e",
+        "result.latency_ns": "df46e8ccfb6b929274711493f076e6608ef91ddae83023c5bfc9d532f7509f11",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:08.227164+00:00",
+      "finish_utc": "2026-10-24T14:33:08.405331+00:00",
+      "name": "transport_p0_l1_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207708,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "644bbbe2d169fcb88f0c30e8a879d2d899c8d269274f00a1c48f90ba045b0a33",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "3d0a9f17df046cc36080a77a55d78cafe9e0d13af48aee9622a39875858d62fd",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "972dec2a901ea02e0932967c0df4f34043ab6110460519b20cee1b3bcc599ce6",
+        "result.latency_ns": "a013f4ff7344988a4f5a2ce8f2ebea8f7f255e1dff8f836d354d593bebba3f24",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:18.483671+00:00",
+      "finish_utc": "2026-10-24T14:34:18.661538+00:00",
+      "name": "transport_p0_l1_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207712,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "f4f46442f41a05862657bd7e4f03c53128306a495a81fec91efa0aa76c312dbd",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "4bd39be9c802b033a78ccd62e8fb94e0f40e839b44a338cf749a1373172901a6",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "3076051cea5989bdd4bee484f46cf21aa567dca75380ab2c7d6ac08682257115",
+        "result.latency_ns": "cd17d0150d32818dc736af1418d7176c13ca89408d3922c799cde6bf296232c3",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:13.510526+00:00",
+      "finish_utc": "2026-10-24T14:35:13.688638+00:00",
+      "name": "transport_p0_l1_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 207740,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 0,
+        "transport_profile": 0,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 0,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "8d1ff3e2045e457b5978e5d9e8d383c002567bd8c423a11d22631e49beefd2ad",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "32f7931804384743401a39164837844420aec775022d41541364efc75b183ad0",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "a1d407d9ca437efdffd24901ce3acf9591f59fbb743f87a1bd698f9ba54503c7",
+        "result.latency_ns": "5b25e6f09be319e2573d96828c11f97508bfd1a65cb8ebb71a1237de92078895",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:08.622283+00:00",
+      "finish_utc": "2026-10-24T14:33:08.900460+00:00",
+      "name": "transport_p1_l0_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 186300,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "dab80c988fc8fe6b51138d22c142a7c69849351e4e21cc66cd50140edb668f66",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "c880a418d846d0ffec4a5f84a54bce1fff377aa8ccb3c36966b8b1154a538151",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "d75c8a146c276d96165c690373efb52e1570e5091dcb71ac2a36fae446eca920",
+        "result.latency_ns": "76b2d17023a03b3553af636ad90fc391af9b96c62b535788da68b5b025257ead",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:17.741608+00:00",
+      "finish_utc": "2026-10-24T14:34:17.869826+00:00",
+      "name": "transport_p1_l0_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 186080,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "c1b43d799c758feaba5b090d4a5f611d348300c3f2f77c70ec969b50ff66a967",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "72fe4aa7dc849b3c7268994ef6ff99376e39bae3b7e9b7711d3a45f26f0a4b9f",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "8be9e46014d5cbb917263d798835612c5767ef8647594df3977884a03be53f3c",
+        "result.latency_ns": "ea5e646e3db24f5b3b56e9aad278efda16d682a8f8cd5030dc85d12c21ed33b6",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:11.328264+00:00",
+      "finish_utc": "2026-10-24T14:35:11.606716+00:00",
+      "name": "transport_p1_l0_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 185760,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "81f2a0c0bbf9e46d00aff31890a1891b9ee5fd7274174d1883a018476ee9da8e",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "9486dffaeed07c009e81d9e2396498379f69ac991838773e5584e3dc055dd232",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "1f2643d8f0915f8af93839ffe40f956a1c67c826c15013bca0556ee731b02821",
+        "result.latency_ns": "5b3dadde4c7c7abe2ed17afe2f8d4e9ebfbee04c107e57c9377ffa2c047d48ee",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 8,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:32:42.632669+00:00",
+      "finish_utc": "2026-10-24T14:32:42.866917+00:00",
+      "name": "transport_p1_l1_n8_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 93556,
+        "write_bytes_including_diagnostics": 25664,
+        "dma_read_calls": 18,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "1da72ec99327f99c185df1a421f6d451238dcfbb73459b0c6dfee4a3a0fc2b5d",
+        "OWNER.json": "d8a867d71339872d1642f703a3a267feeffc6316e63544e1ed6a1ae26c426695",
+        "result.scores": "05ff17f677f2e412c23c13d836b0949f3df30599af33080988d2e979d4472845",
+        "stdout": "5d38aa5e79a68aa44fdac7a5d60acb1115ac45bff6e4aa8276eeab917c8c667b",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "b4594042300f8b4fd1def89bde19aeb9de8f3aa452c3d341c5cf1d9a701b0a1c",
+        "result.caller_ns": "2f41c2cb17e8804f01362a2aeea423d78ced41f5faaabbf3a92a0457bdb2d839",
+        "result.latency_ns": "ae5c59cb226216e5a989dc480e28743d241bda2773526618d686a09b162c906b",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:09.116806+00:00",
+      "finish_utc": "2026-10-24T14:33:09.294769+00:00",
+      "name": "transport_p1_l1_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 217216,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "d6ad335f7b39cfb62dc1794df267c24b8d8c87f72ba40a5719cc0f41099e80c9",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "8b6795aca345a9b632c630cd8c3177585b5aa05f3cdb92f88b197c0a183bdbdf",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "7ec0e0d04261b4192d0d00b9026f5fcab752c8ebc9daab3ec1f92f4002dbe1ad",
+        "result.latency_ns": "23747ed4410a88206436c441ba25acf996d1d054ae79042b41ed63d8dab8825e",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:17.346414+00:00",
+      "finish_utc": "2026-10-24T14:34:17.524478+00:00",
+      "name": "transport_p1_l1_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 216872,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "f3fbd5bb58d27dc715abbd4e99b0d2586baf386cdab22c66add45f5594a87707",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "aa3177dce8ce7070ca9be38c1af75763f8511798287edb422253fd7a790ce4d6",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "8c754bf99709916a4565a1462709997d7cfbdd8c3e76822d043fe76840d75b71",
+        "result.latency_ns": "51e8d84ae23eaa89b9cbf0b8ef88c0f869e8107cb1bfdddf996e78d0ac394533",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:11.823234+00:00",
+      "finish_utc": "2026-10-24T14:35:12.001426+00:00",
+      "name": "transport_p1_l1_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 217120,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 0,
+        "transport_profile": 1,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 1,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "978a4c9d24b1048dda48bc48ad6c022b5fdd3438852820ddc2c74213648d6ab9",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "206196784286dab78be4601efa556f47cea4489059638ca34ec1eae5bda7e2ce",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "5143e6f75c0c74aef65072af3e0d33cfe74cce5b8f695ac3a88dad992aa745ef",
+        "result.latency_ns": "3577bfd242c325933492447081ca172cfba2338620f6afe1f06bfa4a763c8b4e",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:28.655832+00:00",
+      "finish_utc": "2026-10-24T14:33:28.996684+00:00",
+      "name": "transport_p2_l0_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 125,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "e72dd2b663345dd6fbfd95fa7d64ffec07535c47c514534c085b244d47262ac9",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "e6346cd18fd69fbfba65d60386aa25fca6abaad56a3c647cdeef2017d44c5d46",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "681543d99b1cd367b426f025cb1d32ca3ce1723923d7b7c1178747588ae3941e",
+        "result.latency_ns": "f4a5ea2fc805c958cf25f2d6e6ee7df6098760be33ec16b068d60b41c71572ad",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:16.551992+00:00",
+      "finish_utc": "2026-10-24T14:34:16.730550+00:00",
+      "name": "transport_p2_l0_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 125,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "f003d4e5db3aefd5c9dcfbef8d0d216df71de044c22235c7e1ef21d302fc13ee",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "e6346cd18fd69fbfba65d60386aa25fca6abaad56a3c647cdeef2017d44c5d46",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "1b5e839f9069d66215c5d8143659613ec218e3430786d63da6d8cb9fddc42719",
+        "result.latency_ns": "2dd14c4032d0ad2d631010b807e625272c153b2a756547aa5ba51ef25784f1d7",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:14.301631+00:00",
+      "finish_utc": "2026-10-24T14:35:14.479588+00:00",
+      "name": "transport_p2_l0_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 110,
+        "dma_write_calls": 125,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "2c8854c8d38f8ee257b2d772df9fc62bc8925a87df85f70f6b26385841313a6e",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "e6346cd18fd69fbfba65d60386aa25fca6abaad56a3c647cdeef2017d44c5d46",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "c415eedc1d0fed7e3ca982fadfb2eab464ac0ccf42b393ec7b51155b9ab570d5",
+        "result.latency_ns": "6a97ddf915293e59363e6f75a7e9f9a21acefa0296e3e491b0492592c9dc96ae",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 8,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:32:56.380208+00:00",
+      "finish_utc": "2026-10-24T14:32:56.608591+00:00",
+      "name": "transport_p2_l1_n8_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 93536,
+        "write_bytes_including_diagnostics": 25664,
+        "dma_read_calls": 18,
+        "dma_write_calls": 9,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "1da72ec99327f99c185df1a421f6d451238dcfbb73459b0c6dfee4a3a0fc2b5d",
+        "OWNER.json": "c860bd56205908a7299d6804fc41ed88c8a9faaaa0eee20ae78d4c44110c7eb3",
+        "result.scores": "05ff17f677f2e412c23c13d836b0949f3df30599af33080988d2e979d4472845",
+        "stdout": "3a84ff643ee9afa3480c85ef71de31c16bcb065b081043a5084757a02a80bbea",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "b4594042300f8b4fd1def89bde19aeb9de8f3aa452c3d341c5cf1d9a701b0a1c",
+        "result.caller_ns": "00bc49b0a586ef311b0d54e42eff9d7c3e7c0f3ebc1fb77e29291bb1a38a242f",
+        "result.latency_ns": "008d3535a58b1e3b648dd10a99a3c28c87142ba4981dc2d05e5806762df739d1",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:29.213064+00:00",
+      "finish_utc": "2026-10-24T14:33:29.391351+00:00",
+      "name": "transport_p2_l1_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 97,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "f51b86c3d512b3412850fa4efb11e5f52fa3a2ece64f133477ace3665a0cb127",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "dd8a52c47772d5941c5d9f89d7cd81ea2935a2a90031023853af2ebffb78bb15",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "248ad90d040541c537a8145abddad2cef122f33ff02ab04936d14cc7342774fc",
+        "result.latency_ns": "06d902dffa003567a10da1c6291842a5edf5da1cbd775ea282ed04d47d88cc77",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:16.950901+00:00",
+      "finish_utc": "2026-10-24T14:34:17.129083+00:00",
+      "name": "transport_p2_l1_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 97,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "38c6f062ca3b8110eaa481fde4ec7a498e5c41afb4ea92b64e3ea0547e4ff021",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "dd8a52c47772d5941c5d9f89d7cd81ea2935a2a90031023853af2ebffb78bb15",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "552b7ff4b99523647cfd0b26e8f4a07c0a033c9d246afc5a4621fec161b087ae",
+        "result.latency_ns": "f8ebf6c836a504ca443fa013f7c1b582dd9f8d53e5841bc5687d0b28c9d59cf4",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:13.906428+00:00",
+      "finish_utc": "2026-10-24T14:35:14.084739+00:00",
+      "name": "transport_p2_l1_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 110,
+        "dma_write_calls": 97,
+        "transport_profile": 2,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 2,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "894edfa45834ac1fc497313ba05af65dfb2c2b062125bacc01fe3a31a76e1d9c",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "dd8a52c47772d5941c5d9f89d7cd81ea2935a2a90031023853af2ebffb78bb15",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "257f494b516cc41affb5c6168f86ff7b7a08d19aa7b6808b3296935924f521d5",
+        "result.latency_ns": "f96e23e1b5e79131b5b3cd164e091cbde05ef7caee2f9138b6f4b90cf81231a7",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:29.622073+00:00",
+      "finish_utc": "2026-10-24T14:33:29.850257+00:00",
+      "name": "transport_p3_l0_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 125,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "067eb1c70328d8c9cff18a66137ae1318283bf7784269ded69cfcae5da7ece1b",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "df77ee65f4f26ac96592adabcfbb2fdccbfa793b85bee172ee589dbf5984b44c",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "d9c43d08828b50e5562c83a801b023e4d504182152abc4af4cefa3cba8ee5a59",
+        "result.latency_ns": "c23925c8a5ab251d0df6f06b66b1abbdd7f8c6f13c1736152960aae00ac993c9",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:16.105114+00:00",
+      "finish_utc": "2026-10-24T14:34:16.333295+00:00",
+      "name": "transport_p3_l0_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 125,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "3714865b8aa7d535b68ba95ee6e0ab7df42202f1be974f0850f2d35ff89a4cbf",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "df77ee65f4f26ac96592adabcfbb2fdccbfa793b85bee172ee589dbf5984b44c",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "aadf68ca135b567bbb8c1ef75f669004008178481a5d7ea2c8d644fcfcbb4849",
+        "result.latency_ns": "6ac1d56c7a8b2504768c4dc5346f6c8bfdf1663ca7bd2a8b99b3c36a137549bf",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": false,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:12.667059+00:00",
+      "finish_utc": "2026-10-24T14:35:12.895261+00:00",
+      "name": "transport_p3_l0_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 176064,
+        "write_bytes_including_diagnostics": 309600,
+        "dma_read_calls": 0,
+        "dma_write_calls": 125,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "e4e0659fc4c59315c074926b0500c1907edf564cf84e22d93dc8d072f979b49f",
+        "OWNER.json": "08a75c14d713201512c0f26fc9841e306dfd45445dc735ad8dbeda3b1da0fee4",
+        "result.scores": "6de4e93fa9df67c0e1ed93c9b3198969af3833f4f807acd1d153823f0cd2cff9",
+        "stdout": "df77ee65f4f26ac96592adabcfbb2fdccbfa793b85bee172ee589dbf5984b44c",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.caller_ns": "8c24eb2272578d1bf9cbc0d2242bcfb678e80ffc7b089dc9a44cfc66862b0667",
+        "result.latency_ns": "00782cbad6ff1262f04ed1a9ce048a99053ce45f3c73736b837db9f69a831089",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 8,
+      "batch": 1,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:32:56.823621+00:00",
+      "finish_utc": "2026-10-24T14:32:56.951505+00:00",
+      "name": "transport_p3_l1_n8_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 8,
+        "repeats": 1,
+        "batch": 1,
+        "read_bytes_including_diagnostics": 93556,
+        "write_bytes_including_diagnostics": 25664,
+        "dma_read_calls": 0,
+        "dma_write_calls": 9,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "1da72ec99327f99c185df1a421f6d451238dcfbb73459b0c6dfee4a3a0fc2b5d",
+        "OWNER.json": "b3fce87d8fff27cab0bf15950776226c0cd76fe56dde2c4dd1b4e389039235e0",
+        "result.scores": "05ff17f677f2e412c23c13d836b0949f3df30599af33080988d2e979d4472845",
+        "stdout": "66c7828df797e7867c2ef071ca9bed49747ed001cbc53f523b55553ee8070947",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "b4594042300f8b4fd1def89bde19aeb9de8f3aa452c3d341c5cf1d9a701b0a1c",
+        "result.caller_ns": "71ade3964c1e7354496306598272bfecd66f8f6cc076a796e54a88d8c75a6394",
+        "result.latency_ns": "eaf869f9919a98c2f57868f5394b0b263631d32e8328cec929f39341bf2e7bff",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 0,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:33:30.069621+00:00",
+      "finish_utc": "2026-10-24T14:33:30.297767+00:00",
+      "name": "transport_p3_l1_n96_r0",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 97,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "ef697cb77964c9863bbb3f3d45f349f75105515fce5eed5606c69676081f2545",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "9de56eab0b392d5ea9aed1f96b57ecf5a2a3c086628bd1d8a22bf4c33e533f5d",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "b8ea4c4cf6a89de98763e15ff12a241578d561a31c9381439451379c9db4f452",
+        "result.latency_ns": "0057642607c517276a0334a3775e1722a9b0782d97c7ae4ac432e6ee12ccace8",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 1,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:34:15.502016+00:00",
+      "finish_utc": "2026-10-24T14:34:15.888567+00:00",
+      "name": "transport_p3_l1_n96_r1",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 97,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "3bb3c26cde46a4c44509bb3b5ba686ef332ec7f071c3dbbf688467e1065eb270",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "9de56eab0b392d5ea9aed1f96b57ecf5a2a3c086628bd1d8a22bf4c33e533f5d",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "83f68eff5e147f9a399bbc3be3095252d7d1d19292163d93fdef547e10ae2758",
+        "result.latency_ns": "7ea4a665674c48caf6dab30f23a4e88918924379cf902039ba1c2c896586b959",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "native",
+      "cell": "rgb32_c128",
+      "learn": true,
+      "count": 96,
+      "batch": 8,
+      "repeat": 2,
+      "repeats": 1,
+      "source_freeze_sha256": "a336b7e603515eba13f36ba494e978e530aa8003bf4419325bb9e198f37dc59e",
+      "admitted_utc": "2026-10-24T14:35:12.219160+00:00",
+      "finish_utc": "2026-10-24T14:35:12.447338+00:00",
+      "name": "transport_p3_l1_n96_r2",
+      "campaign": "20261024-pcie-transport",
+      "result": {
+        "status": "PASS",
+        "mode": "native",
+        "samples": 96,
+        "repeats": 1,
+        "batch": 8,
+        "read_bytes_including_diagnostics": 175296,
+        "write_bytes_including_diagnostics": 303264,
+        "dma_read_calls": 0,
+        "dma_write_calls": 97,
+        "transport_profile": 3,
+        "exact_scores_and_full_RAM": true,
+        "cleanup": "unprogrammed"
+      },
+      "profile": 3,
+      "raw_hashes": {
+        "result.snapshots": "56fa0f3a03be3026458f491c004a48e429be731eebf9c64cc1c7e45477f0f0e7",
+        "OWNER.json": "2703384c041414d02cc834a2335d3cdbf5f6085773c3325cf4c79fd3744fdbda",
+        "result.scores": "e8383aaffd0e9197753c37a02c96c37494e4e60c9849e8259d6ab5b58da966d2",
+        "stdout": "9de56eab0b392d5ea9aed1f96b57ecf5a2a3c086628bd1d8a22bf4c33e533f5d",
+        "result.initial.ram": "09cd92ac35caa6c25dcc7f9ee5f5d70bf9f3e4ee9b628f77a134acf4a1960d96",
+        "result.ram": "7b4a0f743478ef84c72e639edd6d4df3f31710f5f89a98aa7faf3a70c8d237bd",
+        "result.caller_ns": "b60c90276d306d0be4bb908061d97112d6484d85549fb339983cc1ec6eaeae4d",
+        "result.latency_ns": "39e83b1cab4f52a9ec5bcdbf1eeb72697d4f1717907085244145de95b680dc9a",
+        "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "executed_sources": {
+    "coprocessor/run.py": "54f106380c691506420b94d67cf34bb54f414ce679546803427dd6e20a2dc518",
+    "coprocessor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "coprocessor/prepare.py": "1da75779dbb43327a5ca9c4c29901dcaab82b86719394403de8c3d2a72f50b43",
+    "coprocessor/bench.cpp": "8edd5e324b444d21b9383b078ef88a9868eda6525d9e7ba1a861ff9479cff196",
+    "coprocessor/build.sh": "3a2551a325ba80d7e164504a04c5c974d5de0c58dbe941c5bbc9bca95af37a36",
+    "src/readout_bench.cpp": "9b31fbdc8ee792b6f5324d5f2a32d57ca13543a41ac6d807821037911a5866ab",
+    "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+    "coprocessor/transport.cpp": "8534b02f7898bce316200718f823fa51c1b4e9af5f25349cc5384f3109d5283e",
+    "coprocessor/transport_run.py": "3f1c27575d9c02ec62b8d6cfd1a7707d33b5b921275da471b6192e0d09b00331"
+  },
+  "executed_binary_sha256": {
+    "build/pcie_fabric": "7fc78f428d5b7d08f904862bfc84d326fdeb12de73cbc629fd4e9fa5af490c59",
+    "build/pcie_transport": "8309f695db672fb6a29e46f0195709f919de7678e6cc5d88fd9ba60a530fc5d8"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compile_flags": [
+    "-std=c++17",
+    "-O3",
+    "-mcpu=native",
+    "AKIDA_VERSION=2.19.3"
+  ],
+  "inventory": {
+    "captured_utc": "2026-10-24T14:39:34.158515+00:00",
+    "physical_device_opened": false,
+    "observed_pci": {
+      "vendor": "0x1e7c",
+      "device": "0xa500",
+      "current_link_speed": "5.0 GT/s PCIe",
+      "current_link_width": "2",
+      "driver": "akida-pcie",
+      "resources": "0x0000003228000000 0x00000032283fffff 0x0000000000140204\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000003228400000 0x00000032287fffff 0x0000000000140204\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000003228800000 0x0000003228bfffff 0x0000000000140204\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000003228c00000 0x0000003228c0ffff 0x0000000000046200\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000000000000000 0x0000000000000000 0x0000000000000000\n0x0000000000000000 0x0000000000000000 0x0000000000000000"
+    },
+    "host": {
+      "machine": "aarch64",
+      "kernel": "6.8.12-1021-tegra"
+    },
+    "descriptor": {
+      "status": "SDK_CONFIGURED_TARGET_NOT_A_SILICON_CAPACITY_MEASUREMENT",
+      "sdk": "2.19.3",
+      "desc": "VirtualDevice/BC.A1.003.009",
+      "ip": "IpVersion.v1",
+      "nps": [
+        {
+          "id": [
+            1,
+            2,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP2"
+          ]
+        },
+        {
+          "id": [
+            1,
+            2,
+            1
+          ],
+          "types": [
+            "Type.CNP1"
+          ]
+        },
+        {
+          "id": [
+            1,
+            2,
+            2
+          ],
+          "types": [
+            "Type.CNP1"
+          ]
+        },
+        {
+          "id": [
+            1,
+            2,
+            3
+          ],
+          "types": [
+            "Type.CNP1"
+          ]
+        },
+        {
+          "id": [
+            1,
+            3,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            1,
+            3,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            1,
+            3,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            1,
+            3,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            1,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            2,
+            1,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            1,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            1,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            2,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            2,
+            2,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            2,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            2,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            3,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            2,
+            3,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            3,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            2,
+            3,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            1,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            3,
+            1,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            1,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            1,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            2,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            3,
+            2,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            2,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            2,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            3,
+            0
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.FNP3"
+          ]
+        },
+        {
+          "id": [
+            3,
+            3,
+            1
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            3,
+            2
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        },
+        {
+          "id": [
+            3,
+            3,
+            3
+          ],
+          "types": [
+            "Type.CNP1",
+            "Type.CNP2"
+          ]
+        }
+      ],
+      "type_counts": {
+        "Type.CNP1": 32,
+        "Type.FNP2": 1,
+        "Type.FNP3": 7,
+        "Type.CNP2": 21
+      },
+      "np_sram": {
+        "evsram_32b_size": 0,
+        "fsram_64b_size": 0,
+        "input_bytes": 43008,
+        "stsram_32b_size": 0,
+        "tsram_51b_size": 0,
+        "weight_bytes": 44800
+      },
+      "dma_event": "(1, 1, 0)",
+      "dma_configuration": "(1, 1, 1)",
+      "image_converter": "<akida.NP.Info, ident=(0, 0, 0), types=[<Type.HRC: 1>], has_lut=False>"
+    },
+    "boundaries": [
+      "Sysfs confirms link/driver, not effective payload bandwidth",
+      "Descriptor SRAM budgets do not measure physical occupancy or total silicon SRAM",
+      "NPU capability types overlap at one physical position; counts must not be summed",
+      "Detailed router-hop timing, SRAM port contention and electrical energy are not observed"
+    ]
+  },
+  "compiler_frontier": {
+    "status": "COMPILER_ONLY_NOT_SILICON_CAPACITY",
+    "cells": [
+      {
+        "inputs": 128,
+        "records": 512,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 16392,
+        "physical_execution": false
+      },
+      {
+        "inputs": 256,
+        "records": 512,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 24584,
+        "physical_execution": false
+      },
+      {
+        "inputs": 512,
+        "records": 512,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 40968,
+        "physical_execution": false
+      },
+      {
+        "inputs": 512,
+        "records": 544,
+        "status": "COMPILER_OR_DECODER_REJECTED",
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/coprocessor/frontier.py\", line 22, in main\n    ram,ident=parts(b)\n              ^^^^^^^^\n  File \"/home/nicklomeli/akd1500-lab/tools/prepare.py\", line 32, in parts\n    raise NotImplementedError('Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it')\nNotImplementedError: Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it\n",
+        "physical_execution": false
+      },
+      {
+        "inputs": 512,
+        "records": 560,
+        "status": "COMPILER_OR_DECODER_REJECTED",
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/coprocessor/frontier.py\", line 22, in main\n    ram,ident=parts(b)\n              ^^^^^^^^\n  File \"/home/nicklomeli/akd1500-lab/tools/prepare.py\", line 32, in parts\n    raise NotImplementedError('Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it')\nNotImplementedError: Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it\n",
+        "physical_execution": false
+      },
+      {
+        "inputs": 512,
+        "records": 576,
+        "status": "COMPILER_OR_DECODER_REJECTED",
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/coprocessor/frontier.py\", line 22, in main\n    ram,ident=parts(b)\n              ^^^^^^^^\n  File \"/home/nicklomeli/akd1500-lab/tools/prepare.py\", line 32, in parts\n    raise NotImplementedError('Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it')\nNotImplementedError: Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it\n",
+        "physical_execution": false
+      },
+      {
+        "inputs": 512,
+        "records": 1024,
+        "status": "COMPILER_OR_DECODER_REJECTED",
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/coprocessor/frontier.py\", line 22, in main\n    ram,ident=parts(b)\n              ^^^^^^^^\n  File \"/home/nicklomeli/akd1500-lab/tools/prepare.py\", line 32, in parts\n    raise NotImplementedError('Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it')\nNotImplementedError: Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it\n",
+        "physical_execution": false
+      },
+      {
+        "inputs": 1024,
+        "records": 256,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 36872,
+        "physical_execution": false
+      },
+      {
+        "inputs": 1024,
+        "records": 288,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 41480,
+        "physical_execution": false
+      },
+      {
+        "inputs": 1024,
+        "records": 320,
+        "status": "COMPILER_OR_DECODER_REJECTED",
+        "error": "Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/nicklomeli/akd1500-lab/coprocessor/frontier.py\", line 22, in main\n    ram,ident=parts(b)\n              ^^^^^^^^\n  File \"/home/nicklomeli/akd1500-lab/tools/prepare.py\", line 32, in parts\n    raise NotImplementedError('Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it')\nNotImplementedError: Compiler selected FNP2 external-memory record; FNP3 decoder does not cover it\n",
+        "physical_execution": false
+      },
+      {
+        "inputs": 2048,
+        "records": 128,
+        "status": "COMPILER_SINGLE_FNP3",
+        "mapping": [
+          {
+            "layer": "capacity_bank",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "learning_np": [
+          3,
+          3,
+          0
+        ],
+        "packet_bytes": 34824,
+        "physical_execution": false
+      }
+    ]
+  },
+  "documents": {
+    "retrieved_utc": "2026-10-24T14:29:16.091814+00:00",
+    "sources": [
+      {
+        "file": "pcie-datasheet-v1.5.pdf",
+        "url": "https://shop.brainchipinc.com/cdn/shop/files/AKD1500_PCIe_datasheet_V1.5.pdf?v=17163416319565603188",
+        "bytes": 2146872,
+        "sha256": "72fa58ea5005cbf54ebd2b46cf5301a4fc90146d38d6dcdf2f102fa2b8f242c7"
+      },
+      {
+        "file": "product-brief-v2.5.pdf",
+        "url": "https://shop.brainchipinc.com/cdn/shop/files/AKD1500_Co-Processor_Product_Brief_V2.5_Oct._26.pdf?v=8383063294282461472",
+        "bytes": 500947,
+        "sha256": "d94ea79243591868d5d091c1a86dcc16eb65688755d8cc514e0ae01e88f0acff"
+      },
+      {
+        "file": "pcie-board-guide-v1.pdf",
+        "url": "https://shop.brainchipinc.com/cdn/shop/files/Akida-PCIe_Board_UG_V1.0.pdf?v=499667687067763990",
+        "bytes": 1154294,
+        "sha256": "da2d6f848056fe24b8d52f86f1f90894e9f939d87a05bca446648e833422f748"
+      },
+      {
+        "file": "driver-guide-v1.pdf",
+        "url": "https://shop.brainchipinc.com/cdn/shop/files/Akida_Driver_UG_V1.0.pdf?v=2349947906719515385",
+        "bytes": 524942,
+        "sha256": "b3573435f9e5c86e30e850cd6a05a0feaa57fec84fcb43ad65f8e81f3ab7a94a"
+      }
+    ]
+  },
+  "preserved_failures": [
+    {
+      "attempt": "compiler01",
+      "reason": "CNP is convolution, not the HPC cross-correlation convention",
+      "physical_forwards": 0
+    },
+    {
+      "attempt": "compiler02",
+      "reason": "Spatial-to-FC feature order is channel-column-row",
+      "physical_forwards": 0
+    }
+  ],
+  "limitations": [
+    "Synthetic seeded RGB/weights characterize execution; not recognition or generalization quality",
+    "One chip and initialization; temporal repeats are not independent scientific seeds",
+    "Timing includes input transfer/enqueue/fetch; excludes programming/preallocation/full-RAM diagnostics, verification and surrounding I/O",
+    "Calling-thread CPU excludes kernel workers/interrupts/other host threads; not electrical energy",
+    "SDK descriptor and compiler format boundaries are not silicon maxima",
+    "No independent simultaneous teachers, power-cycle durability, total SRAM occupancy or router-hop timing measured"
+  ],
+  "numeric_archive_sha256": "9a2d3214eeda9e09ce5478aa0beb5fb18a5534209e9735292f5935d551a71c88"
+}
