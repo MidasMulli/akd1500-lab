@@ -8,6 +8,35 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native context-record allocation — October 24, 2026
+
+**The chip chooses which record to learn and which learned record responds.**
+Thirty-two initially random plastic records share one constant training class;
+no context-ID label or host-selected memory enters the acting path. Three NPUs
+carry raw history, compute a fixed feature basis and learn distinct record responses.
+Across five initializations: **80/80** history allocations, **20/20** original record
+IDs retained, and **640/640** windows recalled in a new untrained ordering.
+The trained-frozen bank retains its four known histories per seed (**20/80** total).
+
+![Recorded native context allocation](visual/context-discovery-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/context-discovery-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/context-discovery-4k60.mp4) ·
+[tooling and portable audit](discovery/README.md) ·
+[assessment, controls and failures](studies/20261024-context-discovery/ASSESSMENT.md)
+
+The history representation and shift mechanism are engineered; record identities
+are learned. Host-paced forwards and explicit query learning-disable remain. Strong
+CPU dictionary also succeeds. This qualifies memory allocation/selection, **not yet
+consequence prediction, an autonomous useful loop, or an efficiency advantage**.
+All8,379 qualified forwards replay; two early failed hardware prefixes and two
+compiler failures remain preserved. Single-class learning is a documented primitive.
+
+```sh
+python -m discovery.archive audit
+python -m discovery.audit_mutations
+```
+
 ## The same external symbol, different native answers — October 24, 2026
 
 **The preceding chip output supplies context for the next prediction.** A current-only

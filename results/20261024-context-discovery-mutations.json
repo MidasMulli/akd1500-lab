@@ -1,0 +1,41 @@
+{
+  "status": "SEMANTIC_MUTATIONS_REJECTED",
+  "count": 7,
+  "mutations": [
+    {
+      "mutation": "training_label_field",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "constant label only"
+    },
+    {
+      "mutation": "carried_history",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "native carried input semantics"
+    },
+    {
+      "mutation": "connection_state",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "learning SRAM replay"
+    },
+    {
+      "mutation": "query_learning_mode",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": ""
+    },
+    {
+      "mutation": "returned_activity",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "returned context activity"
+    },
+    {
+      "mutation": "fixed_frontend",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": ""
+    },
+    {
+      "mutation": "previous_output_pointer",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": ""
+    }
+  ]
+}

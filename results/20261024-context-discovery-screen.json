@@ -1,0 +1,2399 @@
+{
+  "status": "CPU_EXPLORATION_PRESERVED",
+  "physical_device_opened": false,
+  "source_sha256": "19ab6d5348c5b325b09439910d83c2769310388cdd8786eec8630d8389ba41f6",
+  "archive_sha256": "46940dc2c63cd382be73bc9129a35ff69c9dff9cc39547250086a0950624edf1",
+  "limits": "Exploratory32-record screen: input activity differs128 vs32; not a density-matched causal ablation or hardware result. No fixed history helpers in this earlier standalone screen.",
+  "rows": [
+    {
+      "seed": 113101,
+      "basis": "raw",
+      "input_active": 128,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        }
+      ]
+    },
+    {
+      "seed": 113101,
+      "basis": "third_order",
+      "input_active": 32,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 12
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 13
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 14
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 15
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 16
+        }
+      ]
+    },
+    {
+      "seed": 113201,
+      "basis": "raw",
+      "input_active": 128,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        }
+      ]
+    },
+    {
+      "seed": 113201,
+      "basis": "third_order",
+      "input_active": 32,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 12
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 13
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 14
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 15
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 16
+        }
+      ]
+    },
+    {
+      "seed": 113301,
+      "basis": "raw",
+      "input_active": 128,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        }
+      ]
+    },
+    {
+      "seed": 113301,
+      "basis": "third_order",
+      "input_active": 32,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 12
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 13
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 14
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 15
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 16
+        }
+      ]
+    },
+    {
+      "seed": 113401,
+      "basis": "raw",
+      "input_active": 128,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        }
+      ]
+    },
+    {
+      "seed": 113401,
+      "basis": "third_order",
+      "input_active": 32,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 12
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 13
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 14
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 15
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 16
+        }
+      ]
+    },
+    {
+      "seed": 113501,
+      "basis": "raw",
+      "input_active": 128,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        }
+      ]
+    },
+    {
+      "seed": 113501,
+      "basis": "third_order",
+      "input_active": 32,
+      "stages": [
+        {
+          "histories": 1,
+          "active_counts": [
+            1
+          ],
+          "distinct_masks": 1
+        },
+        {
+          "histories": 2,
+          "active_counts": [
+            1,
+            1
+          ],
+          "distinct_masks": 2
+        },
+        {
+          "histories": 3,
+          "active_counts": [
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 3
+        },
+        {
+          "histories": 4,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 4
+        },
+        {
+          "histories": 5,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 5
+        },
+        {
+          "histories": 6,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 6
+        },
+        {
+          "histories": 7,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 7
+        },
+        {
+          "histories": 8,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 8
+        },
+        {
+          "histories": 9,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 9
+        },
+        {
+          "histories": 10,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 10
+        },
+        {
+          "histories": 11,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 11
+        },
+        {
+          "histories": 12,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 12
+        },
+        {
+          "histories": 13,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 13
+        },
+        {
+          "histories": 14,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 14
+        },
+        {
+          "histories": 15,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 15
+        },
+        {
+          "histories": 16,
+          "active_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "distinct_masks": 16
+        }
+      ]
+    }
+  ]
+}

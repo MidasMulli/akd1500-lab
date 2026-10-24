@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "akd-context-discovery-1080p60.mp4",
+      "bytes": 13526664,
+      "sha256": "82b1a9bc9c72a35fa26d7f7591508e1458f1f4bcbf86dd3b23c05928d281e64f",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "28.000000",
+      "nb_frames": "1680",
+      "decoded_frames": 1680,
+      "unique_frames": 1680,
+      "fast_start": true
+    },
+    {
+      "file": "akd-context-discovery-4k60.mp4",
+      "bytes": 71349274,
+      "sha256": "8370e5af8884319a2db4f0c06200ff1144bbf512e988fb6efecccefe7e7913fd",
+      "width": 3840,
+      "height": 2160,
+      "r_frame_rate": "60/1",
+      "duration": "28.000000",
+      "nb_frames": "1680",
+      "decoded_frames": 1680,
+      "unique_frames": 1680,
+      "fast_start": true
+    }
+  ]
+}

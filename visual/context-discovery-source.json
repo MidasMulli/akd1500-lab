@@ -1,0 +1,16 @@
+{
+  "status": "AUDITED_CONTEXT_ALLOCATION_REPLAY",
+  "archive_sha256": "6a69e6e3c965994c7a086ccd1af4b476b89993e8c9c57b889118ceb9cbc1fe54",
+  "events_sha256": "fba2a712087c669c9cfd1b5b0a1d28ebe8df9974dc85b2d6465b487e5bf43ed8",
+  "renderer_sha256": "670e445888661c566939ce722ecc8a5287daefe31aa026af11a8cc2906b0ed08",
+  "scope": "Recorded native input/output and per-event learning RAM. Feature activations and helper activity derived from fixed weights and captured inputs. Thirty-two plastic records, eight fixed helpers, three NPUs. Fixed third-order basis and explicit raw history; host writes only current bits, schedules calls and learning mode. Moving camera, flow particles and slowed timing schematic; not electrical spikes. CPU dictionary also succeeds. No outcome prediction or efficiency claim.",
+  "outputs": {
+    "learning.png": "16b6146cd839f7d0dfd478a7c723aa8244868648b0d92a62f18cf6a0daf0df72",
+    "unseen-order.png": "1a82b72498670b2fc45ae06a0da5ab3b752e27b1edd8244c55e15ece0e269a78",
+    "recall.png": "ed6c67662ce3a1967ff556957d3c220fb5ef002c70722b8b048fc11e74c40ef5",
+    "akd-context-discovery-4k60.mp4": "8370e5af8884319a2db4f0c06200ff1144bbf512e988fb6efecccefe7e7913fd",
+    "bootstrap.png": "ef88dfbd90361f6ced2237d86b7e411f0928a9bb13a45141fce244d5d629a0bf",
+    "allocation.png": "ad05ef4555565612e01f4f23bd1711cac2440545768ee412024c117be8e4520c",
+    "akd-context-discovery-1080p60.mp4": "82b1a9bc9c72a35fa26d7f7591508e1458f1f4bcbf86dd3b23c05928d281e64f"
+  }
+}
