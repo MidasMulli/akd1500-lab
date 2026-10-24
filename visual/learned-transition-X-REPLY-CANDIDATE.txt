@@ -1,0 +1,12 @@
+Learning changes the loop
+
+I taught the AKD1500 two changed transitions, then removed teaching and fed its outputs back as its next inputs.
+
+Across five initializations: 10/10 changed associations recalled, 30/30 unchanged associations retained. Subsequent states matched the changed graphs 1,280/1,280, versus 309/1,280 for each frozen and unlabelled control.
+
+The connection changes happen natively on the chip. A fixed second NPU turns its prediction into the next state code; the host prepares the finite schedule, without choosing the successive states or repairing weights.
+
+The CPU control also succeeds. This is a small transition-memory test, not autonomous discovery or an efficiency claim. Recorded replay; neural geometry and slowed timing are schematic.
+
+Video: akd-learned-transition-1080p60.mp4
+Review candidate only. Not posted or saved to X by this step.

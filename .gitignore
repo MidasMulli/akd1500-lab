@@ -60,3 +60,10 @@ studies/*/*.rows.json
 !visual/input-gated-learning-1080p60.mp4
 !visual/native-feedback-4k60.mp4
 !visual/native-feedback-1080p60.mp4
+
+# Learned-transition replay: public films; private device admissions/config images.
+studies/*/replay_fixtures*/
+studies/*/replay_raw/
+studies/*/*_build*.stderr
+!visual/learned-transition-4k60.mp4
+!visual/learned-transition-1080p60.mp4

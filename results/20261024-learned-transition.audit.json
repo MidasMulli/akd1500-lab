@@ -1,0 +1,577 @@
+{
+  "status": "INDEPENDENT_ARCHIVE_PASS",
+  "archive_sha256": "13c955892a445dc08ecbab44934a248f3c2acadb94a36cfcc1536aa8b493faa3",
+  "valid_physical_sessions": 19,
+  "successful_primary_forwards": 4390,
+  "invalid_control_forwards_observed": 90,
+  "primary_seeds": 5,
+  "changed_recall_native": 10,
+  "changed_recall_total": 10,
+  "retained_native": 30,
+  "retained_total": 30,
+  "rollout": {
+    "native": {
+      "correct": 1280,
+      "total": 1280
+    },
+    "frozen": {
+      "correct": 309,
+      "total": 1280
+    },
+    "disconnected": {
+      "correct": 309,
+      "total": 1280
+    }
+  },
+  "failed_attempts": [
+    {
+      "name": "cpu_s110101_native_h0",
+      "mode": "cpu",
+      "exit_code": 1,
+      "error": "FAIL: task CPU prefix equivalence",
+      "observed_diagnostic_events": 0,
+      "observed_rollout_outputs": 0
+    },
+    {
+      "name": "native_s110101_frozen_h32",
+      "mode": "native",
+      "exit_code": 1,
+      "error": "FAIL: dependent trajectory differs from exact CPU",
+      "observed_diagnostic_events": 26,
+      "observed_rollout_outputs": 64
+    }
+  ],
+  "secondary_replay": [
+    {
+      "name": "h1",
+      "status": "ONE_PASS_BASELINE_PASS",
+      "horizon": 1,
+      "terminal_correct": 8
+    },
+    {
+      "name": "h2",
+      "status": "FAILED_PRESERVED",
+      "horizon": 2,
+      "error": "FAIL: Tracked allocation ID 0xaaaad7a20000 already taken",
+      "forward_outputs_observed": 0
+    },
+    {
+      "name": "h2_attempt2",
+      "status": "FAILED_PRESERVED",
+      "horizon": 2,
+      "error": "FAIL: Timed out while DMA was configuring NPs for multipass",
+      "forward_outputs_observed": 0
+    }
+  ],
+  "cpu_timings": [
+    {
+      "seed": 110101,
+      "exact_cpu_ns_per_event": 1081.5994468085107,
+      "task_table_ns_per_event": 368.03521985815604,
+      "contract": "includes dense encode/decode and checksum; task CPU differs during transient teaching example, agrees at recall and rollout endpoints"
+    },
+    {
+      "seed": 110201,
+      "exact_cpu_ns_per_event": 1081.228595744681,
+      "task_table_ns_per_event": 361.02636524822697,
+      "contract": "includes dense encode/decode and checksum; task CPU differs during transient teaching example, agrees at recall and rollout endpoints"
+    },
+    {
+      "seed": 110301,
+      "exact_cpu_ns_per_event": 1081.420035460993,
+      "task_table_ns_per_event": 361.0911631205674,
+      "contract": "includes dense encode/decode and checksum; task CPU differs during transient teaching example, agrees at recall and rollout endpoints"
+    },
+    {
+      "seed": 110401,
+      "exact_cpu_ns_per_event": 1090.6492748226951,
+      "task_table_ns_per_event": 368.90009929078013,
+      "contract": "includes dense encode/decode and checksum; task CPU differs during transient teaching example, agrees at recall and rollout endpoints"
+    },
+    {
+      "seed": 110501,
+      "exact_cpu_ns_per_event": 1083.306225177305,
+      "task_table_ns_per_event": 371.82462234042555,
+      "contract": "includes dense encode/decode and checksum; task CPU differs during transient teaching example, agrees at recall and rollout endpoints"
+    }
+  ],
+  "rows": [
+    {
+      "name": "cpu_s110101_disconnected_h32",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110101_frozen_h32",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110101_frozen_h32_attempt2",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110101_native_h0_attempt2",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 0,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 0,
+      "rollout_total": 0
+    },
+    {
+      "name": "cpu_s110101_native_h1",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 1,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 8,
+      "rollout_total": 8
+    },
+    {
+      "name": "cpu_s110101_native_h2",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 2,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 16,
+      "rollout_total": 16
+    },
+    {
+      "name": "cpu_s110101_native_h32",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110101_native_h4",
+      "mode": "cpu",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 4,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 32,
+      "rollout_total": 32
+    },
+    {
+      "name": "cpu_s110201_disconnected_h32",
+      "mode": "cpu",
+      "seed": 110201,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110201_frozen_h32",
+      "mode": "cpu",
+      "seed": 110201,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110201_native_h32",
+      "mode": "cpu",
+      "seed": 110201,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110301_disconnected_h32",
+      "mode": "cpu",
+      "seed": 110301,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 22,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110301_frozen_h32",
+      "mode": "cpu",
+      "seed": 110301,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 22,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110301_native_h32",
+      "mode": "cpu",
+      "seed": 110301,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110401_disconnected_h32",
+      "mode": "cpu",
+      "seed": 110401,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 128,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110401_frozen_h32",
+      "mode": "cpu",
+      "seed": 110401,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 128,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110401_native_h32",
+      "mode": "cpu",
+      "seed": 110401,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110501_disconnected_h32",
+      "mode": "cpu",
+      "seed": 110501,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 25,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110501_frozen_h32",
+      "mode": "cpu",
+      "seed": 110501,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 25,
+      "rollout_total": 256
+    },
+    {
+      "name": "cpu_s110501_native_h32",
+      "mode": "cpu",
+      "seed": 110501,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110101_disconnected_h32",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110101_frozen_h32_attempt2",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110101_native_h0",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 0,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 0,
+      "rollout_total": 0
+    },
+    {
+      "name": "native_s110101_native_h1",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 1,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 8,
+      "rollout_total": 8
+    },
+    {
+      "name": "native_s110101_native_h2",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 2,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 16,
+      "rollout_total": 16
+    },
+    {
+      "name": "native_s110101_native_h32",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110101_native_h4",
+      "mode": "native",
+      "seed": 110101,
+      "arm": "native",
+      "horizon": 4,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 32,
+      "rollout_total": 32
+    },
+    {
+      "name": "native_s110201_disconnected_h32",
+      "mode": "native",
+      "seed": 110201,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110201_frozen_h32",
+      "mode": "native",
+      "seed": 110201,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 67,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110201_native_h32",
+      "mode": "native",
+      "seed": 110201,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110301_disconnected_h32",
+      "mode": "native",
+      "seed": 110301,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 22,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110301_frozen_h32",
+      "mode": "native",
+      "seed": 110301,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 22,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110301_native_h32",
+      "mode": "native",
+      "seed": 110301,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110401_disconnected_h32",
+      "mode": "native",
+      "seed": 110401,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 128,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110401_frozen_h32",
+      "mode": "native",
+      "seed": 110401,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 128,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110401_native_h32",
+      "mode": "native",
+      "seed": 110401,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110501_disconnected_h32",
+      "mode": "native",
+      "seed": 110501,
+      "arm": "disconnected",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 25,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110501_frozen_h32",
+      "mode": "native",
+      "seed": 110501,
+      "arm": "frozen",
+      "horizon": 32,
+      "connection_replacements": 0,
+      "changed_recall": 0,
+      "retained": 6,
+      "rollout_correct": 25,
+      "rollout_total": 256
+    },
+    {
+      "name": "native_s110501_native_h32",
+      "mode": "native",
+      "seed": 110501,
+      "arm": "native",
+      "horizon": 32,
+      "connection_replacements": 32,
+      "changed_recall": 2,
+      "retained": 6,
+      "rollout_correct": 256,
+      "rollout_total": 256
+    }
+  ],
+  "limitations": [
+    "engineered prior and externally supplied destination classes; one prototype per class",
+    "one changed permutation episode; no unlimited reversal claim",
+    "finite prequeued SRAM dependencies, no indefinite self-scheduling",
+    "two-pass hardware-generated replay failed during configuration, not inference",
+    "visible SRAM readback, not hidden selector or electrical spike tracing",
+    "CPU task table also succeeds; no speed or energy advantage established",
+    "earlier high-address FNP2 learning bug remains open"
+  ]
+}

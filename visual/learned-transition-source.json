@@ -1,0 +1,18 @@
+{
+  "status": "AUDITED_LEARNED_TRANSITION_REPLAY",
+  "archive_sha256": "13c955892a445dc08ecbab44934a248f3c2acadb94a36cfcc1536aa8b493faa3",
+  "events_sha256": "8ae2c88b6db352e204eea420ec2837d2da16b22aa09ec0116bcd6b793b428965",
+  "renderer_sha256": "3c27049f011f8a2ebb9cc6e7ece27eb13b3cf779d1ff982ba8700d6b71114243",
+  "scope": "Recorded diagnostic outputs and complete per-event SRAM readbacks; returned rollout codes and output-to-input pointers. Class responses inferred from the one-to-one fixed decoder. Feature and neuron geometry, motion and slowed timing schematic. No electrical spike trace. One externally taught change episode; finite queue; CPU table also passes.",
+  "electrical_spike_times_observed": false,
+  "files": {
+    "final.png": "081187d9df439b98cc6c0572498ea0d04aad257883a39b5c8dd205131c4d081a",
+    "before.png": "6af228f5abb86fc5ef496e4d93cbf4d7d4fcb67a91ad11635423d8d364f48ae0",
+    "akd-learned-transition-1080p60.mp4": "5fb50db5daf42b9bdaaee104b8877db6db2db307bacc1c97b677abdd9efa2915",
+    "recall.png": "31e70bde75d43ab8f4865f7f43fb8700e4a50f78c17d200f8d4d31284260fe56",
+    "second-edit.png": "e2e911c6242b9f981c180f83e03a76254f2152299cd3e53e2a544a5a142675cf",
+    "first-edit.png": "fc75ed59e486f92758b89c35555872613c0e18ea970c05a9acecc2125537144c",
+    "loop.png": "696578ac89b6c64461384c617045562de599f9e44c42f56c7b4951fc6c2daddc",
+    "akd-learned-transition-4k60.mp4": "87686494cc44700a7efe25e985a554fb7deeea25b278b497f68b4ec7b89e290c"
+  }
+}

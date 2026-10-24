@@ -8,6 +8,31 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Learning changes the native trajectory — October 24, 2026
+
+**Native connection changes now alter the sequence followed by chip-fed feedback.**
+Across five initializations, externally taught transition changes are recalled
+**10/10**, unchanged associations retained **30/30**, and subsequent predictions
+match the new graphs **1,280/1,280**, versus **309/1,280** for each frozen and
+unlabelled control. All returned outputs and captured visible SRAM states replay.
+
+Two FNP3s, eight class-addressed learning records, an engineered prior and one
+externally taught change episode. The 32-step schedule is finite. The CPU task
+control also succeeds; no speed or energy advantage is established. A separate
+two-pass hardware-generated replay test fails during configuration, before
+inference, and is held. Failed attempts are preserved.
+
+![Recorded learned transition comparison](visual/learned-transition-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learned-transition-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learned-transition-4k60.mp4) ·
+[tools and audit](transition/README.md) ·
+[assessment and failures](studies/20261024-learned-transition/ASSESSMENT.md)
+
+```sh
+python -m transition.archive audit
+```
+
 ## Bounded native feedback — October 24, 2026
 
 **One seed produces 32 dependent native steps while the Nano control worker sleeps.**

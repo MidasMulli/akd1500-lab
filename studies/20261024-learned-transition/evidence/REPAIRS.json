@@ -1,0 +1,26 @@
+[
+  {
+    "utc": "2026-10-24T19:59:53.712456+00:00",
+    "failure": "CPU-only task CPU prefix equivalence",
+    "cause": "destination-centric native learning has a transient missing response between two changed examples; source-centric CPU table does not",
+    "repair": "task CPU comparison gates old/post queries and all rollout states; exact CPU still checks every output and SRAM word",
+    "physical_sessions_before_repair": 0
+  },
+  {
+    "utc": "2026-10-24T20:02:09.277564+00:00",
+    "failure": "native_s110101_frozen_h32",
+    "cause": "SDK toggle_learn(false) re-enables pipeline; subsequent SRAM readback silently changed dependent scheduling mode",
+    "source_evidence": "hardware_device_impl.cpp toggle_learn calls pipeline(!multi_pass && !learn_en)",
+    "repair": "force pipeline(false) after every frozen SRAM capture before another chain; no model or learning-rule change",
+    "completed_failed_forwards": 90,
+    "scope": "invalid control transport; preserve all traces and stop expansion until repeated control passes"
+  },
+  {
+    "utc": "2026-10-24T20:08:05.840215+00:00",
+    "failure": "replay_h2",
+    "stage": "program installation before any forward",
+    "cause": "runtime forbids registering identical source-address track twice",
+    "repair": "duplicate unchanged track bytes into uniquely addressed spans per pass; no neural or register-track changes",
+    "completed_forwards": 0
+  }
+]

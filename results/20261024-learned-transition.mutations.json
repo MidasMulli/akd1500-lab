@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "archive_sha256": "13c955892a445dc08ecbab44934a248f3c2acadb94a36cfcc1536aa8b493faa3",
+  "mutations": [
+    {
+      "mutation": "returned_query",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    },
+    {
+      "mutation": "visible_weight",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    },
+    {
+      "mutation": "returned_trajectory",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    },
+    {
+      "mutation": "dependency_pointer",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    },
+    {
+      "mutation": "quiet_read",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    },
+    {
+      "mutation": "frozen_memory",
+      "status": "SEMANTIC_REJECTION_PASS",
+      "outer_and_array_hashes_valid": true
+    }
+  ]
+}

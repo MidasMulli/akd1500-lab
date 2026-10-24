@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "akd-learned-transition-1080p60.mp4",
+      "bytes": 8229848,
+      "sha256": "5fb50db5daf42b9bdaaee104b8877db6db2db307bacc1c97b677abdd9efa2915",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "26.000000",
+      "nb_frames": "1560",
+      "decoded_frames": 1560,
+      "unique_frames": 1560,
+      "fast_start": true
+    },
+    {
+      "file": "akd-learned-transition-4k60.mp4",
+      "bytes": 76856874,
+      "sha256": "87686494cc44700a7efe25e985a554fb7deeea25b278b497f68b4ec7b89e290c",
+      "width": 3840,
+      "height": 2160,
+      "r_frame_rate": "60/1",
+      "duration": "26.000000",
+      "nb_frames": "1560",
+      "decoded_frames": 1560,
+      "unique_frames": 1560,
+      "fast_start": true
+    }
+  ]
+}
