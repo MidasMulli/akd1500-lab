@@ -1,0 +1,103 @@
+{
+  "status": "INDEPENDENT_CONTINUOUS_REPLAY_PASS_WITH_DEADLINE_EXCEPTION",
+  "runs": 12,
+  "native_forwards": 9216,
+  "gpu_outputs_identical": true,
+  "model_weights_unchanged": true,
+  "all_service_deadlines_met": false,
+  "late_batches_over_2ms": 1,
+  "summary": {
+    "alone": {
+      "gpu_fps": [
+        28.04314733525793,
+        27.69256316210305,
+        27.42992809850391
+      ],
+      "median_gpu_fps": 27.69256316210305,
+      "gpu_median_ms": [
+        35.520795,
+        35.962898,
+        36.349811
+      ],
+      "gpu_p95_ms": [
+        36.032941,
+        36.44693,
+        36.7225008
+      ]
+    },
+    "cpu": {
+      "gpu_fps": [
+        27.708743635787485,
+        27.58424733698573,
+        27.61238512549284
+      ],
+      "median_gpu_fps": 27.61238512549284,
+      "gpu_median_ms": [
+        35.974115,
+        36.098119,
+        36.037962
+      ],
+      "gpu_p95_ms": [
+        36.4028139,
+        36.90364695,
+        36.890719600000004
+      ],
+      "service_thread_cpu_ms": [
+        6.329088,
+        6.368448,
+        6.30976
+      ],
+      "median_service_cpu_percent_of_one_core": 0.12361321101263224
+    },
+    "native": {
+      "gpu_fps": [
+        27.657812331835466,
+        27.658363313732316,
+        26.938968850145056
+      ],
+      "median_gpu_fps": 27.657812331835466,
+      "gpu_median_ms": [
+        35.973887,
+        36.020085,
+        36.768512
+      ],
+      "gpu_p95_ms": [
+        36.824984799999996,
+        36.6502981,
+        38.7945665
+      ],
+      "service_thread_cpu_ms": [
+        78.621984,
+        78.672928,
+        78.926848
+      ],
+      "median_service_cpu_percent_of_one_core": 1.5364746352585104
+    },
+    "task": {
+      "gpu_fps": [
+        27.808804607322543,
+        27.68145960249984,
+        27.743643737213894
+      ],
+      "median_gpu_fps": 27.743643737213894,
+      "gpu_median_ms": [
+        35.8258095,
+        35.940916,
+        35.904005
+      ],
+      "gpu_p95_ms": [
+        36.3867364,
+        36.9431533,
+        36.416853100000004
+      ],
+      "service_thread_cpu_ms": [
+        1.328224,
+        1.261536,
+        1.332736
+      ],
+      "median_service_cpu_percent_of_one_core": 0.025941551708478543
+    }
+  },
+  "interpretation": "No reproducible GPU-service or host-CPU advantage established for this small cache-friendly prediction task; native input-gated learning remains qualified separately. Retain the one late optimized-CPU batch as a scheduling/timing exception; no rerun or cause attribution.",
+  "archive_sha256": "1908fb070734c37a36d0b545be1c45d69d64bd36e183b23f1c0ba26716a8c2bf"
+}

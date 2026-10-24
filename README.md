@@ -8,6 +8,32 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Input-gated native learning — October 24, 2026
+
+**Prediction queries preserve connection memory while native learning stays enabled.**
+A fixed sparse encoding and match threshold let outcome inputs trigger native updates
+without per-event host mode/class changes. One FNP3 learns; a second fixed FNP3 reads
+out the result. Across three initializations, changed-rule checks pass **6/6** and
+unchanged retention **42/42**. Sealed trajectories score **576/576**, versus **511/576**
+for trained-then-frozen and disconnected-feedback controls. All contexts were taught.
+
+The CPU remains faster. Twelve paced T202 GPU co-running runs show no reproducible
+GPU-service advantage, and the native host path uses more CPU. One late optimized-CPU
+batch is retained. This is bounded input-gated learning, not indefinite autonomous
+recurrence, internal outcome generation, new-context generalization or an energy win.
+
+![Recorded input-gated learning](visual/input-gated-learning-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/input-gated-learning-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/input-gated-learning-4k60.mp4) ·
+[tools and reproduction](feedback/README.md) ·
+[assessment and limitations](studies/20261024-predictive-feedback/ASSESSMENT.md)
+
+```sh
+python -m feedback.archive audit
+python -m feedback.corun_audit audit
+```
+
 ## Guarded native learning over a larger model — October 24, 2026
 
 **A native class-window workaround passes; the original direct path stays failed.**

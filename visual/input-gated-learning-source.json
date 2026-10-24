@@ -1,0 +1,29 @@
+{
+  "status": "AUDITED_INPUT_GATED_REPLAY",
+  "archive_sha256": "67d49d12e8117865b7491d9114168d23ee678e44b3bb64b2cc0dace85595bf06",
+  "events_sha256": "cc856d58c2638584bf3ab3c82974fb5820db94f9cfb244d3e108e4ab8d4e6359",
+  "renderer_sha256": "3d15d8255e05068412c41834e1196f0e3e53636f719a73cebdfba59e8bb7ae98",
+  "paired_recordings": true,
+  "observed_spike_timing": false,
+  "logical_geometry": true,
+  "shown_events": [
+    105,
+    147,
+    148,
+    149,
+    186,
+    187,
+    348,
+    378
+  ],
+  "scope": "Raw native potentials and reduced readout from paired exact-state recordings; frozen potentials independently reconstructed from its captured SRAM",
+  "outputs": {
+    "wrong.png": "6d12ee679b541e8d5dc5635a5c890f047233686973888424b6a5b22a37e5348c",
+    "retained.png": "81612106279b1f2def60e1cdf88aab30685ae17b780d73135ffd07b9c94de63f",
+    "baseline.png": "5317f5b5f2555b0573939f4bed7876d8fc4df2c2a795dc82c0097974348fadc5",
+    "akd-input-gated-learning-1080p60.mp4": "ec336d4551f5a0a47daa4f1816481193c5b06a0eaaf2ad7d2b76ef8cc19441bf",
+    "akd-input-gated-learning-4k60.mp4": "87c693db23071ecbe6a0c643917a8246e624b8f4c38403be0ec7ac3d2cf5d7e5",
+    "adapted.png": "9e17e9c692f0dbcc44277d5f255fcf04898efcdf1d9a3800e65086562fa91d81",
+    "feedback.png": "554ef34aa832f71378f181c5aa89e732461fe5ce361efcaa666acefad2d6ae10"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "videos": [
+    {
+      "file": "akd-input-gated-learning-1080p60.mp4",
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "60/1",
+      "duration": "24.000000",
+      "nb_frames": "1440",
+      "decoded_frames": 1440,
+      "distinct_frames": 1440,
+      "faststart": true,
+      "sha256": "ec336d4551f5a0a47daa4f1816481193c5b06a0eaaf2ad7d2b76ef8cc19441bf",
+      "bytes": 7671043
+    },
+    {
+      "file": "akd-input-gated-learning-4k60.mp4",
+      "width": 3840,
+      "height": 2160,
+      "avg_frame_rate": "60/1",
+      "duration": "24.000000",
+      "nb_frames": "1440",
+      "decoded_frames": 1440,
+      "distinct_frames": 1440,
+      "faststart": true,
+      "sha256": "87c693db23071ecbe6a0c643917a8246e624b8f4c38403be0ec7ac3d2cf5d7e5",
+      "bytes": 78938793
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Learning stays enabled
+
+The AKD1500 now distinguishes a prediction query from outcome feedback through the input pattern and its native match threshold.
+
+Queries leave connection memory unchanged. When an actual outcome arrives, native learning can replace the outcome connections. The Nano keeps the learning mode and class value constant; it supplies the observations, not replacement weights. A second NPU reads out the result.
+
+Three initializations: it adapted all six changed-rule checks, retained all 42 unchanged-rule checks, and got 576/576 sealed trajectory predictions right. Frozen and disconnected-feedback controls scored 511/576. All contexts had been taught before those trajectory tests.
+
+This is a synthetic mechanism test. Inputs are still externally encoded and queued. The CPU remains faster, and our GPU co-running test did not establish an AKD resource advantage.
+
+Recorded responses and connection-memory changes; schematic geometry and expanded playback timing. Raw responses and fixed readout use paired, state-matched recordings.
+
+https://github.com/MidasMulli/akd1500-lab

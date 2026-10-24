@@ -1,0 +1,2259 @@
+{
+  "status": "INDEPENDENT_ARCHIVE_PASS",
+  "physical_sessions": 19,
+  "physical_forwards": 11782,
+  "runs": 40,
+  "preserved_nonexecuted_admissions": 1,
+  "compiler_failures": 1,
+  "archive_sha256": "67d49d12e8117865b7491d9114168d23ee678e44b3bb64b2cc0dace85595bf06",
+  "rows": [
+    {
+      "name": "cpu_s108101_raw_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "cpu_s108101_reduced_disconnected_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108101,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "cpu_s108101_reduced_frozen_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108101,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "cpu_s108101_reduced_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "cpu_s108201_raw_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "cpu_s108201_reduced_disconnected_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108201,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "cpu_s108201_reduced_frozen_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108201,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "cpu_s108201_reduced_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "cpu_s108301_raw_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "cpu_s108301_reduced_disconnected_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108301,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "cpu_s108301_reduced_frozen_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108301,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "cpu_s108301_reduced_native_n768_b1_s0",
+      "mode": "cpu",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "native_s108101_raw_native_n128_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "raw",
+      "count": 128,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    {
+      "name": "native_s108101_raw_native_n3_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "raw",
+      "count": 3,
+      "batch": 1,
+      "actual_connection_edit_events": 1,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "name": "native_s108101_raw_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_disconnected_n768_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_frozen_n768_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_native_n128_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 128,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_native_n3_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 3,
+      "batch": 1,
+      "actual_connection_edit_events": 1,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "native_s108101_reduced_native_n768_b32_s5",
+      "mode": "native",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 32,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "native_s108201_raw_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "native_s108201_reduced_disconnected_n768_b1_s0",
+      "mode": "native",
+      "seed": 108201,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "native_s108201_reduced_frozen_n768_b1_s0",
+      "mode": "native",
+      "seed": 108201,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "native_s108201_reduced_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "native_s108201_reduced_native_n768_b32_s5",
+      "mode": "native",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 32,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "native_s108301_raw_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "raw",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "native_s108301_reduced_disconnected_n768_b1_s0",
+      "mode": "native",
+      "seed": 108301,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "native_s108301_reduced_frozen_n768_b1_s0",
+      "mode": "native",
+      "seed": 108301,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "native_s108301_reduced_native_n768_b1_s0",
+      "mode": "native",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "native_s108301_reduced_native_n768_b32_s5",
+      "mode": "native",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 32,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "task_s108101_reduced_disconnected_n768_b1_s0",
+      "mode": "task",
+      "seed": 108101,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "task_s108101_reduced_frozen_n768_b1_s0",
+      "mode": "task",
+      "seed": 108101,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "task_s108101_reduced_native_n768_b1_s0",
+      "mode": "task",
+      "seed": 108101,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        }
+      }
+    },
+    {
+      "name": "task_s108201_reduced_disconnected_n768_b1_s0",
+      "mode": "task",
+      "seed": 108201,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "task_s108201_reduced_frozen_n768_b1_s0",
+      "mode": "task",
+      "seed": 108201,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "task_s108201_reduced_native_n768_b1_s0",
+      "mode": "task",
+      "seed": 108201,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 185,
+          "total": 185
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "name": "task_s108301_reduced_disconnected_n768_b1_s0",
+      "mode": "task",
+      "seed": 108301,
+      "arm": "disconnected",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "task_s108301_reduced_frozen_n768_b1_s0",
+      "mode": "task",
+      "seed": 108301,
+      "arm": "frozen",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 16,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 0,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 0,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 0,
+          "total": 29
+        }
+      }
+    },
+    {
+      "name": "task_s108301_reduced_native_n768_b1_s0",
+      "mode": "task",
+      "seed": 108301,
+      "arm": "native",
+      "variant": "reduced",
+      "count": 768,
+      "batch": 1,
+      "actual_connection_edit_events": 18,
+      "metrics": {
+        "initial_learning_unchanged": {
+          "correct": 14,
+          "total": 28
+        },
+        "initial_learning_changed": {
+          "correct": 2,
+          "total": 4
+        },
+        "baseline_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "baseline_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "changed_rule_unchanged": {
+          "correct": 56,
+          "total": 56
+        },
+        "changed_rule_changed": {
+          "correct": 6,
+          "total": 8
+        },
+        "post_adaptation_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "post_adaptation_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "retention_query_unchanged": {
+          "correct": 14,
+          "total": 14
+        },
+        "retention_query_changed": {
+          "correct": 2,
+          "total": 2
+        },
+        "sealed_trajectory_query_unchanged": {
+          "correct": 163,
+          "total": 163
+        },
+        "sealed_trajectory_query_changed": {
+          "correct": 29,
+          "total": 29
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1524 @@
+{
+  "archive_sha256": "1908fb070734c37a36d0b545be1c45d69d64bd36e183b23f1c0ba26716a8c2bf",
+  "learning_archive_sha256": "67d49d12e8117865b7491d9114168d23ee678e44b3bb64b2cc0dace85595bf06",
+  "runs": [
+    {
+      "name": "r0_alone",
+      "receipt": {
+        "arm": "alone",
+        "repeat": 0,
+        "start_utc": "2026-10-24T18:46:11.425086+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 293027,
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 141,
+          "wall_ns": 5082696495,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 161,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": null,
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:46:24.718881+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "2b5f30a5171a3212b250e97554a08a6f2b27cded2421b98824c06b2cc9642b55",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "444f2b7707aac4360a5cc2a0b366c28d76c908a3c4f2f44c86c14b6fe6f36f72",
+          "gpu.json": "4b171b836e544c7540d8c67f86122cbe27f39f08fb229b8c3724815891bfb9a3",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "1c78c5ff5dd918efe7c01e8eacd93ce420ac40eca109514009bfbb5c773a3b92"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "alone",
+        "repeat": 0,
+        "frames": 141,
+        "gpu_forecasts_per_second": 28.04314733525793,
+        "gpu_median_ms": 35.520795,
+        "gpu_p95_ms": 36.032941,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true
+      },
+      "arrays": {
+        "gpu.frames_ns": {
+          "key": "r0_alone__gpu_frames_ns",
+          "sha256": "2b5f30a5171a3212b250e97554a08a6f2b27cded2421b98824c06b2cc9642b55"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.593,
+          52.5
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r0_cpu",
+      "receipt": {
+        "arm": "cpu",
+        "repeat": 0,
+        "start_utc": "2026-10-24T18:47:25.028496+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 293479,
+        "service_pid": 293497,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879006747544456
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5071694572,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "cpu",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120074099,
+          "thread_cpu_ns": 6329088,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:47:38.339985+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "70f1d11308fa4e9af6ae8588f212f38b78f684b9ae55c418724efae7a46f7acd",
+          "SERVICE_READY.json": "6bc26c335d4be93ea19b7bdf80ef79d0041c6521f28cab6a1c41e1c79cebcc0b",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "34c47adb6e385ca2f86c7957d6c8f812f8368ba0f41cefef395a5277043af188",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "9245a2622f8a2182d75f8b7657000fb5053f3c9a7a1775cda654c443d88ea909",
+          "gpu.json": "0f36e811f48e21a22460c21c4e353a9f8e6f1d51413e37af180f5c0088556909",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "1bf1935c59d87fa9b6a7fc4b68cf0f0d0d30f9c77cb20a631c59cc878e75e509"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "cpu",
+        "repeat": 0,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.708743635787485,
+        "gpu_median_ms": 35.974115,
+        "gpu_p95_ms": 36.4028139,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 6.329088,
+        "service_wall_ms": 5120.074099,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r0_cpu__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r0_cpu__service_batch_ns",
+          "sha256": "34c47adb6e385ca2f86c7957d6c8f812f8368ba0f41cefef395a5277043af188"
+        },
+        "service.ram": {
+          "key": "r0_cpu__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r0_cpu__gpu_frames_ns",
+          "sha256": "70f1d11308fa4e9af6ae8588f212f38b78f684b9ae55c418724efae7a46f7acd"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.375,
+          52.125
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r0_native",
+      "receipt": {
+        "arm": "native",
+        "repeat": 0,
+        "start_utc": "2026-10-24T18:48:00.853462+00:00",
+        "native_forwards": 3072,
+        "gpu_pid": 293721,
+        "service_pid": 293737,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879042595697705
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5081311536,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "native",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120391320,
+          "thread_cpu_ns": 78621984,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:48:14.147154+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "84f58c2f8213ef8ee0570ca5b3dd950046e5568b6ccd183dd290cdf025964d0e",
+          "SERVICE_READY.json": "fca0a953f5bf78b90ca8f3c38b91926d9a2106ea24cab9f4393ff3ced096f8f8",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "85026956c5d3059a95220610564dd30a19ce409c86b88d6e9b96311ed4f4ca82",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "69f025a51c6e3c4566545573a1f9abce43aba45fa86664ccdc6307d212da51d3",
+          "gpu.json": "3b0a2d05ee293266d9a7204f8421870d1e4114c38729c83fe48ad0c7b5ceeaaf",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "09c07459884b53c145118ccbcb71cf30d36a29a972c58c514a423fd1bea0e14c"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "native",
+        "repeat": 0,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.657812331835466,
+        "gpu_median_ms": 35.973887,
+        "gpu_p95_ms": 36.824984799999996,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 78.621984,
+        "service_wall_ms": 5120.39132,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r0_native__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r0_native__service_batch_ns",
+          "sha256": "85026956c5d3059a95220610564dd30a19ce409c86b88d6e9b96311ed4f4ca82"
+        },
+        "service.ram": {
+          "key": "r0_native__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r0_native__gpu_frames_ns",
+          "sha256": "84f58c2f8213ef8ee0570ca5b3dd950046e5568b6ccd183dd290cdf025964d0e"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.687,
+          52.593
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r0_task",
+      "receipt": {
+        "arm": "task",
+        "repeat": 0,
+        "start_utc": "2026-10-24T18:49:44.838608+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 294212,
+        "service_pid": 294246,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879146532148375
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 140,
+          "wall_ns": 5088466907,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 160,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "task",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120063807,
+          "thread_cpu_ns": 1328224,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:49:58.091207+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "6c1182cfb8994c3b60e01718d3da03f4b2b80c2b4b474f460a8a86489a944bfd",
+          "SERVICE_READY.json": "7c5dce03dc10bc109346993a0ee08c923486e6ce4b2a746569239d6e09a603de",
+          "service.scores": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf",
+          "service.batch_ns": "5c55ed77504036561ac9db8a20e45a7bd2aa8da2aa055db6d867902c00c034dd",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "b3b8a48b89eecc2d331daa0d5d6f803b03d2580e14bdd3320cd756ec1618014a",
+          "gpu.json": "8eb1f2451361a03f722b7eff3b1e11875a15b6e53c136fb5e6ac71cf4664556b",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "00dd26f0b347f3bfe282ee65034f54509abf4c6e3aa5ff302986aa6d940d152c"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "task",
+        "repeat": 0,
+        "frames": 140,
+        "gpu_forecasts_per_second": 27.808804607322543,
+        "gpu_median_ms": 35.8258095,
+        "gpu_p95_ms": 36.3867364,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 1.328224,
+        "service_wall_ms": 5120.063807,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r0_task__service_scores",
+          "sha256": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf"
+        },
+        "service.batch_ns": {
+          "key": "r0_task__service_batch_ns",
+          "sha256": "5c55ed77504036561ac9db8a20e45a7bd2aa8da2aa055db6d867902c00c034dd"
+        },
+        "service.ram": {
+          "key": "r0_task__service_ram",
+          "sha256": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c"
+        },
+        "gpu.frames_ns": {
+          "key": "r0_task__gpu_frames_ns",
+          "sha256": "6c1182cfb8994c3b60e01718d3da03f4b2b80c2b4b474f460a8a86489a944bfd"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.375,
+          52.156
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r1_alone",
+      "receipt": {
+        "arm": "alone",
+        "repeat": 1,
+        "start_utc": "2026-10-24T18:50:55.678083+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 294611,
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5073416358,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": null,
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:51:08.869232+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "e5e0c5398b935d2309118aba3e6afbb5f7a29100b09cead7737138474a0ffe3a",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "2da0d83d3211c1c91f46fd6fa527d7a8620cb56e577e5e82c2790d4b68148059",
+          "gpu.json": "1401560a7ea71a2933c21e1aee345060e202dc720bf4b503ce8e9000b80ddeb2",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "4877a54f7485596013fda601b55844019082f736ffbd343363cabd8ef92db2fe"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "alone",
+        "repeat": 1,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.69256316210305,
+        "gpu_median_ms": 35.962898,
+        "gpu_p95_ms": 36.44693,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true
+      },
+      "arrays": {
+        "gpu.frames_ns": {
+          "key": "r1_alone__gpu_frames_ns",
+          "sha256": "e5e0c5398b935d2309118aba3e6afbb5f7a29100b09cead7737138474a0ffe3a"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          50.968,
+          53.5
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r1_cpu",
+      "receipt": {
+        "arm": "cpu",
+        "repeat": 1,
+        "start_utc": "2026-10-24T18:50:42.281837+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 294524,
+        "service_pid": 294594,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879203958787903
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 138,
+          "wall_ns": 5057314889,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 158,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "cpu",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120072315,
+          "thread_cpu_ns": 6368448,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:50:55.486050+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "159ffaaefa44fef5c01e213b6775badca13954c6a42471dc5fe8666baaffc46e",
+          "SERVICE_READY.json": "6bc26c335d4be93ea19b7bdf80ef79d0041c6521f28cab6a1c41e1c79cebcc0b",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "d289560bcbfa0767829e3b057088db48d96c5f3d891b3b3cd1337e55eb6cb0e7",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "eef721af2ffd912c677bbf3b48da0b6139ae564232814cdfeacb2f52b01dab97",
+          "gpu.json": "a4f6b5c2d39e9a9d42fa69fd8619ff428104c27c8ad625ddbecbe0cca751be8e",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "459e1e50a30c9692b343d10560c7d5efbb70cf661473def573b777e7c2c23aec"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "cpu",
+        "repeat": 1,
+        "frames": 138,
+        "gpu_forecasts_per_second": 27.58424733698573,
+        "gpu_median_ms": 36.098119,
+        "gpu_p95_ms": 36.90364695,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 6.368448,
+        "service_wall_ms": 5120.072315,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r1_cpu__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r1_cpu__service_batch_ns",
+          "sha256": "d289560bcbfa0767829e3b057088db48d96c5f3d891b3b3cd1337e55eb6cb0e7"
+        },
+        "service.ram": {
+          "key": "r1_cpu__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r1_cpu__gpu_frames_ns",
+          "sha256": "159ffaaefa44fef5c01e213b6775badca13954c6a42471dc5fe8666baaffc46e"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          50.562,
+          53.218
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r1_native",
+      "receipt": {
+        "arm": "native",
+        "repeat": 1,
+        "start_utc": "2026-10-24T18:50:28.821488+00:00",
+        "native_forwards": 3072,
+        "gpu_pid": 294492,
+        "service_pid": 294507,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879190539374389
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5080180294,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "native",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120353190,
+          "thread_cpu_ns": 78672928,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:50:42.090245+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "02873b3e4e1edea7624458ec70e416b68606f023de8028e7a3fea10edbf4bfa2",
+          "SERVICE_READY.json": "fca0a953f5bf78b90ca8f3c38b91926d9a2106ea24cab9f4393ff3ced096f8f8",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "50a6636e9e4c2add11a463b16a0570b3c74b3a3f40c57b29c3de37dbe4f0493a",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "bd49c5e09bbc721783232608ff91701a401e4cbb70ee80d5c4c93ddf2b1946c8",
+          "gpu.json": "fdbb5b6db17a22c13a96564be0a024038789dd5a500ad92d669f467851823bc7",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "14922d3a331f226bb68db0522d60b0bbe928381c93efa858d21e63a8a16e62e4"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "native",
+        "repeat": 1,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.658363313732316,
+        "gpu_median_ms": 36.020085,
+        "gpu_p95_ms": 36.6502981,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 78.672928,
+        "service_wall_ms": 5120.35319,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r1_native__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r1_native__service_batch_ns",
+          "sha256": "50a6636e9e4c2add11a463b16a0570b3c74b3a3f40c57b29c3de37dbe4f0493a"
+        },
+        "service.ram": {
+          "key": "r1_native__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r1_native__gpu_frames_ns",
+          "sha256": "02873b3e4e1edea7624458ec70e416b68606f023de8028e7a3fea10edbf4bfa2"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          50.218,
+          53.0
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r1_task",
+      "receipt": {
+        "arm": "task",
+        "repeat": 1,
+        "start_utc": "2026-10-24T18:50:15.391792+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 294393,
+        "service_pid": 294411,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879177078306782
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5076447630,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "task",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120080643,
+          "thread_cpu_ns": 1261536,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:50:28.625429+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "b8845008a926dbd7e10e584fb94e266a8e2b88eddd63919dcbf60e7d6a57fcee",
+          "SERVICE_READY.json": "7c5dce03dc10bc109346993a0ee08c923486e6ce4b2a746569239d6e09a603de",
+          "service.scores": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf",
+          "service.batch_ns": "9453acab8691ea44526901547a1647d612cdc08d6ed4ebacbe726f68d4195aed",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "38a2bd6eec1259c56db732dcb1bd006bef988b0685b48054e6cb9fe20257b815",
+          "gpu.json": "b04da757eba38a413d30f2a655b5457f7a874a7d6abed60ce225f5af3cfe0428",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "747f4be6f26d98f068ea4fb863309b03d791c1a528d97bd319e38b825353275d"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "task",
+        "repeat": 1,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.68145960249984,
+        "gpu_median_ms": 35.940916,
+        "gpu_p95_ms": 36.9431533,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 1.261536,
+        "service_wall_ms": 5120.080643,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r1_task__service_scores",
+          "sha256": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf"
+        },
+        "service.batch_ns": {
+          "key": "r1_task__service_batch_ns",
+          "sha256": "9453acab8691ea44526901547a1647d612cdc08d6ed4ebacbe726f68d4195aed"
+        },
+        "service.ram": {
+          "key": "r1_task__service_ram",
+          "sha256": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c"
+        },
+        "gpu.frames_ns": {
+          "key": "r1_task__gpu_frames_ns",
+          "sha256": "b8845008a926dbd7e10e584fb94e266a8e2b88eddd63919dcbf60e7d6a57fcee"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.687,
+          52.343
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r2_alone",
+      "receipt": {
+        "arm": "alone",
+        "repeat": 2,
+        "start_utc": "2026-10-24T18:54:07.897046+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 295500,
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 138,
+          "wall_ns": 5085006370,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 158,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": null,
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:54:21.233100+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "c5f6b472c79d3a3b376676411a339b8203d019184fd55be9c0821228564a757e",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "9fcbd412ed3c136a3fb189cfdbfaad284356dcc7c12cbcb60ec6fa341b20966a",
+          "gpu.json": "c333bbdf521ee73910daf13386b47d996688c25ac28250dbac14e831eb2880a7",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "3efed5eb0ea6cd568dc9c155fa52afdbe2c66fb89ab880985e3dcab579c3b308"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "alone",
+        "repeat": 2,
+        "frames": 138,
+        "gpu_forecasts_per_second": 27.42992809850391,
+        "gpu_median_ms": 36.349811,
+        "gpu_p95_ms": 36.7225008,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true
+      },
+      "arrays": {
+        "gpu.frames_ns": {
+          "key": "r2_alone__gpu_frames_ns",
+          "sha256": "c5f6b472c79d3a3b376676411a339b8203d019184fd55be9c0821228564a757e"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.906,
+          52.843
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r2_cpu",
+      "receipt": {
+        "arm": "cpu",
+        "repeat": 2,
+        "start_utc": "2026-10-24T18:53:54.464587+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 295406,
+        "service_pid": 295484,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879396133461195
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5094016643,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "cpu",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120075042,
+          "thread_cpu_ns": 6309760,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:54:07.697494+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "fab2581bb9f172f06f959d8bf216009aff9eb518b049e2178a13d39c9e21b59b",
+          "SERVICE_READY.json": "6bc26c335d4be93ea19b7bdf80ef79d0041c6521f28cab6a1c41e1c79cebcc0b",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "3264d9a87f50a2684f2302bcdd76cf485b59ebdb3652174fd9776169547b172b",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "4c0e38680cefd89a3c940a2d80ee22458b17aeab7f91178edfe27303a01cd244",
+          "gpu.json": "6723b18067eea9e69deb8d7b669da45ce5f20b5e57ddd6f981a07583f33e0b2e",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "6e59cfdcd797fe7855aef386f83f7eef71f2bc7ba638ceb507029082845fd2d8"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "cpu",
+        "repeat": 2,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.61238512549284,
+        "gpu_median_ms": 36.037962,
+        "gpu_p95_ms": 36.890719600000004,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 6.30976,
+        "service_wall_ms": 5120.075042,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r2_cpu__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r2_cpu__service_batch_ns",
+          "sha256": "3264d9a87f50a2684f2302bcdd76cf485b59ebdb3652174fd9776169547b172b"
+        },
+        "service.ram": {
+          "key": "r2_cpu__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r2_cpu__gpu_frames_ns",
+          "sha256": "fab2581bb9f172f06f959d8bf216009aff9eb518b049e2178a13d39c9e21b59b"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          49.218,
+          51.968
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r2_native",
+      "receipt": {
+        "arm": "native",
+        "repeat": 2,
+        "start_utc": "2026-10-24T18:54:34.859829+00:00",
+        "native_forwards": 3072,
+        "gpu_pid": 295622,
+        "service_pid": 295637,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879436598139313
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 135,
+          "wall_ns": 5067113707,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 155,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "native",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120367373,
+          "thread_cpu_ns": 78926848,
+          "late_batches_over_2ms": 0,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:54:48.135375+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "423bb21f4a2c41af696dadcd6a5812e9acb18deae8a6b3d55e7938855ea056f7",
+          "SERVICE_READY.json": "fca0a953f5bf78b90ca8f3c38b91926d9a2106ea24cab9f4393ff3ced096f8f8",
+          "service.scores": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e",
+          "service.batch_ns": "90cbbc01b4630ebe34ab0210f4eb666e9625c05417654a266072300862f9bf1f",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "185bb2998d09dcb7f5f69e9eb4ba81d5b9e20b443e364dd3951a26dbe029381e",
+          "gpu.json": "4200e50d6bb0f5e4bb9d7819d5170e9ebab4e341a9bea1b4270e926805717238",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "20bb3fbf81a11d17802379702ec361e168b6ba293c285155701dce464db386be"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "native",
+        "repeat": 2,
+        "frames": 135,
+        "gpu_forecasts_per_second": 26.938968850145056,
+        "gpu_median_ms": 36.768512,
+        "gpu_p95_ms": 38.7945665,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 78.926848,
+        "service_wall_ms": 5120.367373,
+        "service_late_batches": 0
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r2_native__service_scores",
+          "sha256": "34240a7f1f161ba2d07b48ce81087abd4ff37594c567745924cf8e7d603ef14e"
+        },
+        "service.batch_ns": {
+          "key": "r2_native__service_batch_ns",
+          "sha256": "90cbbc01b4630ebe34ab0210f4eb666e9625c05417654a266072300862f9bf1f"
+        },
+        "service.ram": {
+          "key": "r2_native__service_ram",
+          "sha256": "0072a6bbdcad6c777a1daed128da4e7492eb1a0afa36fd9805868ee703dacb31"
+        },
+        "gpu.frames_ns": {
+          "key": "r2_native__gpu_frames_ns",
+          "sha256": "423bb21f4a2c41af696dadcd6a5812e9acb18deae8a6b3d55e7938855ea056f7"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          50.625,
+          53.437
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    },
+    {
+      "name": "r2_task",
+      "receipt": {
+        "arm": "task",
+        "repeat": 2,
+        "start_utc": "2026-10-24T18:54:21.425505+00:00",
+        "native_forwards": 0,
+        "gpu_pid": 295588,
+        "service_pid": 295603,
+        "service_start": {
+          "kind": "started",
+          "start_ns": 879423132766510
+        },
+        "gpu_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "frames": 139,
+          "wall_ns": 5064464869,
+          "receipt": {
+            "checkpoint_sha256": "3342f73cf939f689abfb1189faf3580719acbf05ca2d439001ee13887ea5bc65",
+            "weights_digest_before_after": "d64bc96b6080aa7af6d20ea00dc29e72f51380762655537e81008c0e895d944a",
+            "model_calls": 159,
+            "weights_unchanged": true,
+            "numeric_profile": {
+              "torch": "2.14.1+cu130",
+              "cuda": "13.0",
+              "cudnn": 92400,
+              "device": "Orin",
+              "tf32": false,
+              "deterministic": true,
+              "autocast": "bfloat16",
+              "master": "float32",
+              "cublas_workspace": ":4096:8"
+            }
+          },
+          "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+        },
+        "gpu_exit": 0,
+        "service_result": {
+          "kind": "complete",
+          "status": "PASS",
+          "mode": "task",
+          "events": 3072,
+          "rate": 600,
+          "wall_ns": 5120071510,
+          "thread_cpu_ns": 1332736,
+          "late_batches_over_2ms": 1,
+          "native_mode_changes": 0
+        },
+        "service_exit": 0,
+        "finish_utc": "2026-10-24T18:54:34.667535+00:00",
+        "device_free": true,
+        "hashes": {
+          "gpu.frames_ns": "2d83294fc028a342cddd48d17d9c556fd9a7dae2021783f0bd725d93d50ab179",
+          "SERVICE_READY.json": "7c5dce03dc10bc109346993a0ee08c923486e6ce4b2a746569239d6e09a603de",
+          "service.scores": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf",
+          "service.batch_ns": "749e32cf1a11659f65533e0a5e455a2161918ce4fc5ca72a7af008f01f6d71f3",
+          "service.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "OWNER.json": "305c132b5d1165c35735a71798ece9265c58565cfa1e6affc12c5683721fd1eb",
+          "gpu.json": "0ba23611c2d4eeb4dba44a95c493bc59c85a5c3028ef8017fe84f773f8cbcf24",
+          "telemetry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "service.ram": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c",
+          "gpu.stderr": "19f5f2b9f8bafe93f813864af6a7e8f307a2cc5e90acd87cf271526b52069370",
+          "GPU_READY.json": "1fdf5d4f350b187cc177ae362b48c9eee9df3b0f6341f70c821f7c11f514f46d",
+          "tegrastats.log": "283c0478f908047de803a257219ac1da46c801465e9c63e667a758df3d562f1f"
+        }
+      },
+      "audit": {
+        "status": "GPU_AND_SERVICE_AUDIT_PASS",
+        "arm": "task",
+        "repeat": 2,
+        "frames": 139,
+        "gpu_forecasts_per_second": 27.743643737213894,
+        "gpu_median_ms": 35.904005,
+        "gpu_p95_ms": 36.416853100000004,
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b",
+        "weights_unchanged": true,
+        "service_thread_cpu_ms": 1.332736,
+        "service_wall_ms": 5120.07151,
+        "service_late_batches": 1
+      },
+      "arrays": {
+        "service.scores": {
+          "key": "r2_task__service_scores",
+          "sha256": "5a8448c39f95353262890565ef74b75fe3975940f35601974a58b5dab021ffaf"
+        },
+        "service.batch_ns": {
+          "key": "r2_task__service_batch_ns",
+          "sha256": "749e32cf1a11659f65533e0a5e455a2161918ce4fc5ca72a7af008f01f6d71f3"
+        },
+        "service.ram": {
+          "key": "r2_task__service_ram",
+          "sha256": "b01c3a619a7a6d7571d2854db87e0cb39e6f15576a3974e75397c25bd389691c"
+        },
+        "gpu.frames_ns": {
+          "key": "r2_task__gpu_frames_ns",
+          "sha256": "2d83294fc028a342cddd48d17d9c556fd9a7dae2021783f0bd725d93d50ab179"
+        }
+      },
+      "gpu_ready": {
+        "kind": "ready",
+        "role": "T202",
+        "profile": {
+          "torch": "2.14.1+cu130",
+          "cuda": "13.0",
+          "cudnn": 92400,
+          "device": "Orin",
+          "tf32": false,
+          "deterministic": true,
+          "autocast": "bfloat16",
+          "master": "float32",
+          "cublas_workspace": ":4096:8"
+        },
+        "cpu_threads": 1,
+        "output_shape": [
+          224,
+          224,
+          3
+        ],
+        "output_sha256": "0d55bd35ce3e0cf0c3d15d6ac32c287a0c8270f749d5134e628f01f4eaf70f8b"
+      },
+      "telemetry_summary": {
+        "samples": 31,
+        "emc_percent_range": null,
+        "emc_frequency_mhz": [],
+        "temperature_range_c": [
+          50.343,
+          53.093
+        ]
+      },
+      "runtime_warning": "CC8.7 PyTorch build support warning present"
+    }
+  ],
+  "source_freeze": {
+    "utc": "2026-10-24T18:46:11.249405+00:00",
+    "hashes": {
+      "feedback/service.cpp": "a955a09e648fea2cfd85878b45ec5641c70dd1cc5c3cf6d151767a883f9f2b0d",
+      "feedback/build_service.sh": "fc760001f965c2af24e47611358b6db9dec7d5bd85b0a7203fe77ff197070a69",
+      "feedback/gpu.py": "ed36f2c675238b80807172c3cb0ad650d80892e6dc1ff2307cef72266114e786",
+      "feedback/corun.py": "663eec9094221f3787478ca36bc6509cb3dde87d9268d28d36205c0f6626370c",
+      "build/predictive_service": "7c359ee3f74b22b41a96c6d076a2e8e7749f1ac22e4499386d26c3f399a0c092",
+      "streaming/nano.py": "3bf6d229c00169cbe1df76ae9af3bea8f14b925992e62931f1a26d0c46fbd4d7",
+      "streaming/design.py": "89041c5f809f3d93b9b10d51ab8906ac253ac65ce883175b0cf9f91e2c3f32fd",
+      "src/readout_bench.cpp": "9b31fbdc8ee792b6f5324d5f2a32d57ca13543a41ac6d807821037911a5866ab",
+      "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+      "studies/20261024-predictive-feedback/GPU_ADDENDUM.md": "906b6ebe2cc09e9d689dae066b222df15e46d65d30f29af5dff2bb0e93f0ee6b"
+    },
+    "order": [
+      [
+        "alone",
+        "cpu",
+        "native",
+        "task"
+      ],
+      [
+        "task",
+        "native",
+        "cpu",
+        "alone"
+      ],
+      [
+        "cpu",
+        "alone",
+        "task",
+        "native"
+      ]
+    ]
+  },
+  "scope": "Fixed T202 GPU service and paced separate learner workload; no per-client DRAM bandwidth or calibrated energy measurement"
+}
