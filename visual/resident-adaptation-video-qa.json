@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "akd-resident-adaptation-1080p60.mp4",
+      "bytes": 10654454,
+      "sha256": "cae1c58be5b015b0e7e7d038ced0431fbcad69f025d9025710c270212f4eb473",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "28.000000",
+      "nb_frames": "1680",
+      "decoded_frames": 1680,
+      "unique_frames": 1680,
+      "fast_start": true
+    },
+    {
+      "file": "akd-resident-adaptation-4k60.mp4",
+      "bytes": 77962383,
+      "sha256": "e7ad31a041922cd5bbc148f5c74588541f8f42d490c4619e57b91bb67fe39b81",
+      "width": 3840,
+      "height": 2160,
+      "r_frame_rate": "60/1",
+      "duration": "28.000000",
+      "nb_frames": "1680",
+      "decoded_frames": 1680,
+      "unique_frames": 1680,
+      "fast_start": true
+    }
+  ]
+}

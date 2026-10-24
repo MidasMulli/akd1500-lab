@@ -1,0 +1,10 @@
+[
+  {
+    "utc": "2026-10-24T20:49:53.795920+00:00",
+    "failure": "native_s111101_native_e2",
+    "cause": "candidate CPU model omitted selector accumulation on unlabelled forward events",
+    "saved_diagnostic": "SELECTOR_DIAGNOSTIC01.json",
+    "repair": "change CPU accounting only; preserve identical native programs and primary event sequence; qualify fresh suffix",
+    "native_weight_repair": false
+  }
+]

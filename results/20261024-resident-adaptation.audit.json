@@ -1,0 +1,4824 @@
+{
+  "status": "INDEPENDENT_ARCHIVE_PASS",
+  "archive_sha256": "6f3d194298f5ca5eae9b9c975eea3d71e490ec153764f58784aeb16aa9d06f70",
+  "valid_physical_sessions": 29,
+  "failed_physical_sessions": 1,
+  "verified_forwards": 7971,
+  "preserved_failed_prefix_forwards": 47,
+  "primary_seeds": 5,
+  "changes_per_resident_run": 12,
+  "primary": {
+    "native": {
+      "changed_recalled": 120,
+      "changed_total": 120,
+      "retained": 360,
+      "retained_total": 360,
+      "feedback_consistent": 960,
+      "feedback_total": 960,
+      "cumulative_connection_replacements": 1920
+    },
+    "frozen": {
+      "changed_recalled": 60,
+      "changed_total": 120,
+      "retained": 360,
+      "retained_total": 360,
+      "feedback_consistent": 840,
+      "feedback_total": 960,
+      "cumulative_connection_replacements": 0
+    },
+    "disconnected": {
+      "changed_recalled": 60,
+      "changed_total": 120,
+      "retained": 360,
+      "retained_total": 360,
+      "feedback_consistent": 840,
+      "feedback_total": 960,
+      "cumulative_connection_replacements": 0
+    },
+    "baseline": {
+      "changed_recalled": 60,
+      "changed_total": 120,
+      "retained": 360,
+      "retained_total": 360,
+      "feedback_consistent": 888,
+      "feedback_total": 960,
+      "cumulative_connection_replacements": 160
+    }
+  },
+  "selector_control": [
+    {
+      "extra_queries": 0,
+      "full_queries": false,
+      "visible_ram_before_identical": true,
+      "next_partial_edit_differing_bits": 0,
+      "run": "native_s111101_native_e2_attempt2"
+    },
+    {
+      "extra_queries": 1,
+      "full_queries": false,
+      "visible_ram_before_identical": true,
+      "next_partial_edit_differing_bits": 0,
+      "run": "native_s111101_native_e2_q1"
+    },
+    {
+      "extra_queries": 8,
+      "full_queries": false,
+      "visible_ram_before_identical": true,
+      "next_partial_edit_differing_bits": 6,
+      "run": "native_s111101_native_e2_q8_attempt3"
+    },
+    {
+      "extra_queries": 8,
+      "full_queries": true,
+      "visible_ram_before_identical": true,
+      "next_partial_edit_differing_bits": 0,
+      "run": "native_s111101_native_e2_q8full"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "name": "native_s111101_native_e2",
+      "error": "FAIL: full captured SRAM differs from independent packed CPU",
+      "observed_completed_forwards": 47,
+      "source_frozen": true
+    }
+  ],
+  "superseded_cpu_forecasts": [
+    "cpu_s111101_baseline_e1",
+    "cpu_s111101_baseline_e12",
+    "cpu_s111101_baseline_e2",
+    "cpu_s111101_disconnected_e12",
+    "cpu_s111101_frozen_e12",
+    "cpu_s111101_native_e1",
+    "cpu_s111101_native_e12",
+    "cpu_s111101_native_e2",
+    "cpu_s111101_native_e4",
+    "cpu_s111201_baseline_e12",
+    "cpu_s111201_disconnected_e12",
+    "cpu_s111201_frozen_e12",
+    "cpu_s111201_native_e12",
+    "cpu_s111301_baseline_e12",
+    "cpu_s111301_disconnected_e12",
+    "cpu_s111301_frozen_e12",
+    "cpu_s111301_native_e12",
+    "cpu_s111401_baseline_e12",
+    "cpu_s111401_disconnected_e12",
+    "cpu_s111401_frozen_e12",
+    "cpu_s111401_native_e12",
+    "cpu_s111501_baseline_e12",
+    "cpu_s111501_disconnected_e12",
+    "cpu_s111501_frozen_e12",
+    "cpu_s111501_native_e12"
+  ],
+  "cpu_timings": [
+    {
+      "seed": 111101,
+      "exact_cpu_ns_per_event": 1168.6553296703296,
+      "task_table_ns_per_event": 334.849375
+    },
+    {
+      "seed": 111201,
+      "exact_cpu_ns_per_event": 1165.5871016483516,
+      "task_table_ns_per_event": 331.4000343406593
+    },
+    {
+      "seed": 111301,
+      "exact_cpu_ns_per_event": 1168.8061057692307,
+      "task_table_ns_per_event": 325.56929945054947
+    },
+    {
+      "seed": 111401,
+      "exact_cpu_ns_per_event": 1167.7867307692309,
+      "task_table_ns_per_event": 327.22517857142856
+    },
+    {
+      "seed": 111501,
+      "exact_cpu_ns_per_event": 1170.5136332417583,
+      "task_table_ns_per_event": 335.5282967032967
+    }
+  ],
+  "rows": [
+    {
+      "name": "cpu_s111101_baseline_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_baseline_e1_attempt3",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 1,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 45,
+      "changed": 2,
+      "retained": 6,
+      "feedback_consistent": 16,
+      "feedback_total": 16,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 45,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_baseline_e2_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 2,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 74,
+      "changed": 2,
+      "retained": 12,
+      "feedback_consistent": 30,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 74,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_disconnected_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_frozen_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e1_attempt3",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 1,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 45,
+      "changed": 2,
+      "retained": 6,
+      "feedback_consistent": 16,
+      "feedback_total": 16,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 45,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e2_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 74,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 74,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e2_q1",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 1,
+      "full_queries": false,
+      "events": 75,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 75,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e2_q8",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 8,
+      "full_queries": false,
+      "events": 82,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 82,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e2_q8full",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 8,
+      "full_queries": true,
+      "events": 82,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 82,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111101_native_e4_attempt2",
+      "mode": "cpu",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 4,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 132,
+      "changed": 8,
+      "retained": 24,
+      "feedback_consistent": 64,
+      "feedback_total": 64,
+      "cumulative_connection_replacements": 128,
+      "updating_events": 14,
+      "captured_boundaries": 132,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111201_baseline_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111201,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 176,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111201_disconnected_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111201,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111201_frozen_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111201,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111201_native_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111201,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111301_baseline_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111301,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111301_disconnected_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111301,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111301_frozen_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111301,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111301_native_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111301,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111401_baseline_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111401,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111401_disconnected_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111401,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111401_frozen_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111401,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111401_native_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111401,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111501_baseline_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111501,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111501_disconnected_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111501,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111501_frozen_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111501,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "cpu_s111501_native_e12_attempt2",
+      "mode": "cpu",
+      "seed": 111501,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 364,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_baseline_e1",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 1,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 45,
+      "changed": 2,
+      "retained": 6,
+      "feedback_consistent": 16,
+      "feedback_total": 16,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 30,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_baseline_e12",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_baseline_e2",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "baseline",
+      "epochs": 2,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 74,
+      "changed": 2,
+      "retained": 12,
+      "feedback_consistent": 30,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 44,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_disconnected_e12",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_frozen_e12",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e1",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 1,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 45,
+      "changed": 2,
+      "retained": 6,
+      "feedback_consistent": 16,
+      "feedback_total": 16,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 30,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e12",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e2_attempt2",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 74,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 44,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e2_q1",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 1,
+      "full_queries": false,
+      "events": 75,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 45,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e2_q8",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 8,
+      "full_queries": false,
+      "events": 82,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 52,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e2_q8_attempt3",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 8,
+      "full_queries": false,
+      "events": 82,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 52,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e2_q8full",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 2,
+      "extra_queries": 8,
+      "full_queries": true,
+      "events": 82,
+      "changed": 4,
+      "retained": 12,
+      "feedback_consistent": 32,
+      "feedback_total": 32,
+      "cumulative_connection_replacements": 64,
+      "updating_events": 6,
+      "captured_boundaries": 52,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111101_native_e4",
+      "mode": "native",
+      "seed": 111101,
+      "arm": "native",
+      "epochs": 4,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 132,
+      "changed": 8,
+      "retained": 24,
+      "feedback_consistent": 64,
+      "feedback_total": 64,
+      "cumulative_connection_replacements": 128,
+      "updating_events": 14,
+      "captured_boundaries": 72,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111201_baseline_e12",
+      "mode": "native",
+      "seed": 111201,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 176,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111201_disconnected_e12",
+      "mode": "native",
+      "seed": 111201,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111201_frozen_e12",
+      "mode": "native",
+      "seed": 111201,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111201_native_e12",
+      "mode": "native",
+      "seed": 111201,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111301_baseline_e12",
+      "mode": "native",
+      "seed": 111301,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111301_disconnected_e12",
+      "mode": "native",
+      "seed": 111301,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111301_frozen_e12",
+      "mode": "native",
+      "seed": 111301,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111301_native_e12",
+      "mode": "native",
+      "seed": 111301,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111401_baseline_e12",
+      "mode": "native",
+      "seed": 111401,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111401_disconnected_e12",
+      "mode": "native",
+      "seed": 111401,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111401_frozen_e12",
+      "mode": "native",
+      "seed": 111401,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111401_native_e12",
+      "mode": "native",
+      "seed": 111401,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111501_baseline_e12",
+      "mode": "native",
+      "seed": 111501,
+      "arm": "baseline",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 178,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 32,
+      "updating_events": 2,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 14,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 13,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111501_disconnected_e12",
+      "mode": "native",
+      "seed": 111501,
+      "arm": "disconnected",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111501_frozen_e12",
+      "mode": "native",
+      "seed": 111501,
+      "arm": "frozen",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 12,
+      "retained": 72,
+      "feedback_consistent": 168,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 0,
+      "updating_events": 0,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 0,
+          "retained": 6,
+          "feedback_consistent": 12,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    },
+    {
+      "name": "native_s111501_native_e12",
+      "mode": "native",
+      "seed": 111501,
+      "arm": "native",
+      "epochs": 12,
+      "extra_queries": 0,
+      "full_queries": false,
+      "events": 364,
+      "changed": 24,
+      "retained": 72,
+      "feedback_consistent": 192,
+      "feedback_total": 192,
+      "cumulative_connection_replacements": 384,
+      "updating_events": 46,
+      "captured_boundaries": 184,
+      "rows": [
+        {
+          "epoch": 0,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 1,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 2,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 3,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 4,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 5,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 6,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 7,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 8,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 9,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 10,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        },
+        {
+          "epoch": 11,
+          "changed": 2,
+          "retained": 6,
+          "feedback_consistent": 16,
+          "feedback_total": 16
+        }
+      ]
+    }
+  ],
+  "scope": "host-paced observation/update/feedback in one resident graph; external synthetic labels; two alternating maps; no indefinite autonomy, electrical spike tracing, CPU or energy advantage"
+}

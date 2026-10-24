@@ -8,6 +8,39 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Repeated adaptation in one resident network — October 24, 2026
+
+**Fresh external observations change native memory, and chip-fed predictions continue
+from the last output kept in device SRAM.** Across five initializations and twelve
+changes per resident run, changed-rule checks pass **120/120**, unchanged associations
+**360/360**, and post-update feedback consistency **960/960**. The inherited setting
+learns the first change but blocks later reversals; a fixed SDK competition setting
+permits continued native updates without reloading weights or resetting thresholds.
+
+Two NPUs, eight learning records and two alternating synthetic maps. The host pauses
+feedback to insert externally labelled examples and probes. These are finite,
+host-paced sessions. The CPU task control also passes; no speed or energy advantage
+is established. Counts are repeated checks across five initializations, not independent
+trials or 120 distinct facts.
+
+![Recorded repeated native adaptation](visual/resident-adaptation-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/resident-adaptation-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/resident-adaptation-4k60.mp4) ·
+[tools and audit](plasticity/README.md) ·
+[assessment and preserved failure](studies/20261024-resident-adaptation/ASSESSMENT.md)
+
+A separate one-initialization control finds that input-dependent query history changes
+a later native edit despite identical captured learning RAM. Eight incomplete cues
+change six subsequent mask bits; eight full cues with the same returned codes and
+descriptor count do not. The incomplete-cue case repeats exactly. No hidden register
+was directly read. [Recorded selector comparison](visual/resident-adaptation-selector-4k.png).
+
+```sh
+python -m plasticity.archive audit
+python -m plasticity.audit_mutations
+```
+
 ## Learning changes the native trajectory — October 24, 2026
 
 **Native connection changes now alter the sequence followed by chip-fed feedback.**

@@ -1,0 +1,18 @@
+{
+  "status": "AUDITED_RESIDENT_ADAPTATION_REPLAY",
+  "archive_sha256": "6f3d194298f5ca5eae9b9c975eea3d71e490ec153764f58784aeb16aa9d06f70",
+  "events_sha256": "173203d47f029c5ad28304a806f69cc331f1d710cbf46233e5ef631c92bf3108",
+  "renderer_sha256": "26420bdc973149e426bc110913eb082f83fa642976b588446a7b4c87cfcdef64",
+  "scope": "Returned codes and full learning SRAM readbacks. Class activity inferred through fixed decoder; geometry, flow and slowed timing schematic, not electrical spike tracing. Two alternating synthetic maps, external labels, host-paced bounded feedback; native settings fixed for the resident session.",
+  "outputs": {
+    "final.png": "870d950802cc64ef1d109e9a8b90c9632af66d3154fbc29b46ae48c01659ffaa",
+    "first-change.png": "aa9da28869d50af06a3743d9061c572ce877f45364e5c3e2ef5ba5d0934d48ed",
+    "akd-resident-adaptation-1080p60.mp4": "cae1c58be5b015b0e7e7d038ced0431fbcad69f025d9025710c270212f4eb473",
+    "partial-edit.png": "75dc61798ecedb145095762ad615e3c761c5c89389e8963b4723ce642edb5760",
+    "selector-history-4k.png": "840830392035399546474d5ea98db7e4b9c3380a425f26802ab31b291b70fb5b",
+    "akd-resident-adaptation-4k60.mp4": "e7ad31a041922cd5bbc148f5c74588541f8f42d490c4619e57b91bb67fe39b81",
+    "feedback.png": "9c6e19624da5bde79dfd7837278f892753c0339a042310f06246edf71f02ad50",
+    "reversal.png": "59b0c639125f3b2342c82cb0c22e391026eb182267f38f95cfe0115ce143d9c4",
+    "start.png": "ec8f202e274b1d445467da1c2711d5cbfa5004c4586fb3cf9dc394be94c18026"
+  }
+}

@@ -67,3 +67,9 @@ studies/*/replay_raw/
 studies/*/*_build*.stderr
 !visual/learned-transition-4k60.mp4
 !visual/learned-transition-1080p60.mp4
+
+# Resident-adaptation films are public; local compiler logs are not evidence exports.
+!visual/resident-adaptation-4k60.mp4
+!visual/resident-adaptation-1080p60.mp4
+studies/20261024-resident-adaptation/build*.stdout
+studies/20261024-resident-adaptation/build*.stderr
