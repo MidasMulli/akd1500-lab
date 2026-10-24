@@ -8,6 +8,30 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Guarded native learning over a larger model — October 24, 2026
+
+**A native class-window workaround passes; the original direct path stays failed.**
+An 11,264-record model remains in Nano host DDR. The host chooses a bounded class
+view from the teacher label; the AKD selects the winner and changes connections.
+Full-model recall then reads those same records. No CPU weight repair occurs.
+
+Across three initializations, **24 selected single-swap updates** match the full
+CPU rule and every captured bank state. Learned recall is32/32 connection matches;
+matched frozen recall is31/32. Those are match counts, not task accuracy.
+Host writes to the live record bank after initial loading: **zero**.
+
+![Recorded native class-window workaround](visual/fnp2-window.png)
+
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/fnp2-window-4k60.mp4) ·
+[1080p60 download](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/fnp2-window-1080p60.mp4) ·
+[method, failures and limitations](coprocessor/WINDOWS.md) ·
+[numeric replay](results/2026-10-24-fnp2-window.json)
+
+This uses one physical FNP2, externally stored records and host scheduling.
+It does not qualify all allocated records, arbitrary learning streams, autonomous
+operation, a CPU advantage or electrical efficiency. Stock-SDK and record-stride
+failures, a contradicted alias hypothesis and invalid placement are preserved.
+
 ## FNP2: inference works, high-address learning fails — October 24, 2026
 
 The previously excluded FNP2 format now executes with records in the card's

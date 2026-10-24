@@ -1,0 +1,28 @@
+{
+  "status": "RECORDED_RAM_AND_RESPONSE_REPLAY_NOT_ELECTRICAL_TRACE",
+  "archive_sha256": "c30928a13f498ac3bbaeae782fc31abdf498799ae3fa6dd43118670e55afeeab",
+  "metadata_sha256": "2cb75e200a0918cd7d53d16e2e942126637f6f2f24966b688ca5f5220e650dba",
+  "renderer_sha256": "fef8baeb3f9db3b2e898ecb4f2290c4d67b36fc7019a0687d4cf683953dbbed5",
+  "selected_seed": 107101,
+  "selected_global_record": 8849,
+  "actual_direct_changed_record": 2295,
+  "window_local_record": 3217,
+  "removed_connection_bit": 18,
+  "added_connection_bit": 0,
+  "main_sealed_updates": 24,
+  "outputs": {
+    "fnp2-window.png": "5ff9fc47385fa917c53b85fccdc51c338bccd5fdb1d7f07f09b5bdb0738d7e4f",
+    "fnp2-window-opening.png": "90db800234ee229235a8291d4c1702c1fb334977a184d61715f788f207751c61",
+    "fnp2-window-4k60.mp4": "65567bbfbe1cdd1517eb1460173d6e53e0dcf54fd60697623835ff3985eb613b",
+    "fnp2-window-1080p60.mp4": "417578aa5f276fb7fdb3e19d359deb6a7c27f84eb4ca2037023747c25db58b69"
+  },
+  "limits": [
+    "Host dispatches class windows from supplied teacher labels; one physical FNP2, not autonomous scheduling",
+    "Records are in host DDR; scratch/control buffers are in card SRAM",
+    "Single-swap unique-winner probes only; hidden selector behavior across arbitrary window switches unqualified",
+    "Eight selected targets across three initializations; not all11264records exercised for learning",
+    "Direct failure preserved; configured-path root cause unresolved, no silicon erratum claim",
+    "No CPU or calibrated electrical-energy advantage",
+    "Manual external placement fails frozen state gate and cannot establish a learning outcome; original zero-forward observability error retained"
+  ]
+}

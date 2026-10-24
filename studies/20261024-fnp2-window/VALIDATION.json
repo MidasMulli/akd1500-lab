@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 207,
+  "seconds": 71.649,
+  "command": "python3 -m unittest discover -s tests -v",
+  "output_sha256": "ca19d5b418d83074372d5344b735f7072a557616a6bdaa40f06be4e51f8df947",
+  "scope": "Offline source and numeric checks; failed hardware outcomes stay failed"
+}

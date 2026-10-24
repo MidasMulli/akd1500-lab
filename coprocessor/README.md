@@ -1,6 +1,10 @@
 # PCIe co-processor environment
 
-**Follow-up:** the FNP2 record format is now decoded and executed. A controlled
+**Latest:** [guarded native class windows](WINDOWS.md) pass selected high-address
+teaching and full-model recall in actual host DDR. Host class dispatch is explicit;
+the original direct path remains failed. No CPU or energy advantage is established.
+
+**Earlier follow-up:** the FNP2 record format is now decoded and executed. A controlled
 probe exposes an off-target native learning update above a particular address
 region; physical expansion is halted. See [FNP2.md](FNP2.md) and its preserved
 failed prefixes. Large-bank inference is not full plasticity qualification.

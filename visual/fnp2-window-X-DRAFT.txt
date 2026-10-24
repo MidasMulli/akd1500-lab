@@ -1,0 +1,16 @@
+Native learning, checked word by word
+
+Continuing the AKD1500 work.
+
+A correct response didn't guarantee a correct learning update. At larger record offsets, we caught changes landing in the wrong memory—even through the stock SDK.
+
+I built a class-window dispatcher. The Nano selects a bounded view from the teacher label; the AKD chooses the winning record and changes its connections. The full model then reads the same shared memory.
+
+11,264 allocated records. Three initializations, 24 selected teaching updates, frozen + CPU controls, and complete memory checks. Zero host weight writes after initialization.
+
+Recorded hardware replay; logical memory layout. Controlled single-connection swaps; the original path's root cause remains unresolved. No CPU or energy advantage established.
+
+https://github.com/MidasMulli/akd1500-lab
+
+ATTACH: fnp2-window-1080p60.mp4 (phone/X); fnp2-window-4k60.mp4 (master)
+STATUS: DRAFT FOR USER REVIEW, NOT POSTED

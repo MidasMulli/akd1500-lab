@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_BOUNDED_COMPARISON",
+  "reviewed_utc": "2026-10-24T17:05:11.076733+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "scientific_cutoff_utc": "2026-10-24T18:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T18:05:00+00:00",
+  "evidence": "results/2026-10-24-fnp2-window.json",
+  "disposition": "The same record3640 learns correctly when the changed connection word is below or at offset131072. Both frozen controls pass. This contradicts a blanket modulo on every learning word address. Four sessions/eight forwards."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_FROZEN_GATE_PRESERVED",
+  "reviewed_utc": "2026-10-24T17:05:11.076733+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "scientific_cutoff_utc": "2026-10-24T18:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T18:05:00+00:00",
+  "evidence": "results/2026-10-24-fnp2-window.json",
+  "disposition": "The aligned mapping copy gate passes. The first frozen forward returns exact potentials but changes initial record memory; it closes immediately. This is not a learning result. Manual program data was not reserved against the default runtime allocator; output-pattern overlap is a candidate explanation. Qualified windows instead use disjoint allocators."
+}

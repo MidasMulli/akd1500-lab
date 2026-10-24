@@ -1,5 +1,9 @@
 # FNP2 storage contract and a preserved off-target update failure
 
+**Follow-up:** [native class windows](WINDOWS.md) now qualify selected high-address
+learning and full-model recall using actual host DDR, with zero live host weight
+writes. The original direct path remains failed; its root cause is unresolved.
+
 **Inference capacity and correct plasticity address coverage are different.**
 The first FNP2 format qualification passes 144 native forwards at 544 records.
 Subsequent eight-event capacity prefixes pass at 1024/2048/4096/8192 records.

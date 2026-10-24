@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_PRESERVED",
+  "reviewed_utc": "2026-10-24T17:05:11.076733+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "scientific_cutoff_utc": "2026-10-24T18:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T18:05:00+00:00",
+  "evidence": "results/2026-10-24-fnp2-window.json",
+  "disposition": "Adjacent record3640 learns correctly; record3641 instead changes record0. Both frozen controls pass. With the same stride and image, this narrows the transition to record-base-related behavior. Four sessions/eight forwards."
+}

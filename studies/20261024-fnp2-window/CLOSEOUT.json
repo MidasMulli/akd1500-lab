@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_BOUNDED_NATIVE_CLASS_WINDOW_WORKAROUND",
+  "reviewed_utc": "2026-10-24T17:05:11.076733+00:00",
+  "owned_jobs_remaining": 0,
+  "physical_device_released": true,
+  "scientific_cutoff_utc": "2026-10-24T18:00:00+00:00",
+  "hard_stop_utc": "2026-10-24T18:05:00+00:00",
+  "evidence": "results/2026-10-24-fnp2-window.json",
+  "disposition": "Three initializations and eight selected addresses each pass complete-state and full-model recall comparisons, with zero host writes to live records. The direct branch remains a preserved failure. Twelve physical sessions/101forwards/110complete bank captures;480CPU model forwards. Host scheduling and external DDR are explicit; arbitrary multi-swap streams, whole-chip limits and efficiency remain unqualified."
+}

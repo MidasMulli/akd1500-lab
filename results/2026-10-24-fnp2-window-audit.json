@@ -1,0 +1,81 @@
+{
+  "status": "INDEPENDENT_NATIVE_WINDOW_REPLAY_WITH_PRESERVED_FAILURES",
+  "window": {
+    "physical_sessions": 12,
+    "native_forwards": 101,
+    "full_bank_captures": 110,
+    "cpu_model_forwards": 480
+  },
+  "main_sealed_updates": 24,
+  "initializations": 3,
+  "host_live_record_writes": 0,
+  "forensic_physical_sessions": 17,
+  "forensic_forwards": 33,
+  "zero_forward_attempts": [
+    {
+      "study": "placement",
+      "physical_sessions": 1,
+      "forwards": 0,
+      "status": "COPY_GATE_SUPERSEDED_BEFORE_FORWARD"
+    },
+    {
+      "study": "ddr",
+      "physical_sessions": 1,
+      "forwards": 0,
+      "status": "ALIGNED_COPY_GATE"
+    },
+    {
+      "study": "base",
+      "physical_sessions": 1,
+      "forwards": 0,
+      "status": "ZERO_FORWARD_OBSERVABILITY_FAILURE"
+    },
+    {
+      "study": "base2",
+      "physical_sessions": 1,
+      "forwards": 0,
+      "status": "ZERO_FORWARD_PROVEN_HOST_DDR"
+    }
+  ],
+  "findings": [
+    {
+      "name": "sdk_above_l1",
+      "actual_changed_records": [
+        46
+      ],
+      "intended_record": 6600,
+      "disposition": "STRICT_PREFIX_RESULT"
+    },
+    {
+      "name": "width_above_l1",
+      "actual_changed_records": [
+        59
+      ],
+      "intended_record": 3700,
+      "disposition": "STRICT_PREFIX_RESULT"
+    },
+    {
+      "name": "start_above_l1",
+      "actual_changed_records": [
+        0
+      ],
+      "intended_record": 3641,
+      "disposition": "STRICT_PREFIX_RESULT"
+    },
+    {
+      "name": "ddr_below_l0",
+      "actual_changed_records": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "intended_record": 6500,
+      "disposition": "FROZEN_PLACEMENT_GATE_FAILURE_NOT_LEARNING_RESULT"
+    }
+  ],
+  "scope": "Native learning workaround for selected single-swap probes; host schedules teacher windows; no CPU/energy advantage"
+}

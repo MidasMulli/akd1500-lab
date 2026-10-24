@@ -1,5 +1,10 @@
 # Native fabric, memory and routing: evidence map
 
+October 24 follow-up: [native class windows](WINDOWS.md) qualify selected high-address
+learning with records in verified host DDR and controls in card SRAM. This uses
+one FNP2 with host scheduling. The original direct-learning boundary is preserved;
+its cause and unrestricted learning address coverage remain unresolved.
+
 ## Documented purpose
 
 The PCIe variant is intended to work beside an application processor, run
@@ -18,7 +23,7 @@ See [reviewed sources and versions](DOCUMENTS.json).
 | Layer | Evidence | What remains unresolved |
 |---|---|---|
 | Physical link | Sysfs: vendor 1e7c/device a500, 5.0 GT/s, two lanes; installed `akida-pcie` binding | Effective link utilization, power-state transitions; loaded driver/source identity not fully established |
-| PCIe apertures | Three 4 MB BARs observed; harness accesses only the known 1 MB register and system-RAM windows | BAR aperture size is not SRAM capacity |
+| PCIe apertures | Three 4 MB BARs observed; original harness uses known 1 MB register/system-RAM windows; window follow-up also verifies a separate kernel-backed host-DDR mapping | BAR aperture size is not SRAM capacity; original loaded driver/source identity remains incomplete |
 | Input converter | Compiler HRC endpoint (0,0,0); actual 32x32 RGB to binary features agrees with independent integer math | Larger image/channel/stride/precision throughput surfaces |
 | Neural positions | SDK 2.19.3 target: 32 CNP1-capable positions; 21 also CNP2, seven also FNP3, one also FNP2 | Types overlap at one position. Descriptor support does not demonstrate every mode/position or simultaneous execution |
 | Position organization | Eight four-slot nodes; reserved DMA endpoints (1,1,0) and (1,1,1); HRC is separate | This is logical addressing, not a measured die floorplan |
@@ -33,8 +38,10 @@ See [reviewed sources and versions](DOCUMENTS.json).
 ## Compiler format frontier, not a silicon maximum
 
 The subsequent [FNP2 study](FNP2.md) resolves the decoder boundary below and
-then finds a separate off-target learning update. "External" record storage
-is physically observed in card system SRAM here; actual host DDR is untested.
+finds a separate off-target learning update with records in card SRAM. The
+later [class-window study](WINDOWS.md) reproduces the failure through the stock
+SDK, verifies actual host-DDR placement, and qualifies a guarded workaround
+for selected single-swap teaching probes. The original path remains failed.
 
 An additional compiler-only enumeration preserves all format changes. At
 512 binary inputs, 512 records produces one decoded FNP3 packet (40,968 bytes).
@@ -52,10 +59,12 @@ separate from this compiler-only extension.
 
 ## Highest-impact remaining gates
 
-1. **FNP2 update-address contract.** The record format/card-SRAM path is now
-   executable, but the targeted record6600 update changes record46. Resolve
-   this failure before expanding plasticity. Treat real host-DDR mapping as a
-   separate address-translation/ownership gate; no broad DMA address probes.
+1. **FNP2 update-address contract.** Stock SDK, different record strides and
+   adjacent-record interventions narrow a record-base-related failure; its
+   root cause remains unresolved. Native class windows work for selected
+   unique single-swap probes. Test hidden selector behavior under arbitrary
+   window switches before expanding learning claims. Host-DDR ownership and
+   provenance now pass bounded checks; unrestricted address probes are unnecessary.
 2. **Production output and transport.** Qualify compact binary/class outputs
    from the same RGB network. Include output encoding/decoding on both CPU and
    AKD sides; keep all native learning/state endpoints unchanged.

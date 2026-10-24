@@ -52,3 +52,6 @@ studies/*/*.rows.json
 !visual/native-primitives-4k60.mp4
 
 !visual/streaming-prediction-4k60.mp4
+
+!visual/fnp2-window-4k60.mp4
+!visual/fnp2-window-1080p60.mp4

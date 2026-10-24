@@ -1,0 +1,17 @@
+[
+  {
+    "attempt": "manual external data placement",
+    "disposition": "Preserved failed frozen-memory gate; excluded from learning conclusions",
+    "correction": "New disjoint card-SRAM control allocator and host-DDR record arena; checked by zero-forward provenance gate before native windowing"
+  },
+  {
+    "attempt": "in-process SDK release observation",
+    "disposition": "Failed zero-forward observability attempt, original source retained",
+    "correction": "Distinct source saves observations before interpreter exit; parent fuser check follows process termination"
+  },
+  {
+    "attempt": "all learning word addresses modulo512KiB",
+    "disposition": "Contradicted by exact record3640 connection update at word131072",
+    "correction": "Adjacent-record test targets record-base boundary; no alias reference replaces the correct learning rule"
+  }
+]
