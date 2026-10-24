@@ -1,0 +1,65 @@
+{
+  "status": "MEASURED_NATIVE_MEMORY_RECRUITMENT",
+  "seeds": [
+    {
+      "seed": 102101,
+      "old_connection_edited_records": [
+        36,
+        227,
+        261,
+        392
+      ],
+      "new_connection_edited_records": [
+        44,
+        177,
+        263,
+        471
+      ],
+      "new_records_not_modified_during_initial_teaching": true,
+      "all_old_record_words_unchanged_after_initial_teaching": true,
+      "new_probe_correct": 64,
+      "old_retention_correct": 64
+    },
+    {
+      "seed": 102102,
+      "old_connection_edited_records": [
+        39,
+        171,
+        257,
+        437
+      ],
+      "new_connection_edited_records": [
+        76,
+        149,
+        348,
+        497
+      ],
+      "new_records_not_modified_during_initial_teaching": true,
+      "all_old_record_words_unchanged_after_initial_teaching": true,
+      "new_probe_correct": 64,
+      "old_retention_correct": 64
+    },
+    {
+      "seed": 102103,
+      "old_connection_edited_records": [
+        14,
+        173,
+        359,
+        397
+      ],
+      "new_connection_edited_records": [
+        80,
+        130,
+        281,
+        438
+      ],
+      "new_records_not_modified_during_initial_teaching": true,
+      "all_old_record_words_unchanged_after_initial_teaching": true,
+      "new_probe_correct": 64,
+      "old_retention_correct": 64
+    }
+  ],
+  "claim": "Four additional existing recognition records changed connections while the four initial learned records retained all20 words exactly, in each tested initialization.",
+  "boundary": "Host supplies class teachers and mode changes; native rule selects winning records/connections. No physical neuron growth, general forgetting immunity, or CPU/energy advantage.",
+  "source_archive_sha256": "1587aac331f5d40db8f5eb1dbd5f4fde5837d7c3a46af3499d71321b6b167cac"
+}

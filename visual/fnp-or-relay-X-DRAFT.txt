@@ -1,0 +1,33 @@
+REVIEW DRAFT — not posted
+
+Repair one memory. Keep the rest.
+
+I connected three learning memories across six NPUs on the BrainChip AKD1500.
+The first recognizes a signal; the next two learn how to map it to an output.
+
+Then I changed the signals. The output dropped to 16/64 correct.
+
+With teaching enabled only for recognition, the chip learned the new signals
+using four additional existing neuron records. Every word of the original four
+learned records stayed unchanged. The two downstream memories stayed unchanged too.
+
+Across three initializations: 64/64 new signals and 64/64 old signals after repair.
+The frozen controls stayed at 16/64 on the new signals.
+
+This is still a small synthetic task. The host supplies inputs and teaching
+labels; the chip selects the connections it changes. The video is recorded
+hardware data, with reconstructed responses and a schematic layout.
+
+Tools and verification: https://github.com/MidasMulli/akd1500-lab
+
+ATTACH: visual/fnp-or-relay-4k60.mp4
+
+OPTIONAL TECHNICAL REPLY
+
+Three plastic FNP populations, two fixed class-presence encoders and one fixed
+readout, in one resident hardware pass. 512 allocated records per learner;
+connections actually changed in 8 / 4 / 4 records. No physical neuron growth.
+
+6,672 native forwards and 20,016 complete learning-RAM captures independently
+recounted. This uses an FNP-only path; the failed FNP→CNP handoff is preserved
+separately. No CPU speed or energy advantage is established.

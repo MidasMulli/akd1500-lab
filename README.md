@@ -8,6 +8,38 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Three native memories: repair one, preserve the others — October 23, 2026
+
+**Six resident NPUs, three connected plastic populations.** After synthetic
+beacon signals change, recognition-only repair recovers **64/64 new-signal
+outputs**, while retaining **64/64 old-signal outputs** in all three native
+initializations. Frozen controls stay at **16/64** on changed signals.
+
+Complete RAM shows the native rule using four additional existing recognition
+records, preserving every word of the original four learned records and the
+complete state of both downstream memories. There are 1,536 allocated records;
+connection edits touch **8 / 4 / 4**, not the entire population.
+
+![Three connected native learning memories](visual/fnp-or-relay-4k.png)
+
+[Download 4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/fnp-or-relay-4k60.mp4) ·
+[assessment](studies/20261023-fnp-or-relay/ASSESSMENT.md) ·
+[tools and reproduction](resident/README.md) ·
+[review draft](visual/fnp-or-relay-X-DRAFT.txt)
+
+All **6,672 forwards and 20,016 complete RAM captures** independently recount.
+This is one four-class sensory world with host-supplied teachers and mode
+changes. The film is a recorded replay; responses are reconstructed and layout
+schematic. No CPU or energy advantage is established. This FNP-only alternative
+leaves the mixed FNP-to-CNP handoff unresolved: a separate 13-session/824-forward
+study characterizes its channel collapse and preserves a failed bitwidth repair.
+
+```bash
+python -m resident.or_archive audit-public
+python -m resident.or_recruitment
+python -m resident.contract_archive audit-public
+```
+
 ## Isolated bridge: components pass, mixed handoff fails — October 23, 2026
 
 A follow-up removes learning and custom adapters entirely. The all-FNP network

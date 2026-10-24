@@ -45,3 +45,5 @@ studies/*/*.inputs
 studies/*/*.labels
 studies/*/*.masks
 studies/*/*.rows.json
+
+!visual/fnp-or-relay-4k60.mp4

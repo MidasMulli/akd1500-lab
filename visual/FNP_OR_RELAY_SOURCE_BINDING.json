@@ -1,0 +1,15 @@
+{
+  "status": "NATIVE_OUTPUT_AND_COMPLETE_STATE_BOUND",
+  "duration_seconds": 24,
+  "display_fps": 60,
+  "hashes": {
+    "results/2026-10-23-fnp-or-relay.json": "7f90e2009c3de5be020e132ad6edcf6c452cc50caa7885fad4f3cb06a6ffeb13",
+    "results/2026-10-23-fnp-or-relay.npz": "1587aac331f5d40db8f5eb1dbd5f4fde5837d7c3a46af3499d71321b6b167cac",
+    "resident/or_visual.py": "613ea75cdaa423c5515ed83eefed1f51c050486eccc2b3ce27a50c39a185f504",
+    "visual/fnp-or-relay-replay.json": "1b8e784851a145644ae46dfbb27760ff551c1a762d0bd7eb8a8b6d80538d8633",
+    "visual/fnp-or-relay-4k.png": "b203f7ed137dae677bc0b8943cdf0dd047f785f484bd37523c273ba0a6b59bf7",
+    "visual/fnp-or-relay-repair-4k.png": "5766694594f12d802155ed6567e62e788178dd3ec11545b0abb386840db03758",
+    "visual/fnp-or-relay-result-4k.png": "90bf6e7539462110173a13c226ba61a41882b1fd01846114111b2d65ce9b6243",
+    "visual/fnp-or-relay-4k60.mp4": "0e01f03e972f30a2c07984f567451718aab465a3e2540565485a172da4c09883"
+  }
+}

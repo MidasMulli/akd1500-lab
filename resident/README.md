@@ -1,4 +1,74 @@
-# Resident learning scale-up: a preserved interface boundary
+# Three connected native learning memories
+
+**Repair recognition while preserving two downstream memories.** The latest
+FNP-only graph uses six resident NPUs: three plastic populations, two fixed
+class-presence encoders and one fixed count readout. Each population allocates
+512 neuron records. Across three initializations, recognition-only repair reaches
+**64/64 changed-signal decisions and 64/64 old-signal retention**; frozen controls
+remain at **16/64** on changed signals.
+
+Complete RAM shows four additional existing recognition records changing during
+repair, while every word of the original four learned records stays unchanged.
+The host supplies inputs, teachers and mode changes; the native rule chooses
+winning records/connections. Intermediate processing stays on the chip.
+Connections actually changed in **8 / 4 / 4 records**, not all 1,536 allocated
+records. This is one synthetic four-class world, not general autonomous learning.
+
+![Three native memories, selective recognition repair](../visual/fnp-or-relay-4k.png)
+
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/fnp-or-relay-4k60.mp4) ·
+[assessment](../studies/20261023-fnp-or-relay/ASSESSMENT.md) ·
+[frozen protocol](../studies/20261023-fnp-or-relay/PROTOCOL.md) ·
+[review-only X draft](../visual/fnp-or-relay-X-DRAFT.txt)
+
+All **6,672 native forwards and 20,016 complete learning-RAM snapshots** pass
+independent reconstruction. Complete snapshots are published as lossless
+changed-word deltas with each original full snapshot's SHA256. The film is a
+recorded, time-expanded replay. Intermediate responses are reconstructed from
+measured state; geometry and flow are schematic. No electrical spike, CPU-speed
+or calibrated energy advantage is claimed. The wrong-bank arm receives no
+eligible repair updates, so is not a matched-plastic-work comparison.
+
+Hardware-free verification (NumPy required):
+
+```bash
+python -m resident.or_archive audit-public
+python -m resident.or_recruitment
+python -m unittest discover -s tests -p 'test_or_relay.py' -v
+```
+
+`or_design.py` defines the task and reference; `or_prepare.py` is the qualified
+producer for this frozen architecture; `or_run.py` and `src/or_bench.cpp` are the
+as-executed physical actors. Use **or_archive.py** for the public delta archive.
+`or_recruitment.py` independently checks record preservation; `or_visual.py`
+builds the evidence replay with Pillow and FFmpeg. Physical reruns need a new
+bounded authority, source freeze, stage admission and exclusive lock. Saved
+campaigns are closed. Vendor SDK/runtime/programs are external dependencies.
+
+## Preserved mixed-handoff failures
+
+The successful FNP-only architecture is a separate recipe. It does not fix the
+mixed FNP-to-CNP handoff. Thirteen fixed-inference sessions / 824 forwards show
+that source, all-FNP and direct-CNP controls preserve vectors, while the tested
+mixed identity graph collapses every nonempty vector to channel 63. The measured
+mixed-comparison outputs follow that collapse model exactly. A two-bit source
+candidate fails its 0/8 development smoke; no sealed native qualification runs.
+
+[Contract assessment](../studies/20261023-handoff-contract/ASSESSMENT.md) ·
+[single-layer compiler probe](../studies/20261023-distributed-plastic/ASSESSMENT.md)
+
+```bash
+python -m resident.contract_archive audit-public
+```
+
+The seven-cell single-layer compiler probe made no hardware forwards. Larger
+cells request FNP2 under the tested Minimal/FNP3-only policy and are rejected;
+that is not a silicon limit. `contract_design.py`, `contract_prepare.py`,
+`contract_candidate.py`, `contract.py` and `src/contract_probe.cpp` preserve the
+ordinary-compiler endpoint investigation and failed candidate.
+
+## Earlier scale-up boundary
+
 
 The new mixed FNP3/CNP route **did not qualify**. It compiler-maps six learning
 banks (384 records) on 17 NPUs, but two-bank learning-state checks stop expansion.

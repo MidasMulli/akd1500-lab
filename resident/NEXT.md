@@ -1,41 +1,33 @@
-# Next gate: validate communication and learning as one explicit contract
+# Next gates after selective three-memory repair
 
-The current campaign is closed. The next physical campaign needs a fresh bounded
-protocol/freeze/admission; these are proposed executable gates, not run results.
+The current campaigns are closed. Further physical work requires a fresh bounded
+protocol/freeze/admission. The successful FNP-only architecture and failed
+FNP-to-CNP interface remain separate; do not substitute one for the other.
 
-The inference-bridge gate has since run as `20261023-fixed-bridge`: both
-component controls pass128/128, but the ordinary compiler mixed graph fails on
-its first input. Resolve that fixed handoff before any new learning adapter edit.
-The stages below remain the intended order; gate1 is currently failed.
+1. **Use the existing record budget more deeply.** Freeze successive changed
+   signal dictionaries on the same three-memory task, with held-out noisy probes
+   for every earlier dictionary after each change. Keep all three initial
+   seeds and matched frozen controls. Measure recruitment, collisions, saturation,
+   retention and failure onset; stop before capacity or forgetting claims from a
+   four-class success. Do not tune dictionaries after observing native failures.
+2. **Test selective repair in either mapping bank.** Independently change only
+   its target permutation while recognition and the other map remain fixed.
+   Establish eligible updates before calling a wrong-bank arm a matched
+   intervention. Compare state trajectories with an isolated-bank control.
+3. **Qualify workload and CPU differentiation separately.** Replace the easy
+   synthetic beacons only after frozen CPU exact-rule and practical task-specific
+   controls pass. Match quality, retention, input duty cycle, whole-host work and
+   calibrated card/host power. Diagnostic polling is not an efficiency benchmark.
+4. **Resolve the failed mixed interface independently.** Preserve the 64-channel
+   collapse and failed two-bit candidate. Obtain a supported source-coordinate /
+   CNP-input contract, then freeze an explicit correction and held-out vector
+   check. No learning adapter expansion before native endpoint qualification.
+5. **Investigate FNP2 without calling policy a chip limit.** The tested Minimal
+   mapping selects external-memory FNP2 for larger single layers. Qualify that
+   record format, memory boundary and exact-output instrumentation before
+   admitting a larger distributed-plasticity or capacity experiment.
 
-1. **Isolate the compiler's inference bridge.** Build one fixed FNP3 source,
-   CNP pairwise comparator, CNP categorical encoder and fixed count readout.
-   Use known source responses rather than a learned bank. Freeze 128 cases:
-   four single-class winners, all-zero/all-equal ties, pairwise ties and seeded
-   random four-class supports. Check the virtual truth table, compiler mapping,
-   every native output and fixed RAM. Stop at the first discrepancy.
-2. **Map the intermediate record contract in software.** Differentially compile
-   one parameter at a time: class count, activation/output format, selected-weight
-   count, plasticity and destination resource. Save every changed field and its
-   source. Do not infer undocumented semantics from one hexadecimal value.
-   Require an adapter contract that retains multiclass selection, learning
-   parameters and the compiler's output format together. Preserve the failed
-   `word1_high16 == units/classes` hypothesis.
-3. **Qualify one intermediate learner.** Only after gates 1/2 pass, use one
-   multiclass plastic bank feeding that bridge. Match an existing isolated
-   learner on the same input/label prefix, then switch to query-only operation.
-   Compare every record, output and hidden-history reconstruction. No downstream
-   plastic bank until this combined interface passes; no RAM-only resume.
-4. **Then return to two learning banks.** Use the frozen sensor task and seed
-   99101, preserving all earlier failures. Compare full repair/frozen/wrong-bank
-   arms only after a mechanics smoke passes. Fresh seeds and larger resource
-   counts remain subsequent gates. A compiler map alone does not admit them.
-
-An alternative future architecture can keep the already validated FNP-to-FNP
-learning boundary and move only a later fixed stage into CNP resources. That is
-a different recipe requiring a prospective comparison, not a silent replacement
-for the failed six-bank graph. Do not call it a fix before measurement.
-
-Keep CPU differentiation separate. The synthetic task is easy to emulate; any
-efficiency claim still needs a strong task-specific CPU control, matched quality
-and retention, full host overhead, and calibrated card/host power measurements.
+The current result is three connected plastic populations in six resident NPUs,
+with selective native record recruitment and retained old signals on one
+synthetic world. It is not all-chip learning, autonomous teacher generation,
+recurrent planning, general forgetting immunity or an efficiency win.
