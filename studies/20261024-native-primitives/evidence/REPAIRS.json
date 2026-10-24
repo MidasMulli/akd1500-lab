@@ -1,0 +1,19 @@
+[
+  {
+    "stage": "source_compile_before_hardware",
+    "failure": "Nested main renaming in reused actor caused duplicate main; compile rejected before any physical access.",
+    "correction": "Reuse the readout helpers and bank struct directly; preserve original source and compiler stderr.",
+    "physical_forwards": 0
+  },
+  {
+    "stage": "post_close_source_hardening",
+    "observed_failure": "128-event capacity guard followed by SIGSEGV during exception cleanup; actual failure preserved and not rerun.",
+    "hazard": "Runtime retains caller program address; executed actor destroyed its local program buffer before entering cleanup catch.",
+    "correction": "Keep program storage alive through cleanup/destruction; refuse the unqualified128-event treatment before device access.",
+    "causal_limit": "Source lifetime hazard is established; responsibility for the exact SIGSEGV is not uniquely isolated.",
+    "executed_source_sha256": "1b26105bafaef67727be3b1cd0099cd075e3ecceeaca260d7951dd8a388d1e29",
+    "published_hardened_sha256": "7c8db3e85b937dd3ab824681ed34aab8751ec6cf0141c27dc75332558135b217",
+    "executed_source_archive": "capability/executed/quiet_relay_v1.cpp",
+    "physical_rerun": false
+  }
+]

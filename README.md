@@ -8,6 +8,41 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native execution: causal NPU checks and blocked-host learning — October 24, 2026
+
+**Native capability and a CPU advantage are separate questions.** Identical binary
+computation runs on FNP and CNP paths with all outputs and parameter RAM checked.
+The CNP detector population grows **16×** with **1.39× DMA buffer-service cost**
+(128→2,048 outputs, half-active inputs). Eleven separate parameter interventions
+produce their exact predicted output changes across all 11 compute CNP regions.
+
+Separately, 32 queued native learning events complete while the host worker
+sleeps, with no driver polling. Captured state and outputs match the polling
+control. **CPU remains faster on the matched fixed task**: about 9.20 µs versus
+86.96 µs/input at 2,048 detectors through the measured native serial host path.
+No calibrated energy advantage is established.
+
+![Measured native operations and CPU controls](visual/native-primitives-4k.png)
+
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-primitives-4k60.mp4) ·
+[tools and scope](capability/README.md) ·
+[primary assessment](studies/20261024-native-primitives/ASSESSMENT.md) ·
+[causal checks](studies/20261024-cnp-contribution/ASSESSMENT.md) ·
+[next discriminators](capability/NEXT.md)
+
+The 128-event learning stage fails before repair at a 129-slot request, then
+crashes during cleanup. A separate zero-forward diagnostic measures the runtime's
+128-slot clamp and cleanly unprograms the owned graph. The failed prefix, source
+lifetime hazard, exact executed source and hardened publication are preserved.
+Across all three studies: **43 owned sessions, 9,040 verified forwards and 7,404
+complete learning-bank captures**. Fixed paths have three temporal runs; quiet
+learning has one initialization and one run per qualified arm.
+
+```bash
+python -m capability.archive audit-public
+python -m capability.contribution_archive audit-public
+```
+
 ## Three native memories: repair one, preserve the others — October 23, 2026
 
 **Six resident NPUs, three connected plastic populations.** After synthetic

@@ -1,0 +1,24 @@
+REVIEW DRAFT — not posted
+Disposition: technical capability update only. Hold the promised practical-advantage headline.
+
+Testing what runs natively
+
+I pushed the same binary task through two AKD1500 processing paths and an
+optimized CPU control.
+
+The fixed detector population grew from 128 to 2,048 across 11 compute NPUs, while
+monitored service grew 1.39×. I then suppressed each compute region's output in
+turn: every change matched the predicted result and RAM readback.
+
+Separately, the chip completed batches of 32 learning events while the host
+worker slept. No polling during the sleep; outputs and stored connections checked.
+
+The CPU was still faster on this synthetic task. That's an open result, not
+something to hide: native hardware capability and a useful speed/energy advantage
+are different questions. We have better evidence for the first; the second remains.
+
+Recorded measurements, logical layout and connection geometry. The 128-event
+learning attempt hit a runtime queue limit and is preserved as a failure.
+
+Tools and raw-derived checks: https://github.com/MidasMulli/akd1500-lab
+ATTACH: visual/native-primitives-4k60.mp4

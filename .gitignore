@@ -23,6 +23,7 @@ studies/*/frozen/
 studies/*/reference/
 studies/*/runs/
 studies/*/cpu_runs/
+studies/*/cpu/
 studies/*/outbox*/
 studies/*/native_service
 studies/*/FROZEN_MANIFEST.json
@@ -47,3 +48,5 @@ studies/*/*.masks
 studies/*/*.rows.json
 
 !visual/fnp-or-relay-4k60.mp4
+
+!visual/native-primitives-4k60.mp4

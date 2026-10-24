@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED_NATIVE_CAPABILITY_REPLAY",
+  "fps": 60,
+  "seconds": 24,
+  "hashes": {
+    "results/2026-10-24-native-primitives.json": "02dde6b147064ca4b6572f1951a7360618dbefb172019e01878924c045377231",
+    "results/2026-10-24-native-primitives.npz": "51672000dbfb187bc218d6dff27dd607ff1d0fdb7d58ccde715e8ab901c98b2a",
+    "results/2026-10-24-cnp-contribution.json": "9e5f310176f558704ccc8ac43c12d59d63615a4c19406e2610158e19316c9615",
+    "results/2026-10-24-cnp-contribution.npz": "74f2b879aec83b5e58ffdb363f59e957faa364bbd45580098282740deac53846",
+    "capability/visual.py": "477ebf4032965473d672bf3e8ff3ae508802e5c18708df55f94f5c058ee83065",
+    "capability/report.py": "fa3512d6fa31c03aedc51b94cb6ba027eae7b66c2b113db07662d73feb33b18d",
+    "capability/metrics.py": "be21735f7d87219cb39d0c04520b173f5855b7041b56fcb2849d95b7d9482c65",
+    "visual/native-primitives-metrics.json": "4ba3b597a215568aec7ef5e55657823fb518e7ffb6169c4ce91658df82117572",
+    "visual/native-primitives-replay.json": "0c5c258f4d69d7c79a4dd0725e705bb21dade651e939200200f7bab8dd179816",
+    "visual/native-primitives-scaling.png": "e12251cd8d7b34263c7525c7b8ad69ba00dea9348f75d740216d341ad9015511",
+    "visual/native-primitives-cpu.png": "38a6c871c89c02512a085b98bc14af7462551d8f7b3785998480889f408afea1",
+    "visual/native-primitives-4k.png": "eb79aae778a0d793c290fbbac8798b49555e93ec39d37ff107891349b2e9b7bc",
+    "visual/native-primitives-causal-4k.png": "20d39dc136b80c665f2c3b06f69e620e0644e726b6c4b983ae5c6b7e4428ef3d",
+    "visual/native-primitives-4k60.mp4": "2b6a4515e110a4d83e4f67f82598d31b912fc5148a659441f2ea710c38bf7226"
+  }
+}

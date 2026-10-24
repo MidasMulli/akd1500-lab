@@ -43,3 +43,10 @@ internal algorithm replacement first needs an identified execution interface
 and a bounded observable proof, not a firmware keyword or an unqualified RAM
 write. Visible RAM restore also does not establish complete resumed learning
 state; replay the full learning prefix when that state is required.
+
+The [October 24 native-capability study](../capability/README.md) adds physical
+evidence for matched fixed operations, causal contribution of all 11 large-graph
+compute parameter regions, and 32 queued teaching events while a host worker
+blocks. It also separates the runtime's measured 128-slot allocation ceiling
+from a silicon bound and retains the failed 128-event stage. None establishes
+an arbitrary instruction loader or a replacement native update algorithm.
