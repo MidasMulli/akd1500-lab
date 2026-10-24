@@ -8,6 +8,30 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Bounded native feedback — October 24, 2026
+
+**One seed produces 32 dependent native steps while the Nano control worker sleeps.**
+Each queued step reads the preceding output directly from device SRAM. One FNP3
+learns; a fixed second FNP3 relays the output. Across three initializations,
+native learning makes 64 connection replacements per seed and responds to all
+12 later partial-cue queries; frozen learning responds to none. Repeated-seed
+and severed-feedback controls each respond to 3/12. Exact CPU replay matches.
+
+The state cycle is programmed and the schedule is finite. It stops when the
+prepared jobs are exhausted. This qualifies bounded native feedback and seeded
+rehearsal, not indefinite autonomy, external knowledge discovery or efficiency.
+
+![Recorded bounded native feedback](visual/native-feedback-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-feedback-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-feedback-4k60.mp4) ·
+[tools and audit](recurrence/README.md) ·
+[assessment and boundaries](studies/20261024-native-feedback/ASSESSMENT.md)
+
+```sh
+python -m recurrence.archive audit
+```
+
 ## Input-gated native learning — October 24, 2026
 
 **Prediction queries preserve connection memory while native learning stays enabled.**

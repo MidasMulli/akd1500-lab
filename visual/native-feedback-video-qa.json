@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "akd-native-feedback-1080p60.mp4",
+      "bytes": 6524521,
+      "sha256": "667fc2d48c7e13bb632daba9398a61d46f0cea732469839982ef6c4b03460803",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "24.000000",
+      "nb_frames": "1440",
+      "decoded_frames": 1440,
+      "unique_decoded_frames": 1440,
+      "fast_start": true
+    },
+    {
+      "file": "akd-native-feedback-4k60.mp4",
+      "bytes": 70656758,
+      "sha256": "a7df3842824c8b0287b11f1f0a085ac89fb0ddd1b3079dbf81d227a1e82e1760",
+      "width": 3840,
+      "height": 2160,
+      "r_frame_rate": "60/1",
+      "duration": "24.000000",
+      "nb_frames": "1440",
+      "decoded_frames": 1440,
+      "unique_decoded_frames": 1440,
+      "fast_start": true
+    }
+  ]
+}

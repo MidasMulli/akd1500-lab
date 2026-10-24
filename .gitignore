@@ -58,3 +58,5 @@ studies/*/*.rows.json
 !visual/fnp2-window-1080p60.mp4
 !visual/input-gated-learning-4k60.mp4
 !visual/input-gated-learning-1080p60.mp4
+!visual/native-feedback-4k60.mp4
+!visual/native-feedback-1080p60.mp4

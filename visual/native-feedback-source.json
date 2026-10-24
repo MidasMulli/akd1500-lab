@@ -1,0 +1,18 @@
+{
+  "status": "AUDITED_NATIVE_FEEDBACK_REPLAY",
+  "archive_sha256": "2475327faeb1d424a758727a01ce794f4037d24f4750a907d7ec6113640b939a",
+  "events_sha256": "1c8941ce96a36e02e1695a046fb9a6130c8ecf089e1bed1b12532893436c998e",
+  "renderer_sha256": "6f37ba11cad88e7e6ad8939c268c3003a75e4394994d5222d9f5bba1cc37cf83",
+  "scope": "Returned binary outputs are measured in one 32-step run per arm; connection snapshots come from independent prefix runs. Relay identity and fixed SRAM are verified. Camera, geometry and expanded timing are schematic; no electrical spike timestamps.",
+  "electrical_spike_timings_observed": false,
+  "outputs": {
+    "queue-end.png": "9c4e9f40a77a9441a7c3c60088465cd60a9e6eb64444d38e22a33d468cda8b25",
+    "recall.png": "7074edda353d0452d90027c4b8abbe9bda05cad07b3c4533896de8fe67b8aeb5",
+    "first-edit.png": "c0e8628e7db4b09b3d759288eda760a74b2960651c79f0bf3f4330b798af2c6e",
+    "full-memory.png": "025ec2ad88c8a41852349f65e6434a6da889beca6c4fbbcc8023b786cd64f95a",
+    "seed.png": "71bd55baf83693e736098671e8ed518b66e83f37eef8bf01055b40889e987868",
+    "akd-native-feedback-4k60.mp4": "a7df3842824c8b0287b11f1f0a085ac89fb0ddd1b3079dbf81d227a1e82e1760",
+    "akd-native-feedback-1080p60.mp4": "667fc2d48c7e13bb632daba9398a61d46f0cea732469839982ef6c4b03460803",
+    "feedback.png": "c4731dcfe0cd84058bdf1699169282e85fb76567c0436114510e2cebb4a56494"
+  }
+}

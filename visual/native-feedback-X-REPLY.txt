@@ -1,0 +1,9 @@
+Another step with the AKD1500.
+
+I give it one seed and a 32-step schedule, then the Nano control worker sleeps. Each chip output becomes the next input through device SRAM, with native learning enabled throughout.
+
+Across three initializations, it made 64 connection replacements per run. Later partial cues triggered responses in 12/12 checks; frozen learning gave 0/12.
+
+The state cycle is programmed and bounded. It stops when the schedule ends.
+
+Recorded outputs and connection readbacks; schematic replay, time expanded.
