@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_AT_CPU_GATE",
+  "utc": "2026-10-24T01:58:15.832016+00:00",
+  "physical_sessions": 0,
+  "native_forwards": 0,
+  "reason": "Neither candidate passed development-seed quality gate; no physical runs admitted"
+}

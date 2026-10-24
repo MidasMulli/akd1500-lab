@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_AT_CPU_GATE",
+  "utc": "2026-10-24T02:01:05.365190+00:00",
+  "physical_sessions": 0,
+  "native_forwards": 0,
+  "reason": "Both conservative policies preserved quality but failed required25% reduction in adaptation teaching jobs"
+}

@@ -1,0 +1,384 @@
+{
+  "status": "READ_ONLY_SOURCE_AUDIT",
+  "runtime_source_files": 170,
+  "source_inventory": {
+    "src/input_conversion.cpp": "e03a5f8d0d173071c8afcdd8ba03f78cec1de7dd6bf75b02789ad1b510ed67ef",
+    "src/reset_nps.cpp": "30d278f0b7f4d487fc737cce161607922d022cce06bb07099cbf42d33bd8caba",
+    "src/dma_engine.h": "21b798f36cf6b6c56442f1f8acefa078351004dd874bb9b407978058700073cf",
+    "src/dma_events_ops.h": "5f48e1fb90fdc616ab377a546bd90354d4ddad29cf225ae38ca70ea9a9129d91",
+    "src/tensor.cpp": "e3e857daab645f250f61ffaea00f095092edbe1db9a7198336b8ea0559e3a63b",
+    "src/program_info.cpp": "efba72c3bdc6ede94c5449a9b749631ad6f34d39e2937548bd8f5a45d0888353",
+    "src/dma_events_ops.cpp": "dbe5a230fd207d3dca059460f3ceed5ae0d78f8feea5585713f5cc4c432a961f",
+    "src/dma_config_mem_rw.h": "a992e0cbc40b5072f9566a72d888cd6c78f41d9bcb2c714158b6d2a2182b7c8f",
+    "src/dma_engine.cpp": "b216836ab6f05e1335387ae69c401ba470c6bd8d9f8f136d2b4a288090d84fbe",
+    "src/fnp2_mem_conf_reg.h": "a89d1e61064c9eb6129dbc6e54d5236c443248793239e28a685f42fbdf28e17f",
+    "src/io_ops.h": "1bfdb8018c8a9edc0f56e5434732d7fa58bd328b058286ed182f4edb9216a7ba",
+    "src/dma_events_format.h": "6c1617be73452c63157d327d4bd9c674468596b0c72b93cc62934b524fababdd",
+    "src/external_mem_mgr.cpp": "0da8fb77c990448139217d90ef6ffc8a8bf9885c0f0fae757679595beda967f3",
+    "src/dma_hrc_events.h": "33addbc5fc6295f4fe906c46be8751e5428d9ac400bb78cc58d73d991a6d4b37",
+    "src/memory_mgr.h": "747b102217ab766d9507630c76a33612aca0c8558825a6736e4b7474cb7c0d16",
+    "src/sparse.cpp": "c6eb9f8d1dc4b3f1523e33b5207568af079d01abc5be25b70e58aa72976c76c9",
+    "src/dma_config_mem_rw.cpp": "c2eae842f543d5d63f7c11677d8add82b07a8e586d7390a3f1883f19369ca2f4",
+    "src/dma_config_ops.cpp": "3b897ea1865a02fad8fa396084fcb71050deaf38161cae5a2cbb9daa0a9f67a2",
+    "src/skipdma_ops.h": "6fc192ddac02c6c5265bc499571b1c76f310efb7c1ee16ff6d6a3faec6d05a1e",
+    "src/device_programmer.h": "3825acafadb1767b5d4469ac6488ebb0b60238b8c1fcc5ecc3db3fe34b0dec8d",
+    "src/dma_config_format.h": "4fab076a7d02f4ec4457fe91df8a7d05119911d1d8f8bd3c9ebad0a4173782bb",
+    "src/dma_events.h": "4582df27ff447cdcd991b711a41b48853e904c55d25bdb48fbe62588287751ed",
+    "src/pico_conversion.h": "acb0c5f77ca724a1bb946b15504074992e1025627d9bef18e225b5c86227f186",
+    "src/device_programmer.cpp": "9dbdfc527c21edf02308c5fbe6ee5634f061cc3f4fd054edd901b07a1dd24537",
+    "src/skipdma_ops.cpp": "38adafe9bf6f0c00f287abad7a2e05c91ac7276f54671714b50821b6d5ab7b13",
+    "src/pico_conversion.cpp": "6c8fd67562fbdc9f2bb0eb49ac0e2fe87758c35c70fca2df5a5545d8b6d7b355",
+    "src/dma_engine_ops.h": "9fcb64125c44fe2323bab9c15799feecd8a2c39bfef1c77593a5e8b516beb93d",
+    "src/version.cpp": "253fa1f2b5a1a7220c20225c01d6039adc0c288433b9c891e0855cbd31bf1647",
+    "src/multipass_memory.h": "0dd62d5d66d1085cefa2ea3f026bf6dcd054ea18ec6a29dd8d53741d057f21e9",
+    "src/hardware_device_impl.cpp": "f2437fc53dda79ce4d0ff77602e593ba931b05d5aa25c4f2075726f553798b9c",
+    "src/hardware_device_impl.h": "5be8c649ec7455e9518c4b8459719270950376d16e2661f42dd05bfecc8897a8",
+    "src/device_memory.h": "0e01798a67b0b80da23be91e250ea9c59a409736d8d7ddb759c0da535fc8cffa",
+    "src/external_mem_mgr.h": "331693764556cc96ec456adcb34f17a0615541e640502e8afd5f98c6f1f3728f",
+    "src/program_memory_info.cpp": "ebbf70010774d78ac783629e8dab7c232c24e8221b8cda8be62d97a0b1146e3a",
+    "src/multipass_memory.cpp": "758cfb37c7957b75fc8ce040cd342c493688531df4b540d5d8e167d076c6286b",
+    "src/hw_version.cpp": "eeb62847d36eae99add8314ea9f70557c3f047b51cda50f9ae4c91a2bc3c2bdf",
+    "src/dma_cnp_events.h": "19e566e467f57c839851cb6ae4329273fba07a73d09990daa60381541b2d9a34",
+    "src/registers_reset.h": "3b14527e730057e1b22eba63f3e5a0f3d2f988ce0b8a2d72217c55f2cb30788a",
+    "src/memory_utils.h": "7dc459bf38c791aa909c7b9d5ed74bcc8b1aebad3e13ed5c3a96608043f905b2",
+    "src/dma_fnp_events.h": "c0408ac02ce1c974c2e02a2941a2e71f8a34d03ab34b9646e12283cd9dab06f7",
+    "src/memory_utils.cpp": "0f2e6bf35f5051b117a3fbbe6bc412bbb9632e8bd9c5f56f59b5374d8132ed83",
+    "src/pipeline_state.h": "5e2b49b6abed7254c3380303382d67b4358617ebdbe62939a1e702e6e5fdc5f3",
+    "src/dense.cpp": "2cb580e4184cdaa8e3bcc97e2d940f091811df4d1f1d355c85e1341c96aae184",
+    "src/hardware_device.cpp": "a37e1d67fd7b481febdf0214ce5a4192ef9636b3085da4a6af61535b5bdd39b8",
+    "src/dma_desc_format.h": "55c87977bd93cdc7c7772a04851efa8c40225c6c7ed9763057c2f432da6c9313",
+    "src/reset_nps.h": "718fc080a7d77a6569d0df03b9f7a50beb6831963b5f4aa7e0da42271d1a7b04",
+    "src/memory_mgr.cpp": "f8baf68283bef1e17227423e2e3248228e68f6c11896557fdcab81a404d9b648",
+    "src/dma_desc_ops.cpp": "1a42498437cedc43f5337012d79a964738f7f87b81e872624e70961a9705ab6b",
+    "src/dma_desc_ops.h": "f2f8021a6a8b62b7e44b237ee1988721eae01a0f1b1ae2ace5abcea992c4c537",
+    "api/akd1500/akd1500_spi_driver.h": "cae68939b3d1d2deef77e913030708e68e62ecd2d86aee73b33941490b82c928",
+    "api/akd1500/memory_mapping.h": "8ffe6c7c60cdceb26152f952e96cbf8183eb13a3f7f01464bc7b699aecb0c494",
+    "api/akd1500/abstract_spi_driver.h": "55447830d8389273cd2328c15c053bae1196d3f89684f09c286eac5e98901e28",
+    "api/akd1500/spi_flash.h": "e790a01bff4fba9000f115e4c56c97945fc2e1acf5a5e2e717dc65de88d2387e",
+    "api/infra/exports.h": "986b69de57070518d778db0e90b6a47ce45e5e9d7abe218003a4ed4345079326",
+    "api/infra/hardware_driver.h": "ca3bac9a23ff0492ef11405aa18c119924d763782c17acfb9261b71dc3b3ca34",
+    "api/infra/registers_common.h": "2bc31172baf467d159ee9adc8b486a8d950a930682398c7f2a036661201120f3",
+    "api/infra/int_ops.h": "76120a16d9b1f8e252775e526579eee4f52eea1b224557f6a0a4af13ea07bb2a",
+    "api/infra/system.h": "ca6e3643b4e870f0504e2b13248735160d57843acbe55b58493ee931ca427b40",
+    "api/akd1000/registers_soc.h": "404e49151ca03abedd6569facbdac59ace336baea6b048b830775696540ac237",
+    "api/akd1000/bare_metal_driver.h": "418f707c1c7a8ed25fed44c0781dd7112bb9137295d3d3391976c333582e990b",
+    "api/akd1000/memory_mapping.h": "54ab1d86b661f62e0e4773d2994ccfc737bb871b6fbc2e8e78d5d41adac26e1a",
+    "api/akida/hardware_device.h": "361ee3681f7aa171f41a2a6cd1417d87db3b74bdd537656fc45c2d285281dc45",
+    "api/akida/registers_top_level.h": "3d523e72f8af0d5a4220e10b8def448ed0ffee3db00a0646d17b86e09acfa931",
+    "api/akida/shape.h": "2604d84d25307c3ceb12eb337234745ac660470b89e56b05e798130a53239de4",
+    "api/akida/np.h": "b9f807593fb3e266a6bebd7d888048fdbddbfe23159ae54d381126f514a2547e",
+    "api/akida/input_conversion.h": "2cde65c9b77812d371562fc366b12c804b2b90d346d0d6a158a21f5e6a14620f",
+    "api/akida/version.h": "7b204073239b6ebe81f011569b6a6738896cd297304779bd19e60fa3054e65d4",
+    "api/akida/hardware_type.h": "d13e2cecf7a4af37d1470a1ce2c4a137139a5c37a1016b05eb10ce492ef7a532",
+    "api/akida/hardware_ident.h": "374cba64db19f5d146f58215750e433ed0208135d9fcb82bd4a73873bc13bf86",
+    "api/akida/ip_version.h": "a2564fd84d06a46c56bb3c34086aeb40a9b71d6f17cbd78569569cc3709b4993",
+    "api/akida/dense.h": "171d979f22d98246b88fc71beb3cda0bad23318dda9f30cb44d9cef458978dde",
+    "api/akida/tensor.h": "5cd4d23af5daf0646afee6f61cea85314cb6b8172bab576f06b8f5474488f4bc",
+    "api/akida/hw_version.h": "90d0d2f6e5ad489ff0acc54dde6adce2c0e00f561deecd903a32538c248502e6",
+    "api/akida/program_memory_info.h": "85441b9143183a5f06ee1606e0ff24b09c6acc9105034993d60b4dcf2d218e35",
+    "api/akida/span.h": "23d21d31c2866d4dca5030ffc83a55efb94ffefe18a0d17c3dbea8c1b1f9862f",
+    "api/akida/sparse.h": "fe74702d45265c8335afb47070f4830b043277171919f7213d327e2c4277bbbc",
+    "api/akida/program_info.h": "d85f8c22f93b23b4013fe06cc870742ffe5d84cf727cd0ea6aa539b626fd7969",
+    "api/akida/device_capability.h": "c7014951779feecc41817eca688fa00d87eec8f8314e1c6b8b8c7681d6be5053",
+    "inc/engine/dma_config_ops.h": "35716400cc998d940a020b514016353cd534534b35b421ff72293f4ecd6cdf35",
+    "inc/engine/int_conversion.h": "417cf19ad39ec77fa15c4a542ac6c073a95409362b1b27dff04de30a26b9556c",
+    "inc/engine/dma.h": "f6f5761330c278640403f34dec4a8a58e7af3537065ca0580b5959139f830da2",
+    "inc/engine/registers_dma_engine.h": "890bc3f47e16da8fd6db7afa92288f4b4eb0d2a36f7eb92f28c2667c66584ffa",
+    "inc/engine/registers_skipdma.h": "1cf47950552991b4c6d6711f3a853f79c0392370c11f50630f8d3fc88cafe902",
+    "inc/engine/akida_program_info_generated.h": "ea08ec523d67bf14c32f1e6a285cc16ec0be0681f6d983214eb7b712fc59eda6",
+    "inc/engine/flatbuffers_utils.h": "46da365c60dbf0648834ac48abbb113ed34e0d167884f07dc5f04f93febc1a56",
+    "inc/engine/akida_np_info_generated.h": "9b5598a67f3470a3b63bc923ec75e04a3f6fdfccf0b0c0c0d688ec280e647b27",
+    "devices/akd1500/spi_flash.cpp": "a6cc05a8f3b9ba362e56681795e5c20f9654b36a57f64431fd662bf3565f0a86",
+    "devices/akd1500/akd1500_spi_driver.cpp": "2c18ea3eb6556a0dc7fc322b61153e1b3ed32fada82ca373f61c4822a241436c",
+    "devices/akd1000/bare_metal_driver.cpp": "13cbaca86566b35ff99e506aa5eb072bd2eea3f814f21c254c303eb9cf64e921",
+    "test/akd1500/simple_separable_convolution/test.cpp": "4949b3ca507fec01841128f19a3c1f4e24173822b37794bd7dfa978aa27ccc3e",
+    "test/akd1500/simple_separable_convolution/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1500/simple_separable_convolution/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1500/simple_separable_convolution/test.h": "b0b29171023d91dcc4580eb43f39c506b1e44e1b5efe0da413e51b8faa1d5c4d",
+    "test/akd1500/simple_separable_convolution/main.cpp": "6713966a3964691456a05a709631d62b41f7c836473be4518b17f4e3d140401a",
+    "test/akd1500/simple_separable_convolution/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1500/simple_separable_convolution/outputs.cpp": "7634a203266229fd1c639f93f588509492bb2051adbfad9410bf328a692adbc5",
+    "test/akd1500/simple_separable_convolution/program.cpp": "317a3940923f1b315bab968617cc9dc0fedb5be6012453b2023a518beab95597",
+    "test/akd1500/simple_separable_convolution/inputs.cpp": "8240d2cfd5baae9627bdf34b9067dfaeab632badef26451d17c03a5eb3ba6c98",
+    "test/akd1500/simple_convolution/test.cpp": "9d7d75b35840e1ebae24ae732627fc607e582787025199fd6e38873205e6a6b1",
+    "test/akd1500/simple_convolution/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1500/simple_convolution/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1500/simple_convolution/test.h": "4107641afec7dd859da64cd720cfed6daeb8552a181d34e3cdc46b0df054948d",
+    "test/akd1500/simple_convolution/main.cpp": "796ac8aea70148c0f4427061e6a310a9fc297dd6601eb7ab9d3d5de95eccc536",
+    "test/akd1500/simple_convolution/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1500/simple_convolution/outputs.cpp": "5485c1d5d0fa4f0a68b848a819f4af7270d5166a752a49042f373c268103c765",
+    "test/akd1500/simple_convolution/program.cpp": "80413507a80c1e4e3fecadc824dddbdae59e0db29b98d61030c03b9ee3e9184a",
+    "test/akd1500/simple_convolution/inputs.cpp": "8240d2cfd5baae9627bdf34b9067dfaeab632badef26451d17c03a5eb3ba6c98",
+    "test/akd1500/simple_fully_connected/test.cpp": "102a9afcebfca5edd8b29e18e56936d500d0811f8e96acde34c22a4d26c28709",
+    "test/akd1500/simple_fully_connected/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1500/simple_fully_connected/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1500/simple_fully_connected/test.h": "7dc6915926b5c3ef66163961d8d9caf18716a256a4a338686f83ddf9d9c54974",
+    "test/akd1500/simple_fully_connected/main.cpp": "c635a88a3066f3c3f0390784d891ae5fdef805cc1ee2984eca7aaf6f0cf8ad9c",
+    "test/akd1500/simple_fully_connected/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1500/simple_fully_connected/outputs.cpp": "6e950d95260c3580f09ea5bf1cbf22ef6332a2f02927aea160a621014fe04528",
+    "test/akd1500/simple_fully_connected/program.cpp": "62c39d5cd25679e881d7ef8233ccc8e23ee899ee778090c89f84c17bada4e43c",
+    "test/akd1500/simple_fully_connected/inputs.cpp": "d41078c8a56d890111702767d1b811d27ade774dbd89b2bb1d1a0af637f39018",
+    "test/akd1000/simple_hrc/test.cpp": "0d072cfa3bfb8694172d6e2754c5b8ef194244c296fa47b2de6feeed5262ce34",
+    "test/akd1000/simple_hrc/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/simple_hrc/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/simple_hrc/test.h": "bb451e0c4ce1a1edbaee6199e751cff4aa978d15c90403358ed38f41f1e9b0da",
+    "test/akd1000/simple_hrc/main.cpp": "135e3fc0c646c5527f634b5de32bdc3d6ba7195e24df6c9ccb86a46b619083a3",
+    "test/akd1000/simple_hrc/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/simple_hrc/outputs.cpp": "749d3325be9cd9cc001386cebf0368c7435e0d34eba207b6149a98412dd740d4",
+    "test/akd1000/simple_hrc/program.cpp": "9f44bfb1ac332bcb72654cd2483d28abb7cbe7382c66be12ba556b475aa7e2af",
+    "test/akd1000/simple_hrc/inputs.cpp": "29b8882537182acd73c2301fb7c07a42973ce22ef61c9dc2f32a64f755dc8646",
+    "test/akd1000/simple_sep_conv/test.cpp": "322e711a06f6897aed69b1162eb5d557bf2354d87c6f0fce6459abac9a7d7fb3",
+    "test/akd1000/simple_sep_conv/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/simple_sep_conv/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/simple_sep_conv/test.h": "b7a04743c2715d318d77cb7d2cb33164fd2e4a2f4411475993170368549fe5e3",
+    "test/akd1000/simple_sep_conv/main.cpp": "e431ecb46ceb0f6688c97a13e09c604475eb308510a350c0a9b8cbdf585466dd",
+    "test/akd1000/simple_sep_conv/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/simple_sep_conv/outputs.cpp": "afd42fce2c5b850c1931117e8b36ccc675137a46486a42021a3fa09e623e3261",
+    "test/akd1000/simple_sep_conv/program.cpp": "f9dffaf1ef54acc6fb161bff7ed8a1d1eb67ede0860608d816d61cb34865c46e",
+    "test/akd1000/simple_sep_conv/inputs.cpp": "8240d2cfd5baae9627bdf34b9067dfaeab632badef26451d17c03a5eb3ba6c98",
+    "test/akd1000/simple_conv/test.cpp": "4b778fcd47836315447c2853a730824b301035b2f1d389418fbec9a2477fce1a",
+    "test/akd1000/simple_conv/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/simple_conv/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/simple_conv/test.h": "c0dc5c90a502bc710dc132c91aa5e90bf17f0939bc2ddd25a755310330963d62",
+    "test/akd1000/simple_conv/main.cpp": "a2052b05689a3e6acaf849b6577aa6ad7c474e004201c4ca21d720cf2f88d750",
+    "test/akd1000/simple_conv/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/simple_conv/outputs.cpp": "72dfa43318ae3bfc977869bf769bb56602df0ed39f09396ce801a053fee4d48b",
+    "test/akd1000/simple_conv/program.cpp": "8ab6ec629a246ccf71cb2f1f35b010bf88681593bf0cc9b2e2f29111fe21fc61",
+    "test/akd1000/simple_conv/inputs.cpp": "8240d2cfd5baae9627bdf34b9067dfaeab632badef26451d17c03a5eb3ba6c98",
+    "test/akd1000/test_multiple_inputs/test.cpp": "0f6d684422ac4d8afeed206d4267e3c28aed0a7d3b52709daf6f30ee93d90bb4",
+    "test/akd1000/test_multiple_inputs/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/test_multiple_inputs/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/test_multiple_inputs/test.h": "47dd0a164e46b6f091ffbc706a37c2474ea075f6fcb46771a1cb87c4d8f4d2c7",
+    "test/akd1000/test_multiple_inputs/main.cpp": "0cf6f234dec2c29143f675f67ddb5fde95e02ad9466b48014dca00b1f2070783",
+    "test/akd1000/test_multiple_inputs/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/test_multiple_inputs/outputs.cpp": "4734360e3d4b074c1de0c94b49068fdbd2ec0965d18a365c6b113b3a4bebd065",
+    "test/akd1000/test_multiple_inputs/program.cpp": "444f0133a09db6076d196c7460493ffd676f3786e026f5998ef7c0feefcbf30f",
+    "test/akd1000/test_multiple_inputs/inputs.cpp": "83b5ac90aa96f16b69ca2ee1851eb44df0c7d6b9be372a11c0fe883b87aa2dbd",
+    "test/akd1000/test_fnp2/test.cpp": "d4c860544ffd874bdd657ccead2a2360812c61070c0453b54dd305356baf2d75",
+    "test/akd1000/test_fnp2/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/test_fnp2/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/test_fnp2/test.h": "e15658e5ff5f1ee907dd9417c0a5a4f5c416c81c855698097f3c612501a36540",
+    "test/akd1000/test_fnp2/main.cpp": "9dc7f3dbcaa5f460d50cfcd57dc4b92d1e2a3363bcb6ed48d74adea27adbe929",
+    "test/akd1000/test_fnp2/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/test_fnp2/outputs.cpp": "904c57f693f5cd52291be8518487b97b4ead5f262760ee9b766a3ee211c508dc",
+    "test/akd1000/test_fnp2/program.cpp": "7c10da9caad9584f0ddced41511310c7bf223cd7e1bc594f98fbb819353149db",
+    "test/akd1000/test_fnp2/inputs.cpp": "9558b2d753673d46a5e07fc3c1b3759ee64ea8000df93adbf931a32f91416542",
+    "test/akd1000/simple_conv_evaluate/test.cpp": "f2e5d73d510aa3d2ccab5fee8e0f5439737526ba3fead04d1e8a9ec72fd25f62",
+    "test/akd1000/simple_conv_evaluate/inputs.h": "b697ee9e55a3d41a19e7080a199b7ddd33412944b1502636f31950680f0096d0",
+    "test/akd1000/simple_conv_evaluate/program.h": "8da1270765864cf417a3b1aa93c65c159260e68cccd9aec6114863616e08b3f7",
+    "test/akd1000/simple_conv_evaluate/test.h": "f8505131e043bb2b8a2fac65f5f57f7a0b3be59632ff2e37f744a99413edb4c3",
+    "test/akd1000/simple_conv_evaluate/main.cpp": "c4434f9990dbe925464300ed294c2f29f73f144730267fb3cc20d5a39ba13bee",
+    "test/akd1000/simple_conv_evaluate/outputs.h": "0aa127dc0ac6e7b0d29fdacf3e7568773a90c490459de4d0478fce7fd22a1d29",
+    "test/akd1000/simple_conv_evaluate/outputs.cpp": "e15ecbb61eb84378c30dd86d2605aaebb713964c0e0a9b77b650fde2a69834d9",
+    "test/akd1000/simple_conv_evaluate/program.cpp": "8ab6ec629a246ccf71cb2f1f35b010bf88681593bf0cc9b2e2f29111fe21fc61",
+    "test/akd1000/simple_conv_evaluate/inputs.cpp": "8240d2cfd5baae9627bdf34b9067dfaeab632badef26451d17c03a5eb3ba6c98"
+  },
+  "reviewed_entrypoints": [
+    {
+      "path": "api/akida/hardware_device.h",
+      "sha256": "361ee3681f7aa171f41a2a6cd1417d87db3b74bdd537656fc45c2d285281dc45",
+      "symbols": {
+        "toggle_learn": [
+          171
+        ],
+        "learn_mem": [
+          183,
+          191,
+          193,
+          194,
+          196,
+          205
+        ],
+        "update_learn_mem": [
+          205
+        ],
+        "program": [
+          26,
+          52,
+          111,
+          112,
+          114,
+          115,
+          116,
+          118,
+          120,
+          123,
+          126,
+          127,
+          128,
+          129,
+          132,
+          134,
+          135,
+          136,
+          139,
+          140,
+          142,
+          156,
+          168,
+          174,
+          175,
+          180,
+          186,
+          208,
+          211,
+          214,
+          225,
+          233,
+          235,
+          237,
+          243,
+          249,
+          259,
+          294
+        ]
+      }
+    },
+    {
+      "path": "api/akida/program_info.h",
+      "sha256": "d85f8c22f93b23b4013fe06cc870742ffe5d84cf727cd0ea6aa539b626fd7969",
+      "symbols": {
+        "serialized_program": [
+          36,
+          43,
+          50,
+          54
+        ],
+        "can_learn": [
+          99
+        ],
+        "number_of_passes": [
+          116
+        ]
+      }
+    },
+    {
+      "path": "src/device_programmer.cpp",
+      "sha256": "9dbdfc527c21edf02308c5fbe6ee5634f061cc3f4fd054edd901b07a1dd24537",
+      "symbols": {
+        "program_single_pass": [
+          91
+        ],
+        "program_record": [
+          98,
+          109,
+          169,
+          196,
+          473
+        ],
+        "program_track": [
+          108,
+          189,
+          312,
+          448,
+          480
+        ],
+        "configure_learning_mode_single_pass": [
+          302
+        ]
+      }
+    },
+    {
+      "path": "src/hardware_device_impl.cpp",
+      "sha256": "f2437fc53dda79ce4d0ff77602e593ba931b05d5aa25c4f2075726f553798b9c",
+      "symbols": {
+        "toggle_learn": [
+          587
+        ],
+        "pipeline": [
+          147,
+          148,
+          150,
+          302,
+          303,
+          304,
+          347,
+          349,
+          440,
+          441,
+          451,
+          497,
+          502,
+          507,
+          508,
+          509,
+          510,
+          523,
+          538,
+          557,
+          565,
+          567,
+          613,
+          655,
+          661,
+          662,
+          663,
+          691,
+          731,
+          770,
+          824,
+          841,
+          850
+        ],
+        "update_learn_mem": [
+          879,
+          881
+        ]
+      }
+    },
+    {
+      "path": "src/dma_engine.cpp",
+      "sha256": "b216836ab6f05e1335387ae69c401ba470c6bd8d9f8f136d2b4a288090d84fbe",
+      "symbols": {
+        "toggle_pipeline": [
+          291
+        ]
+      }
+    }
+  ],
+  "keyword_locations": {
+    "microcode": [],
+    "firmware": [
+      {
+        "path": "api/akd1000/memory_mapping.h",
+        "lines": [
+          14
+        ]
+      }
+    ],
+    "opcode": [
+      {
+        "path": "devices/akd1500/spi_flash.cpp",
+        "lines": [
+          71
+        ]
+      }
+    ],
+    "instruction": [
+      {
+        "path": "devices/akd1500/spi_flash.cpp",
+        "lines": [
+          46,
+          53,
+          60,
+          62
+        ]
+      }
+    ]
+  },
+  "disposition": {
+    "host_runtime": "User-authored transport/runtime and known descriptor/configuration tracks are exercised",
+    "native_graph": "Compiler-generated graph/weights/routing can be composed with checked adapters",
+    "learning_configuration": "Native learning mode and learning RAM are exposed; optimizer parameters configure the built-in rule",
+    "arbitrary_learning_instruction_upload": "Not established in the reviewed API/source; this is not proof of physical impossibility",
+    "fixed_logic_vs_internal_microcode": "Unresolved by this source audit",
+    "akidatag_firmware": "Official AkidaTag firmware targets an external Nordic nRF5340 host; it does not establish AKD learning-engine replacement"
+  },
+  "primary_sources": [
+    "https://doc.brainchipinc.com/api_reference/akida_apis.html",
+    "https://doc.brainchipinc.com/examples/edge/plot_2_edge_learning_parameters.html",
+    "https://github.com/Brainchip-Inc/akida_examples/blob/main/doc/user_guide/engine.rst",
+    "https://github.com/Brainchip-Inc/AkidaTag",
+    "https://github.com/Brainchip-Inc/AkidaTag/blob/main/src/deps/VENDORING.md"
+  ]
+}

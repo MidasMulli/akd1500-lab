@@ -20,11 +20,17 @@ int main(int argc, char** argv) {
   need(bool(meta)&&n>=128&&n<=1024&&n%32==0&&count>0&&count<=1024, "bounded metal fixture");
   outputs=learner&&!compact?u:2;
   int threshold=0; std::vector<uint32_t> fixed;
+  std::vector<std::vector<uint32_t>> fixed_regions;
   if(compact) {
    std::ifstream contract(f+".threshold");contract>>threshold;
    need(bool(contract)&&classes==2&&u%2==0,"compact contract");
    fixed=load<uint32_t>(f+".fixed.ram");need(fixed.size()>2,"fixed readout packet");
   }
+  {std::ifstream regions(f+".regions");if(regions.good()){
+   int size;regions>>size;need(bool(regions)&&!learner&&size>=1&&size<=8,"fixed region count");
+   for(int j=0;j<size;j++){int words;regions>>words;auto a=load<uint32_t>(f+".packet"+std::to_string(j)+".ram");
+    need(bool(regions)&&words>2&&words<=20000&&a.size()==size_t(words),"fixed memory region shape");fixed_regions.push_back(a);}
+  }}
   auto inputs=load<uint8_t>(stream+".inputs");
   auto labels=load<int32_t>(stream+".labels");
   auto modes=load<uint8_t>(stream+".modes");
@@ -46,6 +52,7 @@ int main(int argc, char** argv) {
   auto capture=[&]() { return capture_packet(initial); };
   if(learner) { auto got=capture(); dump(out+".initial.ram",got); need(got==initial,"initial full RAM"); }
   if(compact) { auto got=capture_packet(fixed);dump(out+".fixed.initial",got);need(got==fixed,"initial readout RAM"); }
+  for(size_t j=0;j<fixed_regions.size();j++){auto got=capture_packet(fixed_regions[j]);dump(out+".packet"+std::to_string(j)+".initial",got);need(got==fixed_regions[j],"initial fixed-region RAM");}
   dev->toggle_clock_counter(true);
   std::vector<uint32_t> idle; std::vector<int64_t> idle_times;
   for(int delay_us : {0,0,5000,50000}) {
@@ -135,6 +142,7 @@ int main(int argc, char** argv) {
   dump(out+".idle_counter",idle);
   if(learner) { auto final=capture(); dump(out+".final.ram",final); need(final==reference->ram,"frozen suffix changes no native memory"); }
   if(compact) { auto got=capture_packet(fixed);dump(out+".fixed.final",got);need(got==fixed,"final readout RAM"); }
+  for(size_t j=0;j<fixed_regions.size();j++){auto got=capture_packet(fixed_regions[j]);dump(out+".packet"+std::to_string(j)+".final",got);need(got==fixed_regions[j],"final fixed-region RAM");}
   for(auto a:addresses) dev->scratch_free(a);
   dev->scratch_free(address); dev->toggle_clock_counter(false); dev->unprogram(); programmed=false;
   std::cout<<"{\"status\":\"PASS\",\"kind\":\""<<kind<<"\",\"events\":"<<count<<",\"extra_frozen_forwards\":48,\"outputs\":"<<outputs

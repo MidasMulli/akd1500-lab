@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_AT_CPU_GATE",
+  "utc": "2026-10-24T02:05:07.152702+00:00",
+  "physical_sessions": 0,
+  "native_forwards": 0,
+  "reason": "Two of four fresh seeds fail unchanged quality gates; no physical policy experiment admitted"
+}

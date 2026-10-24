@@ -8,6 +8,33 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## A native graph rewrite, with measured limits — October 23, 2026
+
+**16 physical sessions, 2,624 forwards, exact outputs and fixed parameter RAM.**
+An extra native encoder NPU reduces redundant 512-input detector records to 128
+inputs while keeping host I/O identical. With 512 detectors, half-active DMA
+service falls 5.92% and captured parameter payload falls 34.86%. Three temporal
+repeats reproduce the cycle medians. At 256 detectors the extra stage loses;
+fully active 512-detector inputs also lose. Eight queued **zero-activity** inputs
+show 21.05% less monitor service, with preload/drain excluded.
+
+This is a supported native graph rewrite on a synthetic four-copy input domain,
+not a new internal learning algorithm. CPU-only teaching-policy candidates failed
+quality/resource gates and were not admitted to physical learning. No CPU or
+calibrated energy advantage is established.
+
+![Measured native graph rewrite and crossover](visual/native-compaction-4k.png)
+
+[Tools, boundaries and reproduction](kernel/README.md) ·
+[native assessment](studies/20261023-native-compaction/ASSESSMENT.md) ·
+[programmability map](kernel/PROGRAMMABILITY.md) ·
+[failed learning-policy validation](studies/20261023-native-policy-validation/ASSESSMENT.md)
+
+```bash
+python -m kernel.experiment audit-public
+python -m kernel.report
+```
+
 ## Sparse-work and coupled-learning limits — October 23, 2026
 
 **Two follow-up studies: 70 physical sessions, 19,712 forwards and 27,136 complete

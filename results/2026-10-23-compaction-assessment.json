@@ -1,0 +1,397 @@
+{
+  "status": "RAW_RECOUNTED_BOUNDED_NATIVE_GRAPH_IMPROVEMENT",
+  "physical_sessions": 16,
+  "native_forwards": 2624,
+  "physical_parameter_region_readbacks": 80,
+  "widths": [
+    {
+      "detector_records": 256,
+      "paired_sessions": [
+        {
+          "stage": "screen",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 11498.0,
+              "compacted_cycles": 13596.0,
+              "reduction_percent": -18.24665159158114,
+              "direct_host_median_ns": 58562.0,
+              "compacted_host_median_ns": 64226.0
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 11490.0,
+              "compacted_cycles": 13578.0,
+              "reduction_percent": -18.17232375979112,
+              "direct_host_median_ns": 58545.5,
+              "compacted_host_median_ns": 64210.5
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 12009.0,
+              "compacted_cycles": 15037.0,
+              "reduction_percent": -25.21442251644599,
+              "direct_host_median_ns": 60450.0,
+              "compacted_host_median_ns": 68002.0
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              83917,
+              83917,
+              83917
+            ],
+            "compacted_cycles": [
+              82291,
+              82291,
+              82291
+            ],
+            "reduction_percent": [
+              1.9376288475517423,
+              1.9376288475517423,
+              1.9376288475517423
+            ],
+            "direct_release_to_completion_ns": [
+              215943,
+              215943,
+              215783
+            ],
+            "compacted_release_to_completion_ns": [
+              211911,
+              211974,
+              211975
+            ]
+          },
+          "passes_frozen_cost_gate": false
+        },
+        {
+          "stage": "repeat1",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 11498.0,
+              "compacted_cycles": 13596.0,
+              "reduction_percent": -18.24665159158114,
+              "direct_host_median_ns": 58530.0,
+              "compacted_host_median_ns": 64226.0
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 11490.0,
+              "compacted_cycles": 13578.0,
+              "reduction_percent": -18.17232375979112,
+              "direct_host_median_ns": 58530.0,
+              "compacted_host_median_ns": 64226.0
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 12009.0,
+              "compacted_cycles": 15037.0,
+              "reduction_percent": -25.21442251644599,
+              "direct_host_median_ns": 60418.0,
+              "compacted_host_median_ns": 68002.0
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              83917,
+              83917,
+              83917
+            ],
+            "compacted_cycles": [
+              82291,
+              82291,
+              82291
+            ],
+            "reduction_percent": [
+              1.9376288475517423,
+              1.9376288475517423,
+              1.9376288475517423
+            ],
+            "direct_release_to_completion_ns": [
+              215815,
+              215751,
+              215783
+            ],
+            "compacted_release_to_completion_ns": [
+              211975,
+              211815,
+              211687
+            ]
+          },
+          "passes_frozen_cost_gate": false
+        },
+        {
+          "stage": "repeat2",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 11498.0,
+              "compacted_cycles": 13596.0,
+              "reduction_percent": -18.24665159158114,
+              "direct_host_median_ns": 58530.0,
+              "compacted_host_median_ns": 64226.0
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 11490.0,
+              "compacted_cycles": 13578.0,
+              "reduction_percent": -18.17232375979112,
+              "direct_host_median_ns": 58561.0,
+              "compacted_host_median_ns": 64226.0
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 12009.0,
+              "compacted_cycles": 15037.0,
+              "reduction_percent": -25.21442251644599,
+              "direct_host_median_ns": 60450.0,
+              "compacted_host_median_ns": 68002.5
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              83917,
+              83917,
+              83917
+            ],
+            "compacted_cycles": [
+              82291,
+              82291,
+              82291
+            ],
+            "reduction_percent": [
+              1.9376288475517423,
+              1.9376288475517423,
+              1.9376288475517423
+            ],
+            "direct_release_to_completion_ns": [
+              215847,
+              215591,
+              215719
+            ],
+            "compacted_release_to_completion_ns": [
+              213126,
+              211847,
+              211623
+            ]
+          },
+          "passes_frozen_cost_gate": false
+        }
+      ],
+      "captured_parameter_bytes": {
+        "direct": 20576,
+        "compacted": 18528
+      },
+      "captured_parameter_reduction_percent": 9.953343701399685,
+      "gate": "FAIL"
+    },
+    {
+      "detector_records": 512,
+      "paired_sessions": [
+        {
+          "stage": "screen",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 16634.0,
+              "compacted_cycles": 15660.0,
+              "reduction_percent": 5.8554767343994225,
+              "direct_host_median_ns": 71779.0,
+              "compacted_host_median_ns": 69890.0
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 16626.0,
+              "compacted_cycles": 15642.0,
+              "reduction_percent": 5.918440996030316,
+              "direct_host_median_ns": 71778.0,
+              "compacted_host_median_ns": 69890.0
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 17145.0,
+              "compacted_cycles": 18122.0,
+              "reduction_percent": -5.698454359871685,
+              "direct_host_median_ns": 73682.5,
+              "compacted_host_median_ns": 75555.0
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              125005,
+              125005,
+              125005
+            ],
+            "compacted_cycles": [
+              98691,
+              98691,
+              98691
+            ],
+            "reduction_percent": [
+              21.050357985680566,
+              21.050357985680566,
+              21.050357985680566
+            ],
+            "direct_release_to_completion_ns": [
+              320010,
+              319179,
+              319530
+            ],
+            "compacted_release_to_completion_ns": [
+              253224,
+              253000,
+              253064
+            ]
+          },
+          "passes_frozen_cost_gate": true
+        },
+        {
+          "stage": "repeat1",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 16634.0,
+              "compacted_cycles": 15660.0,
+              "reduction_percent": 5.8554767343994225,
+              "direct_host_median_ns": 71778.0,
+              "compacted_host_median_ns": 69922.0
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 16626.0,
+              "compacted_cycles": 15642.0,
+              "reduction_percent": 5.918440996030316,
+              "direct_host_median_ns": 71794.5,
+              "compacted_host_median_ns": 69922.0
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 17145.0,
+              "compacted_cycles": 18122.0,
+              "reduction_percent": -5.698454359871685,
+              "direct_host_median_ns": 73667.0,
+              "compacted_host_median_ns": 75586.0
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              125005,
+              125005,
+              125005
+            ],
+            "compacted_cycles": [
+              98691,
+              98691,
+              98691
+            ],
+            "reduction_percent": [
+              21.050357985680566,
+              21.050357985680566,
+              21.050357985680566
+            ],
+            "direct_release_to_completion_ns": [
+              319403,
+              319530,
+              319338
+            ],
+            "compacted_release_to_completion_ns": [
+              253032,
+              253512,
+              252968
+            ]
+          },
+          "passes_frozen_cost_gate": true
+        },
+        {
+          "stage": "repeat2",
+          "serial": [
+            {
+              "latent_active_bits": 0,
+              "direct_cycles": 16634.0,
+              "compacted_cycles": 15660.0,
+              "reduction_percent": 5.8554767343994225,
+              "direct_host_median_ns": 71778.0,
+              "compacted_host_median_ns": 69906.5
+            },
+            {
+              "latent_active_bits": 64,
+              "direct_cycles": 16626.0,
+              "compacted_cycles": 15642.0,
+              "reduction_percent": 5.918440996030316,
+              "direct_host_median_ns": 71779.0,
+              "compacted_host_median_ns": 69890.0
+            },
+            {
+              "latent_active_bits": 128,
+              "direct_cycles": 17145.0,
+              "compacted_cycles": 18122.0,
+              "reduction_percent": -5.698454359871685,
+              "direct_host_median_ns": 73666.5,
+              "compacted_host_median_ns": 75555.0
+            }
+          ],
+          "burst": {
+            "jobs_per_burst": 8,
+            "latent_active_bits": 0,
+            "direct_cycles": [
+              125005,
+              125005,
+              125005
+            ],
+            "compacted_cycles": [
+              98691,
+              98691,
+              98691
+            ],
+            "reduction_percent": [
+              21.050357985680566,
+              21.050357985680566,
+              21.050357985680566
+            ],
+            "direct_release_to_completion_ns": [
+              319530,
+              319178,
+              319434
+            ],
+            "compacted_release_to_completion_ns": [
+              253640,
+              253128,
+              253256
+            ]
+          },
+          "passes_frozen_cost_gate": true
+        }
+      ],
+      "captured_parameter_bytes": {
+        "direct": 41120,
+        "compacted": 26784
+      },
+      "captured_parameter_reduction_percent": 34.86381322957198,
+      "gate": "PASS"
+    }
+  ],
+  "native_learning_enabled": false,
+  "external_input_bytes": 512,
+  "external_output_integer_counts": 2,
+  "limitations": [
+    "One physical AKD1500; fixed synthetic four-copy input domain and one weight seed.",
+    "Rewrite adds a third NPU. It is not an arbitrary instruction or learning-engine replacement.",
+    "Serial query and queued burst have different timing boundaries and activity conditions.",
+    "Burst suffix is eight zero-activity inputs; output equivalence there is not nonzero-work throughput proof.",
+    "DMA monitor measures buffer service, not arithmetic-only cycles or energy.",
+    "Burst host timing excludes input preload, descriptor construction and result drainage.",
+    "Captured parameter payload excludes other SRAM, configuration and transport memory.",
+    "No CPU or calibrated electrical efficiency advantage is established."
+  ]
+}

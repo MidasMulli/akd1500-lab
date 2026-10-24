@@ -1,5 +1,13 @@
 # Next depth: distinguish shared execution, routing and plastic-state limits
 
+Latest extension: native compaction is now closed with 16 sessions/2624 forwards.
+The extra encoder qualifies the frozen half-active serial/zero-activity burst
+service gate at 512 detectors but fails at 256; fully active 512 inputs also lose.
+See `kernel/README.md`. This identifies a representation/cost crossover, not a
+CPU advantage. Proposed learning-policy screens and conservative validation
+failed qualification, with zero physical learning expansion. Do not replace
+failed seeds or reinterpret the changed resource objective as an original pass.
+
 Status: the sparse-work screen and the four-mask coupled-learning study below
 have now been executed and closed. Their assessments are in
 `studies/20261023-sparse-work/ASSESSMENT.md` and

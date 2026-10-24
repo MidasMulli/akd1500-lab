@@ -1,0 +1,11 @@
+[
+  {
+    "utc": "2026-10-24T02:15:23.183787+00:00",
+    "kind": "POST_CLOSEOUT_TEST_FIXTURE",
+    "failed_test": "test_invalid_burst_cost_rejected",
+    "observation": "The raw-derived-audit equality rejected the changed burst cost before the positive-cost assertion.",
+    "repair": "Corrupt both the test archive and its saved assessment so the independent positive-cost guard is exercised.",
+    "physical_source_changed": false,
+    "physical_rerun": false
+  }
+]

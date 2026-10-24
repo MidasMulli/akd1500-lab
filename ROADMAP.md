@@ -27,6 +27,8 @@ plastic input/teacher paths, followed by a qualified system comparison.
 
 | Layer | Evidence in this repository | Open boundary |
 |---|---|---|
+| Native graph compaction | 16 sessions/2624 forwards; exact outputs/RAM;512-detector half-active service5.92% lower and captured parameter payload34.86% lower | Extra NPU and synthetic four-copy domain;256-detector and fully-active cases lose;21.05% burst gain is zero-activity only; CPU/energy advantage unestablished |
+| Learning-policy screens | Equal-resource delayed-feedback policies, preserved failed repair and fresh four-seed validation | CPU forecasts only; quality/resource gates failed and no native learning run admitted; no internal-algorithm replacement |
 | Native execution resources | Counter-qualified FNP3 width scaling; nearly constant CNP monitor cost when 128 outputs/one CNP grows to 256/two CNPs; exact teaching bursts with pipeline flag OFF and ON | Counter is DMA-path scope, not per-neuron timing; isolate input-word service, mesh contention, concurrent plastic teachers and energy |
 | Host/PCIe | Bounded known-aperture adapter, MMIO counts, input/submission/fetch timing | Confirmed same-score kernel DMA lowers caller CPU; full system CPU/IRQ and card energy remain |
 | Queue | Preserved full-ring publication failure; corrected eight-job/nine-slot burst with exact outputs/RAM | Longer-duration ring wrap, asynchronous producers, fine-grained cycle timing |

@@ -1,0 +1,15 @@
+{
+  "status": "BOUND_TO_COMPLETE_NATIVE_RECOUNT",
+  "hashes": {
+    "results/2026-10-23-native-compaction.json": "8fcf42d2d84ae3ee296472e063cd100540d2d1468d339b68da49eb0927748d98",
+    "results/2026-10-23-native-compaction.npz": "47ce0f0bd8efffb6719742fc738b139a4c9fb7f77d738418dc586522ca33899d",
+    "results/2026-10-23-compaction-assessment.json": "816d256cbd69ad6f70506b682d1ac9c0327d5c36e5516afc4e2c98935acf3735",
+    "kernel/design.py": "64dd2f833cec96a10aa5a33317d9e153f11e4bb288d00010c72616cd589b46f4",
+    "kernel/experiment.py": "de1a5a032ccc40ccc72216e02da007b2b46a6db1de923823957fbe2fb52196bf",
+    "kernel/report.py": "d880d32880d60ca0e21449a6b8dffba1456dfe1f99d6d987ae1173fd4e07a312",
+    "tools/visualize_native_compaction.py": "4d2c1ec7b0417f73a33f5e3dde44bb002bd79103f3d1df39dcc700a46dce395b",
+    "visual/native-compaction-4k.png": "f1d3ea31054fbd2df41dd330e5b389c93c1fa9a45cd661a121318e34410582c8",
+    "visual/native-compaction.svg": "08d7c185ea2dbaeb88f05dc0ad68201cb7eca4ebd78f9b5cc5e10b572c1895c7",
+    "visual/native-compaction-data.csv": "fb00444745dfb6ae60e1e5a8526e09204002158656c4930673c98b0607274a73"
+  }
+}
