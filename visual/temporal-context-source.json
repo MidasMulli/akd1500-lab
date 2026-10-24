@@ -1,0 +1,25 @@
+{
+  "status": "AUDITED_TEMPORAL_CONTEXT_REPLAY",
+  "archive_sha256": "708f297a9586edb13f82249f1278d63a67ec8afcb2d5871003ae2ba0caa7b990",
+  "events_sha256": "03caaae31dcaf4943f77a3d506afc5f63d698257239b764a34225b339c403710",
+  "renderer_sha256": "8f3b57e8b188e5754777f5f8a97cb29ee80b5cb28c76634a7141869ae2c5d978",
+  "scope": "Recorded input/output codes and per-event learning SRAM. Native history is output SRAM, not a hidden neuronal-state trace. Host supplies current symbols and external teaching, and schedules each event. Class activity decoded from returned codes; geometry, flow particles, camera and slowed timing schematic. CPU state machine also passes.",
+  "outputs": {
+    "akd-temporal-context-4k60.mp4": "cf887c44e9ec640f2a2c5a41880cd4c6412632e023980e8e8db948015356b14b",
+    "history-erased.png": "d556d11d719f6ca09c776ac32b19c44155be64589fc8bfe9900123ce38fee402",
+    "teaching.png": "0fdae8465bb70c69f2bc80e540b34619dd773d7e9e35849f745f6d703af89bd0",
+    "incomplete.png": "8490f80b61c3ee4436a86cb061e101eebcf8fb8a7d6250aedd41dcc5f61864a0",
+    "old.png": "59b91a7a10a189fffaa1f617265777602d60e6f26843dc61c66a1f8036002c11",
+    "akd-temporal-context-1080p60.mp4": "cea68f4a59f9d096898c0ae88283815fe751c2b8976b68a27716c6dde1ad996d",
+    "new-rule.png": "783d6f2f8e8f77df9899621ea5f9e790643312192b670f7e8e6ac618edb8df3f",
+    "reversal.png": "d5584c81f3ebd8dfdcc2e345389add8e8876719c5de0cf122fb0bab65519e2f3"
+  },
+  "public_names": {
+    "akd-temporal-context-1080p60.mp4": "temporal-context-1080p60.mp4",
+    "akd-temporal-context-4k60.mp4": "temporal-context-4k60.mp4",
+    "incomplete.png": "temporal-context-4k.png",
+    "history-erased.png": "temporal-context-history-erased-4k.png",
+    "recorded-events.json": "temporal-context-recorded.json",
+    "VIDEO_QA.json": "temporal-context-video-qa.json"
+  }
+}

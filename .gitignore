@@ -73,3 +73,8 @@ studies/*/*_build*.stderr
 !visual/resident-adaptation-1080p60.mp4
 studies/20261024-resident-adaptation/build*.stdout
 studies/20261024-resident-adaptation/build*.stderr
+
+!visual/temporal-context-4k60.mp4
+!visual/temporal-context-1080p60.mp4
+studies/20261024-temporal-context/build*.stdout
+studies/20261024-temporal-context/build*.stderr

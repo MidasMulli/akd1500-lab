@@ -1,0 +1,12 @@
+Continuing with my AKD1500 work
+
+Same resident network, 12 changes between two synthetic rules.
+
+Fresh observations update connections on-chip. Its last output stays in SRAM and feeds later predictions, without reloading weights or resetting thresholds.
+
+Five initializations: 120/120 changed-rule checks and 360/360 unchanged-association checks.
+
+Externally taught, host-paced. CPU control also passes. Recorded replay; schematic layout.
+
+Video: resident-adaptation-1080p60.mp4
+Evidence: https://github.com/MidasMulli/akd1500-lab/tree/main/plasticity

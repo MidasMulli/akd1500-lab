@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "archive_sha256": "708f297a9586edb13f82249f1278d63a67ec8afcb2d5871003ae2ba0caa7b990",
+  "mutations": [
+    {
+      "mutation": "returned_code",
+      "status": "SEMANTIC_REJECTION_PASS"
+    },
+    {
+      "mutation": "learning_mask",
+      "status": "SEMANTIC_REJECTION_PASS"
+    },
+    {
+      "mutation": "native_history_pointer",
+      "status": "SEMANTIC_REJECTION_PASS"
+    },
+    {
+      "mutation": "teacher_class",
+      "status": "SEMANTIC_REJECTION_PASS"
+    },
+    {
+      "mutation": "dwell",
+      "status": "SEMANTIC_REJECTION_PASS"
+    }
+  ]
+}

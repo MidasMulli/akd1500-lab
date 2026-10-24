@@ -8,6 +8,39 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## The same external symbol, different native answers — October 24, 2026
+
+**The preceding chip output supplies context for the next prediction.** A current-only
+external X produces four different answers according to prior context retained in
+device SRAM. The host writes only the current-symbol half of the native output buffer;
+the next descriptor reads the retained history directly. Fresh external labels change
+two associations repeatedly without reloading weights or resetting thresholds.
+
+Across five initializations and eight changes between two synthetic rules, post-teaching
+predictions pass **480/480**, versus **360/480** for frozen and unlabelled controls.
+Erasing only carried history removes all **480** X responses while captured learning
+RAM stays identical to the intact arm at every probe. Ordinary context responses survive.
+Incomplete cues after 1 ms and 20 ms pauses also pass.
+
+![Recorded native carried-context comparison](visual/temporal-context-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/temporal-context-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/temporal-context-4k60.mp4) ·
+[tools and audit](temporal/README.md) ·
+[assessment](studies/20261024-temporal-context/ASSESSMENT.md)
+
+The strong CPU state-machine control also passes **480/480**. This is an engineered,
+two-NPU, host-paced context experiment with external teaching, not discovery of a
+sequence representation, indefinite autonomy or a CPU/energy advantage. It qualifies
+explicit context in output SRAM, separately from the earlier query-history effect
+outside the captured learning bank. All **5,400** forwards and learning-bank boundaries
+independently replay.
+
+```sh
+python -m temporal.archive audit
+python -m temporal.audit_mutations
+```
+
 ## Repeated adaptation in one resident network — October 24, 2026
 
 **Fresh external observations change native memory, and chip-fed predictions continue
