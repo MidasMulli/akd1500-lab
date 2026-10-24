@@ -65,6 +65,7 @@ def main():
     fig.text(.06,.105,'The new FNP3 → fixed CNP communication path requires a validated learning-state adapter.',size=15)
     fig.text(.06,.065,'Earlier two-bank FNP-only learning remains valid. No new CPU-efficiency, energy or autonomous-learning claim.',size=12,color=muted)
     fig.savefig(v/'resident-boundary-4k.png',facecolor=bg);fig.savefig(v/'resident-boundary.svg',facecolor=bg);plt.close(fig)
+    svg=v/'resident-boundary.svg';svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     files=[BASE.with_suffix('.json'),BASE.with_suffix('.npz'),v/'resident-boundary-data.json',v/'resident-boundary-4k.png',Path(__file__)]
     (v/'RESIDENT_BOUNDARY_SOURCE_BINDING.json').write_text(json.dumps(dict(status='NATIVE_FAILURE_AND_COMPILER_ONLY_BOUND',
         hashes={str(p.relative_to(P)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}),indent=2)+'\n')
