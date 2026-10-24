@@ -8,6 +8,46 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Isolated bridge: components pass, mixed handoff fails — October 23, 2026
+
+A follow-up removes learning and custom adapters entirely. The all-FNP network
+and a directly fed CNP network each pass **128/128 native patterns**. The
+compiler-produced FNP→CNP network instead returns class3 for the first class0
+pattern; it stops immediately. Fixed parameter RAM stays unchanged. Five owned
+sessions/321 forwards narrow the representation/routing problem without claiming
+its cause, a hardware maximum or a scaled-learning success.
+
+![Fixed components pass but the mixed handoff fails](visual/fixed-bridge-4k.png)
+
+[Assessment](studies/20261023-fixed-bridge/ASSESSMENT.md) ·
+[tools and current limits](resident/README.md)
+
+```bash
+python -m resident.bridge_audit
+```
+
+## Resident learning scale-up: compiler pass, native state stop — October 23, 2026
+
+The new mixed FNP3/CNP graph maps **six learning banks on 17 NPUs**, but its
+intermediate-learning adapter fails the two-bank memory gate. The larger native
+stages were not admitted. **Six owned sessions, 663 actual forwards and 796 full
+bank captures** preserve three one-bank passes and all three failed adapter
+attempts. The earlier verified two-bank FNP-only result remains separate.
+
+A bounded two-bank image partition also fails SDK IP-version compatibility before
+hardware access. Neither branch establishes a new CPU or energy advantage.
+The proposed stronger demo/post gate did not pass; the tools retain that outcome.
+
+![Mapped scale-up stopped by native memory checks](visual/resident-boundary-4k.png)
+
+[Tools and reproduction](resident/README.md) ·
+[assessment](studies/20261023-resident-push/ASSESSMENT.md) ·
+[next isolated contract gates](resident/NEXT.md)
+
+```bash
+python -m resident.archive audit-public
+```
+
 ## Real images: quality passes, native mapping stops — October 23, 2026
 
 A 3,200-exemplar MNIST benchmark reaches **91% raw / 90% spatially compacted**

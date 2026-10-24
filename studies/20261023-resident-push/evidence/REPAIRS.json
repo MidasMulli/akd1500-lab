@@ -1,0 +1,17 @@
+{
+  "status": "FAILED_PRESERVED_BEFORE_CORRECTION",
+  "native_failure": "smoke_b2_s99101_repair",
+  "observed_completed_forwards": 129,
+  "bank": 1,
+  "event": 128,
+  "interpretation": "Observed first downstream RAM update exactly matches categorical input0; independent upstream replay predicts3. Adapter restored terminal-prefix auxiliary words into intermediate learner. Compiler-current word1/2 values differ. This is a communication/adapter hypothesis, not chip-learning failure.",
+  "correction": "One prospective adapter repair: keep current compiler intermediate record words1/2, retain learning swap/threshold word3 and all weights. Same dataset, teachers, seeds, task gates and CNP topology. Repeat staged mechanics as attempt02, no outcome tuning.",
+  "utc": "2026-10-24T03:26:37.359087+00:00",
+  "attempt02": {
+    "status": "FAILED_PRESERVED",
+    "completed_forwards": 1,
+    "observed": "Selected bank0 record weights mismatch",
+    "diagnostic": "Compiler differential: auxiliary word2 follows num_weights; restoring inference-only zero is invalid for learning",
+    "attempt03": "Preserve only compiler word1, restore prefix word2 and word3; final bounded correction"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "physical_sessions": 6,
+  "observed_forwards": 663,
+  "full_bank_captures": 796,
+  "one_bank_successes": [
+    {
+      "attempt": 1,
+      "events": 176
+    },
+    {
+      "attempt": 2,
+      "events": 176
+    },
+    {
+      "attempt": 3,
+      "events": 176
+    }
+  ],
+  "mixed_attempts": [
+    {
+      "attempt": 1,
+      "first_divergence_event_1_based": 129,
+      "completed_exact_prefix": 128
+    },
+    {
+      "attempt": 2,
+      "first_divergence_event_1_based": 1,
+      "completed_exact_prefix": 0
+    },
+    {
+      "attempt": 3,
+      "first_divergence_event_1_based": 5,
+      "completed_exact_prefix": 4
+    }
+  ],
+  "attempted_mapping": {
+    "plastic_banks": 6,
+    "plastic_records": 384,
+    "resident_npus": 17,
+    "status": "COMPILER_ONLY_NOT_RUN"
+  },
+  "first_downstream_mismatch": {
+    "attempt": 1,
+    "event_1_based": 129,
+    "expected_changed_neurons": [
+      6
+    ],
+    "observed_changed_neurons": [
+      13
+    ]
+  },
+  "boundary": "Mixed-resource adapter not validated. Existing two-bank FNP-only result remains separate. No CPU or electrical advantage."
+}

@@ -1,5 +1,10 @@
 # Next depth: distinguish shared execution, routing and plastic-state limits
 
+Latest mixed-resource scaling attempt is closed: six sessions/663 actual forwards.
+The six-bank/17-NPU compiler map did not pass the two-bank native memory gate;
+three failed adapters and their successful one-bank controls are preserved.
+See `resident/README.md` and `resident/NEXT.md` before further scale-up.
+
 Latest extension: native compaction is now closed with 16 sessions/2624 forwards.
 The extra encoder qualifies the frozen half-active serial/zero-activity burst
 service gate at 512 detectors but fails at 256; fully active 512 inputs also lose.

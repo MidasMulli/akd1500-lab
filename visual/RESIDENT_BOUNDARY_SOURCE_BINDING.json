@@ -1,0 +1,10 @@
+{
+  "status": "NATIVE_FAILURE_AND_COMPILER_ONLY_BOUND",
+  "hashes": {
+    "results/2026-10-23-resident-boundary.json": "f9d46e748111dcc779af3cab007f7423685b280728f4988aea66d214ccb87f40",
+    "results/2026-10-23-resident-boundary.npz": "5bcdc2a268c4b12442073150698554788d2137f873ee3f4804832516c1219a00",
+    "visual/resident-boundary-data.json": "8db19b58f573e5f138a1f2a4f6886e8043607f65f2247c3687123c6439d4661a",
+    "visual/resident-boundary-4k.png": "2463560c5a0666eb32e4c9509d858b5d59cdcebe7bda09e903953b855362264a",
+    "resident/report.py": "ebd22136be06f99e08841fce4673c6bc03de6bf94aec147379a665b4fe89cf70"
+  }
+}

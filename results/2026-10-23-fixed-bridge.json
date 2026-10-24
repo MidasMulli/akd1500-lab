@@ -1,0 +1,919 @@
+{
+  "status": "FIXED_BRIDGE_DIAGNOSTIC",
+  "physical_sessions": 5,
+  "observed_native_forwards": 321,
+  "runs": [
+    {
+      "name": "all_fnp_smoke",
+      "requested_forwards": 32,
+      "start_utc": "2026-10-24T03:42:19.816634+00:00",
+      "fixture": {
+        "kind": "all_fnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 512,
+        "mapping": [
+          {
+            "layer": "known_source",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "comparison",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 1282,
+            "sha256": "49d9037be9ec7bdd7721a4334f10e6ab98323e73fb6178d95e957afde431e951"
+          },
+          {
+            "np": [
+              2,
+              1,
+              0
+            ],
+            "words": 514,
+            "sha256": "1ca2af743c5672639dcb074f5207e046d25e7a941b594e28d50e259b4d262c03"
+          },
+          {
+            "np": [
+              2,
+              2,
+              0
+            ],
+            "words": 5122,
+            "sha256": "3a33ecce3114bd881d1433b2f2138f71dea8c3e53ed3f149175cb4ce9653bc78"
+          },
+          {
+            "np": [
+              2,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "2b9e01aacc960af0bf9e08a563ea6c7330ed6d0ebfd79cb749f4759d8a365072"
+          }
+        ],
+        "program_sha256": "681bfed9c1a3b061112e7aa999811e6bd1ecddfdc85e647c90852d7f8b767265"
+      },
+      "source_freeze_sha256": "01bb5fd593d4c4fe5d45fb61b21324788bbe36a5022a2d5d6aaaf3f8062f1752",
+      "exit_code": 0,
+      "device_released": true,
+      "finish_utc": "2026-10-24T03:42:19.907429+00:00",
+      "observed_forwards": 32,
+      "check": {
+        "status": "EXACT_FIXED_BRIDGE_PASS",
+        "name": "all_fnp_smoke",
+        "observed_forwards": 32,
+        "first_divergence_event_1_based": null,
+        "initial_final_fixed_memory_exact": true
+      },
+      "stderr": ""
+    },
+    {
+      "name": "all_fnp_full",
+      "requested_forwards": 128,
+      "start_utc": "2026-10-24T03:42:33.502421+00:00",
+      "fixture": {
+        "kind": "all_fnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 512,
+        "mapping": [
+          {
+            "layer": "known_source",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "comparison",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 1282,
+            "sha256": "49d9037be9ec7bdd7721a4334f10e6ab98323e73fb6178d95e957afde431e951"
+          },
+          {
+            "np": [
+              2,
+              1,
+              0
+            ],
+            "words": 514,
+            "sha256": "1ca2af743c5672639dcb074f5207e046d25e7a941b594e28d50e259b4d262c03"
+          },
+          {
+            "np": [
+              2,
+              2,
+              0
+            ],
+            "words": 5122,
+            "sha256": "3a33ecce3114bd881d1433b2f2138f71dea8c3e53ed3f149175cb4ce9653bc78"
+          },
+          {
+            "np": [
+              2,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "2b9e01aacc960af0bf9e08a563ea6c7330ed6d0ebfd79cb749f4759d8a365072"
+          }
+        ],
+        "program_sha256": "681bfed9c1a3b061112e7aa999811e6bd1ecddfdc85e647c90852d7f8b767265"
+      },
+      "source_freeze_sha256": "01bb5fd593d4c4fe5d45fb61b21324788bbe36a5022a2d5d6aaaf3f8062f1752",
+      "exit_code": 0,
+      "device_released": true,
+      "finish_utc": "2026-10-24T03:42:33.593395+00:00",
+      "observed_forwards": 128,
+      "check": {
+        "status": "EXACT_FIXED_BRIDGE_PASS",
+        "name": "all_fnp_full",
+        "observed_forwards": 128,
+        "first_divergence_event_1_based": null,
+        "initial_final_fixed_memory_exact": true
+      },
+      "stderr": ""
+    },
+    {
+      "name": "direct_cnp_smoke",
+      "requested_forwards": 32,
+      "start_utc": "2026-10-24T03:42:38.607437+00:00",
+      "fixture": {
+        "kind": "direct_cnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 64,
+        "mapping": [
+          {
+            "layer": "compare0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 2050,
+            "sha256": "729a3e5211dee478728f3d538364557d4813f6686e911e8699255cc72149595c"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 66,
+            "sha256": "5894c5595a3b78aab2b9284ccc097b9194c68421dae67bc5fb4024099f2259fa"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 3074,
+            "sha256": "075e6152bd031d1b515bc8c641475eae7420b5fd9422a57c2c34bc613953d993"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 1026,
+            "sha256": "e47b81766d00d8bb42aa9c7914c1fee875dc4bd7047d8524bc33334e39fd90de"
+          },
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "3fb1c8771ec5f9587e2372c159139552d171fe0c3b0e6b3a24a8239667392fe5"
+          }
+        ],
+        "program_sha256": "8ea4b4ae91cded242be9b19d6148b0c303106e44ddf86c5a00a0f3d332ca2044"
+      },
+      "source_freeze_sha256": "01bb5fd593d4c4fe5d45fb61b21324788bbe36a5022a2d5d6aaaf3f8062f1752",
+      "exit_code": 0,
+      "device_released": true,
+      "finish_utc": "2026-10-24T03:42:38.698373+00:00",
+      "observed_forwards": 32,
+      "check": {
+        "status": "EXACT_FIXED_BRIDGE_PASS",
+        "name": "direct_cnp_smoke",
+        "observed_forwards": 32,
+        "first_divergence_event_1_based": null,
+        "initial_final_fixed_memory_exact": true
+      },
+      "stderr": ""
+    },
+    {
+      "name": "direct_cnp_full",
+      "requested_forwards": 128,
+      "start_utc": "2026-10-24T03:42:44.944112+00:00",
+      "fixture": {
+        "kind": "direct_cnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 64,
+        "mapping": [
+          {
+            "layer": "compare0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 2050,
+            "sha256": "729a3e5211dee478728f3d538364557d4813f6686e911e8699255cc72149595c"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 66,
+            "sha256": "5894c5595a3b78aab2b9284ccc097b9194c68421dae67bc5fb4024099f2259fa"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 3074,
+            "sha256": "075e6152bd031d1b515bc8c641475eae7420b5fd9422a57c2c34bc613953d993"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 1026,
+            "sha256": "e47b81766d00d8bb42aa9c7914c1fee875dc4bd7047d8524bc33334e39fd90de"
+          },
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "3fb1c8771ec5f9587e2372c159139552d171fe0c3b0e6b3a24a8239667392fe5"
+          }
+        ],
+        "program_sha256": "8ea4b4ae91cded242be9b19d6148b0c303106e44ddf86c5a00a0f3d332ca2044"
+      },
+      "source_freeze_sha256": "01bb5fd593d4c4fe5d45fb61b21324788bbe36a5022a2d5d6aaaf3f8062f1752",
+      "exit_code": 0,
+      "device_released": true,
+      "finish_utc": "2026-10-24T03:42:45.035809+00:00",
+      "observed_forwards": 128,
+      "check": {
+        "status": "EXACT_FIXED_BRIDGE_PASS",
+        "name": "direct_cnp_full",
+        "observed_forwards": 128,
+        "first_divergence_event_1_based": null,
+        "initial_final_fixed_memory_exact": true
+      },
+      "stderr": ""
+    },
+    {
+      "name": "mixed_smoke",
+      "requested_forwards": 32,
+      "start_utc": "2026-10-24T03:42:50.520606+00:00",
+      "fixture": {
+        "kind": "mixed",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 512,
+        "mapping": [
+          {
+            "layer": "known_source",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "compare0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 1282,
+            "sha256": "49d9037be9ec7bdd7721a4334f10e6ab98323e73fb6178d95e957afde431e951"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 2050,
+            "sha256": "729a3e5211dee478728f3d538364557d4813f6686e911e8699255cc72149595c"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 66,
+            "sha256": "5894c5595a3b78aab2b9284ccc097b9194c68421dae67bc5fb4024099f2259fa"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 3074,
+            "sha256": "075e6152bd031d1b515bc8c641475eae7420b5fd9422a57c2c34bc613953d993"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 1026,
+            "sha256": "e47b81766d00d8bb42aa9c7914c1fee875dc4bd7047d8524bc33334e39fd90de"
+          },
+          {
+            "np": [
+              2,
+              1,
+              0
+            ],
+            "words": 82,
+            "sha256": "7d144a62559c28227ab849057c170a956e358594fa2d157b7e0eb8bf43da334b"
+          }
+        ],
+        "program_sha256": "5c2d3e7f7c881ac184b83b20edf9a64a1dae1df3bf7b46b5347799a2759defb7"
+      },
+      "source_freeze_sha256": "01bb5fd593d4c4fe5d45fb61b21324788bbe36a5022a2d5d6aaaf3f8062f1752",
+      "exit_code": 1,
+      "device_released": true,
+      "finish_utc": "2026-10-24T03:42:50.612338+00:00",
+      "observed_forwards": 1,
+      "check": {
+        "status": "FIXED_BRIDGE_OUTPUT_DIVERGENCE",
+        "name": "mixed_smoke",
+        "observed_forwards": 1,
+        "first_divergence_event_1_based": 1,
+        "initial_final_fixed_memory_exact": true
+      },
+      "stderr": "first_divergence_event=0\nFAIL: fixed bridge native output mismatch\n"
+    }
+  ],
+  "archive_sha256": "25be854cae25b4f14d14c30bed6d5f28f373635bc2aa6f68405a9c264e0afdc3",
+  "compiler": {
+    "status": "COMPILER_ONLY",
+    "physical_device_opened": false,
+    "results": [
+      {
+        "kind": "all_fnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 512,
+        "mapping": [
+          {
+            "layer": "known_source",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "comparison",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 1282,
+            "sha256": "49d9037be9ec7bdd7721a4334f10e6ab98323e73fb6178d95e957afde431e951"
+          },
+          {
+            "np": [
+              2,
+              1,
+              0
+            ],
+            "words": 514,
+            "sha256": "1ca2af743c5672639dcb074f5207e046d25e7a941b594e28d50e259b4d262c03"
+          },
+          {
+            "np": [
+              2,
+              2,
+              0
+            ],
+            "words": 5122,
+            "sha256": "3a33ecce3114bd881d1433b2f2138f71dea8c3e53ed3f149175cb4ce9653bc78"
+          },
+          {
+            "np": [
+              2,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "2b9e01aacc960af0bf9e08a563ea6c7330ed6d0ebfd79cb749f4759d8a365072"
+          }
+        ],
+        "program_sha256": "681bfed9c1a3b061112e7aa999811e6bd1ecddfdc85e647c90852d7f8b767265"
+      },
+      {
+        "kind": "direct_cnp",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 64,
+        "mapping": [
+          {
+            "layer": "compare0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 2050,
+            "sha256": "729a3e5211dee478728f3d538364557d4813f6686e911e8699255cc72149595c"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 66,
+            "sha256": "5894c5595a3b78aab2b9284ccc097b9194c68421dae67bc5fb4024099f2259fa"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 3074,
+            "sha256": "075e6152bd031d1b515bc8c641475eae7420b5fd9422a57c2c34bc613953d993"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 1026,
+            "sha256": "e47b81766d00d8bb42aa9c7914c1fee875dc4bd7047d8524bc33334e39fd90de"
+          },
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 82,
+            "sha256": "3fb1c8771ec5f9587e2372c159139552d171fe0c3b0e6b3a24a8239667392fe5"
+          }
+        ],
+        "program_sha256": "8ea4b4ae91cded242be9b19d6148b0c303106e44ddf86c5a00a0f3d332ca2044"
+      },
+      {
+        "kind": "mixed",
+        "status": "COMPILER_VIRTUAL_PASS",
+        "input_features": 512,
+        "mapping": [
+          {
+            "layer": "known_source",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "compare0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "categorical0",
+            "nps": [
+              {
+                "type": "Type.CNP1",
+                "np": [
+                  1,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "layer": "readout",
+            "nps": [
+              {
+                "type": "Type.FNP3",
+                "np": [
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "packets": [
+          {
+            "np": [
+              1,
+              3,
+              0
+            ],
+            "words": 1282,
+            "sha256": "49d9037be9ec7bdd7721a4334f10e6ab98323e73fb6178d95e957afde431e951"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 2050,
+            "sha256": "729a3e5211dee478728f3d538364557d4813f6686e911e8699255cc72149595c"
+          },
+          {
+            "np": [
+              1,
+              2,
+              1
+            ],
+            "words": 66,
+            "sha256": "5894c5595a3b78aab2b9284ccc097b9194c68421dae67bc5fb4024099f2259fa"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 3074,
+            "sha256": "075e6152bd031d1b515bc8c641475eae7420b5fd9422a57c2c34bc613953d993"
+          },
+          {
+            "np": [
+              1,
+              2,
+              2
+            ],
+            "words": 1026,
+            "sha256": "e47b81766d00d8bb42aa9c7914c1fee875dc4bd7047d8524bc33334e39fd90de"
+          },
+          {
+            "np": [
+              2,
+              1,
+              0
+            ],
+            "words": 82,
+            "sha256": "7d144a62559c28227ab849057c170a956e358594fa2d157b7e0eb8bf43da334b"
+          }
+        ],
+        "program_sha256": "5c2d3e7f7c881ac184b83b20edf9a64a1dae1df3bf7b46b5347799a2759defb7"
+      }
+    ]
+  },
+  "learning_sessions": 0,
+  "executed_sources": {
+    "resident/bridge.py": "b042c87e9cbc19b7a36a206ff122f1540c9eecfb07ca2f32945aae695872440f",
+    "resident/bridge_prepare.py": "120faec3b30cc88a9481096e7e10826ba4ea18e03bbaafcdf92dc7cbd5dcc0e1",
+    "src/fixed_bridge.cpp": "1d4caa6d0d2f626969f82f1f913e98ad234e725c04b1a0c8604312dd8d66f914"
+  },
+  "boundary": "Compiler-produced fixed inference only; separate from failed learning adapter. No learning or efficiency result."
+}

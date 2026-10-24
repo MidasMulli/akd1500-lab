@@ -1,0 +1,9 @@
+{
+  "status": "FIXED_OUTPUT_AND_PARAMETER_RAM_BOUND",
+  "hashes": {
+    "results/2026-10-23-fixed-bridge.json": "3e8f08be87a9f06e4868f8a699fe1bc1fa753485fb6180ce51e4fb92df893539",
+    "results/2026-10-23-fixed-bridge.npz": "25be854cae25b4f14d14c30bed6d5f28f373635bc2aa6f68405a9c264e0afdc3",
+    "resident/bridge_report.py": "f2b5de6fd9024da09bb98528b28abdd5bb84219918e2974ac22bd1850a5acf75",
+    "visual/fixed-bridge-4k.png": "6a9c92f01417d6045359e247d5125f2f47b2ab407731b5aa46389a7d16ec746c"
+  }
+}
