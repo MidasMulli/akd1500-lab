@@ -1,0 +1,134 @@
+{
+  "archive_sha256": "62f3cdef2e76d301e3365c13e3f080a9db7ffba79feda5373400d483a851a716",
+  "endpoint": "Learning arm, events9..64, isolated rotated timing repetitions1/2 only",
+  "groups": [
+    {
+      "side": 32,
+      "mode": "cpu-blas1",
+      "median_ms": 0.937055,
+      "p95_ms": 0.945664,
+      "timed_events": 336,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 32,
+      "mode": "cpu-blas4",
+      "median_ms": 0.323515,
+      "p95_ms": 0.329963,
+      "timed_events": 336,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 32,
+      "mode": "cpu-dense",
+      "median_ms": 2.73958,
+      "p95_ms": 2.758933,
+      "timed_events": 336,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 32,
+      "mode": "cpu-parallel",
+      "median_ms": 0.6460375,
+      "p95_ms": 0.66219025,
+      "timed_events": 336,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 32,
+      "mode": "cpu-sparse",
+      "median_ms": 2.25662,
+      "p95_ms": 2.283045,
+      "timed_events": 336,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 32,
+      "mode": "native",
+      "median_ms": 2.2654525000000003,
+      "p95_ms": 2.280885,
+      "timed_events": 112,
+      "fresh_seeds": 1,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 1
+    },
+    {
+      "side": 64,
+      "mode": "cpu-blas1",
+      "median_ms": 3.2884314999999997,
+      "p95_ms": 3.52659325,
+      "timed_events": 1008,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 64,
+      "mode": "cpu-blas4",
+      "median_ms": 1.1981039999999998,
+      "p95_ms": 1.2257225999999999,
+      "timed_events": 1008,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 64,
+      "mode": "cpu-dense",
+      "median_ms": 11.423186000000001,
+      "p95_ms": 11.5785094,
+      "timed_events": 1008,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 64,
+      "mode": "cpu-parallel",
+      "median_ms": 2.635385,
+      "p95_ms": 2.6882365999999998,
+      "timed_events": 1008,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 64,
+      "mode": "cpu-sparse",
+      "median_ms": 9.52533,
+      "p95_ms": 9.622466150000001,
+      "timed_events": 1008,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 3
+    },
+    {
+      "side": 64,
+      "mode": "native",
+      "median_ms": 7.8574494999999995,
+      "p95_ms": 7.916156,
+      "timed_events": 336,
+      "fresh_seeds": 3,
+      "isolated_process_repeats_per_seed": 2,
+      "internal_stream_repeats": 1
+    }
+  ],
+  "physical_audit": {
+    "status": "INDEPENDENT_NUMERICAL_ARCHIVE_PASS",
+    "archive_sha256": "62f3cdef2e76d301e3365c13e3f080a9db7ffba79feda5373400d483a851a716",
+    "physical_scale_sessions": 28,
+    "physical_scale_forwards": 1680,
+    "reference_forwards": 144,
+    "compiler_failures_preserved": 2
+  }
+}

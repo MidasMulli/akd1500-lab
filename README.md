@@ -8,6 +8,39 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Reference deployment and larger native workloads — October 25, 2026
+
+**The vendor reference passes; larger native learning passes; the strongest CPU
+control still wins latency.** BrainChip's pretrained visual wake-word model runs
+in one pass on 28 NPUs plus HRC, with every output matching the SDK software
+backend on a frozen synthetic bank. This reference is separate from our custom
+learning graph.
+
+The custom graph processes **4× the image work**, retains its learning records
+on the card, and matches complete visible memory after every event across three
+fresh initializations. Adding an optimized OpenBLAS CPU control changes the
+comparison: **7.86 ms native versus 1.20 ms CPU** for 64×64 RGB, including input
+processing and exact learning. No power or energy advantage is inferred.
+The 1,024-channel and 96×96 builds hit preserved compiler boundaries; they are
+not claimed silicon maxima. All **1,824 physical forwards** reconstruct from
+the public numeric archive.
+
+![Measured reference and scaling results](studies/20261025-reference-scale/RESULTS.png)
+
+[Assessment](studies/20261025-reference-scale/ASSESSMENT.md) ·
+[Reproduction tools](coprocessor/EXTENT.md) ·
+[Portable numeric audit](results/20261025-reference-scale.audit.json) ·
+[Power-rig parts and checkout](power/FINISH.md)
+
+[Recorded 1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/larger-native-stream-1080p60.mp4) ·
+[4K60 master](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/larger-native-stream-4k60.mp4)
+— measured potentials/connection edits; schematic geometry, no electrical spike timing.
+
+```sh
+python -m coprocessor.extent_audit audit
+python -m unittest tests.test_reference_scale -v
+```
+
 ## Agreed-update latency on Nano — October 25, 2026 (UTC)
 
 **The CPU wins this small four-cue task.** With identical native learning-state

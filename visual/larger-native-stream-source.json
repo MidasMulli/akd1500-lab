@@ -1,0 +1,61 @@
+{
+  "status": "RECORDED_MEASUREMENTS_SCHEMATIC_REPLAY",
+  "archive_sha256": "62f3cdef2e76d301e3365c13e3f080a9db7ffba79feda5373400d483a851a716",
+  "events_sha256": "16f5d9f5812ad480e26bb8f6462a0613a66ea7c50118fbde26b33e0aa042f79f",
+  "renderer_sha256": "98013f40d5be6eaa83b6b57e6509b74bc29a6a21bcee394948af6afde3536dea",
+  "helper_renderer_sha256": "7651027a368f0734f4d6aa4308ea5f627a2ab6cd2b70f9b8a4221b0425f30d6b",
+  "sampled_records": [
+    37,
+    66,
+    20,
+    110,
+    48,
+    67,
+    23,
+    123
+  ],
+  "shown_teaching_events": [
+    9,
+    13,
+    17,
+    21,
+    25,
+    29,
+    33,
+    37
+  ],
+  "shown_query_events": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "measured": [
+    "Returned pre-update learner potentials",
+    "Complete learner RAM before/after",
+    "CNP config readbacks"
+  ],
+  "derived": [
+    "512 intermediate feature bits from independent integer convolution"
+  ],
+  "schematic": [
+    "Positions",
+    "Links as geometry",
+    "Camera",
+    "Expanded playback timing"
+  ],
+  "internal_electrical_spike_times_observed": false,
+  "outputs": {
+    "recall.png": "0464e4076307ac3864bbb76f5134e428c8db3a4c393df9cfb767a8e4806301e8",
+    "teaching.png": "2ae24ea6076f10ec81778cc51c984ae076bbdbd57bbacf1c1c15e73c37755c2b",
+    "larger-native-stream-1080p60.mp4": "90fac1a2203915fd66c09f043957fc3c161905db50d76cfc837d2ea023dc1aa6",
+    "later-edit.png": "9ff1e199296ba7cf89679e93a44c51a31b05b06c8e6d8d92be3c9ad0c347540a",
+    "edit.png": "789ba51a7f9b5acb5a91c8cd38c12089d71024ccd15d862956dd0af6a6939a1e",
+    "larger-native-stream-4k60.mp4": "e10f08921777023f3a867bb2ead4b162fbb75e0f82385933a79dbe7b9c2d7c6f"
+  },
+  "format_check": "4K60 AVC High Level5.2 SPS, full decode passed; HD H.264/yuv420p separate"
+}

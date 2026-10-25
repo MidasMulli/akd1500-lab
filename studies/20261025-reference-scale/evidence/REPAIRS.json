@@ -1,0 +1,41 @@
+[
+  {
+    "utc": "2026-10-25T12:13:46.651999+00:00",
+    "attempt": "metadata-permission",
+    "failure": "PermissionError cpuinfo_cur_freq",
+    "physical_device_opened": false,
+    "repair": "Record unreadable frequency file as UNREADABLE_PERMISSION; no privilege escalation, no clock changes",
+    "prospective": true
+  },
+  {
+    "utc": "2026-10-25T12:14:00.652642+00:00",
+    "attempt": "metadata-no-data",
+    "failure": "OSError61 disabled/unavailable thermal/frequency sysfs",
+    "physical_device_opened": false,
+    "repair": "Capture numeric OSError in optional metadata; operational I/O errors remain fatal",
+    "prospective": true
+  },
+  {
+    "utc": "2026-10-25T12:15:19.572677+00:00",
+    "attempt": "reference-mapping-serialization",
+    "failure": "Tuples in observed unique_nps compared with lists from JSON",
+    "physical_forwards": 0,
+    "repair": "Normalize unique NPs to lists and durably save actual mapping before comparing",
+    "prospective": true,
+    "other_no_execution_error": "One diagnostic command had Python syntax error before any device call"
+  },
+  {
+    "utc": "2026-10-25T12:33:43.184155+00:00",
+    "attempt": "cpu-dense_s32_s107501_a0_n64_r0",
+    "failure": "Remote audit dependency not copied",
+    "repair": "Copy existing independent auditor; re-audit saved CPU stream without re-executing or changing arrays",
+    "prospective": true
+  },
+  {
+    "utc": "2026-10-25T12:47:23.305489+00:00",
+    "attempt": "archive-build",
+    "failure": "Archive audit started before rsync completed; missing snapshot file",
+    "repair": "Await successful rsync completion, then independently rebuild and audit the complete saved stream; first stdout/stderr retained",
+    "physical_device_opened": false
+  }
+]

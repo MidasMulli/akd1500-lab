@@ -1,0 +1,19 @@
+{
+  "status": "FULL_DECODE_PASS",
+  "duration_seconds": 24,
+  "frames": 1440,
+  "fps": 60,
+  "master_dimensions": [
+    3840,
+    2160
+  ],
+  "master_avc_level": "5.2",
+  "phone_dimensions": [
+    1920,
+    1080
+  ],
+  "master_sha256": "e10f08921777023f3a867bb2ead4b162fbb75e0f82385933a79dbe7b9c2d7c6f",
+  "phone_sha256": "90fac1a2203915fd66c09f043957fc3c161905db50d76cfc837d2ea023dc1aa6",
+  "source_binding_sha256": "d65f55422c2147025f55eff410154bc1ecf74f1f0ba77a83ea9078e745c0d4a0",
+  "notes": "VideoToolbox initially signalled Level5.1; corrected SPS metadata to Level5.2 without re-encoding picture data; decoder accepted entire film. HD also fully decoded."
+}

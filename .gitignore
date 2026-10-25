@@ -97,3 +97,9 @@ studies/20261024-context-discovery/build*.stderr
 
 !visual/native-memory-protection-4k60.mp4
 !visual/native-memory-protection-1080p60.mp4
+
+!visual/larger-native-stream-4k60.mp4
+!visual/larger-native-stream-1080p60.mp4
+studies/*/extent_fixtures/
+studies/*/reference_raw/
+studies/20261025-reference-scale/visual/

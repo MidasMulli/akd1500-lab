@@ -1,5 +1,16 @@
 # Evidence map and next hardware questions
 
+October 25: the [reference/scale campaign](studies/20261025-reference-scale/ASSESSMENT.md)
+is closed after 1,824 verified physical forwards. The standard pretrained model
+maps to 28 NPUs plus HRC; the separate custom native-learning graph qualifies
+four times its prior image work. Five exact CPU controls include OpenBLAS,
+which remains faster. Projection-width and spatial stride/pooling compiler
+limits are preserved. The next discriminator is calibrated card/whole-host
+energy on a useful sparse pretrained workload, followed by controlled host
+contention. Only a spare ESP32-S3 is on hand; see the
+[power-rig finish list](power/FINISH.md). Separating pooling from strided
+convolution needs a new prospective architecture study, not silent expansion.
+
 **Current priority: native resource characterization before another application
 demo.** Documentation is a hypothesis source. Resolve execution, queueing,
 interference and counter scope experimentally, then admit a CPU-differentiation

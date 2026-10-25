@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-10-25T12:54:58.610634+00:00",
+  "successful_physical_sessions": 32,
+  "successful_physical_forwards": 1824,
+  "failed_physical_admissions_before_inference": 1,
+  "owned_jobs_remaining": 0,
+  "device_released": true,
+  "compiler_expansion_stops": 2,
+  "archive_sha256": "62f3cdef2e76d301e3365c13e3f080a9db7ffba79feda5373400d483a851a716",
+  "power_rig": "Spare connected ESP32-S3 only; current monitor, isolating interposer, multimeter/load and calibration still required"
+}
