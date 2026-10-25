@@ -1,0 +1,27 @@
+{
+  "status": "SEMANTIC_MUTATIONS_PASS",
+  "rejected": 4,
+  "attempts": [
+    {
+      "name": "wrong_source_partition_after_swap",
+      "status": "REJECTED",
+      "reason": "external source class or zero transfer class"
+    },
+    {
+      "name": "invented_recall_after_a_is_corrupted",
+      "status": "REJECTED",
+      "reason": "native class flags and student output"
+    },
+    {
+      "name": "uncaptured_source_weight_edit",
+      "status": "REJECTED",
+      "reason": "complete native RAM trajectory"
+    },
+    {
+      "name": "forged_reviewed_program_ancestry",
+      "status": "REJECTED",
+      "reason": "exact reviewed ancestor program/matrix"
+    }
+  ],
+  "scope": "In-memory corruptions bypass digest checks; saved sources unchanged; no device access."
+}

@@ -1,0 +1,48 @@
+{
+  "status": "SEMANTIC_MUTATIONS_PASS",
+  "unmodified": "PASS",
+  "rejected": 8,
+  "attempts": [
+    {
+      "name": "source_complement_replaced_by_actual_class",
+      "status": "REJECTED",
+      "reason": "external source class or zero transfer class"
+    },
+    {
+      "name": "nonconstant_student_transfer_label",
+      "status": "REJECTED",
+      "reason": "external source class or zero transfer class"
+    },
+    {
+      "name": "host_injected_student_prediction",
+      "status": "REJECTED",
+      "reason": "raw cue/role and prior native student response"
+    },
+    {
+      "name": "teacher_answer_present_during_exam",
+      "status": "REJECTED",
+      "reason": "native class flags and student output"
+    },
+    {
+      "name": "unrelated_original_record_changed",
+      "status": "REJECTED",
+      "reason": "complete native RAM trajectory"
+    },
+    {
+      "name": "host_selects_only_one_student",
+      "status": "REJECTED",
+      "reason": ""
+    },
+    {
+      "name": "fixed_valence_bridge_changed",
+      "status": "REJECTED",
+      "reason": "fixed native route"
+    },
+    {
+      "name": "coupled_descriptor_source_pointer",
+      "status": "REJECTED",
+      "reason": "direct card-SRAM carry pointer"
+    }
+  ],
+  "scope": "In-memory mutations bypass digest checks. Saved raw sources unchanged; no device access."
+}

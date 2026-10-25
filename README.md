@@ -8,6 +8,55 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native memory can decline an update — October 25, 2026 (UTC)
+
+**Two learned sources now regulate whether separate native memories revise their
+connections.** Disagreement protects existing knowledge; corroboration admits
+native changes. Three initializations, 18 corruption/revision cycles:
+
+| Recall endpoint | Native agreement | Follow source B | Trained-frozen students | CPU agreement |
+|---|---:|---:|---:|---:|
+| After one source is corrupted | **864/864** | 432/864 | 648/864 | 864/864 |
+| After a corroborated legitimate change | **864/864** | 864/864 | 648/864 | 864/864 |
+
+These are repeated probes over four cues, not 864 independent trials. Complete
+source-learning trajectories match across policies. Student RAM stays unchanged
+through disagreement; later native connection edits revise the stored answer.
+A separate six-fact test passes **288/288** while retaining the original four.
+
+**Agreement is not truth:** when both sources receive the same false fact,
+affected-cue recall is **0/72**. A lone legitimate report also leaves memory stale
+until corroboration. The designed agreement rule does not learn source reliability.
+A follow-up swaps the faulty source: native protection remains **288/288**, versus
+**216/288 each** for CPU policies that always trust A or B. CPU agreement also passes.
+[Source-swapped assessment](studies/20261025-consensus-crossed/ASSESSMENT.md) ·
+[source-swapped numeric audit](results/20261025-consensus-crossed.audit.json).
+
+Both source cohorts share one class-partitioned NPU in a seven-FNP3 sequential
+circuit. Transfer labels remain zero; the host provides raw cues, evidence and clocks.
+No autonomous scheduling, energy/speed advantage or CPU impossibility is claimed.
+
+![Recorded native disagreement protection and corroborated connection revision](visual/native-memory-protection-4k.png)
+
+[1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-protection-1080p60.mp4) ·
+[4K60 master](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-protection-4k60.mp4) ·
+[assessment, boundaries and preserved failures](studies/20261025-consensus-memory/ASSESSMENT.md) ·
+[protocol](studies/20261025-consensus-memory/PROTOCOL.md) ·
+[numeric audit](results/20261025-consensus-memory.audit.json) ·
+[review draft](studies/20261025-consensus-memory/X_POST.md)
+
+22 completed physical cells, 27,132 forwards; exact Python/C++ replay and eight
+semantic mutation rejections. One compiler rejection and one device-lock admission
+refusal are preserved. The film shows measured stored edges and returned class bits;
+hidden features/source-record dots are derived, and geometry/glow/time schematic.
+
+```sh
+python -m admission.consensus_archive audit
+python -m admission.consensus_mutations
+python -m admission.consensus_crossed_archive audit
+python -m admission.consensus_crossed_mutations
+```
+
 ## Correct the teacher, revise the native network — October 25, 2026 (UTC)
 
 **Changed source knowledge now revises separate native student memories repeatedly.**

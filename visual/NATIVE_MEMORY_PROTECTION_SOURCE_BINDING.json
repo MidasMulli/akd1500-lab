@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "926fdb8daf258e0899915ecaa58c6fd562680396054f7ac2b10e017b772ad4d3",
+  "counterbalanced_archive_sha256": "7cb5141d10cf26f862abc1525f5ace44d81f31deec77f6c96cc669005a788871",
+  "events_sha256": "2596584fdafd01fddb46c306f32c69141ed22f4e6e717df9271a5d47487732ca",
+  "renderer_sha256": "0bc4c1a7508e90eaa9252242108005433789c899b26fd8e312dcd345e0479003",
+  "base_renderer_sha256": "ef6640102c6e4b79226a4e4f72ac45973aaf31fa0cecb6fe0ddaaf38974f6093",
+  "scope": "Seven sequential FNP3s: two learned source cohorts share one four-class bank, and designed native agreement regulates two constant-class student memories. External evidence and fixed roles are host-paced; no host semantic selection, weight repair or reset. Native source class flags, student responses and stored connections measured; hidden record potentials and features derived. Synthetic cues, one-response-per-source-class qualification, no general truth inference or autonomous scheduler. CPU controls also pass. Correlated false teaching is an explicit negative; no efficiency or CPU advantage claim. Displayed physical cell: seed124101 repeat. Final cohort class flags are native readback; source per-record response dots are derived. All48 plastic records are shown; helper records and fixed routing are summarized, not drawn as extra plastic neurons. No electrical spike measurement.",
+  "outputs": {
+    "native-connection-revision.png": "1ddd8cc0b9a445cb0e62f58b56af048d075e9314a0b3df16b30451b87cdffbd9",
+    "bad-teaching.png": "c11a20556973658e559a154fcd2d8a52235a3dcfc959388564bbeefa291e8be0",
+    "native-memory-protection-1080p60.mp4": "db344d557af1c4ef92c7a575a36e0bcc1167a5b433163cc06e848b20b05be811",
+    "independent-recall.png": "e54c01b0185c721863b805cafc051fd6a4c1ffbffb4d2e66ea96df9a8e9bec64",
+    "native-memory-protection-4k60.mp4": "620a694b4febd00573aa5c93c62e54dbaeec2e420cc8d7c7efeb1b133eccb978",
+    "waiting-for-corroboration.png": "24fc6951eaf9fc9173b558008db9a78dbca4e2944385be7bd56ab458802783e4",
+    "protected-memory.png": "d2a2a310cef7abd58f113d8920e48a2158ff783f5a47b7955793cd2ce1153ed3"
+  },
+  "compressed_events_file": "native-memory-protection-events.json.gz",
+  "compressed_events_sha256": "ad0fa1d1270d990bb01d8ab5e6fbbd50fd9152d0838d7e6c1c933ac433fc5cbc",
+  "uncompressed_events_bytes": 24103768,
+  "published_aliases": {
+    "native-connection-revision.png": "native-memory-protection-4k.png",
+    "protected-memory.png": "native-memory-protected-4k.png",
+    "native-memory-protection-1080p60.mp4": "native-memory-protection-1080p60.mp4",
+    "native-memory-protection-4k60.mp4": "native-memory-protection-4k60.mp4"
+  }
+}
