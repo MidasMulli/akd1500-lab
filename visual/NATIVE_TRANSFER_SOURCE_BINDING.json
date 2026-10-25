@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "3264ca14628f74117b21e39d575339a25cab807ce4c48bfee99fc95737a07cb7",
+  "events_sha256": "e615e2677e6dc94a233a8f51938b46c0a6edceabe55d891171e1253787dc896d",
+  "renderer_sha256": "ef6640102c6e4b79226a4e4f72ac45973aaf31fa0cecb6fe0ddaaf38974f6093",
+  "scope": "Three plastic groups, seven sequential FNP3s; 24 plastic and 232 fixed helper records. Host grounds source with external facts; transfer wire class always zero, no external outcomes. Native teacher prediction drives designed error/valence coding. Teacher-silent exams mask the source plastic cue but still clock its NPU. Stored connection edges and student response bits measured; teacher record responses and intermediate features derived. Camera, geometry, glow and replay timing schematic. CPU also passes; no efficiency or autonomy claim.",
+  "outputs": {
+    "new-facts.png": "ebaa7c06b7fe3fc7775f25d9712381ce015d6762184d7d44a8e8514969fe324c",
+    "grounding.png": "51bfa041c5b99a48285e32587b8eda7bc5f606f9c0f17be4e18e273c81934c9b",
+    "native-teacher-transfer-4k60.mp4": "5c947d1dc88d1715d290b715ea38d686b897a989bf438b9de8081535d471b8f0",
+    "final-recall.png": "432555bb52e82980437864351060362b4b742503b772e23cd3e516f018c71dad",
+    "native-teacher-transfer-1080p60.mp4": "0f84617f85a6e0f9835657ac807aec83e63464664c9b3fa42ee9b88918178f85",
+    "silent-recall.png": "c6cb58b41c7d2a2685e975c2543b071bad707dd40b628106e3afc687eae397ed",
+    "native-transfer.png": "50f511f2861e1cffa1b8daa20f45c9d9d436a632ac506a5b8671cc01d9596127"
+  },
+  "public_outputs": {
+    "native-teacher-transfer-1080p60.mp4": "0f84617f85a6e0f9835657ac807aec83e63464664c9b3fa42ee9b88918178f85",
+    "native-teacher-transfer-4k60.mp4": "5c947d1dc88d1715d290b715ea38d686b897a989bf438b9de8081535d471b8f0",
+    "native-teacher-transfer-4k.png": "50f511f2861e1cffa1b8daa20f45c9d9d436a632ac506a5b8671cc01d9596127",
+    "native-teacher-transfer.events.json": "e615e2677e6dc94a233a8f51938b46c0a6edceabe55d891171e1253787dc896d"
+  },
+  "public_poster_original": "native-transfer.png"
+}

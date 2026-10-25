@@ -1,0 +1,2375 @@
+{
+  "status": "NUMERIC_ARCHIVE_PASS",
+  "archive_sha256": "3264ca14628f74117b21e39d575339a25cab807ce4c48bfee99fc95737a07cb7",
+  "qualified_physical_sessions": 12,
+  "qualified_native_forwards": 2754,
+  "attempted_physical_sessions": 13,
+  "preserved_failures": [
+    {
+      "name": "raw__native_s118101_native_gate",
+      "captured_forwards": 62,
+      "status": "PRESERVED_EXECUTION_FAILURE_PREFIX_MATCHES_REPLAY",
+      "stderr": "FAIL: native source/label descriptor\n"
+    }
+  ],
+  "compiler_failures": 4,
+  "primary": {
+    "native": {
+      "final_correct": 288,
+      "final_queries": 288,
+      "all_exam_correct": 432,
+      "all_exam_queries": 432,
+      "connection_replacements": [
+        105,
+        100,
+        102
+      ]
+    },
+    "teacher_cut": {
+      "final_correct": 0,
+      "final_queries": 288,
+      "all_exam_correct": 0,
+      "all_exam_queries": 432,
+      "connection_replacements": [
+        105,
+        0,
+        0
+      ]
+    },
+    "students_frozen": {
+      "final_correct": 0,
+      "final_queries": 288,
+      "all_exam_correct": 0,
+      "all_exam_queries": 432,
+      "connection_replacements": [
+        105,
+        0,
+        0
+      ]
+    }
+  },
+  "cpu_final_correct": 288,
+  "cpu_final_queries": 288,
+  "source_trajectories_identical_in_controls": {
+    "118101_teacher_cut": true,
+    "118101_students_frozen": true,
+    "118201_teacher_cut": true,
+    "118201_students_frozen": true,
+    "118301_teacher_cut": true,
+    "118301_students_frozen": true
+  },
+  "source_after_new_facts": {
+    "118101": {
+      "queries": 24,
+      "student_correct": 16,
+      "teacher_correct": 20,
+      "teacher_silent": 4,
+      "ambiguous": 0,
+      "missing": 8,
+      "cpu_student_correct": 16
+    },
+    "118201": {
+      "queries": 24,
+      "student_correct": 16,
+      "teacher_correct": 20,
+      "teacher_silent": 4,
+      "ambiguous": 0,
+      "missing": 8,
+      "cpu_student_correct": 16
+    },
+    "118301": {
+      "queries": 24,
+      "student_correct": 16,
+      "teacher_correct": 24,
+      "teacher_silent": 0,
+      "ambiguous": 0,
+      "missing": 8,
+      "cpu_student_correct": 16
+    }
+  },
+  "rows": [
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 34,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__cpu_s118101_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "native",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 23,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 22,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35
+          ]
+        }
+      ],
+      "name": "raw02__cpu_s118101_native_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118101_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "students_frozen",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118101_students_frozen_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118101_teacher_cut_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118101,
+      "arm": "teacher_cut",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118101_teacher_cut_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118201,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 34,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__cpu_s118201_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118201,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118201_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118201,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118201_teacher_cut_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118301,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 35,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__cpu_s118301_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118301,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118301_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "cpu",
+      "seed": 118301,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__cpu_s118301_teacher_cut_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 34,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__native_s118101_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "native",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 23,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 22,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35
+          ]
+        }
+      ],
+      "name": "raw02__native_s118101_native_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118101_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "students_frozen",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118101_students_frozen_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 35,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118101_teacher_cut_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118101,
+      "arm": "teacher_cut",
+      "stage": "gate",
+      "events": 108,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 22,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118101_teacher_cut_gate"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118201,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 34,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__native_s118201_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118201,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118201_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118201,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 20,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 15,
+          "teacher_silent": 3,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 37,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118201_teacher_cut_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118301,
+      "arm": "native",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 8,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 48,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 16,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 8,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 16,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 2,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 96,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 0,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 33,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 35,
+          "changed_events": [
+            29,
+            31,
+            33,
+            35,
+            147,
+            149
+          ]
+        }
+      ],
+      "name": "raw02__native_s118301_native_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118301,
+      "arm": "students_frozen",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118301_students_frozen_extended"
+    },
+    {
+      "status": "SAVED_ARRAY_PASS",
+      "mode": "native",
+      "seed": 118301,
+      "arm": "teacher_cut",
+      "stage": "extended",
+      "events": 270,
+      "assessment": {
+        "source_probe": {
+          "queries": 16,
+          "student_correct": 0,
+          "teacher_correct": 16,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 16,
+          "cpu_student_correct": 0
+        },
+        "transfer_known": {
+          "queries": 12,
+          "student_correct": 0,
+          "teacher_correct": 12,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 12,
+          "cpu_student_correct": 8
+        },
+        "unknown_transfer": {
+          "queries": 4,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 4,
+          "ambiguous": 0,
+          "missing": 4,
+          "cpu_student_correct": 0
+        },
+        "silent_exam": {
+          "queries": 48,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 48,
+          "ambiguous": 0,
+          "missing": 48,
+          "cpu_student_correct": 48
+        },
+        "new_source_probe": {
+          "queries": 24,
+          "student_correct": 0,
+          "teacher_correct": 24,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 24,
+          "cpu_student_correct": 16
+        },
+        "transfer_extended": {
+          "queries": 18,
+          "student_correct": 0,
+          "teacher_correct": 18,
+          "teacher_silent": 0,
+          "ambiguous": 0,
+          "missing": 18,
+          "cpu_student_correct": 16
+        },
+        "silent_final_exam": {
+          "queries": 96,
+          "student_correct": 0,
+          "teacher_correct": 0,
+          "teacher_silent": 96,
+          "ambiguous": 0,
+          "missing": 96,
+          "cpu_student_correct": 96
+        }
+      },
+      "edits": [
+        {
+          "bank": 0,
+          "connection_replacements": 33,
+          "changed_events": [
+            0,
+            1,
+            2,
+            3,
+            108,
+            109
+          ]
+        },
+        {
+          "bank": 1,
+          "connection_replacements": 0,
+          "changed_events": []
+        },
+        {
+          "bank": 2,
+          "connection_replacements": 0,
+          "changed_events": []
+        }
+      ],
+      "name": "raw02__native_s118301_teacher_cut_extended"
+    }
+  ],
+  "scope": "Learned source, two valence student banks, seven sequential FNP3s. Host grounds source with external outcomes; all student transfer labels are zero and no outcomes are supplied. Native comparison/encoding determines student teaching. Teacher answer path silent during independent exams; teacher still clocked. Engineered code/rule, host-paced; CPU also passes. No efficiency or autonomous scheduling claim."
+}

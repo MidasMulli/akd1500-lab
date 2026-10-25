@@ -119,3 +119,40 @@ python -m admission.correction_archive audit
 python -m admission.correction_mutations
 python -m admission.correction_visual --out NEW_OUTPUT_FOLDER --video
 ```
+
+
+## Independent memories and native learned-source transfer
+
+`isolation.py`, `prepare_isolation.py`, `isolation_bench.cpp`, `isolation_run.py`,
+`build_isolation.sh` qualify two correcting banks with identical teacher clocks.
+Native context routing supplies disjoint plastic feature support; every foreign
+boundary is checked. `isolation_archive.py`, `isolation_mutations.py` and
+`isolation_visual.py` package the31-session/31,500-forward evidence and preserve
+its failed overloaded-bank capacity gate. [Assessment](../studies/20261025-isolated-correction/ASSESSMENT.md).
+
+`transfer.py`, `prepare_transfer.py`, `transfer_bench.cpp`, `transfer_run.py` and
+`build_transfer.sh` qualify a learned source teaching two valence-specific native
+student banks. Both student clocks stay enabled during transfer, with constant
+class0 descriptors and no host-provided outcome. All banks use two hardware
+classes, but student plastic records occupy class0 only. Teacher-silent exams mask
+source plastic cue coding while fixed key helpers still run. `transfer_archive.py`
+and `transfer_mutations.py` replay12 qualified sessions/2,754 forwards and preserve
+one62-forward failed actor prefix, with no silent retry. `transfer_visual.py` binds
+recorded edges and responses to a continuous schematic3D replay.
+[Assessment](../studies/20261025-native-transfer/ASSESSMENT.md).
+
+```sh
+python -m admission.isolation_archive audit
+python -m admission.isolation_mutations
+python -m admission.transfer_archive audit
+python -m admission.transfer_mutations
+python -m admission.transfer_visual --out NEW_OUTPUT_FOLDER --video
+python -m admission.correction_video_qa NEW_OUTPUT_FOLDER --pattern 'native-teacher-transfer-*.mp4'
+```
+
+Both studies are closed; fresh physical execution requires a new finite prospective
+authority and qualified predecessor gates. Both strong CPU functional controls pass.
+Source-mode journals are not electrical bus traces. No native advantage in speed,
+energy, concurrency, general eviction or autonomous scheduling follows from these
+functional qualifications. The transfer record-level source-teacher responses are
+derived; student bits, stored RAM and native output payloads are read back.

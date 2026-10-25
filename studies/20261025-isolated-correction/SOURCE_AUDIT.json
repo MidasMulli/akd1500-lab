@@ -1,0 +1,24 @@
+{
+  "status": "CURRENT_PUBLIC_SOURCE_MATCHES_EXECUTED_FREEZES",
+  "sources": {
+    "admission/isolation.py": "04953ba00df8cdafaab06f535b8544cc06ae7658272ec62168e9cd9c81835513",
+    "admission/isolation_run.py": "2e4d3d617d4ae3412c2ef473c9741eaf439ec9300cc4672689e9c4663dd164f4",
+    "admission/prepare_isolation.py": "beb6d0f459162e0f7e97a92d2541c23c4fedf32133aa374d96c62a1fe6a864d1",
+    "admission/isolation_bench.cpp": "0959533e3b7622788b022e44b99bd26efdad94e1395c5dc8033e6cfa01e0b17c",
+    "admission/build_isolation.sh": "d383b7b47765e5c6fed70ff4860abba0b1ef5f5391cd2986a777776015d52b15",
+    "admission/recycle.py": "d7c702c8f13d05237512e17435396303882cb067edc19914f4ed99ac306e7a45",
+    "admission/error.py": "f737ec55225cef2ff64413f22530814481e128ff2e23b3685ba74e4bcf6ca30d",
+    "admission/prepare.py": "1327bfa82abca85c28ea2cb28bcaffbafea2f790309eec350135d25aed14fb4c",
+    "admission/prepare_recycle.py": "ed9689400443c305e13cf0ab34cbfeb2da0bfa96f11b117063840da0371e7e3c",
+    "admission/model.py": "39ff024bcd2a7276fab4e48479f0729c7036dc624260e233607d67a8bf89e2eb",
+    "admission/run.py": "14c9fa3c73e4c1383f7e780e9b4f68d7ac3e47354aab314f9670340567f55507",
+    "pong/relearn/model.py": "fc6be792ca47248823b33acab04eeed9ddf3ceeee5f192f05706b1c45d542d53",
+    "src/readout_bench.cpp": "9b31fbdc8ee792b6f5324d5f2a32d57ca13543a41ac6d807821037911a5866ab",
+    "src/mmio_driver.hpp": "81cdb3bd0976f08058940a77f8dfa720280fc7bddc27db2704e57ecea293db95",
+    "tools/prepare_reduction.py": "f8e6569f9b33d3fac2e4c981195836ea4058faf518f9f99823531a6f266f2a36",
+    "tools/program_codec.py": "f5fed114726c6832940049993d6c7e7782fc0f0655f5fd725a511a598e9e8840",
+    "tools/prepare_network.py": "8a7d936f9441b6355abb76f6a60180ce445a674c486f4cafb72514f9a7a36461",
+    "tools/prepare.py": "b38261d798baf838853534caf5c0277688f7758180779ab323580a4fd3a9e3d9",
+    "metal/prepare.py": "2b1c64aa5e44f36d41bd5bf46745e52e6947e4dbb9817d156708f2b888ffc32f"
+  }
+}

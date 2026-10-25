@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "e2bd7535810fc438b18836bf6643950c1b6c3b51be5546a8d7b00e09501f02db",
+  "renderer_sha256": "d3b1e4a01d97613d7dc1eacae6f0b22495d77d00ec184f2152cc7ce9d7031bdd",
+  "outputs": {
+    "isolated-correction.png": "ca22e39437c0f5b3beb3fb20e9fb0afebb5edf24ecfe50aa397d38d7543b6235",
+    "isolated-correction.svg": "9fa4bd5176837e05ea1fa5e2071186080c640b985a43c9eaf0267e317b9e6f8a"
+  }
+}

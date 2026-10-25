@@ -1,0 +1,36 @@
+{
+  "compiler_attempts": [
+    {
+      "path": "fixtures02/s118101_native/BUILD.json",
+      "status": "FAILED_PRESERVED",
+      "error": "('Type.FNP2', 1, 0)"
+    },
+    {
+      "path": "fixtures03/s118101_native/BUILD.json",
+      "status": "FAILED_PRESERVED",
+      "error": "FNP2 not supported"
+    },
+    {
+      "path": "fixtures04/s118101_native/BUILD.json",
+      "status": "FAILED_PRESERVED",
+      "error": "'NoneType' object has no attribute 'nps'"
+    },
+    {
+      "path": "fixtures01/s118101_native/BUILD.json",
+      "status": "FAILED_PRESERVED",
+      "error": "('Type.FNP2', 1, 0)"
+    }
+  ],
+  "preserved_native_attempt": [
+    {
+      "name": "raw__native_s118101_native_gate",
+      "exit_code": 1,
+      "device_free": true,
+      "captured_outputs": 62,
+      "stderr": "FAIL: native source/label descriptor\n",
+      "freeze_sha256": "9fc2297fbc1dc3d81f1238a18f2dbba67c7a12d6c3096de79541ade22fe1ee5f"
+    }
+  ],
+  "repair": "AMENDMENT01.md; finite role-based pointer rotation, no data-dependent decision; clocks and caps unchanged",
+  "retries": "No automatic retries; original prefix/source hashes kept; repaired CPU gate before new native gate"
+}

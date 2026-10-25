@@ -1,0 +1,48 @@
+{
+  "status": "SEMANTIC_MUTATIONS_PASS",
+  "unmodified": "PASS",
+  "rejected": 8,
+  "attempts": [
+    {
+      "name": "nonconstant_host_transfer_class",
+      "status": "REJECTED",
+      "reason": "descriptor raw ground label / constant zero transfer label"
+    },
+    {
+      "name": "host_injected_student_recall",
+      "status": "REJECTED",
+      "reason": "raw role/cue and direct native prior student prediction"
+    },
+    {
+      "name": "teacher_answer_present_during_silent_exam",
+      "status": "REJECTED",
+      "reason": "all teacher/student responses and returned context"
+    },
+    {
+      "name": "unknown_source_changes_student_RAM",
+      "status": "REJECTED",
+      "reason": "each complete native RAM boundary"
+    },
+    {
+      "name": "host_selects_only_one_student",
+      "status": "REJECTED",
+      "reason": ""
+    },
+    {
+      "name": "fixed_valence_bridge_changed",
+      "status": "REJECTED",
+      "reason": "fixed native route changed"
+    },
+    {
+      "name": "native_packet_disagrees",
+      "status": "REJECTED",
+      "reason": "native packet payload"
+    },
+    {
+      "name": "coupled_descriptor_source_pointer",
+      "status": "REJECTED",
+      "reason": "direct native query output pointer"
+    }
+  ],
+  "scope": "In-memory corruptions bypass digest checks. No device access or saved-measurement edits."
+}

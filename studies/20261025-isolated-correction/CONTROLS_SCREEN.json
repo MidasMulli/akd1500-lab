@@ -1,0 +1,42 @@
+[
+  {
+    "arm": "native",
+    "probes": 1152,
+    "by_context": {
+      "0": 576,
+      "1": 576
+    }
+  },
+  {
+    "arm": "no_retire",
+    "probes": 792,
+    "by_context": {
+      "0": 456,
+      "1": 336
+    }
+  },
+  {
+    "arm": "frozen",
+    "probes": 864,
+    "by_context": {
+      "0": 432,
+      "1": 432
+    }
+  },
+  {
+    "arm": "freeze_A",
+    "probes": 1008,
+    "by_context": {
+      "0": 432,
+      "1": 576
+    }
+  },
+  {
+    "arm": "freeze_B",
+    "probes": 1008,
+    "by_context": {
+      "0": 576,
+      "1": 432
+    }
+  }
+]

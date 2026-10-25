@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "native-teacher-transfer-1080p60.mp4",
+      "bytes": 8915993,
+      "sha256": "0f84617f85a6e0f9835657ac807aec83e63464664c9b3fa42ee9b88918178f85",
+      "profile": "Main",
+      "width": 1920,
+      "height": 1080,
+      "has_b_frames": 0,
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "r_frame_rate": "60/1",
+      "duration": "30.000000",
+      "nb_frames": "1800",
+      "decoded_frames": 1800,
+      "unique_frames": 1800,
+      "software_decode": "PASS",
+      "apple_videotoolbox_decode": "PASS",
+      "fast_start": true
+    },
+    {
+      "file": "native-teacher-transfer-4k60.mp4",
+      "bytes": 53981636,
+      "sha256": "5c947d1dc88d1715d290b715ea38d686b897a989bf438b9de8081535d471b8f0",
+      "profile": "Main",
+      "width": 3840,
+      "height": 2160,
+      "has_b_frames": 0,
+      "pix_fmt": "yuv420p",
+      "level": 52,
+      "r_frame_rate": "60/1",
+      "duration": "30.000000",
+      "nb_frames": "1800",
+      "decoded_frames": 1800,
+      "unique_frames": 1800,
+      "software_decode": "PASS",
+      "apple_videotoolbox_decode": "PASS",
+      "fast_start": true
+    }
+  ]
+}

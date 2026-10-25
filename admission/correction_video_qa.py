@@ -2,9 +2,9 @@
 from pathlib import Path
 import argparse,json,struct,subprocess
 from admission.run import sha
-def main(folder):
+def main(folder,pattern='native-memory-correction-*.mp4'):
     rows=[]
-    for p in sorted(folder.glob('native-memory-correction-*.mp4')):
+    for p in sorted(folder.glob(pattern)):
         r=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height,r_frame_rate,nb_frames,duration,profile,level,pix_fmt,has_b_frames','-of','json',str(p)]))['streams'][0]
         raw=subprocess.check_output(['ffmpeg','-hide_banner','-loglevel','error','-i',str(p),'-an','-f','framemd5','-'],text=True)
         frames=[x.rsplit(',',1)[-1].strip() for x in raw.splitlines() if x and not x.startswith('#')]
@@ -24,4 +24,4 @@ def main(folder):
     assert len(rows)==2
     result=dict(status='PASS',outputs=rows);(folder/'VIDEO_QA.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('folder',type=Path);a=p.parse_args();main(a.folder)
+    p=argparse.ArgumentParser();p.add_argument('folder',type=Path);p.add_argument('--pattern',default='native-memory-correction-*.mp4');a=p.parse_args();main(a.folder,a.pattern)

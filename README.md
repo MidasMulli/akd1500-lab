@@ -8,6 +8,66 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## A learned memory teaches another — October 25, 2026 (UTC)
+
+**A native learned source transfers associations into separate native memories;
+those students later answer with the source answer path silent.** Three initializations:
+**288/288** final six-key queries, versus **0/288** with the native teaching link cut
+and **0/288** with student learning disabled. The source's complete RAM trajectory
+stays identical across the controls. Strong CPU dictionaries also pass288/288.
+
+External outcomes ground the source only. Every student-transfer descriptor has
+constant class0, with no external outcome bytes or host prediction decode. Native
+source predictions drive the designed error/valence coding; native competition
+selects records and updates connections. The teacher-silent exam masks source
+plastic cues while its fixed key-routing helpers still run; it is not power gating.
+Seven sequential FNP3s,24 plastic records, host-paced roles. No efficiency claim.
+
+![Recorded learned-source transfer into native student memories](visual/native-teacher-transfer-4k.png)
+
+[1080p60 recorded replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-teacher-transfer-1080p60.mp4) ·
+[full assessment and preserved failures](studies/20261025-native-transfer/ASSESSMENT.md) ·
+[protocol](studies/20261025-native-transfer/PROTOCOL.md) ·
+[numeric audit](results/20261025-native-transfer.audit.json)
+
+Adding new facts makes two source initializations forget one older association;
+students retain the original facts and add the new ones. This qualifies engineered
+native transfer and independent storage, not protection against arbitrary wrong
+teachers, discovery of truth from nothing, autonomous scheduling or a CPU advantage.
+Twelve qualified physical cells/2,754 forwards; the separate62-forward failed actor
+prefix and four compiler/authoring failures remain preserved. Eight corruptions fail.
+
+```sh
+python -m admission.transfer_archive audit
+python -m admission.transfer_mutations
+```
+
+## Resident memories adapt independently — October 25, 2026 (UTC)
+
+**Two co-resident native banks correct opposite answers to the same cue IDs,
+without cross-context RAM changes.** Both banks stay enabled on every teacher clock;
+native feature routing selects which receives a matching learning input. Across
+three initializations plus three first-seed order replications, read-only correction
+passes **6,912/6,912**, versus **4,368/6,912** without retirement and **5,184/6,912**
+trained-frozen. CPU dictionary/LRU also pass6,912/6,912 and acquire slightly better.
+
+![Measured two-bank isolation and preserved failed pressure gate](visual/isolated-correction.png)
+
+All8,400 foreign-context boundaries stay byte-identical. First-seed solo and mixed
+RAM trajectories match at all700 own-context boundaries per bank. **Pressure still
+fails:** the overloaded bank scores48/96 while its untouched neighbour remains96/96;
+removing retirement improves the overloaded bank to80/96. No expansion after that
+negative. Isolation is qualified; general useful eviction remains open.
+
+[Assessment](studies/20261025-isolated-correction/ASSESSMENT.md) ·
+[protocol](studies/20261025-isolated-correction/PROTOCOL.md) ·
+[numeric audit](results/20261025-isolated-correction.audit.json)
+
+```sh
+python -m admission.isolation_archive audit
+python -m admission.isolation_mutations
+```
+
 ## Correct changing memories without resetting the bank — October 25, 2026 (UTC)
 
 **A native prediction-error gate and contradictory teaching let the AKD1500 retire

@@ -1,0 +1,48 @@
+{
+  "status": "SEMANTIC_MUTATIONS_PASS",
+  "unmodified": "PASS",
+  "rejected": 8,
+  "attempts": [
+    {
+      "name": "foreign_context_RAM_changed",
+      "status": "REJECTED",
+      "reason": "every native learning-RAM boundary"
+    },
+    {
+      "name": "host_disables_foreign_bank",
+      "status": "REJECTED",
+      "reason": ""
+    },
+    {
+      "name": "host_reconstructs_prediction",
+      "status": "REJECTED",
+      "reason": "raw cue/context, delayed actual and native saved prediction"
+    },
+    {
+      "name": "context_output_swapped",
+      "status": "REJECTED",
+      "reason": "every native response and admission/context relay"
+    },
+    {
+      "name": "fixed_route_changed",
+      "status": "REJECTED",
+      "reason": "fixed inference RAM changed"
+    },
+    {
+      "name": "native_packet_disagrees",
+      "status": "REJECTED",
+      "reason": "native packet payload"
+    },
+    {
+      "name": "coupled_descriptor_and_source_pointer",
+      "status": "REJECTED",
+      "reason": "direct native query-output source"
+    },
+    {
+      "name": "negative_descriptor_class_changed",
+      "status": "REJECTED",
+      "reason": "raw actual/complement descriptor class"
+    }
+  ],
+  "scope": "In-memory mutations bypass hashes. Saved measurements unchanged; no device access."
+}
