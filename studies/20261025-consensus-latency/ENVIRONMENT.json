@@ -1,0 +1,9 @@
+{
+  "cpu_model": "NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super",
+  "machine": "aarch64",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "build_flags": "-std=c++17 -O3 -mcpu=native",
+  "affinity_cpu": 2,
+  "runtime_library_sha256": "fe83636fcaf3ab229660a6927269f6be86f5dbc779b3e441cd749ef85c1afd8e",
+  "program_lifetime_failure": "Preserved first attempt and bounded GDB replay; fixed before successful qualification."
+}

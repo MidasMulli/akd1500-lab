@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-25T11:24:57.028693+00:00",
+  "software_tests": 212,
+  "software_test_log_sha256": "e533969f090e0f9adc44370df8b1ff6d9d35f965028e1d16a66c05e1b58e906e",
+  "portable_archive_status": "PORTABLE_LATENCY_ARCHIVE_PASS",
+  "archive_sha256": "7edb6a55787493596af0ff905f061440be166117b106edcc2aef47bca3761884",
+  "native_completed_sessions": 12,
+  "native_forwards": 29448,
+  "primary_per_substrate_runs": 9,
+  "actual_revisions_per_substrate": 108,
+  "preserved_native_failed_or_diagnostic_attempts": 2,
+  "study_closed": true
+}

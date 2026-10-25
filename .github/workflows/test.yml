@@ -18,6 +18,7 @@ jobs:
           python -m admission.consensus_mutations
           python -m admission.consensus_crossed_archive audit
           python -m admission.consensus_crossed_mutations
+          python -m admission.latency_archive audit
       - run: python -m py_compile admission/*.py tools/*.py power/*.py image_service/*.py image_service/service/*.py image_service/sources/*.py mario/*.py mario/sealed/*.py mario/continuous/*.py pong/*.py pong/relearn/*.py relay/*.py metal/*.py kernel/*.py recipe/*.py recognition/*.py resident/*.py capability/*.py streaming/*.py coprocessor/*.py
       - run: g++ -std=c++17 -fsyntax-only recognition/cpu_bench.cpp
       - run: g++ -std=c++17 -fsyntax-only src/primitive_cpu.cpp

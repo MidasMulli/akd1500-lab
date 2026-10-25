@@ -1,0 +1,962 @@
+{
+  "archive_sha256": "7edb6a55787493596af0ff905f061440be166117b106edcc2aef47bca3761884",
+  "actual_revision_us": {
+    "dictionary": 0.064,
+    "native": 327.467,
+    "replica": 21.089
+  },
+  "confirmation_active_ms": {
+    "dictionary": 0.000928,
+    "native": 5.303519,
+    "replica": 0.364012
+  },
+  "CPU_policy_batched_ns": 2.3314068134014425,
+  "full_learning_RAM_verification_ms": 4.340447,
+  "native_vs_replica_latency_ratio": 15.52785812508891,
+  "summary": {
+    "dictionary": {
+      "runs": 9,
+      "accepted_transfer": {
+        "n": 648,
+        "median_ns": 64.0,
+        "p95_ns": 64.0,
+        "min_ns": 32.0,
+        "max_ns": 96.0
+      },
+      "actual_revision": {
+        "n": 108,
+        "median_ns": 64.0,
+        "p95_ns": 64.0,
+        "min_ns": 32.0,
+        "max_ns": 96.0
+      },
+      "components": {
+        "mode_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "input_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "submit_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "release_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "completion_observed_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "fetch_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "compute_ns": {
+          "n": 648,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        "audit_readback_ns": {
+          "n": 648,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 64.0
+        },
+        "audit_check_ns": {
+          "n": 648,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        }
+      },
+      "revision_components": {
+        "mode_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "input_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "submit_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "release_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "completion_observed_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "fetch_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "compute_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        "audit_readback_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 64.0
+        },
+        "audit_check_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        }
+      },
+      "revision_bytes": {
+        "read_bytes": {
+          "n": 108,
+          "median_bytes": 0.0,
+          "p95_bytes": 0.0,
+          "min_bytes": 0.0,
+          "max_bytes": 0.0
+        },
+        "write_bytes": {
+          "n": 108,
+          "median_bytes": 0.0,
+          "p95_bytes": 0.0,
+          "min_bytes": 0.0,
+          "max_bytes": 0.0
+        }
+      },
+      "clock_call_floor": {
+        "n": 90000,
+        "median_ns": 64.0,
+        "p95_ns": 64.0,
+        "min_ns": 0.0,
+        "max_ns": 31297.0
+      },
+      "convergence": {
+        "learner_learning_path_ns": {
+          "n": 108,
+          "median_ns": 96.0,
+          "p95_ns": 128.0,
+          "min_ns": 64.0,
+          "max_ns": 288.0
+        },
+        "learner_operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 928.0,
+          "p95_ns": 1024.0,
+          "min_ns": 800.0,
+          "max_ns": 1121.0
+        },
+        "learner_observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 5280.0,
+          "p95_ns": 5344.0,
+          "min_ns": 5184.0,
+          "max_ns": 5537.0
+        },
+        "operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 1424.5,
+          "p95_ns": 1984.0,
+          "min_ns": 800.0,
+          "max_ns": 2049.0
+        },
+        "observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 8096.5,
+          "p95_ns": 10912.0,
+          "min_ns": 5185.0,
+          "max_ns": 11041.0
+        },
+        "confirming_queries_ns": {
+          "n": 108,
+          "median_ns": 832.0,
+          "p95_ns": 916.7999999999997,
+          "min_ns": 704.0,
+          "max_ns": 961.0
+        }
+      },
+      "teaching_attempts": {
+        "n": 108,
+        "median_attempts": 1.0,
+        "p95_attempts": 1.0,
+        "min_attempts": 1.0,
+        "max_attempts": 1.0
+      },
+      "protected_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "updated_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "final_readback": {
+        "n": 9,
+        "median_ns": 0.0,
+        "p95_ns": 0.0,
+        "min_ns": 0.0,
+        "max_ns": 0.0
+      },
+      "per_run_revision": [
+        {
+          "name": "dictionary_s124101_repeat_final_r0",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 78.39999999999998,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        {
+          "name": "dictionary_s124101_repeat_final_r1",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 64.0
+        },
+        {
+          "name": "dictionary_s124101_repeat_final_r2",
+          "n": 12,
+          "median_ns": 48.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 64.0
+        },
+        {
+          "name": "dictionary_s124201_repeat_final_r0",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 96.0,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        {
+          "name": "dictionary_s124201_repeat_final_r1",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 78.39999999999998,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        {
+          "name": "dictionary_s124201_repeat_final_r2",
+          "n": 12,
+          "median_ns": 48.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 64.0
+        },
+        {
+          "name": "dictionary_s124301_repeat_final_r0",
+          "n": 12,
+          "median_ns": 32.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 64.0
+        },
+        {
+          "name": "dictionary_s124301_repeat_final_r1",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 78.39999999999998,
+          "min_ns": 32.0,
+          "max_ns": 96.0
+        },
+        {
+          "name": "dictionary_s124301_repeat_final_r2",
+          "n": 12,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 32.0,
+          "max_ns": 64.0
+        }
+      ],
+      "agreed_policy_batch_ns_per_update": {
+        "n": 9,
+        "median_ns": 2.3314068134014425,
+        "p95_ns": 2.3730750450721154,
+        "min_ns": 2.3290029672475963,
+        "max_ns": 2.378283378405449
+      },
+      "mixed_stream_batch_ns_per_event": {
+        "n": 9,
+        "median_ns": 2.5905309134301566,
+        "p95_ns": 2.621655464670366,
+        "min_ns": 2.5815346819924936,
+        "max_ns": 2.630084244451697
+      }
+    },
+    "native": {
+      "runs": 9,
+      "accepted_transfer": {
+        "n": 648,
+        "median_ns": 327307.0,
+        "p95_ns": 332425.4,
+        "min_ns": 325674.0,
+        "max_ns": 380877.0
+      },
+      "actual_revision": {
+        "n": 108,
+        "median_ns": 327467.0,
+        "p95_ns": 332742.2,
+        "min_ns": 325899.0,
+        "max_ns": 363692.0
+      },
+      "components": {
+        "mode_ns": {
+          "n": 648,
+          "median_ns": 38273.0,
+          "p95_ns": 38869.8,
+          "min_ns": 38113.0,
+          "max_ns": 49154.0
+        },
+        "input_ns": {
+          "n": 648,
+          "median_ns": 944.5,
+          "p95_ns": 992.0,
+          "min_ns": 896.0,
+          "max_ns": 2112.0
+        },
+        "submit_ns": {
+          "n": 648,
+          "median_ns": 11008.0,
+          "p95_ns": 11073.0,
+          "min_ns": 10913.0,
+          "max_ns": 18048.0
+        },
+        "release_ns": {
+          "n": 648,
+          "median_ns": 928.0,
+          "p95_ns": 960.0,
+          "min_ns": 896.0,
+          "max_ns": 1280.0
+        },
+        "completion_observed_ns": {
+          "n": 648,
+          "median_ns": 99908.0,
+          "p95_ns": 100056.15,
+          "min_ns": 98883.0,
+          "max_ns": 101891.0
+        },
+        "fetch_ns": {
+          "n": 648,
+          "median_ns": 176197.0,
+          "p95_ns": 180538.8,
+          "min_ns": 174534.0,
+          "max_ns": 229704.0
+        },
+        "compute_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "audit_readback_ns": {
+          "n": 648,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 288.0
+        },
+        "audit_check_ns": {
+          "n": 648,
+          "median_ns": 96.0,
+          "p95_ns": 2740.7999999999993,
+          "min_ns": 32.0,
+          "max_ns": 12064.0
+        }
+      },
+      "revision_components": {
+        "mode_ns": {
+          "n": 108,
+          "median_ns": 38273.0,
+          "p95_ns": 38742.15,
+          "min_ns": 38145.0,
+          "max_ns": 42433.0
+        },
+        "input_ns": {
+          "n": 108,
+          "median_ns": 960.0,
+          "p95_ns": 981.1499999999997,
+          "min_ns": 896.0,
+          "max_ns": 1408.0
+        },
+        "submit_ns": {
+          "n": 108,
+          "median_ns": 11008.0,
+          "p95_ns": 11072.0,
+          "min_ns": 10944.0,
+          "max_ns": 11201.0
+        },
+        "release_ns": {
+          "n": 108,
+          "median_ns": 928.0,
+          "p95_ns": 960.0,
+          "min_ns": 896.0,
+          "max_ns": 960.0
+        },
+        "completion_observed_ns": {
+          "n": 108,
+          "median_ns": 99939.0,
+          "p95_ns": 101796.0,
+          "min_ns": 99748.0,
+          "max_ns": 101891.0
+        },
+        "fetch_ns": {
+          "n": 108,
+          "median_ns": 176213.5,
+          "p95_ns": 180473.2,
+          "min_ns": 175014.0,
+          "max_ns": 210407.0
+        },
+        "compute_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "audit_readback_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 96.0
+        },
+        "audit_check_ns": {
+          "n": 108,
+          "median_ns": 96.0,
+          "p95_ns": 480.0,
+          "min_ns": 32.0,
+          "max_ns": 512.0
+        }
+      },
+      "revision_bytes": {
+        "read_bytes": {
+          "n": 108,
+          "median_bytes": 416.0,
+          "p95_bytes": 420.0,
+          "min_bytes": 400.0,
+          "max_bytes": 420.0
+        },
+        "write_bytes": {
+          "n": 108,
+          "median_bytes": 600.0,
+          "p95_bytes": 600.0,
+          "min_bytes": 600.0,
+          "max_bytes": 600.0
+        }
+      },
+      "clock_call_floor": {
+        "n": 90000,
+        "median_ns": 64.0,
+        "p95_ns": 64.0,
+        "min_ns": 0.0,
+        "max_ns": 15617.0
+      },
+      "convergence": {
+        "learner_learning_path_ns": {
+          "n": 108,
+          "median_ns": 619700.0,
+          "p95_ns": 629560.2,
+          "min_ns": 616917.0,
+          "max_ns": 654230.0
+        },
+        "learner_operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 5303519.0,
+          "p95_ns": 5372982.45,
+          "min_ns": 5282127.0,
+          "max_ns": 5963429.0
+        },
+        "learner_observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 5312719.0,
+          "p95_ns": 5381289.65,
+          "min_ns": 5292335.0,
+          "max_ns": 5980614.0
+        },
+        "operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 7985784.0,
+          "p95_ns": 10658922.2,
+          "min_ns": 5287023.0,
+          "max_ns": 11258707.0
+        },
+        "observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 8000152.0,
+          "p95_ns": 10675197.45,
+          "min_ns": 5294031.0,
+          "max_ns": 11283604.0
+        },
+        "confirming_queries_ns": {
+          "n": 108,
+          "median_ns": 4682442.0,
+          "p95_ns": 4746440.2,
+          "min_ns": 4664730.0,
+          "max_ns": 5346032.0
+        }
+      },
+      "teaching_attempts": {
+        "n": 108,
+        "median_attempts": 1.0,
+        "p95_attempts": 1.0,
+        "min_attempts": 1.0,
+        "max_attempts": 1.0
+      },
+      "protected_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "updated_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "final_readback": {
+        "n": 9,
+        "median_ns": 4324750.0,
+        "p95_ns": 4342075.8,
+        "min_ns": 4306830.0,
+        "max_ns": 4342575.0
+      },
+      "per_run_revision": [
+        {
+          "name": "native_s124101_repeat_final_r0",
+          "n": 12,
+          "median_ns": 327691.0,
+          "p95_ns": 329715.0,
+          "min_ns": 326602.0,
+          "max_ns": 329803.0
+        },
+        {
+          "name": "native_s124101_repeat_final_r1",
+          "n": 12,
+          "median_ns": 328139.0,
+          "p95_ns": 331956.6,
+          "min_ns": 326955.0,
+          "max_ns": 333259.0
+        },
+        {
+          "name": "native_s124101_repeat_final_r2",
+          "n": 12,
+          "median_ns": 327515.0,
+          "p95_ns": 344225.85,
+          "min_ns": 326283.0,
+          "max_ns": 363692.0
+        },
+        {
+          "name": "native_s124201_repeat_final_r0",
+          "n": 12,
+          "median_ns": 327675.0,
+          "p95_ns": 345731.44999999995,
+          "min_ns": 326283.0,
+          "max_ns": 361484.0
+        },
+        {
+          "name": "native_s124201_repeat_final_r1",
+          "n": 12,
+          "median_ns": 327210.5,
+          "p95_ns": 329116.15,
+          "min_ns": 326059.0,
+          "max_ns": 330154.0
+        },
+        {
+          "name": "native_s124201_repeat_final_r2",
+          "n": 12,
+          "median_ns": 327467.0,
+          "p95_ns": 330812.6,
+          "min_ns": 325899.0,
+          "max_ns": 332555.0
+        },
+        {
+          "name": "native_s124301_repeat_final_r0",
+          "n": 12,
+          "median_ns": 327179.0,
+          "p95_ns": 329485.75,
+          "min_ns": 325995.0,
+          "max_ns": 330506.0
+        },
+        {
+          "name": "native_s124301_repeat_final_r1",
+          "n": 12,
+          "median_ns": 327115.0,
+          "p95_ns": 342574.64999999997,
+          "min_ns": 326314.0,
+          "max_ns": 358380.0
+        },
+        {
+          "name": "native_s124301_repeat_final_r2",
+          "n": 12,
+          "median_ns": 328459.0,
+          "p95_ns": 338008.25,
+          "min_ns": 326282.0,
+          "max_ns": 344908.0
+        }
+      ]
+    },
+    "replica": {
+      "runs": 9,
+      "accepted_transfer": {
+        "n": 648,
+        "median_ns": 20576.0,
+        "p95_ns": 21173.149999999998,
+        "min_ns": 20352.0,
+        "max_ns": 26209.0
+      },
+      "actual_revision": {
+        "n": 108,
+        "median_ns": 21089.0,
+        "p95_ns": 21781.45,
+        "min_ns": 20897.0,
+        "max_ns": 22049.0
+      },
+      "components": {
+        "mode_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "input_ns": {
+          "n": 648,
+          "median_ns": 96.0,
+          "p95_ns": 128.0,
+          "min_ns": 64.0,
+          "max_ns": 544.0
+        },
+        "submit_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "release_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "completion_observed_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "fetch_ns": {
+          "n": 648,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "compute_ns": {
+          "n": 648,
+          "median_ns": 20481.0,
+          "p95_ns": 21089.0,
+          "min_ns": 20288.0,
+          "max_ns": 26113.0
+        },
+        "audit_readback_ns": {
+          "n": 648,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 65.0
+        },
+        "audit_check_ns": {
+          "n": 648,
+          "median_ns": 96.0,
+          "p95_ns": 1920.65,
+          "min_ns": 32.0,
+          "max_ns": 3041.0
+        }
+      },
+      "revision_components": {
+        "mode_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "input_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 96.0,
+          "min_ns": 64.0,
+          "max_ns": 128.0
+        },
+        "submit_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "release_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "completion_observed_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "fetch_ns": {
+          "n": 108,
+          "median_ns": 0.0,
+          "p95_ns": 0.0,
+          "min_ns": 0.0,
+          "max_ns": 0.0
+        },
+        "compute_ns": {
+          "n": 108,
+          "median_ns": 21024.0,
+          "p95_ns": 21696.65,
+          "min_ns": 20801.0,
+          "max_ns": 21985.0
+        },
+        "audit_readback_ns": {
+          "n": 108,
+          "median_ns": 64.0,
+          "p95_ns": 64.0,
+          "min_ns": 0.0,
+          "max_ns": 64.0
+        },
+        "audit_check_ns": {
+          "n": 108,
+          "median_ns": 96.0,
+          "p95_ns": 128.0,
+          "min_ns": 32.0,
+          "max_ns": 160.0
+        }
+      },
+      "revision_bytes": {
+        "read_bytes": {
+          "n": 108,
+          "median_bytes": 0.0,
+          "p95_bytes": 0.0,
+          "min_bytes": 0.0,
+          "max_bytes": 0.0
+        },
+        "write_bytes": {
+          "n": 108,
+          "median_bytes": 0.0,
+          "p95_bytes": 0.0,
+          "min_bytes": 0.0,
+          "max_bytes": 0.0
+        }
+      },
+      "clock_call_floor": {
+        "n": 90000,
+        "median_ns": 64.0,
+        "p95_ns": 64.0,
+        "min_ns": 0.0,
+        "max_ns": 96.0
+      },
+      "convergence": {
+        "learner_learning_path_ns": {
+          "n": 108,
+          "median_ns": 41265.5,
+          "p95_ns": 41973.8,
+          "min_ns": 40897.0,
+          "max_ns": 42306.0
+        },
+        "learner_operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 364012.0,
+          "p95_ns": 369868.0,
+          "min_ns": 362028.0,
+          "max_ns": 407726.0
+        },
+        "learner_observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 370876.0,
+          "p95_ns": 377807.85,
+          "min_ns": 367821.0,
+          "max_ns": 415342.0
+        },
+        "operational_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 564835.0,
+          "p95_ns": 734690.55,
+          "min_ns": 362092.0,
+          "max_ns": 771386.0
+        },
+        "observed_until_confirmed_ns": {
+          "n": 108,
+          "median_ns": 575667.5,
+          "p95_ns": 747851.2,
+          "min_ns": 367821.0,
+          "max_ns": 784762.0
+        },
+        "confirming_queries_ns": {
+          "n": 108,
+          "median_ns": 322667.0,
+          "p95_ns": 328743.45,
+          "min_ns": 320939.0,
+          "max_ns": 366476.0
+        }
+      },
+      "teaching_attempts": {
+        "n": 108,
+        "median_attempts": 1.0,
+        "p95_attempts": 1.0,
+        "min_attempts": 1.0,
+        "max_attempts": 1.0
+      },
+      "protected_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "updated_recall": {
+        "correct": 2592,
+        "queries": 2592
+      },
+      "final_readback": {
+        "n": 9,
+        "median_ns": 10241.0,
+        "p95_ns": 12294.4,
+        "min_ns": 9824.0,
+        "max_ns": 13152.0
+      },
+      "per_run_revision": [
+        {
+          "name": "replica_s124101_repeat_final_r0",
+          "n": 12,
+          "median_ns": 21072.0,
+          "p95_ns": 21566.4,
+          "min_ns": 20929.0,
+          "max_ns": 21760.0
+        },
+        {
+          "name": "replica_s124101_repeat_final_r1",
+          "n": 12,
+          "median_ns": 21089.0,
+          "p95_ns": 21727.4,
+          "min_ns": 20897.0,
+          "max_ns": 21921.0
+        },
+        {
+          "name": "replica_s124101_repeat_final_r2",
+          "n": 12,
+          "median_ns": 21009.0,
+          "p95_ns": 21645.35,
+          "min_ns": 20961.0,
+          "max_ns": 21856.0
+        },
+        {
+          "name": "replica_s124201_repeat_final_r0",
+          "n": 12,
+          "median_ns": 21025.0,
+          "p95_ns": 21368.45,
+          "min_ns": 20929.0,
+          "max_ns": 21633.0
+        },
+        {
+          "name": "replica_s124201_repeat_final_r1",
+          "n": 12,
+          "median_ns": 21057.0,
+          "p95_ns": 21383.4,
+          "min_ns": 20992.0,
+          "max_ns": 21665.0
+        },
+        {
+          "name": "replica_s124201_repeat_final_r2",
+          "n": 12,
+          "median_ns": 21089.0,
+          "p95_ns": 21476.2,
+          "min_ns": 21024.0,
+          "max_ns": 21793.0
+        },
+        {
+          "name": "replica_s124301_repeat_final_r0",
+          "n": 12,
+          "median_ns": 21104.5,
+          "p95_ns": 21716.2,
+          "min_ns": 20960.0,
+          "max_ns": 21857.0
+        },
+        {
+          "name": "replica_s124301_repeat_final_r1",
+          "n": 12,
+          "median_ns": 21201.0,
+          "p95_ns": 21767.4,
+          "min_ns": 21121.0,
+          "max_ns": 22049.0
+        },
+        {
+          "name": "replica_s124301_repeat_final_r2",
+          "n": 12,
+          "median_ns": 21137.0,
+          "p95_ns": 21809.0,
+          "min_ns": 20993.0,
+          "max_ns": 21985.0
+        }
+      ]
+    }
+  }
+}

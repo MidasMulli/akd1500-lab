@@ -8,6 +8,34 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Agreed-update latency on Nano — October 25, 2026 (UTC)
+
+**The CPU wins this small four-cue task.** With identical native learning-state
+and output checks, an actual revision transaction takes **327.5 µs on AKD**
+including transport/runtime, versus **21.1 µs for the CPU neural replica**.
+The direct CPU agreement policy measures **2.33 ns/update amortized in a cached
+batch**; its per-call 64 ns readings meet the clock-call floor and are unresolved.
+
+All paths recall the revision after one accepted teaching attempt. Including the
+source query and 16 read-only confirmation probes takes **5.304 ms native** versus
+**0.364 ms CPU replica** (active time). Native result retrieval is 176.2 µs and
+observed resident completion 99.9 µs; the latter includes PCIe polling. Full learning
+RAM audit costs another 4.34 ms and is excluded from these operational timings.
+
+Three seeds × three repetitions × six reversals: 108 actual changed-cue cases per
+path, exact output/final-RAM checks and 35 passing saved streams. Two failed/debug
+attempts are preserved; a harness program-buffer lifetime error was repaired and
+fully requalified before timing expansion. No energy or full-chip limit claim.
+
+[Assessment and timing boundaries](studies/20261025-consensus-latency/ASSESSMENT.md) ·
+[4K figure](studies/20261025-consensus-latency/LATENCY.png) ·
+[case timings](studies/20261025-consensus-latency/CASES.csv) ·
+[portable numeric audit](results/20261025-consensus-latency.audit.json)
+
+```sh
+python -m admission.latency_archive audit
+```
+
 ## Native memory can decline an update — October 25, 2026 (UTC)
 
 **Two learned sources now regulate whether separate native memories revise their
