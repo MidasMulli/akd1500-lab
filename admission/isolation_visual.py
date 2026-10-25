@@ -35,5 +35,6 @@ def main():
            'No electrical concurrency, general eviction, autonomous scheduling, calibrated speed or energy advantage.']
     for i,note in enumerate(notes):fig.text(.065,.235-i*.031,note,fontsize=11,color='#a2b4c6')
     out=P/'visual/isolated-correction';fig.savefig(out.with_suffix('.png'),dpi=240);fig.savefig(out.with_suffix('.svg'));plt.close(fig)
+    svg=out.with_suffix('.svg');svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     (P/'visual/ISOLATION_SOURCE_BINDING.json').write_text(json.dumps(dict(archive_sha256=r['archive_sha256'],renderer_sha256=sha(__file__),outputs={p.name:sha(p) for p in [out.with_suffix('.png'),out.with_suffix('.svg')]}),indent=2)+'\n')
 if __name__=='__main__':main()
