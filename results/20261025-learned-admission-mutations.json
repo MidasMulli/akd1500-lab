@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "mutations": [
+    {
+      "name": "raw_observation",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "raw observations and native permission inputs"
+    },
+    {
+      "name": "manager_synapses",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "every native learning-RAM boundary"
+    },
+    {
+      "name": "native_permission_input",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "raw observations and native permission inputs"
+    },
+    {
+      "name": "returned_permission_and_packet",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "all native output/permission bits"
+    },
+    {
+      "name": "phase_clocks",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "uniform phase clocks only"
+    },
+    {
+      "name": "future_label_leak",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "constant manager label or delayed actual outcome"
+    },
+    {
+      "name": "causal_teacher_source",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "teacher must use native query output directly"
+    },
+    {
+      "name": "protected_recall_ram",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": "every native learning-RAM boundary"
+    },
+    {
+      "name": "fixed_policy_ram",
+      "status": "REJECTED_AFTER_REHASH",
+      "reason": ""
+    }
+  ]
+}

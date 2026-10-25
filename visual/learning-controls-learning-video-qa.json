@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "akd-learning-controls-learning-1080p60.mp4",
+      "bytes": 7255693,
+      "sha256": "8961e937e7ae65d5f559d8a3e6e31b44e40c0abf3dc3a868116b76e5c9dc0c33",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "32.000000",
+      "nb_frames": "1920",
+      "decoded_frames": 1920,
+      "unique_frames": 1920,
+      "fast_start": true
+    },
+    {
+      "file": "akd-learning-controls-learning-4k60.mp4",
+      "bytes": 77551347,
+      "sha256": "fd41f307b72d531320c9267c19c6faca6771d379a6c161d12d59ae61df790a97",
+      "width": 3840,
+      "height": 2160,
+      "r_frame_rate": "60/1",
+      "duration": "32.000000",
+      "nb_frames": "1920",
+      "decoded_frames": 1920,
+      "unique_frames": 1920,
+      "fast_start": true
+    }
+  ]
+}

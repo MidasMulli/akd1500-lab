@@ -8,6 +8,42 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Learning controls learning — October 25, 2026 (UTC)
+
+**A native plastic manager controls what another native bank is allowed to learn.**
+Seven sequential FNP3s hold three plastic groups. The manager stores the latest raw
+key in its connections; its pre-update match travels through a native output buffer
+and gates teaching of a protected consequence bank. Nano supplies raw observations,
+uniform phase clocks and delayed actual outcomes, with no data-dependent host
+bank/record choice. The fixed per-bank clock schedule remains host-controlled.
+
+Across five initializations, useful-memory revisit passes **120/120** and held-out
+ordering **480/480**. Always-open yields **170/480**, trained-frozen **150/480**.
+Freezing the manager or severing its permission each reduces the first-seed result
+from **96/96 to30/96**, while the severed arm retains the exact manager-RAM trajectory.
+All10 original record IDs/weights survive. The benefit is keeping free capacity
+for later useful inputs; old records also survive in the open control.
+
+![Recorded native synaptic controller and protected recall](visual/learning-controls-learning-recall-4k.png)
+
+[1080p60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-1080p60.mp4) ·
+[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-4k60.mp4) ·
+[public tools and audit](admission/README.md) ·
+[full results, CPU controls and limitations](studies/20261025-learned-admission/ASSESSMENT.md)
+
+The repeat rule and representation are designed; recent-key state and consequence
+associations learn natively. The CPU repeat-admission control also passes480/480,
+and CPU controls do better on cold/mixed-stream queries. No speed/energy advantage
+or self-invented management objective is claimed. This extends the stock final-
+classifier workflow with qualified resident coordination of three plastic banks.
+All7,780 final-series forwards replay; the separate fixed-policy prerequisite's
+1,048 forwards and preserved failures remain distinct. Nine rehashed corruptions fail.
+
+```sh
+python -m admission.archive audit
+python -m admission.mutations
+```
+
 ## Native context-record allocation — October 24, 2026
 
 **The chip chooses which record to learn and which learned record responds.**

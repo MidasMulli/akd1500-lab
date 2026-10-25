@@ -83,3 +83,6 @@ studies/20261024-temporal-context/build*.stderr
 !visual/context-discovery-1080p60.mp4
 studies/20261024-context-discovery/build*.stdout
 studies/20261024-context-discovery/build*.stderr
+
+!visual/learning-controls-learning-4k60.mp4
+!visual/learning-controls-learning-1080p60.mp4

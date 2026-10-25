@@ -1,0 +1,16 @@
+{
+  "status": "AUDITED_NATIVE_SYNAPTIC_CONTROLLER_REPLAY",
+  "archive_sha256": "c80a7b7d0caa23aa0a87a72787ad26df87e14b10a7ec41ebf37ad18d123a0f87",
+  "events_sha256": "aab7cea1c3ffd5b1696bddba2e85da73b5519bc5673d19f37ea58b56d7994aa3",
+  "renderer_sha256": "09f400e3906697e83752c0e3011a6b9a8c415bfbb2e3858093b481070e9bccb6",
+  "scope": "Recorded native binary responses and all three learning RAMs. One plastic recency record plus two eight-record consequence banks; fixed helper records omitted from connection clouds and explicitly counted. Fixed encoding and repeat-admission rule are designed, manager recent-key state is learned. Native output permission directly feeds the teacher input; host-paced uniform phase clocks and actual outcomes. Intermediate fixed features derived, camera/geometry/flow timing schematic, selected slowed events, no electrical spike or physical-die trace. CPU repeat-admission also passes; no timing/energy advantage.",
+  "outputs": {
+    "distractors.png": "12479d8dd6433e0a7ef5a973ea8b73f306481644f574b7168d2119943868745a",
+    "akd-learning-controls-learning-1080p60.mp4": "8961e937e7ae65d5f559d8a3e6e31b44e40c0abf3dc3a868116b76e5c9dc0c33",
+    "learning.png": "32fcc4bc2fc0c65b90767d203fe7206da23109d4dd97db8ffb6e2f5f06addb05",
+    "akd-learning-controls-learning-4k60.mp4": "fd41f307b72d531320c9267c19c6faca6771d379a6c161d12d59ae61df790a97",
+    "heldout.png": "f5dbe2efa7b0b0a3e2e719878e0230196f4aea1c00c7ea34f9491f3eeaf8ecdf",
+    "recall.png": "3e94291d3792954b3dc4249c3245645eb8bb0b51f107e3d015c71ca6ca767f5e",
+    "bootstrap.png": "c8f39a92ea70802c0aade5fca0e5fa7f2e0e94753b36442e372106da2410f590"
+  }
+}
