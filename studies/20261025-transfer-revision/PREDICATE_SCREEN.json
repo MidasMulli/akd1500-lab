@@ -1,0 +1,2437 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "native",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        0
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        0,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        0
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        0,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 0,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 0,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "arm": "teacher_cut",
+      "teacher": [
+        1,
+        1
+      ],
+      "student": [
+        1,
+        1
+      ],
+      "teach": 1,
+      "block": 1,
+      "errors": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

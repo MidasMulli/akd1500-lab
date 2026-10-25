@@ -156,3 +156,33 @@ Source-mode journals are not electrical bus traces. No native advantage in speed
 energy, concurrency, general eviction or autonomous scheduling follows from these
 functional qualifications. The transfer record-level source-teacher responses are
 derived; student bits, stored RAM and native output payloads are read back.
+
+
+## Repeated correction propagated between learned groups
+
+`revision.py`, `prepare_revision.py`, `revision_bench.cpp`, `revision_run.py` and
+`build_revision.sh` extend the native transfer mechanism with fixed external
+source-negative evidence roles. All controls first learn the same prefix; freezing
+students or cutting teaching occurs only afterwards. Source retirement is separately
+ablated. Native transfer class remains zero and both students share the same clock.
+
+`revision_archive.py` verifies every packet and complete three-bank RAM boundary,
+common trained prefixes, source-trajectory equality under cut/frozen students and
+full unrelated record payload retention. Useful native failures stop expansion
+separately from execution failures; negative controls remain execution passes.
+`revision_mutations.py` tests semantic rejection beyond matching hashes.
+`revision_visual.py` reuses the source-bound3D connection scene and labels old answers,
+source-negative evidence, native transfer and independent corrected recall.
+
+```sh
+python -m admission.revision_archive audit
+python -m admission.revision_mutations
+python -m admission.revision_visual --out NEW_OUTPUT_FOLDER --video
+python -m admission.correction_video_qa NEW_OUTPUT_FOLDER --pattern 'native-memory-revision-*.mp4'
+```
+
+[Full staged result and limits](../studies/20261025-transfer-revision/ASSESSMENT.md).
+The study is closed; fresh physical work requires a new bounded authority. It uses
+four cue associations across24 plastic records/seven sequential FNP3s. CPU functional
+controls also pass. No whole-chip utilization, electrical concurrency, general
+memory eviction, autonomous truth checking or calibrated speed/energy gain follows.

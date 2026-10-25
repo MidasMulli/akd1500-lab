@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "e76be7c7698e38a9821fef5865ac0b004445c96bdecb82d09b337c8a607b4544",
+  "events_sha256": "65aadd7a873c99ae98390890907ca9c1023dc4625d40b252f30282eb2666af66",
+  "renderer_sha256": "d76f0aaff21e20baacf4b11b932293f7162e54a24f357ebf4e057d997349458f",
+  "base_renderer_sha256": "ef6640102c6e4b79226a4e4f72ac45973aaf31fa0cecb6fe0ddaaf38974f6093",
+  "scope": "Recorded readback of three plastic groups across seven sequential FNP3s, four cue associations, twelve engineered external-rule reversals. Host supplies actual/complement source labels and fixed role clocks; student transfers have constant class0 and no external outcome. Teacher-silent exams mask the source answer path; its NPU still runs. Stored edges and final student responses measured; source per-record activity/intermediate features derived. Camera/geometry/glow/time schematic. CPU also passes; no efficiency/autonomy claim.",
+  "outputs": {
+    "native-memory-revision-1080p60.mp4": "786b5cdd2eff326e0a9ab3649e39a9bac38bf87c5ad9597c8728e9ab103682a7",
+    "corrected-student.png": "427d27f16a8afa2263b29315631de26ddecc45dd2fb7d6470692642e11ddad2e",
+    "source-retirement.png": "ce34949d3175de143418194b1121181296daa48e4cef6d13b9c1d042e64e5057",
+    "native-memory-revision-4k60.mp4": "1fb6120e3d361f28ca7d8711500aa6ed3f932b48e57868ade3ea2e811b11b2ff",
+    "repeated-revision.png": "47c9271b99729af84e00fff9b649321fba4c0e11d8cb0d6e2fda0ad746c4f2da",
+    "native-revision.png": "6f2f1e0e3bb577a149b886db96f3debb04a04b439d2d8d8f47190d3cecdfa3d7",
+    "old-student-answer.png": "f91cdd007f69421c154b422534bbe29a1c236780e0b47cf5d823d2f677e966bb"
+  },
+  "public_outputs": {
+    "native-memory-revision-1080p60.mp4": "786b5cdd2eff326e0a9ab3649e39a9bac38bf87c5ad9597c8728e9ab103682a7",
+    "native-memory-revision-4k60.mp4": "1fb6120e3d361f28ca7d8711500aa6ed3f932b48e57868ade3ea2e811b11b2ff",
+    "native-memory-revision-4k.png": "6f2f1e0e3bb577a149b886db96f3debb04a04b439d2d8d8f47190d3cecdfa3d7"
+  },
+  "public_poster_original": "native-revision.png",
+  "complete_numeric_evidence": "results/20261025-transfer-revision.npz"
+}

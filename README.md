@@ -8,6 +8,39 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Correct the teacher, revise the native network — October 25, 2026 (UTC)
+
+**Changed source knowledge now revises separate native student memories repeatedly.**
+Across three initializations and twelve reversals: **3,456/3,456** post-transfer
+queries with the teacher answer path silent. Trained students frozen after the
+common prefix, the teaching link cut after that prefix, and source retirement
+removed each score **2,592/3,456**. CPU teacher/student dictionaries also pass3,456/3,456.
+
+The source receives external positive/complement evidence. Student transfer still
+uses constant class0, no host-provided outcome and no host decode of the teacher.
+Native source predictions drive the feature code; native competition and connection
+updates revise the students. Twelve complete unrelated original record payloads
+remain unchanged. This is a four-cue synthetic study with designed coding and clocks,
+not general memory management, autonomous truth checking or an efficiency advantage.
+
+![Recorded native source correction and student revision](visual/native-memory-revision-4k.png)
+
+[1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-revision-1080p60.mp4) ·
+[assessment and all online queries](studies/20261025-transfer-revision/ASSESSMENT.md) ·
+[protocol](studies/20261025-transfer-revision/PROTOCOL.md) ·
+[numeric audit](results/20261025-transfer-revision.audit.json)
+
+Before transfer, native students still give the old answers (**288/576** exams);
+after transfer they correct them. All online queries, including acquisition,
+score **4,560/5,280**, as do the CPU dictionaries. Controls start with the same
+learned RAM prefix; source trajectories remain identical under the cut/frozen
+student controls. Sixteen physical cells/25,408 forwards; no execution failures.
+
+```sh
+python -m admission.revision_archive audit
+python -m admission.revision_mutations
+```
+
 ## A learned memory teaches another — October 25, 2026 (UTC)
 
 **A native learned source transfers associations into separate native memories;

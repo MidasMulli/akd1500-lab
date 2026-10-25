@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "native-memory-revision-1080p60.mp4",
+      "bytes": 8884525,
+      "sha256": "786b5cdd2eff326e0a9ab3649e39a9bac38bf87c5ad9597c8728e9ab103682a7",
+      "profile": "Main",
+      "width": 1920,
+      "height": 1080,
+      "has_b_frames": 0,
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "r_frame_rate": "60/1",
+      "duration": "30.000000",
+      "nb_frames": "1800",
+      "decoded_frames": 1800,
+      "unique_frames": 1800,
+      "software_decode": "PASS",
+      "apple_videotoolbox_decode": "PASS",
+      "fast_start": true
+    },
+    {
+      "file": "native-memory-revision-4k60.mp4",
+      "bytes": 50171233,
+      "sha256": "1fb6120e3d361f28ca7d8711500aa6ed3f932b48e57868ade3ea2e811b11b2ff",
+      "profile": "Main",
+      "width": 3840,
+      "height": 2160,
+      "has_b_frames": 0,
+      "pix_fmt": "yuv420p",
+      "level": 52,
+      "r_frame_rate": "60/1",
+      "duration": "30.000000",
+      "nb_frames": "1800",
+      "decoded_frames": 1800,
+      "unique_frames": 1800,
+      "software_decode": "PASS",
+      "apple_videotoolbox_decode": "PASS",
+      "fast_start": true
+    }
+  ]
+}
