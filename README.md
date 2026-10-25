@@ -44,6 +44,11 @@ python -m admission.archive audit
 python -m admission.mutations
 ```
 
+The next [software-only relevance screen](studies/20261025-admission-relevance/ASSESSMENT.md)
+challenges the designed repetition rule with repeated distractions and spaced
+future-query inputs. It reproduces the qualified original result, then exposes
+admission/reclamation gaps. It adds no physical sessions or efficiency claims.
+
 ## Native context-record allocation — October 24, 2026
 
 **The chip chooses which record to learn and which learned record responds.**

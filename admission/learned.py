@@ -74,9 +74,10 @@ def schedule(stage,arm):
         e['labels']=[0 if e['manager_learn'] else -1,e['label'],e['label']]
     return rows
 
-def simulate(rams,stage,arm):
+def simulate(rams,stage,arm,*,events=None):
     mats=matrices(arm);refs=[Reference(rams[k],n=n,u=u,nw=32,classes=c) for k,(n,u,c) in enumerate(DIMENSIONS)]
-    rows=schedule(stage,arm);last=np.zeros(N,'u1');xs=[];ys=[];states=[[],[],[]];potentials=[[],[],[]];features=[[],[],[]]
+    rows=schedule(stage,arm) if events is None else events
+    last=np.zeros(N,'u1');xs=[];ys=[];states=[[],[],[]];potentials=[[],[],[]];features=[[],[],[]]
     cpu={'unbounded':{},'repeat_lru':{},'lru':{}};cpu_out=[];previous=None
     for e in rows:
         x=last.copy()

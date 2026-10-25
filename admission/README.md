@@ -51,6 +51,23 @@ all cold/distractor/transient queries and stronger CPU results are in the
   device-free check, exclusive lock, owned watchdog and saved-array verification.
 - `archive.py`, `mutations.py`: public numeric-only audit and corruption checks.
 - `visual.py`, `video_qa.py`: source-bound4K60 replay and decoded-frame checks.
+- `relevance.py`: software-only counterexamples for the repetition heuristic,
+  preserving all intermediate arrays and keeping physical evidence counts separate.
+
+## Next-leg preflight: repeated distractions
+
+The [software screen](../studies/20261025-admission-relevance/ASSESSMENT.md)
+retains the original 480/480 circuit-replay result, but changing the stream to
+repeating distractions and spaced later inputs reduces it to150/480. All old-key
+queries still pass; later-key queries are missing. A repeated-later-input variant
+also exposes the lack of qualified memory reclamation. These are reference-model
+forecasts on new schedules, **not new measured chip results**. The next physical
+gates are native prediction-error feedback and bounded capacity reuse.
+
+```sh
+python -m admission.relevance audit results/20261025-relevance-gate.json
+python -m admission.relevance audit results/20261025-relevance-expansion.json
+```
 
 ## Separately licensed physical environment
 
