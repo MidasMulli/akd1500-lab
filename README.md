@@ -8,6 +8,37 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Correct changing memories without resetting the bank — October 25, 2026 (UTC)
+
+**A native prediction-error gate and contradictory teaching let the AKD1500 retire
+obsolete responses and reuse its eight-record memory while two unrelated memories
+stay unchanged.** Twelve alternating reversals across three initializations:
+1,728/1,728 read-only probes, versus 1,001/1,728 without the retirement path and
+1,299/1,728 trained-then-frozen. The CPU dictionary also passes 1,728/1,728 and
+slightly outperforms native acquisition; no energy or speed advantage is claimed.
+
+The host supplies raw keys, external outcomes and fixed teaching roles. Native
+comparison selects when teaching reaches the binary learner; native competition
+selects the record and changes its connections. No host weight repair, threshold
+reset or program reload within a session. Shared coding and the retirement rule
+are engineered. Five sequential FNP3s, one plastic bank—not a whole-chip test.
+
+![Recorded native contradiction and record reuse](visual/native-memory-correction-4k.png)
+
+[1080p60 recorded replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-correction-1080p60.mp4) ·
+[4K60 master](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-correction-4k60.mp4)
+
+The earlier error-only version **failed** reversal and capacity. Those results
+remain in the archive; this revision does not solve general importance-aware
+memory eviction. [Full assessment and limits](studies/20261025-native-correction/ASSESSMENT.md) ·
+[protocol](studies/20261025-native-correction/PROTOCOL.md) ·
+[numeric audit](results/20261025-native-correction.audit.json)
+
+```sh
+python -m admission.correction_archive audit
+python -m admission.correction_mutations
+```
+
 ## Learning controls learning — October 25, 2026 (UTC)
 
 **A native plastic manager controls what another native bank is allowed to learn.**

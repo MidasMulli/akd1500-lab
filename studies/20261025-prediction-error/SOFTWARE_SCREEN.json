@@ -1,0 +1,1814 @@
+{
+  "114101_native_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 8,
+      "blocked": 24
+    }
+  },
+  "114101_native_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114101_native_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 48,
+      "blocked": 36
+    }
+  },
+  "114101_open_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114101_open_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114101_open_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  },
+  "114101_frozen_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 16,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 22,
+      "ambiguous": 0,
+      "missing": 26,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114101_frozen_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114101_frozen_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 36,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 72,
+      "blocked": 12
+    }
+  },
+  "114101_cut_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114101_cut_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114101_cut_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  },
+  "114201_native_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 8,
+      "blocked": 24
+    }
+  },
+  "114201_native_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114201_native_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 48,
+      "blocked": 36
+    }
+  },
+  "114201_open_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114201_open_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114201_open_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  },
+  "114201_frozen_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 16,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 22,
+      "ambiguous": 0,
+      "missing": 26,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114201_frozen_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114201_frozen_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 36,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 72,
+      "blocked": 12
+    }
+  },
+  "114201_cut_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114201_cut_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114201_cut_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  },
+  "114301_native_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 8,
+      "blocked": 24
+    }
+  },
+  "114301_native_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114301_native_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 48,
+      "blocked": 36
+    }
+  },
+  "114301_open_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114301_open_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114301_open_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  },
+  "114301_frozen_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 16,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 22,
+      "ambiguous": 0,
+      "missing": 26,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114301_frozen_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 20,
+      "blocked": 12
+    }
+  },
+  "114301_frozen_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 36,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 72,
+      "blocked": 12
+    }
+  },
+  "114301_cut_learn": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "novel": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 48,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114301_cut_reversal": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "reversal": {
+      "queries": 16,
+      "correct": 0,
+      "ambiguous": 12,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "heldout": {
+      "queries": 48,
+      "correct": 0,
+      "ambiguous": 48,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 48,
+        "lru8": 48
+      }
+    },
+    "admission": {
+      "teachers": 32,
+      "passed": 32,
+      "blocked": 0
+    }
+  },
+  "114301_cut_capacity": {
+    "bootstrap": {
+      "queries": 16,
+      "correct": 12,
+      "ambiguous": 0,
+      "missing": 4,
+      "cpu": {
+        "dictionary": 14,
+        "lru8": 14
+      }
+    },
+    "old_probe": {
+      "queries": 8,
+      "correct": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "cpu": {
+        "dictionary": 8,
+        "lru8": 8
+      }
+    },
+    "distractions": {
+      "queries": 36,
+      "correct": 24,
+      "ambiguous": 0,
+      "missing": 12,
+      "cpu": {
+        "dictionary": 30,
+        "lru8": 30
+      }
+    },
+    "later": {
+      "queries": 32,
+      "correct": 0,
+      "ambiguous": 0,
+      "missing": 32,
+      "cpu": {
+        "dictionary": 28,
+        "lru8": 28
+      }
+    },
+    "heldout": {
+      "queries": 96,
+      "correct": 27,
+      "ambiguous": 0,
+      "missing": 69,
+      "cpu": {
+        "dictionary": 96,
+        "lru8": 69
+      }
+    },
+    "admission": {
+      "teachers": 84,
+      "passed": 84,
+      "blocked": 0
+    }
+  }
+}

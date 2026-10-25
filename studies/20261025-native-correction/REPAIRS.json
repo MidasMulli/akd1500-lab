@@ -1,0 +1,38 @@
+{
+  "analysis_only": [
+    {
+      "stage": "portable archive build",
+      "rejected_assertion": "All error-only native/open intermediate RAM states must be equal",
+      "reason": "Each matches its own native and independent reference, but the different admitted input sequences can change the rotating selector and intermediate swap order; total edits are the same, not every intermediate state. This equality was never a protocol gate. No hardware rerun or evidence changes.",
+      "observed": [
+        {
+          "seed": 114101,
+          "different_words": 20,
+          "same_final_RAM": true,
+          "native_replacements": 114,
+          "open_replacements": 114
+        },
+        {
+          "seed": 114201,
+          "different_words": 44,
+          "same_final_RAM": true,
+          "native_replacements": 116,
+          "open_replacements": 116
+        },
+        {
+          "seed": 114301,
+          "different_words": 0,
+          "same_final_RAM": true,
+          "native_replacements": 117,
+          "open_replacements": 117
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "stage": "closeout guard",
+      "result": "An early closeout check refused while the final two controls were still running. No state was closed and no jobs stopped. Final closeout succeeded only after 16 audits and a free-device check."
+    }
+  ]
+}

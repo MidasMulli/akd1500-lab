@@ -1,0 +1,38 @@
+{
+  "status": "SEMANTIC_MUTATIONS_PASS",
+  "unmodified": "PASS",
+  "rejected": 6,
+  "attempts": [
+    {
+      "name": "host_reconstructed_prediction",
+      "status": "REJECTED",
+      "reason": "raw cue, delayed actual, saved native prediction"
+    },
+    {
+      "name": "refused_teacher_ram_change",
+      "status": "REJECTED",
+      "reason": "every native learning RAM boundary"
+    },
+    {
+      "name": "fixed_comparator_change",
+      "status": "REJECTED",
+      "reason": "fixed comparator/group RAM"
+    },
+    {
+      "name": "negative_class_metadata_swapped_to_actual",
+      "status": "REJECTED",
+      "reason": "actual label, never error metadata"
+    },
+    {
+      "name": "coupled_descriptor_and_source_pointer",
+      "status": "REJECTED",
+      "reason": "previous native output pointer directly reused"
+    },
+    {
+      "name": "packet_response_disagrees_with_capture",
+      "status": "REJECTED",
+      "reason": "native packet payload"
+    }
+  ],
+  "scope": "In-memory numeric mutations bypass digest checks to test semantic rejection. No device access or modified saved measurements."
+}

@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "1d095b412f585e6c1c0a4e890151f8d854c263fcb8aded6db6006c88ebd16b00",
+  "events_sha256": "8015f22a3086b73c3dec5c75538d54170a50035bbcf88ab9bb76a79aea871d0a",
+  "renderer_sha256": "0bac2ca01080e0e8bc9ab27ac1d16aa7b9ae012f22c80e208f02d6aa927b828a",
+  "scope": "Recorded returned binary responses, native output-source pointers and connection readbacks. Fixed features derived from captured inputs. One eight-record learning bank, 24 helpers, five sequential FNP3s. Host paces query/positive/negative roles, supplies external actual/complement labels. Designed comparator and retirement coding. No host error decision, record selection, reset or weight repair. Camera, geometry, glow and replay timing schematic; not physical layout or electrical spikes. CPU dictionary also passes; no efficiency claim.",
+  "outputs": {
+    "repeat.png": "de93b628046d6d6f5fb4ffa87324ce8f83eae3f3fcd0c1b60b50b9e2d3415d03",
+    "bootstrap.png": "992a3dc51f8288c55123598067111b22c69cb64f2e2161cb3f749aba051249d9",
+    "native-memory-correction-1080p60.mp4": "99490e1f9d48742e729dd304b89fc46e5cd925d9c680ba132e36ae960f07f53f",
+    "reused.png": "8975f32f8123ba8620478cbcd97b6aaf8bbd35f77001bb802bf316b6dd09841a",
+    "retirement.png": "ee67ed192b2e7e378cb47100444d5dc36e875f64cf2d225af7d86fef455772c2",
+    "native-memory-correction-4k60.mp4": "df577ff3dbae114aaed4f6ecd57471049cd5c6f9a6f923fa8fe2f6f1af5dcd1b",
+    "correction.png": "76f5ffc242a2be9a96bc01c4a9ea591ff4193e61ecc0e051c153d272293519ca"
+  },
+  "public_file_map": {
+    "retirement.png": "native-memory-correction-4k.png",
+    "native-memory-correction-4k60.mp4": "native-memory-correction-4k60.mp4",
+    "native-memory-correction-1080p60.mp4": "native-memory-correction-1080p60.mp4"
+  },
+  "archive": "results/20261025-native-correction.npz"
+}

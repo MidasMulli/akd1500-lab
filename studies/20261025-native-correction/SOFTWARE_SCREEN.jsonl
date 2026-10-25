@@ -1,0 +1,9 @@
+{"seed": 114101, "arm": "native", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 576, "total": 576, "stable": 281}
+{"seed": 114101, "arm": "no_retire", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 439, "total": 576, "stable": 281}
+{"seed": 114101, "arm": "frozen", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 433, "total": 576, "stable": 281}
+{"seed": 114201, "arm": "native", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 576, "total": 576, "stable": 281}
+{"seed": 114201, "arm": "no_retire", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 281, "total": 576, "stable": 281}
+{"seed": 114201, "arm": "frozen", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 433, "total": 576, "stable": 281}
+{"seed": 114301, "arm": "native", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 576, "total": 576, "stable": 281}
+{"seed": 114301, "arm": "no_retire", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 281, "total": 576, "stable": 281}
+{"seed": 114301, "arm": "frozen", "old": {"queries": 16, "correct": 16, "ambiguous": 0, "missing": 0, "cpu": 16, "stable_correct": 8, "stable_total": 8}, "correct": 433, "total": 576, "stable": 281}

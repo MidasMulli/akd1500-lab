@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_STABLE_RECORD_PASS",
+  "records": [
+    {
+      "seed": 114101,
+      "key": 2,
+      "record": 1,
+      "complete_record_words_unchanged": 36
+    },
+    {
+      "seed": 114101,
+      "key": 3,
+      "record": 17,
+      "complete_record_words_unchanged": 36
+    },
+    {
+      "seed": 114201,
+      "key": 2,
+      "record": 2,
+      "complete_record_words_unchanged": 36
+    },
+    {
+      "seed": 114201,
+      "key": 3,
+      "record": 18,
+      "complete_record_words_unchanged": 36
+    },
+    {
+      "seed": 114301,
+      "key": 2,
+      "record": 2,
+      "complete_record_words_unchanged": 36
+    },
+    {
+      "seed": 114301,
+      "key": 3,
+      "record": 19,
+      "complete_record_words_unchanged": 36
+    }
+  ],
+  "archive_sha256": "1d095b412f585e6c1c0a4e890151f8d854c263fcb8aded6db6006c88ebd16b00"
+}

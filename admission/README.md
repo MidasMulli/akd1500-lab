@@ -82,7 +82,7 @@ The build requires `AKIDA_ENGINE_ROOT`, `AKIDA_RUNTIME_LIBRARY` and
 `FLATBUFFERS_INCLUDE` pointing to matching separately supplied files. Generated
 program images and the licensed SDK/runtime are not distributed. Physical
 admissions additionally need a new prospective study, finite AUTHORITY/STATE,
-free device, lock and qualified predecessor gates. Both published studies are
+free device, lock and qualified predecessor gates. The published studies are
 closed; do not reopen their authority to launch another experiment.
 
 The visual renderer requires Pillow and FFmpeg; its encoder command currently
@@ -94,3 +94,28 @@ not an electrical inactivity measurement.
 [1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-1080p60.mp4) ·
 [4K60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-4k60.mp4) ·
 [prospective protocol](../studies/20261025-learned-admission/PROTOCOL.md)
+
+
+## Native prediction error and contradiction revision
+
+`error.py`, `prepare_error.py`, `error_bench.cpp`, `error_run.py` build and
+qualify the five-group native error comparator. It passes stationary learning
+but fails reversal and capacity; [negative assessment](../studies/20261025-prediction-error/ASSESSMENT.md).
+
+`recycle.py`, `prepare_recycle.py`, `recycle_bench.cpp`, `recycle_run.py` add a
+prospectively frozen common/key representation and native negative-evidence role.
+The host supplies actual/complement labels on fixed clocks; it never chooses an
+error, record, threshold reset or weight repair. `build_error.sh` and
+`build_recycle.sh` require the same separately licensed environment described above.
+Both studies are closed and need a fresh bounded authority to run more hardware.
+
+`correction_archive.py` packages/replays both studies' numeric captures;
+`correction_mutations.py` rejects six semantically corrupted captures even when
+hash validation is bypassed. `correction_visual.py` derives the continuous
+recorded replay from that audited archive. [Results and limits](../studies/20261025-native-correction/ASSESSMENT.md).
+
+```sh
+python -m admission.correction_archive audit
+python -m admission.correction_mutations
+python -m admission.correction_visual --out NEW_OUTPUT_FOLDER --video
+```
