@@ -1,0 +1,5 @@
+{
+  "recorded_utc": "2026-10-25T16:32:00Z",
+  "correction": "The selected_utc field in SELECTION.json was manually mistyped as16:36. Preserve that original file. Selection was written and uploaded before confirmation launch at16:31:46UTC; target-side owner admissions supply actual execution timestamps. Candidate, gates and order are unchanged.",
+  "effect_on_experiment": "None; this corrects descriptive metadata only. It does not alter frozen acting sources or settings."
+}

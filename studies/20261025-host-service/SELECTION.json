@@ -1,0 +1,10 @@
+{
+  "selected_utc": "2026-10-25T16:36:00Z",
+  "stage": "PRIMARY_SCREEN_COMPLETE_BEFORE_CONFIRMATION",
+  "candidate": {"sleep_us": 100, "batch": 1, "profile": 1, "contract": "potentials"},
+  "baseline": {"sleep_us": 0, "batch": 1, "profile": 1, "contract": "potentials"},
+  "reason": "Responsive single-image contract: approximately 1 percent more wall latency than the spin baseline while substantially reducing caller CPU. Batch8 has a different group-readiness contract; DMA writes are dominated in this screen. Sleep500 reduces caller CPU further at greater latency cost and is not selected for this confirmation.",
+  "confirmation": {"seeds": [107501, 107601, 107701], "repetitions": [0, 1, 2], "arms": [0, 1], "cpu_controls": ["cpu-dense", "cpu-sparse", "cpu-parallel", "cpu-blas1", "cpu-blas4"]},
+  "order": "Extra-seed read-only smoke, baseline pair, candidate pair. Repetitions1/2 rotate candidate/baseline and learning/frozen order by seed and repetition. CPU control order rotates by seed and repetition; no simultaneous timing cells.",
+  "limits": "Repetition0 includes the primary selection screen; report repetitions1/2 separately as confirmation. This selects a caller-CPU/latency tradeoff, not a measured application or energy benefit. No prediction skipping."
+}

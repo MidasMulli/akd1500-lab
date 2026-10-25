@@ -8,6 +8,32 @@ actually does and preserves the distinction between mapping, correct execution,
 performance, and electrical energy. It does not establish a neuromorphic
 advantage by assuming one.
 
+## Native learning with less host CPU — October 25, 2026
+
+**Sleeping between completion checks cuts caller CPU 95%, with exact learning
+retained; a co-running forecast-throughput win remains unqualified.** Across
+three initialization seeds and two confirmation repetitions, the 64×64 native
+path takes 7.93 ms/image and 0.36 ms of process CPU,versus 7.85 ms/7.69 ms while
+spinning. The strongest CPU control still answers in 1.23 ms.
+
+In fifteen matched Nano forecast windows,the low-polling AKD path meets every
+20 Hz deadline but does not pass the prespecified 5% throughput advantage over
+both optimized CPU controls. No energy benefit is inferred. All 80 physical
+sessions/4,672 forwards are reconstructed from the portable archive; the failed
+foreground-only setup and harness repairs remain preserved.
+
+![Measured host-service tradeoff](studies/20261025-host-service/RESULTS.png)
+
+[Assessment](studies/20261025-host-service/ASSESSMENT.md) ·
+[Reproduction tools](coprocessor/HOST_SERVICE.md) ·
+[Portable audit](results/20261025-host-service.audit.json) ·
+[Recorded 1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-learning-host-sleep-1080p60.mp4)
+
+```sh
+python -m coprocessor.service_archive audit
+python -m unittest tests.test_host_service tests.test_host_window -v
+```
+
 ## Reference deployment and larger native workloads — October 25, 2026
 
 **The vendor reference passes; larger native learning passes; the strongest CPU

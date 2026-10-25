@@ -1,0 +1,31 @@
+{
+  "status": "RECORDED_NUMERIC_REPLAY",
+  "archive_sha256": "8b53a807cd4b8a9543afcd3765d135c179b82993f7c77d3be0c1ef15812999f9",
+  "source_run": "raw/native_s64_s107501_potentials_a1_n64_r1_w100_b1_p1_f1/",
+  "recorded_source_sha256": "d1164d976d572660c37b08d97ed7e0b5a4c23046e4ca58c851ed556e49bea279",
+  "renderer_sha256": "03ab62eb9eb77b755b11222bfa9c4073f7380daa383f848fd51da16d7e3812ac",
+  "scope": "Full-RAM learning replay and cost comparison use separate matched confirmation runs. Foreground counts use separate3.2s common-clock block0 trials. Playback/camera/geometry are schematic; no electrical spike times measured.",
+  "measured": [
+    "Full128 returned potentials",
+    "Full learning RAM boundaries",
+    "Per-call process CPU and wall clocks",
+    "Foreground forecast completion clocks"
+  ],
+  "derived": [
+    "Intermediate512 feature bits",
+    "Connection additions/removals from measured RAM deltas"
+  ],
+  "schematic": [
+    "Geometry",
+    "Camera",
+    "Time expansion"
+  ],
+  "outputs": {
+    "final.png": "836ff6465dcc1b9e2bd1e981013a74415150d98e14a3810c33da14133d9e655a",
+    "native-learning-host-sleep-4k60.mp4": "1ccaf74977fedfbd1bdfacd422a1ef25708ecee68c9f93a1c9c56d996c98b566",
+    "teaching.png": "74a66a58f9ac59020035ed1d3e37f7b8eb3b463b87249759ccdfbed14bc469bd",
+    "native-edit.png": "4693efb0e3a2975e635f8dbf8f531b067024a44aedd7d38ae19e227ae3855437",
+    "native-learning-host-sleep-1080p60.mp4": "d2b5c01a3996d236422d67285cc81eed05bf43fc5896b2842dd52e6340ff4162",
+    "query.png": "5816625f7f50edd8a04c5066ca3caa4bb78be0f28ea71bb7a22ba84a88fb7b80"
+  }
+}

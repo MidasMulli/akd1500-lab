@@ -1,0 +1,1102 @@
+{
+  "status": "AUDITED_MEASURED_RESOURCE_TRADEOFF",
+  "confirmation": [
+    {
+      "name": "cpu-blas1_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 3533.2345,
+      "process_cpu_us": 3525.856
+    },
+    {
+      "name": "cpu-blas1_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 3535.363,
+      "process_cpu_us": 3526.624
+    },
+    {
+      "name": "cpu-blas1_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 3525.6185,
+      "process_cpu_us": 3516.768
+    },
+    {
+      "name": "cpu-blas1_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 3520.338,
+      "process_cpu_us": 3511.888
+    },
+    {
+      "name": "cpu-blas1_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 3533.251,
+      "process_cpu_us": 3524.4
+    },
+    {
+      "name": "cpu-blas1_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 3523.4265,
+      "process_cpu_us": 3514.72
+    },
+    {
+      "name": "cpu-blas1_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 3527.0905,
+      "process_cpu_us": 3518.672
+    },
+    {
+      "name": "cpu-blas1_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 3521.938,
+      "process_cpu_us": 3513.312
+    },
+    {
+      "name": "cpu-blas1_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 3526.8505,
+      "process_cpu_us": 3519.408
+    },
+    {
+      "name": "cpu-blas1_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 3545.299,
+      "process_cpu_us": 3536.24
+    },
+    {
+      "name": "cpu-blas1_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 3525.154,
+      "process_cpu_us": 3516.144
+    },
+    {
+      "name": "cpu-blas1_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas1",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 3525.715,
+      "process_cpu_us": 3516.416
+    },
+    {
+      "name": "cpu-blas4_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 1218.471,
+      "process_cpu_us": 1216.368
+    },
+    {
+      "name": "cpu-blas4_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 1224.248,
+      "process_cpu_us": 1222.272
+    },
+    {
+      "name": "cpu-blas4_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 1222.392,
+      "process_cpu_us": 1220.496
+    },
+    {
+      "name": "cpu-blas4_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 1217.879,
+      "process_cpu_us": 1216.08
+    },
+    {
+      "name": "cpu-blas4_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 1220.9995,
+      "process_cpu_us": 1219.312
+    },
+    {
+      "name": "cpu-blas4_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 1218.631,
+      "process_cpu_us": 1216.752
+    },
+    {
+      "name": "cpu-blas4_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 1232.744,
+      "process_cpu_us": 1230.896
+    },
+    {
+      "name": "cpu-blas4_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 1231.496,
+      "process_cpu_us": 1229.264
+    },
+    {
+      "name": "cpu-blas4_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 1229.688,
+      "process_cpu_us": 1227.648
+    },
+    {
+      "name": "cpu-blas4_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 1221.0,
+      "process_cpu_us": 1219.008
+    },
+    {
+      "name": "cpu-blas4_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 1220.7915,
+      "process_cpu_us": 1218.72
+    },
+    {
+      "name": "cpu-blas4_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-blas4",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 1230.872,
+      "process_cpu_us": 1229.392
+    },
+    {
+      "name": "cpu-dense_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 11470.932,
+      "process_cpu_us": 11458.064
+    },
+    {
+      "name": "cpu-dense_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 11439.1235,
+      "process_cpu_us": 11426.832
+    },
+    {
+      "name": "cpu-dense_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 11426.9145,
+      "process_cpu_us": 11413.84
+    },
+    {
+      "name": "cpu-dense_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 11667.0985,
+      "process_cpu_us": 11653.12
+    },
+    {
+      "name": "cpu-dense_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 13700.044,
+      "process_cpu_us": 13684.48
+    },
+    {
+      "name": "cpu-dense_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 11408.5145,
+      "process_cpu_us": 11395.248
+    },
+    {
+      "name": "cpu-dense_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 11414.754,
+      "process_cpu_us": 11401.888
+    },
+    {
+      "name": "cpu-dense_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 11424.675,
+      "process_cpu_us": 11412.432
+    },
+    {
+      "name": "cpu-dense_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 11410.05,
+      "process_cpu_us": 11396.496
+    },
+    {
+      "name": "cpu-dense_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 11438.516,
+      "process_cpu_us": 11425.776
+    },
+    {
+      "name": "cpu-dense_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 11643.802,
+      "process_cpu_us": 11630.368
+    },
+    {
+      "name": "cpu-dense_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-dense",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 11406.2745,
+      "process_cpu_us": 11391.904
+    },
+    {
+      "name": "cpu-parallel_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 2659.958,
+      "process_cpu_us": 10424.912
+    },
+    {
+      "name": "cpu-parallel_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 2601.061,
+      "process_cpu_us": 10212.704
+    },
+    {
+      "name": "cpu-parallel_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 2603.412,
+      "process_cpu_us": 10211.056
+    },
+    {
+      "name": "cpu-parallel_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 2657.478,
+      "process_cpu_us": 10427.968
+    },
+    {
+      "name": "cpu-parallel_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 2619.173,
+      "process_cpu_us": 10286.72
+    },
+    {
+      "name": "cpu-parallel_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 2627.829,
+      "process_cpu_us": 10322.016
+    },
+    {
+      "name": "cpu-parallel_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 2643.0775,
+      "process_cpu_us": 10359.008
+    },
+    {
+      "name": "cpu-parallel_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 2663.9585,
+      "process_cpu_us": 10450.928
+    },
+    {
+      "name": "cpu-parallel_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 2604.5005,
+      "process_cpu_us": 10234.24
+    },
+    {
+      "name": "cpu-parallel_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 2602.725,
+      "process_cpu_us": 10227.456
+    },
+    {
+      "name": "cpu-parallel_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 2607.9565,
+      "process_cpu_us": 10240.112
+    },
+    {
+      "name": "cpu-parallel_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-parallel",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 2603.9565,
+      "process_cpu_us": 10232.288
+    },
+    {
+      "name": "cpu-sparse_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 9445.202,
+      "process_cpu_us": 9432.512
+    },
+    {
+      "name": "cpu-sparse_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 9602.088,
+      "process_cpu_us": 9591.968
+    },
+    {
+      "name": "cpu-sparse_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 9400.417,
+      "process_cpu_us": 9390.944
+    },
+    {
+      "name": "cpu-sparse_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 10642.17,
+      "process_cpu_us": 10630.848
+    },
+    {
+      "name": "cpu-sparse_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 9477.844,
+      "process_cpu_us": 9468.32
+    },
+    {
+      "name": "cpu-sparse_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 9470.9155,
+      "process_cpu_us": 9460.864
+    },
+    {
+      "name": "cpu-sparse_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 9488.212,
+      "process_cpu_us": 9478.304
+    },
+    {
+      "name": "cpu-sparse_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 9487.461,
+      "process_cpu_us": 9474.304
+    },
+    {
+      "name": "cpu-sparse_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 9431.538,
+      "process_cpu_us": 9419.936
+    },
+    {
+      "name": "cpu-sparse_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 9486.324,
+      "process_cpu_us": 9473.632
+    },
+    {
+      "name": "cpu-sparse_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 9626.3765,
+      "process_cpu_us": 9615.264
+    },
+    {
+      "name": "cpu-sparse_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "cpu-sparse",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 9695.355,
+      "process_cpu_us": 9685.168
+    },
+    {
+      "name": "native_s64_s107501_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7841.966,
+      "process_cpu_us": 7677.312
+    },
+    {
+      "name": "native_s64_s107501_potentials_a0_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7932.337,
+      "process_cpu_us": 354.8
+    },
+    {
+      "name": "native_s64_s107501_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7847.423,
+      "process_cpu_us": 7679.312
+    },
+    {
+      "name": "native_s64_s107501_potentials_a0_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7932.6255,
+      "process_cpu_us": 355.984
+    },
+    {
+      "name": "native_s64_s107501_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7848.382,
+      "process_cpu_us": 7680.864
+    },
+    {
+      "name": "native_s64_s107501_potentials_a1_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107501,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7932.8655,
+      "process_cpu_us": 355.488
+    },
+    {
+      "name": "native_s64_s107501_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7844.0465,
+      "process_cpu_us": 7682.176
+    },
+    {
+      "name": "native_s64_s107501_potentials_a1_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107501,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7929.185,
+      "process_cpu_us": 355.392
+    },
+    {
+      "name": "native_s64_s107601_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7848.174,
+      "process_cpu_us": 7685.872
+    },
+    {
+      "name": "native_s64_s107601_potentials_a0_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7924.977,
+      "process_cpu_us": 354.96
+    },
+    {
+      "name": "native_s64_s107601_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7845.535,
+      "process_cpu_us": 7686.544
+    },
+    {
+      "name": "native_s64_s107601_potentials_a0_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7932.4975,
+      "process_cpu_us": 354.944
+    },
+    {
+      "name": "native_s64_s107601_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7846.591,
+      "process_cpu_us": 7685.536
+    },
+    {
+      "name": "native_s64_s107601_potentials_a1_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107601,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7931.1215,
+      "process_cpu_us": 355.6
+    },
+    {
+      "name": "native_s64_s107601_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7848.063,
+      "process_cpu_us": 7686.288
+    },
+    {
+      "name": "native_s64_s107601_potentials_a1_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107601,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7930.562,
+      "process_cpu_us": 354.416
+    },
+    {
+      "name": "native_s64_s107701_potentials_a0_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7865.5515,
+      "process_cpu_us": 7705.488
+    },
+    {
+      "name": "native_s64_s107701_potentials_a0_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 0,
+      "wall_us": 7932.1935,
+      "process_cpu_us": 355.12
+    },
+    {
+      "name": "native_s64_s107701_potentials_a0_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7865.087,
+      "process_cpu_us": 7704.864
+    },
+    {
+      "name": "native_s64_s107701_potentials_a0_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 0,
+      "wall_us": 7932.498,
+      "process_cpu_us": 354.624
+    },
+    {
+      "name": "native_s64_s107701_potentials_a1_n64_r1_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7865.6315,
+      "process_cpu_us": 7706.016
+    },
+    {
+      "name": "native_s64_s107701_potentials_a1_n64_r1_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107701,
+      "repeat": 1,
+      "arm": 1,
+      "wall_us": 7933.1375,
+      "process_cpu_us": 355.232
+    },
+    {
+      "name": "native_s64_s107701_potentials_a1_n64_r2_w0_b1_p1_f1",
+      "mode": "native-spin",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7866.0635,
+      "process_cpu_us": 7705.152
+    },
+    {
+      "name": "native_s64_s107701_potentials_a1_n64_r2_w100_b1_p1_f1",
+      "mode": "native-sleep",
+      "seed": 107701,
+      "repeat": 2,
+      "arm": 1,
+      "wall_us": 7933.25,
+      "process_cpu_us": 354.784
+    }
+  ],
+  "busy": [
+    {
+      "name": "b3_cpu-blas1_s107501_a1_n64_w0_r0",
+      "mode": "cpu-blas1",
+      "seed": 107501,
+      "repeat": 0,
+      "foreground_fps": 41.25,
+      "foreground_calls": 132,
+      "foreground_median_ms": 23.753386,
+      "foreground_p95_ms": 24.6617103,
+      "actor_operational_cpu_ms": 217.657984,
+      "actor_bracket_cpu_ms": 220,
+      "host_busy_percent": 18.75901875901876,
+      "counter_bracket_ms": 4627.778803,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_cpu-blas1_s107601_a1_n64_w0_r1",
+      "mode": "cpu-blas1",
+      "seed": 107601,
+      "repeat": 1,
+      "foreground_fps": 40.3125,
+      "foreground_calls": 129,
+      "foreground_median_ms": 24.347454,
+      "foreground_p95_ms": 24.7765044,
+      "actor_operational_cpu_ms": 216.753056,
+      "actor_bracket_cpu_ms": 210,
+      "host_busy_percent": 17.752970831832915,
+      "counter_bracket_ms": 4626.8105,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_cpu-blas1_s107701_a1_n64_w0_r2",
+      "mode": "cpu-blas1",
+      "seed": 107701,
+      "repeat": 2,
+      "foreground_fps": 40.3125,
+      "foreground_calls": 129,
+      "foreground_median_ms": 24.243163,
+      "foreground_p95_ms": 25.0365326,
+      "actor_operational_cpu_ms": 216.614336,
+      "actor_bracket_cpu_ms": 220,
+      "host_busy_percent": 18.34298118668596,
+      "counter_bracket_ms": 4624.34363,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_cpu-blas4_s107501_a1_n64_w0_r0",
+      "mode": "cpu-blas4",
+      "seed": 107501,
+      "repeat": 0,
+      "foreground_fps": 39.6875,
+      "foreground_calls": 127,
+      "foreground_median_ms": 24.242042,
+      "foreground_p95_ms": 25.5752914,
+      "actor_operational_cpu_ms": 1086.444768,
+      "actor_bracket_cpu_ms": 9680,
+      "host_busy_percent": 51.21515368120086,
+      "counter_bracket_ms": 4669.581497,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_cpu-blas4_s107601_a1_n64_w0_r1",
+      "mode": "cpu-blas4",
+      "seed": 107601,
+      "repeat": 1,
+      "foreground_fps": 39.6875,
+      "foreground_calls": 127,
+      "foreground_median_ms": 24.680936,
+      "foreground_p95_ms": 25.0546034,
+      "actor_operational_cpu_ms": 380.696576,
+      "actor_bracket_cpu_ms": 9720,
+      "host_busy_percent": 52.66400869880391,
+      "counter_bracket_ms": 4615.911118,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_cpu-blas4_s107701_a1_n64_w0_r2",
+      "mode": "cpu-blas4",
+      "seed": 107701,
+      "repeat": 2,
+      "foreground_fps": 39.375,
+      "foreground_calls": 126,
+      "foreground_median_ms": 24.651832499999998,
+      "foreground_p95_ms": 26.69310675,
+      "actor_operational_cpu_ms": 792.360672,
+      "actor_bracket_cpu_ms": 9670,
+      "host_busy_percent": 51.483357452966715,
+      "counter_bracket_ms": 4614.205434,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107501_a1_n64_w0_r0",
+      "mode": "native-spin",
+      "seed": 107501,
+      "repeat": 0,
+      "foreground_fps": 40.625,
+      "foreground_calls": 130,
+      "foreground_median_ms": 24.186647999999998,
+      "foreground_p95_ms": 24.41134035,
+      "actor_operational_cpu_ms": 492.088096,
+      "actor_bracket_cpu_ms": 490,
+      "host_busy_percent": 18.617212819589486,
+      "counter_bracket_ms": 4629.939751,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107501_a1_n64_w100_r0",
+      "mode": "native-sleep",
+      "seed": 107501,
+      "repeat": 0,
+      "foreground_fps": 41.25,
+      "foreground_calls": 132,
+      "foreground_median_ms": 23.8504935,
+      "foreground_p95_ms": 24.19814765,
+      "actor_operational_cpu_ms": 24.31968,
+      "actor_bracket_cpu_ms": 20,
+      "host_busy_percent": 16.822766570605186,
+      "counter_bracket_ms": 4636.8019,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107601_a1_n64_w0_r1",
+      "mode": "native-spin",
+      "seed": 107601,
+      "repeat": 1,
+      "foreground_fps": 41.5625,
+      "foreground_calls": 133,
+      "foreground_median_ms": 23.610789,
+      "foreground_p95_ms": 23.8972438,
+      "actor_operational_cpu_ms": 492.410592,
+      "actor_bracket_cpu_ms": 490,
+      "host_busy_percent": 18.513172140021652,
+      "counter_bracket_ms": 4626.156809,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107601_a1_n64_w100_r1",
+      "mode": "native-sleep",
+      "seed": 107601,
+      "repeat": 1,
+      "foreground_fps": 40.3125,
+      "foreground_calls": 129,
+      "foreground_median_ms": 24.277947,
+      "foreground_p95_ms": 24.9440688,
+      "actor_operational_cpu_ms": 24.434496,
+      "actor_bracket_cpu_ms": 20,
+      "host_busy_percent": 16.726878612716764,
+      "counter_bracket_ms": 4625.599713,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107701_a1_n64_w0_r2",
+      "mode": "native-spin",
+      "seed": 107701,
+      "repeat": 2,
+      "foreground_fps": 41.5625,
+      "foreground_calls": 133,
+      "foreground_median_ms": 23.528323,
+      "foreground_p95_ms": 23.840697799999997,
+      "actor_operational_cpu_ms": 493.2944,
+      "actor_bracket_cpu_ms": 500,
+      "host_busy_percent": 18.481012658227847,
+      "counter_bracket_ms": 4617.424711,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_native_s107701_a1_n64_w100_r2",
+      "mode": "native-sleep",
+      "seed": 107701,
+      "repeat": 2,
+      "foreground_fps": 40.625,
+      "foreground_calls": 130,
+      "foreground_median_ms": 24.09727,
+      "foreground_p95_ms": 24.31013255,
+      "actor_operational_cpu_ms": 23.283296,
+      "actor_bracket_cpu_ms": 20,
+      "host_busy_percent": 16.6183924692252,
+      "counter_bracket_ms": 4617.222101,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_none_s107501_a1_n64_w0_r0",
+      "mode": "none",
+      "seed": 107501,
+      "repeat": 0,
+      "foreground_fps": 40.625,
+      "foreground_calls": 130,
+      "foreground_median_ms": 24.131238000000003,
+      "foreground_p95_ms": 25.00812585,
+      "actor_operational_cpu_ms": 0,
+      "actor_bracket_cpu_ms": 0,
+      "host_busy_percent": 18.099547511312217,
+      "counter_bracket_ms": 4793.647647,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_none_s107601_a1_n64_w0_r1",
+      "mode": "none",
+      "seed": 107601,
+      "repeat": 1,
+      "foreground_fps": 40.625,
+      "foreground_calls": 130,
+      "foreground_median_ms": 24.072708499999997,
+      "foreground_p95_ms": 24.3985504,
+      "actor_operational_cpu_ms": 0,
+      "actor_bracket_cpu_ms": 0,
+      "host_busy_percent": 16.594360086767896,
+      "counter_bracket_ms": 4616.386168,
+      "deadline_misses": 0
+    },
+    {
+      "name": "b3_none_s107701_a1_n64_w0_r2",
+      "mode": "none",
+      "seed": 107701,
+      "repeat": 2,
+      "foreground_fps": 41.5625,
+      "foreground_calls": 133,
+      "foreground_median_ms": 23.677128,
+      "foreground_p95_ms": 23.9522282,
+      "actor_operational_cpu_ms": 0,
+      "actor_bracket_cpu_ms": 0,
+      "host_busy_percent": 16.798561151079138,
+      "counter_bracket_ms": 4635.169861,
+      "deadline_misses": 0
+    }
+  ],
+  "summary": {
+    "cpu-blas1": {
+      "cells": 6,
+      "wall_us": 3525.38625,
+      "process_cpu_us": 3516.2799999999997,
+      "wall_cell_range_us": [
+        3520.338,
+        3527.0905
+      ]
+    },
+    "cpu-blas4": {
+      "cells": 6,
+      "wall_us": 1226.632,
+      "process_cpu_us": 1224.88,
+      "wall_cell_range_us": [
+        1217.879,
+        1232.744
+      ]
+    },
+    "cpu-dense": {
+      "cells": 6,
+      "wall_us": 11425.794750000001,
+      "process_cpu_us": 11413.136,
+      "wall_cell_range_us": [
+        11406.2745,
+        11667.0985
+      ]
+    },
+    "cpu-parallel": {
+      "cells": 6,
+      "wall_us": 2625.517,
+      "process_cpu_us": 10299.56,
+      "wall_cell_range_us": [
+        2603.412,
+        2663.9585
+      ]
+    },
+    "cpu-sparse": {
+      "cells": 6,
+      "wall_us": 9557.294249999999,
+      "process_cpu_us": 9546.784,
+      "wall_cell_range_us": [
+        9400.417,
+        10642.17
+      ]
+    },
+    "native-sleep": {
+      "cells": 6,
+      "wall_us": 7931.9935000000005,
+      "process_cpu_us": 355.312,
+      "wall_cell_range_us": [
+        7929.185,
+        7933.25
+      ]
+    },
+    "native-spin": {
+      "cells": 6,
+      "wall_us": 7848.2225,
+      "process_cpu_us": 7685.912,
+      "wall_cell_range_us": [
+        7844.0465,
+        7866.0635
+      ]
+    }
+  },
+  "practical_gate_pass": false,
+  "practical_gate_by_block": [
+    {
+      "repeat": 0,
+      "deadline_pass": true,
+      "against": {
+        "cpu-blas1": {
+          "fps_ratio": 1.0,
+          "p95_ratio": 0.9812031426709282
+        },
+        "cpu-blas4": {
+          "fps_ratio": 1.0393700787401574,
+          "p95_ratio": 0.9461533505733584
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "deadline_pass": true,
+      "against": {
+        "cpu-blas1": {
+          "fps_ratio": 1.0,
+          "p95_ratio": 1.0067630363547169
+        },
+        "cpu-blas4": {
+          "fps_ratio": 1.015748031496063,
+          "p95_ratio": 0.99558825185794
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "deadline_pass": true,
+      "against": {
+        "cpu-blas1": {
+          "fps_ratio": 1.0077519379844961,
+          "p95_ratio": 0.9709863956960237
+        },
+        "cpu-blas4": {
+          "fps_ratio": 1.0317460317460319,
+          "p95_ratio": 0.9107269819763486
+        }
+      }
+    }
+  ],
+  "physical_sessions": 80,
+  "physical_forwards": 4672,
+  "failed_setups": 1,
+  "archive_sha256": "8b53a807cd4b8a9543afcd3765d135c179b82993f7c77d3be0c1ef15812999f9"
+}

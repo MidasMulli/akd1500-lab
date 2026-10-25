@@ -1,0 +1,59 @@
+{
+  "status": "H264_FULL_DECODE_PASS",
+  "checks": {
+    "native-learning-host-sleep-1080p60.mp4": {
+      "sha256": "d2b5c01a3996d236422d67285cc81eed05bf43fc5896b2842dd52e6340ff4162",
+      "full_decode_exit": 0,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "level": 42,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "60/1",
+          "nb_read_frames": "1440"
+        }
+      ],
+      "format": {
+        "duration": "24.000000",
+        "size": "13324320"
+      }
+    },
+    "native-learning-host-sleep-4k60.mp4": {
+      "sha256": "1ccaf74977fedfbd1bdfacd422a1ef25708ecee68c9f93a1c9c56d996c98b566",
+      "full_decode_exit": 0,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "level": 52,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "60/1",
+          "nb_read_frames": "1440"
+        }
+      ],
+      "format": {
+        "duration": "24.000000",
+        "size": "73478352"
+      }
+    }
+  },
+  "helpers": {
+    "coprocessor/extent_visual.py": "98013f40d5be6eaa83b6b57e6509b74bc29a6a21bcee394948af6afde3536dea",
+    "coprocessor/resident_visual.py": "7651027a368f0734f4d6aa4308ea5f627a2ab6cd2b70f9b8a4221b0425f30d6b",
+    "coprocessor/neuron_visual.py": "afcda62d600307a3785ace1c99b47a04b945c3b99854a49cb494cf54bbe9e1a6"
+  },
+  "source_binding_sha256": "79758e53d7ebeca6095c0f9a92df0efde5ab893370b32ccf9f322d4a5a984fc8"
+}

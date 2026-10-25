@@ -1,0 +1,14 @@
+test_corrupt_state_rejected (tests.test_host_service.HostServiceTests.test_corrupt_state_rejected) ... ok
+test_exact_reference_and_compact_contract_pass (tests.test_host_service.HostServiceTests.test_exact_reference_and_compact_contract_pass) ... ok
+test_missing_native_boundary_rejected (tests.test_host_service.HostServiceTests.test_missing_native_boundary_rejected) ... ok
+test_wrong_output_rejected_without_digest_gate (tests.test_host_service.HostServiceTests.test_wrong_output_rejected_without_digest_gate) ... ok
+test_audit_release_cannot_overlap_foreground (tests.test_host_window.HostWindowTests.test_audit_release_cannot_overlap_foreground) ... ok
+test_exact_output_final_ram_and_window_pass (tests.test_host_window.HostWindowTests.test_exact_output_final_ram_and_window_pass) ... ok
+test_overlapping_actor_timestamps_rejected (tests.test_host_window.HostWindowTests.test_overlapping_actor_timestamps_rejected) ... ok
+test_wrong_complete_memory_rejected (tests.test_host_window.HostWindowTests.test_wrong_complete_memory_rejected) ... ok
+test_wrong_output_rejected (tests.test_host_window.HostWindowTests.test_wrong_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.057s
+
+OK

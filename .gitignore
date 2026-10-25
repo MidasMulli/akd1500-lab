@@ -103,3 +103,8 @@ studies/20261024-context-discovery/build*.stderr
 studies/*/extent_fixtures/
 studies/*/reference_raw/
 studies/20261025-reference-scale/visual/
+
+# Host-service raw receipts are distributed in the numeric archive.
+studies/*/window_raw/
+!visual/native-learning-host-sleep-4k60.mp4
+!visual/native-learning-host-sleep-1080p60.mp4

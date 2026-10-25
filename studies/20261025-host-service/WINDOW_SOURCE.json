@@ -1,0 +1,12 @@
+{
+  "parent_source_sha256": "ccdf9ba6171b026608915b5970d230a8f87ee51f1cd582bc123787b069ee478a",
+  "generated_sha256": "b09dbd858b1c8ceb51f7049278e3a464a066c5b73492b980aea03d2699bf52cc",
+  "generator_sha256": "4f2dfaa6faa822ac3b0286920303ab652a0c3b0b9687557a0957b05582c24d9f",
+  "changes": [
+    "READY/start barrier",
+    "fixed-rate sleep_until before every event",
+    "record monotonic event start/end",
+    "defer CPU RAM snapshots when full=false"
+  ],
+  "inherited_arithmetic": "verbatim parent source outside those explicit replacements"
+}
