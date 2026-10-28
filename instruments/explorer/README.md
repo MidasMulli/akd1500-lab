@@ -18,7 +18,7 @@ Open http://127.0.0.1:8892/. Do not open web/index.html directly; it uses the lo
 | 20261026-visual-memory-v4.json | Recorded RGB teaching/recall with actual images; its initial-recall quality gate failed |
 | 20261027-repeated-native-memory.json | Repeated native image-descriptor replacement recording; separate from pixel-valued silhouette recall |
 
-Select an alternate profile with `--replay instruments/explorer/generated/FILE.json` and an unused local port. Every profile is paired with a data-hash receipt. The three-bank live graph must never be substituted for another recorded profile.
+The evidence-set control displays the current capture and is locked to this server. It does not redirect to another lab service. Select an alternate profile with `--replay instruments/explorer/generated/FILE.json` and an unused local port. Every profile is paired with a data-hash receipt. The three-bank live graph must never be substituted for another recorded profile.
 
 ## Inspect
 

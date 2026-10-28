@@ -30,7 +30,8 @@ The [through-October 25media release](https://github.com/MidasMulli/akd1500-lab/
 
 ```sh
 python -m pip install -r requirements-replay.txt
-python -m unittest discover -s tests -v
+python -m pip install -r requirements-test.txt
+python -m pytest tests -q
 python -m unittest instruments.explorer.test_http instruments.explorer.test_tablet -v
 ```
 

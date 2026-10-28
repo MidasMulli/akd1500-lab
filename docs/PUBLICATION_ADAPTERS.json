@@ -16,5 +16,11 @@
     "original_sha256": "2fd3cc59a22cfa90497a6cc6b6aee6f0dca7c902f5066d8421960c175b69a853",
     "public_sha256": "c3ace06aa59dafe0f58dabfe953ca426b9121354697b0c3d1bcd9c500a42fe4d",
     "scope": "publication portability/transport/output-path changes; not new hardware qualification"
+  },
+  {
+    "path": "instruments/explorer/web/app.js",
+    "original_sha256": "b05ddcc6d57b6fa20dfe8c0639aeb75459b44e96870ffd3c547a9b376ed76509",
+    "public_sha256": "bf7030f7bce06d46182b21dfd1ac918ca6100079cb2065e6351865777eadfe72",
+    "scope": "Lock capture selector to the verified server; remove private-lab port redirects. Scientific data and geometry unchanged."
   }
 ]

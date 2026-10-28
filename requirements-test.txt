@@ -1,0 +1,4 @@
+-r requirements-replay.txt
+pytest>=8.4,<10
+# Use the official CPU-wheel index when installing on a Linux CI host.
+torch==2.13.0

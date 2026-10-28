@@ -17,7 +17,7 @@ The current result is bounded: native memory can learn and retain useful correct
 
 ## Run the Explorer without hardware
 
-Python 3.12 or later, NumPy and Pillow:
+A macOS/Linux host with Python 3.12 or later, NumPy and Pillow:
 
 ```sh
 git clone --filter=blob:none https://github.com/MidasMulli/akd1500-lab.git
@@ -60,7 +60,8 @@ Open `http://127.0.0.1:8000/demos/world-model-memory/` or `http://127.0.0.1:8000
 The bounded live worker and compiler/driver source are included for inspection. A new device requires its separately supplied BrainChip SDK/runtime, local transport configuration and explicit qualification. The public checkout does not ship a machine's hardware-admission receipt or provide a public hardware-control endpoint. No chip is needed for the default replay or software tests.
 
 ```sh
-python -m unittest discover -s tests -v
+python -m pip install -r requirements-test.txt
+python -m pytest tests -q
 python -m unittest instruments.explorer.test_http instruments.explorer.test_tablet -v
 ```
 
