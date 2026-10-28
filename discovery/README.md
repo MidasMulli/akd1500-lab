@@ -53,5 +53,5 @@ a free device and the research lock. The qualified study is closed; do not reope
 old authority for a new experiment. Create a prospective study and new bounds.
 
 [Assessment and failures](../studies/20261024-context-discovery/ASSESSMENT.md) ·
-[1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/context-discovery-1080p60.mp4) ·
-[4K60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/context-discovery-4k60.mp4)
+[1080p60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/context-discovery-1080p60.mp4) ·
+[4K60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/context-discovery-4k60.mp4)

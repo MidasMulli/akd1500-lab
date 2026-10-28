@@ -1,0 +1,28 @@
+{
+  "status": "COMPILER_CPP_SOURCE_CHECKS_COMPLETE_HARDWARE_NOT_ADMITTED",
+  "updated_utc": "2026-10-28T08:53:14.066850+00:00",
+  "physical_attempts": 0,
+  "encoder_fits": 0,
+  "new_scene_cohorts": 0,
+  "virtual_compiler_classes": 32,
+  "source_variants": 4,
+  "reference_replacements": 128,
+  "reference_forwards": 102912,
+  "CPP_circuit_forwards": 3168,
+  "Python_circuit_forwards": 3168,
+  "total_reference_and_CPP_forwards": 109248,
+  "CPP_cases": "2fixed victims per arm; not the128replacement rehearsal",
+  "native_selector_implemented": false,
+  "participant_source_unchanged": true,
+  "remaining": "native target selection and actual silicon qualification unimplemented; no physical admission",
+  "mapping": "seven FNP3s, not mixed FNP",
+  "stdout_caveat": "Inherited native_mailbox_return and CPU_feedback_copies fields in CPU log are not measurements of native execution",
+  "evidence": [
+    "RESULT.json",
+    "COMPILER_CPP_STATUS.json",
+    "prepared32/BUILD.json",
+    "fixture-wildcard-retire/CPU_QA.json",
+    "fixture-no-retire/CPU_QA.json",
+    "fixture-permission-blocked/CPU_QA.json"
+  ]
+}

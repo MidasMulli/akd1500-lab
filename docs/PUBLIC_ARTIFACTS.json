@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "release": "research-20261028",
+  "assets": [
+    {
+      "id": "20261027-silhouette-managed-memory",
+      "file": "20261027-silhouette-managed-memory-evidence.zip",
+      "bytes": 31903663,
+      "sha256": "8bb92c4ef881a06c8aa0f5036c035a6eaec5c246ed54891ae00670fb2f539f27",
+      "entries": 623,
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/20261027-silhouette-managed-memory-evidence.zip"
+    },
+    {
+      "id": "20261028-wm-sparse-magnitude",
+      "file": "20261028-wm-sparse-magnitude-evidence.zip",
+      "bytes": 9778848,
+      "sha256": "86aaa94c10e11431b0ce7cefc70336b018ae2fac3aae48e3dae21b06f7b40009",
+      "entries": 562,
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/20261028-wm-sparse-magnitude-evidence.zip"
+    },
+    {
+      "id": "20261028-wm-stream-overnight",
+      "file": "20261028-wm-stream-overnight-evidence.zip",
+      "bytes": 19593603,
+      "sha256": "87a1a57905556eddf60cd788f421736c874c3be67b23deae193a66e3f7eaca83",
+      "entries": 1251,
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/20261028-wm-stream-overnight-evidence.zip"
+    },
+    {
+      "id": "AKD_MANAGED_IMAGE_MEMORY_1080P60",
+      "file": "AKD_MANAGED_IMAGE_MEMORY_1080P60.mp4",
+      "bytes": 9141100,
+      "sha256": "0e95acd3c8f82b6c632f73806c51d8d96ee205268f3c2819956937fb92b5ccc5",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_MANAGED_IMAGE_MEMORY_1080P60.mp4"
+    },
+    {
+      "id": "AKD_MANAGED_IMAGE_MEMORY_4K60",
+      "file": "AKD_MANAGED_IMAGE_MEMORY_4K60.mp4",
+      "bytes": 106098596,
+      "sha256": "c67d949dc78ee6ed7ecfe2829c6ff1cb1ff7aa69f778339f9156d14e9feed219",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_MANAGED_IMAGE_MEMORY_4K60.mp4"
+    },
+    {
+      "id": "AKD_WORLDMODEL_MEMORY_4K60",
+      "file": "AKD_WORLDMODEL_MEMORY_4K60.mp4",
+      "bytes": 33704818,
+      "sha256": "a0e5269af9027c2f7dacbf8b48ef87fb2b4060b1ef94b8841f805b0467705a98",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_WORLDMODEL_MEMORY_4K60.mp4"
+    },
+    {
+      "id": "AKD_WORLD_MODEL_X",
+      "file": "AKD_WORLD_MODEL_X.mp4",
+      "bytes": 6119208,
+      "sha256": "4fe983296f71331beb7aaa0e4afe8658e4fb20340f38b8cf44ab8f3f0b8d1822",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_WORLD_MODEL_X.mp4"
+    },
+    {
+      "id": "AKD_WM_MEMORY_DOWNLOAD",
+      "file": "AKD_WM_MEMORY_DOWNLOAD.mp4",
+      "bytes": 24557996,
+      "sha256": "a69db6bd9630a26d5cc497f0ec6bd96c716e4166bfd77c63df320a708d053e40",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_WM_MEMORY_DOWNLOAD.mp4"
+    },
+    {
+      "id": "AKD_WM_NATIVE_MEMORY_4K60",
+      "file": "AKD_WM_NATIVE_MEMORY_4K60.mp4",
+      "bytes": 179011688,
+      "sha256": "96b431445d22de577ccc7918153952988b84346ffb0c2c94a58d83cf639ca6d7",
+      "url": "https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261028/AKD_WM_NATIVE_MEMORY_4K60.mp4"
+    }
+  ]
+}

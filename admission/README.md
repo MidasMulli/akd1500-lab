@@ -91,8 +91,8 @@ RAM/output captures; fixed features are derived, and movement/geometry/time are
 schematic. Teacher-time response paths can be gated: an absent returned bit is
 not an electrical inactivity measurement.
 
-[1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-1080p60.mp4) ·
-[4K60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/learning-controls-learning-4k60.mp4) ·
+[1080p60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/learning-controls-learning-1080p60.mp4) ·
+[4K60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/learning-controls-learning-4k60.mp4) ·
 [prospective protocol](../studies/20261025-learned-admission/PROTOCOL.md)
 
 

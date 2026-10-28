@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "physical": true,
+  "all_three_arms_native": true,
+  "matched_queries": 144,
+  "native_arms": {
+    "error-only": {
+      "S2B_second": {
+        "n": 16,
+        "accuracy": 1.0,
+        "brier": 0.11413203727336838
+      },
+      "S1B_first_return": {
+        "n": 16,
+        "hits": 16,
+        "correct": 16,
+        "accuracy": 1.0
+      },
+      "all_A": {
+        "n": 48,
+        "accuracy": 0.9791666666666666,
+        "brier": 0.03633398771043877
+      }
+    },
+    "all-admit": {
+      "S2B_second": {
+        "n": 16,
+        "accuracy": 0.0625,
+        "brier": 1.8249530166573416
+      },
+      "S1B_first_return": {
+        "n": 16,
+        "hits": 16,
+        "correct": 16,
+        "accuracy": 1.0
+      },
+      "all_A": {
+        "n": 48,
+        "accuracy": 0.9791666666666666,
+        "brier": 0.03515740109000985
+      }
+    },
+    "S1AB-frozen": {
+      "S2B_second": {
+        "n": 16,
+        "accuracy": 0.0625,
+        "brier": 1.8249530166573416
+      },
+      "S1B_first_return": {
+        "n": 16,
+        "hits": 16,
+        "correct": 16,
+        "accuracy": 1.0
+      },
+      "all_A": {
+        "n": 48,
+        "accuracy": 0.9791666666666666,
+        "brier": 0.03633398771043877
+      }
+    }
+  },
+  "final_selective_learning_thresholds": [
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30
+  ],
+  "corrected_baseline_errors": 15,
+  "final_correct_forecasts": 16,
+  "original_WM_correct": 1,
+  "limits": [
+    "Repeated selected simulator contexts",
+    "Host encoding, clocks and forecast mixing",
+    "Strong CPU controls also pass; no speed/energy claim"
+  ]
+}

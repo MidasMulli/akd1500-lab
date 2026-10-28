@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "tranche": "HELD",
+  "raw_RAM_query_replays": 2016,
+  "scalar_probability_max_error": 5.551115123125783e-16,
+  "streams": {
+    "CPU_HELD_joint14_INFORMATIVE_K2": {
+      "checks": {
+        "all-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 150
+        },
+        "all-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 78
+        },
+        "all-AB-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 150
+        },
+        "all-retire-cut": {
+          "queries": 48,
+          "software_RAM_bits_changed": 150
+        },
+        "error-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 72
+        },
+        "error-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "PASS",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint14_INFORMATIVE_K4": {
+      "checks": {
+        "all-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 298
+        },
+        "all-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 160
+        },
+        "all-AB-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 290
+        },
+        "all-retire-cut": {
+          "queries": 96,
+          "software_RAM_bits_changed": 298
+        },
+        "error-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 170
+        },
+        "error-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint14_INFORMATIVE_K8": {
+      "checks": {
+        "all-normal": {
+          "queries": 192,
+          "software_RAM_bits_changed": 344
+        },
+        "all-A-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 334
+        },
+        "all-AB-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 336
+        },
+        "all-retire-cut": {
+          "queries": 192,
+          "software_RAM_bits_changed": 344
+        },
+        "error-normal": {
+          "queries": 192,
+          "software_RAM_bits_changed": 352
+        },
+        "error-A-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    }
+  },
+  "physical_evidence": false
+}

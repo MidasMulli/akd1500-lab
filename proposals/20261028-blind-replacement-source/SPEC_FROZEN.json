@@ -1,0 +1,44 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_BEFORE_EXECUTION",
+  "created_utc": "2026-10-28T07:39:09.905849+00:00",
+  "authority": "Ongoing direct user authorization to continue the AKD arc overnight; this is a reversible software feasibility check, not hardware or N-study admission",
+  "runtime_session": "codex:01a11d87-0208-7613-bbc0-e5e612110c50",
+  "hypothesis": "32 classes with one record each; wildcard retirement omits canonical marker then normal consolidation can rewrite a selected record without reading its old cue",
+  "classes": 32,
+  "neurons": 32,
+  "synapses_per_neuron": 32,
+  "seeds": [
+    27102811,
+    27102812
+  ],
+  "replacement_rounds_per_seed": 64,
+  "fixed_consolidation_passes": 8,
+  "arms": [
+    "wildcard-retire",
+    "no-retire",
+    "permission-blocked"
+  ],
+  "max_CPU_reference_forwards": 150000,
+  "cpu_threads": 2,
+  "timeout_seconds": 120,
+  "native_attempts_permitted": 0,
+  "new_scene_cohorts_permitted": 0,
+  "encoder_fits_permitted": 0,
+  "hard_stop_utc": "2026-10-28T12:00:00Z",
+  "gates": [
+    "all selected replacements exact",
+    "all31 protected record RAMs unchanged after each update",
+    "all current32 records recall exactly after each update",
+    "permission-blocked control leaves every record unchanged"
+  ],
+  "descriptive_controls": [
+    "no-retire overwrites reported without changing a gate afterward"
+  ],
+  "limits": [
+    "Native32-class configuration/compiler/runtime not yet qualified",
+    "Victim index and masking are a source rehearsal, not an implemented native selector or policy",
+    "Inherited software reference was previously tested for other configurations; this new configuration remains unproven on silicon",
+    "Global selector rot/cursor may change and affect later learning; do not claim independent learning engines",
+    "Current R/N study and failed N gate remain closed, no new cohort, refit or physical launch"
+  ]
+}

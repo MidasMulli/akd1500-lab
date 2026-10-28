@@ -7,7 +7,7 @@ tested fixed binary workload; no calibrated energy advantage is established.**
 
 ![Measured native execution and CPU controls](../visual/native-primitives-4k.png)
 
-[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-primitives-4k60.mp4) ·
+[4K60 MP4](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/native-primitives-4k60.mp4) ·
 [primary assessment](../studies/20261024-native-primitives/ASSESSMENT.md) ·
 [11-region causal checks](../studies/20261024-cnp-contribution/ASSESSMENT.md) ·
 [runtime allocation diagnosis](../studies/20261024-queue-allocation/ASSESSMENT.md) ·

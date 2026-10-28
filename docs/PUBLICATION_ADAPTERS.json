@@ -1,0 +1,20 @@
+[
+  {
+    "path": "instruments/explorer/server.py",
+    "original_sha256": "019965253561a3580089e82eab692c52b5b5259e93812d0941922c378857480c",
+    "public_sha256": "3787948a9bd9ce85ee5f2b6d01ae6fa571e7e46345d80166139ba508558ba146",
+    "scope": "publication portability/transport/output-path changes; not new hardware qualification"
+  },
+  {
+    "path": "instruments/explorer/desktop/endpoint.cjs",
+    "original_sha256": "738cdee1415e01eb52949983ac7c369daf3a0ab4f77cee67997f8fe6b67a380e",
+    "public_sha256": "a3958fc265061694096e084f9e6412f3c7a399def9470e049052591f34b1bf23",
+    "scope": "publication portability/transport/output-path changes; not new hardware qualification"
+  },
+  {
+    "path": "proposals/20261028-blind-replacement-source/check_source.py",
+    "original_sha256": "2fd3cc59a22cfa90497a6cc6b6aee6f0dca7c902f5066d8421960c175b69a853",
+    "public_sha256": "c3ace06aa59dafe0f58dabfe953ca426b9121354697b0c3d1bcd9c500a42fe4d",
+    "scope": "publication portability/transport/output-path changes; not new hardware qualification"
+  }
+]

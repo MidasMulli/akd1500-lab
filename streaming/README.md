@@ -11,7 +11,7 @@ was skipped, and the other initialization seeds remain unrun.**
 
 ![Recorded stream, native responses and full matched results](../visual/streaming-prediction-4k.png)
 
-[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/streaming-prediction-4k60.mp4) ·
+[4K60 MP4](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/streaming-prediction-4k60.mp4) ·
 [assessment](../studies/20261024-streaming-prediction/ASSESSMENT.md) ·
 [prospective protocol](../studies/20261024-streaming-prediction/PROTOCOL.json) ·
 [next gates](NEXT.md)

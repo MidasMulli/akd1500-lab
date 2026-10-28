@@ -1,0 +1,16 @@
+{
+  "status": "CLOSED_QUALITY_GATE_FAILED",
+  "scientific_goal_achieved": false,
+  "physical_sessions": 0,
+  "native_observed_forwards": 0,
+  "native_reserved_forwards": 0,
+  "encoder_fits": 3,
+  "fresh_cohorts": 3,
+  "selected_candidates": "v2joint10 aftersplit5rejection; v3unchangedjoint10; v4joint14",
+  "raw_RAM_software_query_audits": 19800,
+  "owned_scientific_jobs": [],
+  "closed_utc": "2026-10-28T01:35:16.389374+00:00",
+  "conclusion": "V2 held ceiling made useful improvement untestable. V3 and final v4 expose aliasing in sign-only representations. V4K2 passes butK4 fails; no cherry-picked native admission. Wider magnitude-preserving sparse input is a source hypothesis for a future prospective study, not measured hardware.",
+  "world_model": "Frozen LONG202 u16384; observed latent h0/h5, calibrated imagined35tick event forecasts, true40tick outcome. Producer CPU onAscent, consumer CPU simulation onMac; no concurrent NanoGPU/native deployment.",
+  "controls": "Adaptive full-floatCPU8 passes. A-onlyfrozen exposes adaptation; fullyABtrainedfrozen matches once bothregimeslearned. No advantage established over strong adaptiveCPU, continued learning overABfrozen, latency or power."
+}

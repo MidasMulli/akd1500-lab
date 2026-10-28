@@ -1,0 +1,215 @@
+{
+  "status": "BOUNDED_NATIVE_STUDY_PASS",
+  "reviewed_utc": "2026-10-27T13:41:12.713687+00:00",
+  "sessions": {
+    "support": {
+      "events": 882,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": null,
+      "quarter_correct": 64,
+      "quarter_queries": 64,
+      "unknown_rejected": 16,
+      "unknown_queries": 16,
+      "RAM_unchanged_on_rejected_teaching": null,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 162,
+          "events_with_connection_edits": 10
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 9416,
+          "events_with_connection_edits": 776
+        }
+      ]
+    },
+    "primary": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 131,
+        "queries": 132,
+        "full_correct": 4,
+        "full": 4,
+        "partial_correct": 127,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 284,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": true,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 166,
+          "events_with_connection_edits": 14
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 9418,
+          "events_with_connection_edits": 778
+        }
+      ]
+    },
+    "manager_frozen": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 0,
+        "queries": 132,
+        "full_correct": 0,
+        "full": 4,
+        "partial_correct": 0,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 126,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": false,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 162,
+          "events_with_connection_edits": 10
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 9464,
+          "events_with_connection_edits": 824
+        }
+      ]
+    },
+    "open": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 33,
+        "queries": 132,
+        "full_correct": 1,
+        "full": 4,
+        "partial_correct": 32,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 141,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": false,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 166,
+          "events_with_connection_edits": 14
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 9587,
+          "events_with_connection_edits": 947
+        }
+      ]
+    },
+    "content_frozen": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 0,
+        "queries": 132,
+        "full_correct": 0,
+        "full": 4,
+        "partial_correct": 0,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 64,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": true,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 166,
+          "events_with_connection_edits": 14
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 4707,
+          "events_with_connection_edits": 388
+        }
+      ]
+    },
+    "cut": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 0,
+        "queries": 132,
+        "full_correct": 0,
+        "full": 4,
+        "partial_correct": 0,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 64,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": true,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 166,
+          "events_with_connection_edits": 14
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 4707,
+          "events_with_connection_edits": 388
+        }
+      ]
+    },
+    "confirmation": {
+      "events": 3612,
+      "status": "MEASURED_NATIVE_PASS",
+      "final": {
+        "correct": 131,
+        "queries": 132,
+        "full_correct": 4,
+        "full": 4,
+        "partial_correct": 127,
+        "partial": 128,
+        "cpu_correct": null
+      },
+      "quarter_correct": 285,
+      "quarter_queries": 288,
+      "unknown_rejected": 160,
+      "unknown_queries": 160,
+      "RAM_unchanged_on_rejected_teaching": true,
+      "connection_edits": [
+        {
+          "bank": 0,
+          "connection_swaps": 166,
+          "events_with_connection_edits": 14
+        },
+        {
+          "bank": 1,
+          "connection_swaps": 9418,
+          "events_with_connection_edits": 778
+        }
+      ]
+    }
+  },
+  "physical_sessions": 7,
+  "observed_forwards": 22554,
+  "card_released": true,
+  "learned_allocator": false,
+  "CPU_exclusive": false,
+  "energy_or_speed_claim": false,
+  "held_scope": "New erasure/unknown masks, same4images and initialization"
+}

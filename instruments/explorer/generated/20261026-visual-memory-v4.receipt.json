@@ -1,0 +1,10 @@
+{
+  "status": "RGB_EXPLORER_EXPORT_PASS",
+  "events_per_arm": 520,
+  "images": 400,
+  "native_arms": 2,
+  "matched_prefix_events": 80,
+  "read_only_profile": true,
+  "bytes": 19837445,
+  "data_sha256": "e5fafbb6ec497317fa25f02a6072ff4779ba15febb50982f24a6305754c9f713"
+}

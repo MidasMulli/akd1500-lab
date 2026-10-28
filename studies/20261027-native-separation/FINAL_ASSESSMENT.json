@@ -1,0 +1,64 @@
+{
+  "scientific_status": "BOUNDED_NATIVE_SEPARATION_AND_INTEGRATED_MANAGER_PASS",
+  "assessed_utc": "2026-10-27T19:21:12.872356+00:00",
+  "measured": {
+    "resident_FNP3": 6,
+    "working_runs": 3,
+    "initialization_and_cue_seeds": [
+      27102741,
+      27102752
+    ],
+    "held_order_seeds": [
+      27102753,
+      27102754
+    ],
+    "new_recall": [
+      3,
+      3
+    ],
+    "protected_recall": [
+      21,
+      21
+    ],
+    "context_invariance": [
+      96,
+      96
+    ],
+    "causal_control_cells": 4,
+    "causal_control_new_recall": [
+      0,
+      4
+    ],
+    "all_outputs_inputs_and_full_RAM_exact": true,
+    "native_feedback_resends_by_CPU": 0
+  },
+  "accounting": {
+    "status": "PHYSICAL_CAMPAIGN_CLOSED",
+    "physical_sessions": 9,
+    "reserved_forwards": 3950,
+    "observed_forwards": 3887,
+    "source_qualifications": 8,
+    "physical_campaign_closed": true,
+    "active_jobs": [],
+    "card_released": true,
+    "closed_utc": "2026-10-27T19:01:42.634059+00:00"
+  },
+  "adaptive_CPU_task_controls_also_pass": true,
+  "media_QA": "PASS",
+  "demonstrated": "Learned context policy plus native knownness conditionally generates a retirement marker; native competition reuses the affected content record while other records and context-invariant recognition are protected.",
+  "limits": [
+    "Small designedbinarycues; one replacement per workingrun",
+    "Host provides observations, explicit policyteachers and fixed role/configuration clocks",
+    "Presented oldcue identifies candidate; no autonomous poolwide victimsearch",
+    "Card-side scratch transport, distinct from NPU learnerRAM",
+    "Two chains host scheduled serially; no free-running or simultaneousindependence proof",
+    "Intentional management marker inside contentpayload",
+    "No efficiency, energy, CPUinability, realimagegeneralization or priority claim"
+  ],
+  "broad_useful_frontier_goal_complete": false,
+  "physical_campaign_closed": true,
+  "active_owned_science": [],
+  "package_QA": "Read sibling 20261027-native-separation_REVIEW_QA.json for clean-extraction outcome and archivehash; not implied by this scientific assessment",
+  "next_stage": "Prospective repeated native turnover and realistic descriptor retention; not admitted by this closed study",
+  "publication": false
+}

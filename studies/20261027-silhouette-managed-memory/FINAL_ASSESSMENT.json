@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_LOCALLY",
+  "assessed_utc": "2026-10-27T14:21:16.651553+00:00",
+  "scientific_status": "CLOSED",
+  "physical_sessions": 7,
+  "observed_forwards": 22554,
+  "card_released": true,
+  "owned_scientific_jobs": [],
+  "final_native_recall": {
+    "primary": [
+      131,
+      132
+    ],
+    "held_mask_confirmation": [
+      131,
+      132
+    ],
+    "open": [
+      33,
+      132
+    ],
+    "source_checker_frozen": [
+      0,
+      132
+    ]
+  },
+  "scope": "Four manually authored known silhouettes; pre-taught cue identities, preassigned pixel slots, external quality/teacher labels/clocks/presence commit, host-paced buffer feedback. Strong CPU controls also pass; no efficiency, unseen-object generalization or independent autonomy claim.",
+  "media_qa": "MEDIA_QA.json",
+  "review_archive": "AKD_MANAGED_IMAGE_MEMORY_REVIEW_R3.zip",
+  "review_archive_sha256": "fa4e60878df6c78256c9d623fc61c0f240e6801cd05d7cac0e4b3324e1bbbb85",
+  "review_qa": "PACKAGE_QA.json",
+  "failures_preserved": [
+    "TRANSFER_REPAIR.json",
+    "MAPPER_REPAIR.json",
+    "EVIDENCE_METADATA_CORRECTION.json",
+    "REPLAY_FAILURES.json"
+  ],
+  "next_executable": "Source proposal only; no additional physical cell admitted.",
+  "publication": false,
+  "tab5": "Delegated; no serial work performed",
+  "services": "Existing console services remain available"
+}

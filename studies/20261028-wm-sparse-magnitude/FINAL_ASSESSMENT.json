@@ -1,0 +1,654 @@
+{
+  "status": "CLOSED_NATIVE_PRIMARY_PASS",
+  "physical_attempts": 7,
+  "reserved_forwards": 19044,
+  "observed_forwards": 19044,
+  "verified_feedback_windows": 16356,
+  "native_task_queries": 348,
+  "results": {
+    "01": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "01",
+      "profile": "oct9",
+      "tranche": "DEV",
+      "K": 2,
+      "arm": "all-normal",
+      "prefix": null,
+      "forwards": 2628,
+      "phases": {
+        "0": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.0016809535586200526,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "1": {
+          "n": 8,
+          "composed_correct": 6,
+          "composed_accuracy": 0.75,
+          "WM_accuracy": 0.0,
+          "brier": 0.5360120539243158,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "2": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00035388495970948474,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "3": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "4": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00035388495970948474,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "5": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        }
+      },
+      "returnedA": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 0.00035388495970948474,
+        "WM_brier": 0.005662159355351756,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "returnedB": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 0.0,
+        "brier": 0.11284464293143492,
+        "WM_brier": 1.8055142869029588,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "all": {
+        "n": 48,
+        "composed_correct": 46,
+        "composed_accuracy": 0.9583333333333334,
+        "WM_accuracy": 0.5,
+        "brier": 0.12734834387753746,
+        "WM_brier": 0.9055882231291553,
+        "native_memory_hits": 44,
+        "native_memory_correct": 44
+      },
+      "native_queries": 48,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    },
+    "02": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "02",
+      "profile": "oct9",
+      "tranche": "DEV",
+      "K": 2,
+      "arm": "error-normal",
+      "prefix": null,
+      "forwards": 2628,
+      "phases": {
+        "0": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "1": {
+          "n": 8,
+          "composed_correct": 6,
+          "composed_accuracy": 0.75,
+          "WM_accuracy": 0.0,
+          "brier": 0.5360120539243158,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "2": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "3": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "4": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "5": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        }
+      },
+      "returnedA": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 0.005662159355351756,
+        "WM_brier": 0.005662159355351756,
+        "native_memory_hits": 0,
+        "native_memory_correct": 0
+      },
+      "returnedB": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 0.0,
+        "brier": 0.11284464293143492,
+        "WM_brier": 1.8055142869029588,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "all": {
+        "n": 48,
+        "composed_correct": 46,
+        "composed_accuracy": 0.9583333333333334,
+        "WM_accuracy": 0.5,
+        "brier": 0.12978130297554016,
+        "WM_brier": 0.9055882231291553,
+        "native_memory_hits": 22,
+        "native_memory_correct": 22
+      },
+      "native_queries": 48,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    },
+    "03": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "03",
+      "profile": "oct9",
+      "tranche": "DEV",
+      "K": 2,
+      "arm": "error-A-frozen",
+      "prefix": null,
+      "forwards": 2628,
+      "phases": {
+        "0": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "1": {
+          "n": 8,
+          "composed_correct": 0,
+          "composed_accuracy": 0.0,
+          "WM_accuracy": 0.0,
+          "brier": 1.8055142869029588,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "2": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "3": {
+          "n": 8,
+          "composed_correct": 0,
+          "composed_accuracy": 0.0,
+          "WM_accuracy": 0.0,
+          "brier": 1.8055142869029588,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "4": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.005662159355351756,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "5": {
+          "n": 8,
+          "composed_correct": 0,
+          "composed_accuracy": 0.0,
+          "WM_accuracy": 0.0,
+          "brier": 1.8055142869029588,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        }
+      },
+      "returnedA": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 0.005662159355351756,
+        "WM_brier": 0.005662159355351756,
+        "native_memory_hits": 0,
+        "native_memory_correct": 0
+      },
+      "returnedB": {
+        "n": 16,
+        "composed_correct": 0,
+        "composed_accuracy": 0.0,
+        "WM_accuracy": 0.0,
+        "brier": 1.8055142869029588,
+        "WM_brier": 1.8055142869029588,
+        "native_memory_hits": 0,
+        "native_memory_correct": 0
+      },
+      "all": {
+        "n": 48,
+        "composed_correct": 24,
+        "composed_accuracy": 0.5,
+        "WM_accuracy": 0.5,
+        "brier": 0.9055882231291553,
+        "WM_brier": 0.9055882231291553,
+        "native_memory_hits": 0,
+        "native_memory_correct": 0
+      },
+      "native_queries": 48,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    },
+    "04": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "04",
+      "profile": "oct9",
+      "tranche": "DEV",
+      "K": 4,
+      "arm": "all-normal",
+      "prefix": null,
+      "forwards": 5220,
+      "phases": {
+        "0": {
+          "n": 16,
+          "composed_correct": 16,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.0008406144651367804,
+          "WM_brier": 0.0028315434615133655,
+          "native_memory_hits": 12,
+          "native_memory_correct": 12
+        },
+        "1": {
+          "n": 16,
+          "composed_correct": 12,
+          "composed_accuracy": 0.75,
+          "WM_accuracy": 0.0,
+          "brier": 0.5647545209907916,
+          "WM_brier": 1.902331018074245,
+          "native_memory_hits": 12,
+          "native_memory_correct": 12
+        },
+        "2": {
+          "n": 16,
+          "composed_correct": 16,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00017697146634458534,
+          "WM_brier": 0.002831543461513365,
+          "native_memory_hits": 16,
+          "native_memory_correct": 16
+        },
+        "3": {
+          "n": 16,
+          "composed_correct": 16,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11889568862964031,
+          "WM_brier": 1.902331018074245,
+          "native_memory_hits": 16,
+          "native_memory_correct": 16
+        },
+        "4": {
+          "n": 16,
+          "composed_correct": 16,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00017697146634458534,
+          "WM_brier": 0.0028315434615133655,
+          "native_memory_hits": 16,
+          "native_memory_correct": 16
+        },
+        "5": {
+          "n": 16,
+          "composed_correct": 16,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11889568862964031,
+          "WM_brier": 1.902331018074245,
+          "native_memory_hits": 16,
+          "native_memory_correct": 16
+        }
+      },
+      "returnedA": {
+        "n": 32,
+        "composed_correct": 32,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 0.00017697146634458534,
+        "WM_brier": 0.0028315434615133655,
+        "native_memory_hits": 32,
+        "native_memory_correct": 32
+      },
+      "returnedB": {
+        "n": 32,
+        "composed_correct": 32,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 0.0,
+        "brier": 0.11889568862964031,
+        "WM_brier": 1.902331018074245,
+        "native_memory_hits": 32,
+        "native_memory_correct": 32
+      },
+      "all": {
+        "n": 96,
+        "composed_correct": 92,
+        "composed_accuracy": 0.9583333333333334,
+        "WM_accuracy": 0.5,
+        "brier": 0.13395674260798301,
+        "WM_brier": 0.9525812807678792,
+        "native_memory_hits": 88,
+        "native_memory_correct": 88
+      },
+      "native_queries": 96,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    },
+    "05": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "05",
+      "profile": "oct9",
+      "tranche": "HELD",
+      "K": 2,
+      "arm": "error-normal",
+      "prefix": null,
+      "forwards": 2628,
+      "phases": {
+        "0": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 7.39435041972475e-08,
+          "WM_brier": 7.39435041972475e-08,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "1": {
+          "n": 8,
+          "composed_correct": 6,
+          "composed_accuracy": 0.75,
+          "WM_accuracy": 0.0,
+          "brier": 0.5936681484656167,
+          "WM_brier": 1.9997242895683929,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "2": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 7.39435041972475e-08,
+          "WM_brier": 7.39435041972475e-08,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "3": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.12498276809802453,
+          "WM_brier": 1.9997242895683929,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "4": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 7.39435041972475e-08,
+          "WM_brier": 7.39435041972475e-08,
+          "native_memory_hits": 0,
+          "native_memory_correct": 0
+        },
+        "5": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.12498276809802453,
+          "WM_brier": 1.9997242895683929,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        }
+      },
+      "returnedA": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 7.39435041972475e-08,
+        "WM_brier": 7.39435041972475e-08,
+        "native_memory_hits": 0,
+        "native_memory_correct": 0
+      },
+      "returnedB": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 0.0,
+        "brier": 0.12498276809802453,
+        "WM_brier": 1.9997242895683929,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "all": {
+        "n": 48,
+        "composed_correct": 46,
+        "composed_accuracy": 0.9583333333333334,
+        "WM_accuracy": 0.5,
+        "brier": 0.14060565108202971,
+        "WM_brier": 0.9998621817559487,
+        "native_memory_hits": 22,
+        "native_memory_correct": 22
+      },
+      "native_queries": 48,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    },
+    "06": {
+      "status": "MEASURED_NATIVE_TASK_RESULT",
+      "cell": "06",
+      "profile": "oct9",
+      "tranche": "DEV",
+      "K": 2,
+      "arm": "all-AB-frozen",
+      "prefix": null,
+      "forwards": 2628,
+      "phases": {
+        "0": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.0016809535586200526,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "1": {
+          "n": 8,
+          "composed_correct": 6,
+          "composed_accuracy": 0.75,
+          "WM_accuracy": 0.0,
+          "brier": 0.5360120539243158,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 6,
+          "native_memory_correct": 6
+        },
+        "2": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00035388495970948474,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "3": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "4": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 1.0,
+          "brier": 0.00035388495970948474,
+          "WM_brier": 0.005662159355351756,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        },
+        "5": {
+          "n": 8,
+          "composed_correct": 8,
+          "composed_accuracy": 1.0,
+          "WM_accuracy": 0.0,
+          "brier": 0.11284464293143492,
+          "WM_brier": 1.8055142869029588,
+          "native_memory_hits": 8,
+          "native_memory_correct": 8
+        }
+      },
+      "returnedA": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 1.0,
+        "brier": 0.00035388495970948474,
+        "WM_brier": 0.005662159355351756,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "returnedB": {
+        "n": 16,
+        "composed_correct": 16,
+        "composed_accuracy": 1.0,
+        "WM_accuracy": 0.0,
+        "brier": 0.11284464293143492,
+        "WM_brier": 1.8055142869029588,
+        "native_memory_hits": 16,
+        "native_memory_correct": 16
+      },
+      "all": {
+        "n": 48,
+        "composed_correct": 46,
+        "composed_accuracy": 0.9583333333333334,
+        "WM_accuracy": 0.5,
+        "brier": 0.12734834387753746,
+        "WM_brier": 0.9055882231291553,
+        "native_memory_hits": 44,
+        "native_memory_correct": 44
+      },
+      "native_queries": 48,
+      "independent_control_interpretation": "A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention."
+    }
+  },
+  "all_full_outputs_complete_RAM_inputs_descriptors_fixed_RAM_pass": true,
+  "limits": [
+    "Four-context native result is DEV all-admit retention; HELD K4 software only",
+    "Two-context fresh HELD native error-only; no HELD K4 native launch",
+    "K8 software diagnostic fails eight-record capacity with16distinctkeys",
+    "Strong adaptive CPU and AB-trained frozen controls pass",
+    "Repeatedcachedcases, conditional changedoutcomechallenge, not freshclosedloop episodes",
+    "HostPCA/binencoding, teachers/staticclocks and3candidateprobes; zeroCPUintermediatefeedbackresend",
+    "No closedloopplanner, energy/speed or GPUconcurrency claim"
+  ],
+  "prior_cohorts": {
+    "v2": "HELDceiling, usefulnessuntestable",
+    "v3": "signaliasonfreshHELD",
+    "v4": "signrepairpartial,K4HELDfailed"
+  },
+  "new_encoder_fits": 0,
+  "selected_profile": "oct9",
+  "source_qualifications": 16,
+  "card_released": true,
+  "visual_status": "4K60 and1080p60 encoded; full decode PASS"
+}

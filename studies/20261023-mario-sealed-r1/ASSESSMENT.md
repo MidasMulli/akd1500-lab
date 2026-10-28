@@ -24,7 +24,7 @@ four outcomes; frozen RAM stayed fixed. Achieved full-arm rates were 56.03
 captured frames/s and 8.41 query pairs/s. Actual RGB frames were independently
 recreated, all encoded inputs were matched to their source frames, and every
 native response/RAM snapshot was recounted. Wall-time pauses are retained in
-the [4K60 film](../../visual/mario-live-responses-4k60.mp4).
+the [4K60 film](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/mario-live-responses-4k60.mp4).
 
 Live preparation included protected development prequeries. Such queries can
 advance the hidden selector despite unchanged visible RAM. The later

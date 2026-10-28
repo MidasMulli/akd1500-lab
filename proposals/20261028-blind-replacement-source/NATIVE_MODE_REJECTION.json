@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-28T09:11:16.973851+00:00",
+  "returncode": 1,
+  "stderr": "FAIL: SOURCE_ONLY_NO_NATIVE_ADMISSION",
+  "rejected_before_fixture_read_or_device_construction": true,
+  "physical": false
+}

@@ -1,0 +1,285 @@
+{
+  "source_commit": "86e459c92c2009a68ff9215c46bc344a46687b0d",
+  "media": [
+    {
+      "original_path": "visual/context-discovery-1080p60.mp4",
+      "asset": "context-discovery-1080p60.mp4",
+      "bytes": 13526664,
+      "sha256": "82b1a9bc9c72a35fa26d7f7591508e1458f1f4bcbf86dd3b23c05928d281e64f",
+      "git_blob": "0f054b78afd0679b72541befc330ffe8609bdbc9"
+    },
+    {
+      "original_path": "visual/context-discovery-4k60.mp4",
+      "asset": "context-discovery-4k60.mp4",
+      "bytes": 71349274,
+      "sha256": "8370e5af8884319a2db4f0c06200ff1144bbf512e988fb6efecccefe7e7913fd",
+      "git_blob": "d289d0793909d1e7d48ee8a26fa6a2c18a2f383f"
+    },
+    {
+      "original_path": "visual/fnp-or-relay-4k60.mp4",
+      "asset": "fnp-or-relay-4k60.mp4",
+      "bytes": 41838688,
+      "sha256": "0e01f03e972f30a2c07984f567451718aab465a3e2540565485a172da4c09883",
+      "git_blob": "28d86164ea95f41ae732d28aa0016bc0121e6906"
+    },
+    {
+      "original_path": "visual/fnp2-window-1080p60.mp4",
+      "asset": "fnp2-window-1080p60.mp4",
+      "bytes": 1092799,
+      "sha256": "417578aa5f276fb7fdb3e19d359deb6a7c27f84eb4ca2037023747c25db58b69",
+      "git_blob": "c3c45d9f86f9d7453d45b133d8fcb1bdb5312e1d"
+    },
+    {
+      "original_path": "visual/fnp2-window-4k60.mp4",
+      "asset": "fnp2-window-4k60.mp4",
+      "bytes": 2445979,
+      "sha256": "65567bbfbe1cdd1517eb1460173d6e53e0dcf54fd60697623835ff3985eb613b",
+      "git_blob": "e332e759ea92fa77332dfe0d28044c0cb6a06ebc"
+    },
+    {
+      "original_path": "visual/input-gated-learning-1080p60.mp4",
+      "asset": "input-gated-learning-1080p60.mp4",
+      "bytes": 7671043,
+      "sha256": "ec336d4551f5a0a47daa4f1816481193c5b06a0eaaf2ad7d2b76ef8cc19441bf",
+      "git_blob": "ccf5f792b63962466113c15f10fa966952863d9e"
+    },
+    {
+      "original_path": "visual/input-gated-learning-4k60.mp4",
+      "asset": "input-gated-learning-4k60.mp4",
+      "bytes": 78938793,
+      "sha256": "87c693db23071ecbe6a0c643917a8246e624b8f4c38403be0ec7ac3d2cf5d7e5",
+      "git_blob": "5d334a9178415b6457dab33be68ff7a4f9528248"
+    },
+    {
+      "original_path": "visual/larger-native-stream-1080p60.mp4",
+      "asset": "larger-native-stream-1080p60.mp4",
+      "bytes": 13332288,
+      "sha256": "90fac1a2203915fd66c09f043957fc3c161905db50d76cfc837d2ea023dc1aa6",
+      "git_blob": "617383a397fa11e66d350d0f3908058c80dcea62"
+    },
+    {
+      "original_path": "visual/larger-native-stream-4k60.mp4",
+      "asset": "larger-native-stream-4k60.mp4",
+      "bytes": 79540256,
+      "sha256": "e10f08921777023f3a867bb2ead4b162fbb75e0f82385933a79dbe7b9c2d7c6f",
+      "git_blob": "6acf970db3c8afd402c6f35864bb85ec55397f3b"
+    },
+    {
+      "original_path": "visual/learned-transition-1080p60.mp4",
+      "asset": "learned-transition-1080p60.mp4",
+      "bytes": 8229848,
+      "sha256": "5fb50db5daf42b9bdaaee104b8877db6db2db307bacc1c97b677abdd9efa2915",
+      "git_blob": "55a8db6430a434c9146f35dcad9653bbfb2eedb1"
+    },
+    {
+      "original_path": "visual/learned-transition-4k60.mp4",
+      "asset": "learned-transition-4k60.mp4",
+      "bytes": 76856874,
+      "sha256": "87686494cc44700a7efe25e985a554fb7deeea25b278b497f68b4ec7b89e290c",
+      "git_blob": "f68af29a5f401e40704a52d9805e71e866ba8b5d"
+    },
+    {
+      "original_path": "visual/learning-controls-learning-1080p60.mp4",
+      "asset": "learning-controls-learning-1080p60.mp4",
+      "bytes": 7255693,
+      "sha256": "8961e937e7ae65d5f559d8a3e6e31b44e40c0abf3dc3a868116b76e5c9dc0c33",
+      "git_blob": "42027c54173c2c737e3821050ccaed9b6fbd20f1"
+    },
+    {
+      "original_path": "visual/learning-controls-learning-4k60.mp4",
+      "asset": "learning-controls-learning-4k60.mp4",
+      "bytes": 77551347,
+      "sha256": "fd41f307b72d531320c9267c19c6faca6771d379a6c161d12d59ae61df790a97",
+      "git_blob": "7eecebbddc3c5368a582312c325df34244e05f2b"
+    },
+    {
+      "original_path": "visual/mario-consequence-4k60.mp4",
+      "asset": "mario-consequence-4k60.mp4",
+      "bytes": 23073788,
+      "sha256": "8eca48d2c7a663670cb878616fb8a5860ac276c69c7cdd905499d334d74163e2",
+      "git_blob": "717021def25cdc9a10c43e66cc2eee927234c9aa"
+    },
+    {
+      "original_path": "visual/mario-continuous-4k60.mp4",
+      "asset": "mario-continuous-4k60.mp4",
+      "bytes": 55323478,
+      "sha256": "38292a702a31ee1ab990085aecc5464c384b90bd9b9899158c3735a6552fb56a",
+      "git_blob": "66d6ed60809cfc362a4debd4d23a0d3a6c83cf01"
+    },
+    {
+      "original_path": "visual/mario-live-responses-4k60.mp4",
+      "asset": "mario-live-responses-4k60.mp4",
+      "bytes": 32495667,
+      "sha256": "b92faa4795736a6b9db4e1bb4c31671567513c9b7f26692229163fa8050ffd80",
+      "git_blob": "844c536e006a9a6537d7d8c5a4384fdbe1354ad9"
+    },
+    {
+      "original_path": "visual/mesh32-replay-4k60.mp4",
+      "asset": "mesh32-replay-4k60.mp4",
+      "bytes": 16525846,
+      "sha256": "9ba78d74f9a25a48dbdfe2f30a7d2b7fbb0fcfd3ab1579f0ba304822d4e03864",
+      "git_blob": "d720a4638f1fccf36ac308bf3f5ae5e524bb72c0"
+    },
+    {
+      "original_path": "visual/native-feedback-1080p60.mp4",
+      "asset": "native-feedback-1080p60.mp4",
+      "bytes": 6524521,
+      "sha256": "667fc2d48c7e13bb632daba9398a61d46f0cea732469839982ef6c4b03460803",
+      "git_blob": "eb0e6f31ca23aee5af5b753279ad7ee10cd3264f"
+    },
+    {
+      "original_path": "visual/native-feedback-4k60.mp4",
+      "asset": "native-feedback-4k60.mp4",
+      "bytes": 70656758,
+      "sha256": "a7df3842824c8b0287b11f1f0a085ac89fb0ddd1b3079dbf81d227a1e82e1760",
+      "git_blob": "cdb4a45f81288bd230ba22fdfd72e494fb87e6e2"
+    },
+    {
+      "original_path": "visual/native-learning-host-sleep-1080p60.mp4",
+      "asset": "native-learning-host-sleep-1080p60.mp4",
+      "bytes": 13324320,
+      "sha256": "d2b5c01a3996d236422d67285cc81eed05bf43fc5896b2842dd52e6340ff4162",
+      "git_blob": "31b7f090204c6b71ecd05a3c3f85bac23e90860e"
+    },
+    {
+      "original_path": "visual/native-learning-host-sleep-4k60.mp4",
+      "asset": "native-learning-host-sleep-4k60.mp4",
+      "bytes": 73478352,
+      "sha256": "1ccaf74977fedfbd1bdfacd422a1ef25708ecee68c9f93a1c9c56d996c98b566",
+      "git_blob": "9aae90569b78284b9a66df5984739fab11943e20"
+    },
+    {
+      "original_path": "visual/native-memory-correction-1080p60.mp4",
+      "asset": "native-memory-correction-1080p60.mp4",
+      "bytes": 6238053,
+      "sha256": "99490e1f9d48742e729dd304b89fc46e5cd925d9c680ba132e36ae960f07f53f",
+      "git_blob": "811edff4fff01cf2f2b91110eb62afa49f9ff3aa"
+    },
+    {
+      "original_path": "visual/native-memory-correction-4k60.mp4",
+      "asset": "native-memory-correction-4k60.mp4",
+      "bytes": 74901616,
+      "sha256": "df577ff3dbae114aaed4f6ecd57471049cd5c6f9a6f923fa8fe2f6f1af5dcd1b",
+      "git_blob": "2bcdeb86b61e8984d1e882ba98ac3a1123eee13e"
+    },
+    {
+      "original_path": "visual/native-memory-protection-1080p60.mp4",
+      "asset": "native-memory-protection-1080p60.mp4",
+      "bytes": 9122109,
+      "sha256": "db344d557af1c4ef92c7a575a36e0bcc1167a5b433163cc06e848b20b05be811",
+      "git_blob": "c3f1179431afc04290e2908d79ffbc3b74c5e3b1"
+    },
+    {
+      "original_path": "visual/native-memory-protection-4k60.mp4",
+      "asset": "native-memory-protection-4k60.mp4",
+      "bytes": 54172069,
+      "sha256": "620a694b4febd00573aa5c93c62e54dbaeec2e420cc8d7c7efeb1b133eccb978",
+      "git_blob": "c40980e225c07d15fcbf67f1da2ae6fafa0dc777"
+    },
+    {
+      "original_path": "visual/native-memory-revision-1080p60.mp4",
+      "asset": "native-memory-revision-1080p60.mp4",
+      "bytes": 8884525,
+      "sha256": "786b5cdd2eff326e0a9ab3649e39a9bac38bf87c5ad9597c8728e9ab103682a7",
+      "git_blob": "6c8d88f192ac95ab468302f2b1549ac14ff0c480"
+    },
+    {
+      "original_path": "visual/native-memory-revision-4k60.mp4",
+      "asset": "native-memory-revision-4k60.mp4",
+      "bytes": 50171233,
+      "sha256": "1fb6120e3d361f28ca7d8711500aa6ed3f932b48e57868ade3ea2e811b11b2ff",
+      "git_blob": "9a82e2b9d3b1f4f33279ff1a6a34d0f024096c4a"
+    },
+    {
+      "original_path": "visual/native-primitives-4k60.mp4",
+      "asset": "native-primitives-4k60.mp4",
+      "bytes": 40061984,
+      "sha256": "2b6a4515e110a4d83e4f67f82598d31b912fc5148a659441f2ea710c38bf7226",
+      "git_blob": "876044254030a9b637e453fcd66ceb74ed1f090d"
+    },
+    {
+      "original_path": "visual/native-teacher-transfer-1080p60.mp4",
+      "asset": "native-teacher-transfer-1080p60.mp4",
+      "bytes": 8915993,
+      "sha256": "0f84617f85a6e0f9835657ac807aec83e63464664c9b3fa42ee9b88918178f85",
+      "git_blob": "fa1a7ed3fa832a71900cc67bbf09bc65822aba72"
+    },
+    {
+      "original_path": "visual/native-teacher-transfer-4k60.mp4",
+      "asset": "native-teacher-transfer-4k60.mp4",
+      "bytes": 53981636,
+      "sha256": "5c947d1dc88d1715d290b715ea38d686b897a989bf438b9de8081535d471b8f0",
+      "git_blob": "40f26ee37e2b818d61a64af11b9d20a1728dd903"
+    },
+    {
+      "original_path": "visual/network-replay-4k60.mp4",
+      "asset": "network-replay-4k60.mp4",
+      "bytes": 16576770,
+      "sha256": "bfd61f45a7e373b1dd2f4612302566713fb532ed3367fc98f5531fb2238c7f91",
+      "git_blob": "87afa70ae7e6f5c7cadae5684c68ca4822df8b98"
+    },
+    {
+      "original_path": "visual/pong-physics-4k60.mp4",
+      "asset": "pong-physics-4k60.mp4",
+      "bytes": 36741185,
+      "sha256": "632f21d34cc9ff35fdb274c75fd4d39386fa2cb759e89505906d83fd39a5a7b3",
+      "git_blob": "af0ed336f54cd445f0a4fcc8716d481e8b5d50e4"
+    },
+    {
+      "original_path": "visual/readout-replay-4k60.mp4",
+      "asset": "readout-replay-4k60.mp4",
+      "bytes": 18492960,
+      "sha256": "76803b5924721eb9e28da86ff6d1b92eb044a8cd8afd0a1d52cb0935555d307c",
+      "git_blob": "ac068a34c0aacffc1ea55a153e99c725610d8cbb"
+    },
+    {
+      "original_path": "visual/recovery-replay-4k60.mp4",
+      "asset": "recovery-replay-4k60.mp4",
+      "bytes": 47091307,
+      "sha256": "415dc8ef87126743991c14b9d5ab0cb54fa258099052e291933bd412832c8251",
+      "git_blob": "c7ab05e7d77b387de3f61514a76f60738f8854e4"
+    },
+    {
+      "original_path": "visual/resident-adaptation-1080p60.mp4",
+      "asset": "resident-adaptation-1080p60.mp4",
+      "bytes": 10654454,
+      "sha256": "cae1c58be5b015b0e7e7d038ced0431fbcad69f025d9025710c270212f4eb473",
+      "git_blob": "3eaaf2214bbdcf69c019a338fd374a5976b96073"
+    },
+    {
+      "original_path": "visual/resident-adaptation-4k60.mp4",
+      "asset": "resident-adaptation-4k60.mp4",
+      "bytes": 77962383,
+      "sha256": "e7ad31a041922cd5bbc148f5c74588541f8f42d490c4619e57b91bb67fe39b81",
+      "git_blob": "4c6f88eae7da072159a06e5d28c3bb42acf0aa34"
+    },
+    {
+      "original_path": "visual/signal-relay-4k60.mp4",
+      "asset": "signal-relay-4k60.mp4",
+      "bytes": 41960199,
+      "sha256": "9dbe4e50f7fdaaadb2e3e9f70dc060148dd603e2e2071d99a487e5cf8fc58d22",
+      "git_blob": "9a92a4fd442a46bcfdd7489efc869e3de3e8f98e"
+    },
+    {
+      "original_path": "visual/streaming-prediction-4k60.mp4",
+      "asset": "streaming-prediction-4k60.mp4",
+      "bytes": 36528147,
+      "sha256": "c6214d6dddaae8f8ea42b87c877ba325495aec1e0cf36c9d2a99057a66b45d0f",
+      "git_blob": "15e252d85c1cd6a8e641dd6cda05150af01241af"
+    },
+    {
+      "original_path": "visual/temporal-context-1080p60.mp4",
+      "asset": "temporal-context-1080p60.mp4",
+      "bytes": 7916654,
+      "sha256": "cea68f4a59f9d096898c0ae88283815fe751c2b8976b68a27716c6dde1ad996d",
+      "git_blob": "210ad79aaba2e45d5f77249a18d43d875611147e"
+    },
+    {
+      "original_path": "visual/temporal-context-4k60.mp4",
+      "asset": "temporal-context-4k60.mp4",
+      "bytes": 61082780,
+      "sha256": "cf887c44e9ec640f2a2c5a41880cd4c6412632e023980e8e8db948015356b14b",
+      "git_blob": "6d9aaaed32e190cf393b08eb00f63ea90ee54dc2"
+    }
+  ]
+}

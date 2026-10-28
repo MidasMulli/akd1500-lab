@@ -1,0 +1,11 @@
+{
+  "status": "NATIVE_WORLD_MEMORY_VISUAL_EXPORT_PASS",
+  "cell": "04",
+  "selected_events": 162,
+  "source_forwards": 5220,
+  "all_displayed_memory_bits_native": true,
+  "all_8_outputs_check_against_actual_input_pre_RAM": true,
+  "actual_connection_changes": true,
+  "source_sha256": "65b3bc2a513938fad846bf2c83e21bea136097cec46988b7b8022347d97b3dc1",
+  "data_sha256": "77fe8c943970b9b72fa4770b75b1db15c13c74b7aecff15bd5bcbb4d8f61face"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "READ_ONLY_ARCHIVED_TRACE_REVIEW",
+  "created_utc": "2026-10-28T10:55:59.886028+00:00",
+  "post": "https://x.com/rodneylabnotes/status/2115312262089146483",
+  "parent_post": "https://x.com/NickLo641579/status/2115093768508494075",
+  "study": "/Users/midas/akd1500-lab/studies/20261027-silhouette-managed-memory",
+  "physical_session": "primary",
+  "event_index": 3557,
+  "film_section": "Unresolved cue",
+  "object": "Car",
+  "known_pixels": 72,
+  "total_pixels": 96,
+  "erased_pixels": 24,
+  "scores_rederived_from_captured_prior_RAM_and_actual_input": [
+    33,
+    36,
+    26,
+    39
+  ],
+  "quantized_scores": [
+    9,
+    9,
+    7,
+    10
+  ],
+  "full_known_blocks": [
+    0,
+    0,
+    0
+  ],
+  "acceptance_rule": "unique largest quantized cue score AND score minus full-known-block count >10",
+  "winning_car_score": 10,
+  "required_minimum_here": 11,
+  "actual_native_ready": 0,
+  "actual_native_selected_ids": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "actual_native_returned_image_nonzero": false,
+  "source_context_present": false,
+  "source_checker_veto": false,
+  "cause": "Unique best car match fell below fixed recall acceptance threshold; not a tie and not a source-policy veto",
+  "limitations": "Scores rederived from captured RAM/input, not separate electrical taps. Output ready/IDs/pixel rails are captured native words. Same72known pixels can yield different match strength depending on which pixels were erased.",
+  "other_nearby_query_known_pixels": [
+    72,
+    72,
+    72
+  ],
+  "new_physical_attempts": 0
+}

@@ -1,0 +1,66 @@
+{
+  "status": "PASS_SOFTWARE_FEASIBILITY_ONLY",
+  "source_sha256": "2fd3cc59a22cfa90497a6cc6b6aee6f0dca7c902f5066d8421960c175b69a853",
+  "reference_sha256": "fc6be792ca47248823b33acab04eeed9ddf3ceeee5f192f05706b1c45d542d53",
+  "CPU_reference_forwards": 102912,
+  "physical": false,
+  "SDK_compiler_qualified": false,
+  "native_selector_implemented": false,
+  "results": [
+    {
+      "seed": 27102811,
+      "arm": "wildcard-retire",
+      "replacements": 64,
+      "new_exact_recall": 64,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 64
+    },
+    {
+      "seed": 27102811,
+      "arm": "no-retire",
+      "replacements": 64,
+      "new_exact_recall": 0,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 47
+    },
+    {
+      "seed": 27102811,
+      "arm": "permission-blocked",
+      "replacements": 64,
+      "new_exact_recall": 0,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 0
+    },
+    {
+      "seed": 27102812,
+      "arm": "wildcard-retire",
+      "replacements": 64,
+      "new_exact_recall": 64,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 63
+    },
+    {
+      "seed": 27102812,
+      "arm": "no-retire",
+      "replacements": 64,
+      "new_exact_recall": 0,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 44
+    },
+    {
+      "seed": 27102812,
+      "arm": "permission-blocked",
+      "replacements": 64,
+      "new_exact_recall": 0,
+      "all31_other_record_RAM_protected": 64,
+      "global_selector_state_changed_rounds": 0
+    }
+  ],
+  "limits": [
+    "Native32-class configuration/compiler/runtime not yet qualified",
+    "Victim index and masking are a source rehearsal, not an implemented native selector or policy",
+    "Inherited software reference was previously tested for other configurations; this new configuration remains unproven on silicon",
+    "Global selector rot/cursor may change and affect later learning; do not claim independent learning engines",
+    "Current R/N study and failed N gate remain closed, no new cohort, refit or physical launch"
+  ]
+}

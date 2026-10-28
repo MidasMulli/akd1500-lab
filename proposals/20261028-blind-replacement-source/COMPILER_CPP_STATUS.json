@@ -1,0 +1,35 @@
+{
+  "status": "PASS_COMPILER_AND_CPP_ORACLE_ONLY",
+  "physical": false,
+  "classes": 32,
+  "units_per_class": 1,
+  "arms": [
+    {
+      "arm": "wildcard-retire",
+      "forwards": 1072,
+      "full_outputs_and_both_RAM_exact": true,
+      "physical": false
+    },
+    {
+      "arm": "no-retire",
+      "forwards": 1048,
+      "full_outputs_and_both_RAM_exact": true,
+      "physical": false
+    },
+    {
+      "arm": "permission-blocked",
+      "forwards": 1048,
+      "full_outputs_and_both_RAM_exact": true,
+      "physical": false
+    }
+  ],
+  "SDK_version": "2.19.3",
+  "no_hardware_mode_in_binary": true,
+  "native_selector_implemented": false,
+  "source_hardware_qualification": "NOT_ADMITTED",
+  "limitations": [
+    "Compiler mapped a virtual AKD1500; independent C++ oracle is not execution of the compiled graph on silicon",
+    "Victims selected by frozen synthetic test schedule, not a native policy",
+    "No fresh scene data, no N study reuse or gate changes"
+  ]
+}

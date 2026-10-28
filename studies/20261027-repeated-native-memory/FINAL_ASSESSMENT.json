@@ -1,0 +1,102 @@
+{
+  "scientific_status": "PASS",
+  "physical_campaign": "CLOSED",
+  "date_utc": "2026-10-27T20:54:29.488046+00:00",
+  "architecture": {
+    "resident_FNP3s": 6,
+    "plastic_policy_units": 2,
+    "plastic_content_units": 8,
+    "fixed_support_FNP3s": 4
+  },
+  "endpoints": {
+    "image_cohorts": 3,
+    "network_initialization_seeds": [
+      27102771
+    ],
+    "replacements": [
+      12,
+      12
+    ],
+    "delayed_recall": [
+      96,
+      96
+    ],
+    "intervening_other_image_observations_per_exam": 16,
+    "protected_record_cycle_full_RAM_checks": [
+      84,
+      84
+    ]
+  },
+  "controls": {
+    "policy_frozen_new": [
+      2,
+      4
+    ],
+    "retirement_inhibited_new": [
+      0,
+      4
+    ],
+    "content_frozen_new": [
+      0,
+      4
+    ],
+    "without_capacity_reset_new": [
+      0,
+      4
+    ],
+    "adaptive_task_CPU": "Also passes on all3 cohorts"
+  },
+  "accounting": {
+    "status": "PHYSICAL_CAMPAIGN_CLOSED",
+    "physical_sessions": 9,
+    "reserved_forwards": 14208,
+    "observed_forwards": 14208,
+    "source_qualifications": 11,
+    "physical_campaign_closed": true,
+    "active_jobs": [],
+    "card_released": true,
+    "closed_utc": "2026-10-27T20:20:41.571363+00:00"
+  },
+  "limits": [
+    "Exact recorded image-episode descriptors, not unseen-view object recognition",
+    "Frozen host CNN and projection; explicit usefulness teachers and fixed role clocks",
+    "Old candidate is externally presented; no autonomous global victim search",
+    "Native returned responses and RAM edits; no electrical spike timing",
+    "One procedural initialization; no performance, energy or historical priority claim"
+  ],
+  "media_qa": {
+    "status": "PASS",
+    "videos": {
+      "AKD_NATIVE_REPLACEMENT_4K60.mp4": {
+        "sha256": "a6e7e33b04939b83b4832e6303cbaf2a2a5b1bd04054d04faefe6c5fbc9cb52a",
+        "bytes": 109630048,
+        "width": 3840,
+        "height": 2160,
+        "frames": 1984,
+        "fps": 60,
+        "duration_seconds": 33.066667,
+        "full_decode_pass": true
+      },
+      "AKD_NATIVE_REPLACEMENT_1080p60.mp4": {
+        "sha256": "bd1551e4231ec708d6a614f82f9263790ede9eca9c53c402ed7698e13cf74f79",
+        "bytes": 8727832,
+        "width": 1920,
+        "height": 1080,
+        "frames": 1984,
+        "fps": 60,
+        "duration_seconds": 33.066667,
+        "full_decode_pass": true
+      }
+    },
+    "decoded_contact_sheet": "media/DECODED_CONTACT.png",
+    "visual_review": "Actual decoded1080p frames inspected: legible image input, evolving stored-descriptor references, actual returned bits and native connection swaps; no clipping",
+    "recording_scope": "Primary native run only, same measured event/RAM binding and3D renderer as Explorer; editorial pacing and camera; not electrical spike timing"
+  },
+  "publication": false,
+  "archive_qa": {
+    "status": "CLEAN_EXTRACTION_PASS",
+    "receipt": "REVIEW_QA_R3.json",
+    "archive_sha256": "c8b8eec4dd01a0431eb6d6037aa2031b69229bb30eb9ae58a120681efad87a95",
+    "hardware_opened": false
+  }
+}

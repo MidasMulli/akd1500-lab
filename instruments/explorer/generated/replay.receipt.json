@@ -1,0 +1,14 @@
+{
+  "status": "EXPLORER_EXPORT_PASS",
+  "independently_checked_streams": 10,
+  "hardware_arms": 5,
+  "events_per_arm": 268,
+  "matched_prefix_events": 84,
+  "data_sha256": "3c4bbcf19267db995f5917128fc1ef95eca2cbb5f2a4dd2c7e9ce5c8990e99db",
+  "bytes": 3000683,
+  "source": {
+    "study": "20261025-learned-policy",
+    "archive_sha256": "1f3c22b4406634a4bd94c8d37cbb6019bc69a852022c2117cf7dcb9558cf4f6a",
+    "metadata_sha256": "d8b55d461bc385455b04e9a0fe8462227f72929a15a5be0ad67d813973a6e52c"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "postprocessing_only": true,
+  "source_forwards": 7812,
+  "selected_visual_events": 798,
+  "memory_versions": 144,
+  "direct_response_taps_checked": 124416,
+  "actual_connection_additions": 948,
+  "neurons_with_measured_connection_edits": 32,
+  "images_verified": 310,
+  "all_media_png_and_rgb_hashes_pass": true,
+  "all_event_taps_match_actual_input_and_prior_RAM": true,
+  "no_future_identity_annotation": true,
+  "native_control_output_checks": {
+    "error-only": {
+      "actual_native_query_answers_checked": 144,
+      "new_second_encounter": {
+        "n": 16,
+        "correct": 16
+      },
+      "archive_sha256": "bc2f0f99b1ad528e056af9d53ca5de879e596b689c0a22189013e5c44b7abe63"
+    },
+    "all-admit": {
+      "actual_native_query_answers_checked": 144,
+      "new_second_encounter": {
+        "n": 16,
+        "correct": 1
+      },
+      "archive_sha256": "5556397ff5f9a91bb62b2b4abdb05f033ac4c2ec490b7a16a95b793753e4129a"
+    },
+    "S1AB-frozen": {
+      "actual_native_query_answers_checked": 144,
+      "new_second_encounter": {
+        "n": 16,
+        "correct": 1
+      },
+      "archive_sha256": "42650f94f507ca5a3bdcbe5f8d61aa1a531f10d94f9bc4ac2b941aa896369dc2"
+    }
+  },
+  "data_sha256": "c312259c15b38c3e7ca6425ea2fbcae0c98b5f18d080d8cb80c6132b2521f8a8",
+  "source": {
+    "native_archive": "NATIVE_02.zip",
+    "native_sha256": "bc2f0f99b1ad528e056af9d53ca5de879e596b689c0a22189013e5c44b7abe63",
+    "source_forwards": 7812,
+    "physical": true,
+    "all_three_DEV_controls_native": true,
+    "media_summary_sha256": "eb66824bbbd71364a413faceb911060acc2ae1c7ba58e33cdb477f557a226934",
+    "media_manifest_sha256": "f5a9df938cea5bc8b8b3272714794ea06c1921a9817964247347b9b5f18cb728",
+    "scene_images": "POSTHOC DETERMINISTIC SCENE RECONSTRUCTIONS; not camera or literal live-capture footage",
+    "query_reconstruction_equal_occurrences": 288,
+    "selection": "All144 native DEV episodes; all32 contexts, both gains. Every query and visible connection/threshold edit retained. No result-selected example."
+  }
+}

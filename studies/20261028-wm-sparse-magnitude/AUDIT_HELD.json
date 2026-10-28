@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "tranche": "HELD",
+  "software_RAM_query_replays": 2016,
+  "scalar_probability_max_error": 1.1102230246251565e-15,
+  "streams": [
+    {
+      "profile": "oct9",
+      "K": 2,
+      "status": "PASS",
+      "queries": 48
+    },
+    {
+      "profile": "oct9",
+      "K": 4,
+      "status": "PASS",
+      "queries": 96
+    },
+    {
+      "profile": "oct9",
+      "K": 8,
+      "status": "FAILED_GATE",
+      "queries": 192
+    }
+  ],
+  "physical": false
+}

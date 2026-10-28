@@ -1,0 +1,10 @@
+{
+  "stage": "descriptive_only",
+  "DEV_S2B_second": {
+    "D": 15,
+    "S": 1
+  },
+  "n": 16,
+  "constant_majority_oracle_accuracy": 0.9375,
+  "caution": "A descriptive constant-label comparison, not a qualified causal policy or gain detector. Strong label imbalance limits the endpoint; original-physics no-harm and preserved earlier corrections are separately required."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "akd-network-overlay",
+  "productName": "AKD Network Explorer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Transparent desktop host for the measured AKD1500 network explorer",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "45.1.0"
+  }
+}

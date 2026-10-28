@@ -1,0 +1,9 @@
+{
+  "status": "PUBLIC_NUMERIC_AUDIT_PASS",
+  "study": "20261026-pending-eight",
+  "streams": 14,
+  "native_cells": 7,
+  "native_forwards": 3640,
+  "trace_RAM_same_in_cut": true,
+  "claim": "designed native delayed credit; adaptive CPUs also pass"
+}

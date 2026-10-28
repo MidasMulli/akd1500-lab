@@ -70,7 +70,7 @@ These repairs changed producer plumbing after collection, not the scientific
 pipeline. Compiler intermediate files containing prequeries were retained as
 unadmitted and were never used on hardware.
 
-The [live film](../../visual/mario-live-responses-4k60.mp4) shows a separate
+The [live film](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/mario-live-responses-4k60.mp4) shows a separate
 development capture with real sampled chip responses and 45 native connection
 replacements. Its gameplay is not this held-out evaluation. The film's table
 is this confirmation and explicitly says the gate failed. Chip activity is

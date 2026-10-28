@@ -100,7 +100,7 @@ outcome in fresh emulator episodes. `archive.py` publishes only audited runs.
 
 ## The paired film
 
-The [4K60 film](../../visual/mario-continuous-4k60.mp4) contains four matched
+The [4K60 film](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/mario-continuous-4k60.mp4) contains four matched
 development starts. Runs were recorded sequentially on one chip and aligned
 at each episode start. Individual source pauses remain. There is no reset
 within an episode, time-compressed gameplay or invented electrical firing.

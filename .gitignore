@@ -108,3 +108,17 @@ studies/20261025-reference-scale/visual/
 studies/*/window_raw/
 !visual/native-learning-host-sleep-4k60.mp4
 !visual/native-learning-host-sleep-1080p60.mp4
+
+# Public replay exports are curated; machine ownership, captures and local gates stay private.
+instruments/explorer/generated/*
+!instruments/explorer/generated/replay.json
+!instruments/explorer/generated/replay.receipt.json
+!instruments/explorer/generated/20261026-pending-eight.json
+!instruments/explorer/generated/20261026-pending-eight.receipt.json
+!instruments/explorer/generated/20261026-visual-memory-v4.json
+!instruments/explorer/generated/20261026-visual-memory-v4.receipt.json
+!instruments/explorer/generated/20261027-repeated-native-memory.json
+!instruments/explorer/generated/20261027-repeated-native-memory.receipt.json
+**/node_modules/
+**/CHECKPOINT*.json
+**/OWNER*.json

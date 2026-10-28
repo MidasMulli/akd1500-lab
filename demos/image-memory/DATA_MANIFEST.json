@@ -1,0 +1,37 @@
+{
+  "status": "OBSERVED_NATIVE_DATA_EXPORT",
+  "source_hashes": {
+    "studies/20261027-silhouette-managed-memory/primary/native.native_payloads": "944425e466fb1744b4f7a7a4742ccc4cc3d0c23445dee7e3845144a635ffee53",
+    "studies/20261027-silhouette-managed-memory/primary/native.states0": "ba474a7a47c7a8c316da8819108dc232a38229d9009f5567642319b762f96b1b",
+    "studies/20261027-silhouette-managed-memory/primary/native.states1": "12fbc44942d131c4cb3b40287389278914e739f6e62b5dca284e00b2b0fb2b17",
+    "studies/20261027-silhouette-managed-memory/primary/native.actual_inputs": "5aab266d3422ccbd37e94ae0685c620264163372a3bb32b4c1fa6f4948c8f549",
+    "studies/20261027-silhouette-managed-memory/primary/ROWS.json": "ae0eee4760594b55573ae7c9af3fb49bab106ea69bc28cde7dc1b54c07205ea0",
+    "studies/20261027-silhouette-managed-memory/primary/native.AUDIT.json": "8f64b05673cfa6f74c0265bec8fa797fe9cc85785dc38f6ac2cfebe1dc5556d7",
+    "studies/20261027-silhouette-managed-memory/open/native.native_payloads": "e14e702eadc35260b911831bd5b946b7b0a73d63c0b8000b33051a588764a9ee",
+    "studies/20261027-silhouette-managed-memory/open/native.states0": "ba474a7a47c7a8c316da8819108dc232a38229d9009f5567642319b762f96b1b",
+    "studies/20261027-silhouette-managed-memory/open/native.states1": "f1e4f16855b7389a561c3d3154667f68512549b4835158fc07d4b47a528a513a",
+    "studies/20261027-silhouette-managed-memory/open/native.actual_inputs": "527c6f4b1eaecc05295093323d1fb310ef4715546aaad726564b7c64906bf5de",
+    "studies/20261027-silhouette-managed-memory/open/ROWS.json": "ae0eee4760594b55573ae7c9af3fb49bab106ea69bc28cde7dc1b54c07205ea0",
+    "studies/20261027-silhouette-managed-memory/open/native.AUDIT.json": "38c05bf617a6670e06fe3d79b27d810f32cc2ecb0dc64b0bb72c657544577190",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/native.native_payloads": "b8b5006e1bd897f64fc82307a079ec0b52f792353174c30e020859300bc4a758",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/native.states0": "3f897d66434b8d895f2619fd66e362f833e7a29b5af632f24a298ad810c35a6b",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/native.states1": "2dac4da2801a8a5fb601f49e2ceb5804891f1c43a3be507c1b301baa5b2b3a24",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/native.actual_inputs": "a9c3f446bc8b748e42ac0f77796395b5f51889641c00a100e8fd7d806d905735",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/ROWS.json": "293b77c8860e090e152cac8522c03d4c166e39d138327ec7d0da01641540182f",
+    "studies/20261027-silhouette-managed-memory/manager_frozen/native.AUDIT.json": "80381d0d244f90d2c55af117657a05b266956677f1728420832f0e1514c272dd"
+  },
+  "data_sha256": "7ffacf468fdbdcbe862e9b6aa502682080f920644d5e50cb65545b6f7d00713d",
+  "duration_s": 45.4,
+  "display_schedule_events": 1983,
+  "total_native_primary_events": 3612,
+  "methods": {
+    "outputs": "Actual native int32 words read before SDKfetch",
+    "learning": "Full post-forward native RAM snapshots",
+    "responses": "64 direct binary cell probes per forward; source probes only on explicit read-only probe rows",
+    "stored_panel": "Derived exact image-bit template decode from native RAM, separately labelled from returned pixels",
+    "timing": "Editorial replay, no electrical or device-latency timing claim",
+    "allocation": "Record/pixel slots externally assigned; learned admission, not learned allocation",
+    "active_feature_lines": "Circuit-derived from actual inputs, full native state and captured outputs; not separately tapped electrical activity."
+  },
+  "expanded_export_sha256": "ebbdb7400c3fa0cf2b26fa2a5062b73e5356d6a5486bca385fb62b7e087e2b46"
+}

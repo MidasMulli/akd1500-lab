@@ -63,7 +63,7 @@ level. One seed on one chip and four development starts cannot qualify a
 reliable task advantage. A continuous interface and exact native learning are
 mechanism results, separate from the negative gameplay outcome.
 
-The [paired 4K60 capture](../../visual/mario-continuous-4k60.mp4) displays actual
+The [paired 4K60 capture](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/mario-continuous-4k60.mp4) displays actual
 native match responses, decision margins, chosen actions, feedback and selected
 RAM connections. Separate recordings are aligned at episode starts. Each view
 preserves its own timing and is capped at its own episode end; a darkened view

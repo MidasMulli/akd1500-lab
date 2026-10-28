@@ -10,8 +10,8 @@ live weights. The same full model then performs read-only recall.
 
 ![Recorded direct failure and guarded native class window](../visual/fnp2-window.png)
 
-[4K60 replay](../visual/fnp2-window-4k60.mp4) ·
-[1080p60 download](../visual/fnp2-window-1080p60.mp4) ·
+[4K60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/fnp2-window-4k60.mp4) ·
+[1080p60 download](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/fnp2-window-1080p60.mp4) ·
 [post draft](../visual/fnp2-window-X-DRAFT.txt)
 
 ## What changed and what passed

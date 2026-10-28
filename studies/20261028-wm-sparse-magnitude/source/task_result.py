@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,sys,zipfile
+import numpy as np
+
+B=Path(__file__).resolve().parents[1];cell=sys.argv[1];f=B/f'cell{cell}';n=B/f'native-{cell}';assert json.loads((n/'RAW.QA.json').read_text())['status']=='PASS';spec=json.loads((f/'FIXTURE.json').read_text());meta=json.loads((f/'ROWS.json').read_text());W=int((f/'geometry.txt').read_text().split()[4]);raw=(n/'RAW.outputs').read_bytes()if(n/'RAW.outputs').exists()else zipfile.ZipFile(B/f'NATIVE_{cell}.zip').read('RAW.outputs');output=np.frombuffer(raw,'<u4').reshape(len(meta),W);answers=json.loads((f/'ANSWERS.json').read_text());rows=[json.loads(l)for l in(B/('data-dev'if spec['tranche']=='DEV'else'data-held')/f'STREAM_{spec["tranche"]}_CHALLENGE_K{spec["K"]}.jsonl').read_text().splitlines()];values=[];prob=[];baseline=[];truth=[];phases=[];qevents=[]
+for a in answers:
+    i=a['episode'];events=[j for j,r in enumerate(meta)if r['episode']==i and r['role']=='query'and r['net']==1];assert len(events)==3;counts=[int(output[j,:8].sum())for j in events];value=counts.index(1)if counts.count(1)==1 and sum(counts)==1 else -1;assert value==a['query'];row=rows[i];wm=np.array([row['wm_pN_T'],row['wm_pG_T'],row['wm_pC_T']]);p=wm if value<0 else .25*wm+.75*np.eye(3)[value];values.append(value);prob.append(p);baseline.append(wm);truth.append(a['truth']);phases.append(a['phase_AUDIT_ONLY']);qevents.append(events)
+values=np.array(values);truth=np.array(truth);prob=np.array(prob);baseline=np.array(baseline);phases=np.array(phases)
+def score(take):
+    y=truth[take];p=prob[take];w=baseline[take];v=values[take]
+    if not len(y):return dict(n=0)
+    return dict(n=len(y),composed_correct=int((p.argmax(1)==y).sum()),composed_accuracy=float((p.argmax(1)==y).mean()),WM_accuracy=float((w.argmax(1)==y).mean()),brier=float(np.square(p-np.eye(3)[y]).sum(1).mean()),WM_brier=float(np.square(w-np.eye(3)[y]).sum(1).mean()),native_memory_hits=int((v>=0).sum()),native_memory_correct=int((v==y).sum()))
+r=dict(status='MEASURED_NATIVE_TASK_RESULT',cell=cell,profile=spec['profile'],tranche=spec['tranche'],K=spec['K'],arm=spec['arm'],prefix=spec['prefix'],forwards=len(meta),phases={str(k):score(phases==k)for k in range(6)},returnedA=score(np.isin(phases,[2,4])),returnedB=score(np.isin(phases,[3,5])),all=score(np.ones(len(truth),bool)),native_queries=len(answers),independent_control_interpretation='A-only frozen is adaptation control; AB-trained frozen is reference, not mandatory superiority. Correct WM fallback is not native retention.');(n/'TASK_RESULT.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r,indent=2))

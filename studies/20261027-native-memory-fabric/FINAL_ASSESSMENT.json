@@ -1,0 +1,30 @@
+{
+  "status": "BOUNDED_STUDY_COMPLETE",
+  "physical_campaign": "CLOSED_CARD_RELEASED",
+  "source_qualifications": 8,
+  "physical_sessions": 12,
+  "reserved_forwards": 4949,
+  "observed_forwards": 1436,
+  "native_write_selection_primary_recall": [
+    7,
+    7
+  ],
+  "native_write_selection_held_recall": [
+    194,
+    194
+  ],
+  "source_initialization_seeds": [
+    27102711,
+    27102712
+  ],
+  "held_stream_order_seeds": [
+    27102712,
+    27102713
+  ],
+  "support_fused_footprint_FNP3": 6,
+  "all_CPU_controls_also_pass": true,
+  "mixed_CNP_capacity_qualified": false,
+  "autonomous_memory_lifecycle_achieved": false,
+  "publications_performed": false,
+  "next": "NEXT_EXECUTABLE.md"
+}

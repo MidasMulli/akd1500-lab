@@ -1,3 +1,4 @@
+from media_binding import binding_digest
 import unittest
 import copy,json,hashlib
 from pathlib import Path
@@ -74,7 +75,7 @@ class StreamingEvidenceTests(unittest.TestCase):
     def test_source_bound_video_and_population_metrics(self):
         root=BASE.parents[1];p=root/'visual/STREAMING_PREDICTION_SOURCE_BINDING.json'
         d=json.loads(p.read_text());self.assertEqual((d['fps'],d['seconds']),(60,24));self.assertEqual(len(d['selected_samples']),12)
-        for path,h in d['hashes'].items():self.assertEqual(hashlib.sha256((root/path).read_bytes()).hexdigest(),h,path)
+        for path,h in d['hashes'].items():self.assertEqual(binding_digest(root,path),h,path)
         m=json.loads((root/'visual/streaming-prediction-metrics.json').read_text());self.assertEqual(m['changed'],dict(native_correct=49,frozen_correct=27,cpu_correct=61,nano_correct=41,n=69))
         self.assertEqual(m['retention'],dict(native_correct=56,frozen_correct=56,n=74))
 

@@ -16,7 +16,7 @@ records. This is one synthetic four-class world, not general autonomous learning
 
 ![Three native memories, selective recognition repair](../visual/fnp-or-relay-4k.png)
 
-[4K60 MP4](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/fnp-or-relay-4k60.mp4) ·
+[4K60 MP4](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/fnp-or-relay-4k60.mp4) ·
 [assessment](../studies/20261023-fnp-or-relay/ASSESSMENT.md) ·
 [frozen protocol](../studies/20261023-fnp-or-relay/PROTOCOL.md) ·
 [review-only X draft](../visual/fnp-or-relay-X-DRAFT.txt)

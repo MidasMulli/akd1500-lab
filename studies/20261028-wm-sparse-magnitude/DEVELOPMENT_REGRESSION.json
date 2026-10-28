@@ -1,0 +1,27 @@
+{
+  "status": "DEVELOPMENT_ONLY_NOT_CONFIRMATION",
+  "new_fits": 0,
+  "retuned": false,
+  "profiles": {
+    "quad13": {
+      "v3": {
+        "distinct_keys": 8,
+        "conflicting_keys": 0
+      },
+      "v4": {
+        "distinct_keys": 8,
+        "conflicting_keys": 0
+      }
+    },
+    "oct9": {
+      "v3": {
+        "distinct_keys": 8,
+        "conflicting_keys": 0
+      },
+      "v4": {
+        "distinct_keys": 8,
+        "conflicting_keys": 0
+      }
+    }
+  }
+}

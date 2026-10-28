@@ -1,0 +1,12 @@
+{
+  "status": "REPEATED_EXPLORER_NATIVE_EXPORT_PASS",
+  "native_arms": 6,
+  "images": 28,
+  "primary_events": 1684,
+  "all_displayed_responses_native": true,
+  "overlaps_reconstructed": true,
+  "geometry_schematic": true,
+  "live_compatible": false,
+  "data_sha256": "bfd0722041f476ab136d333d138084b5037f80bd82453b4e31dcbd030f888778",
+  "bytes": 11496107
+}

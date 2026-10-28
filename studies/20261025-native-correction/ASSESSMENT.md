@@ -108,6 +108,6 @@ python -m admission.correction_archive audit
 [prospective protocol](PROTOCOL.md)
 
 
-[1080p60 replay](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-correction-1080p60.mp4) ·
-[4K60 master](https://raw.githubusercontent.com/MidasMulli/akd1500-lab/main/visual/native-memory-correction-4k60.mp4) ·
+[1080p60 replay](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/native-memory-correction-1080p60.mp4) ·
+[4K60 master](https://github.com/MidasMulli/akd1500-lab/releases/download/media-20261025/native-memory-correction-4k60.mp4) ·
 [video decode QA](../../visual/native-memory-correction-video-qa.json)

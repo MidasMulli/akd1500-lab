@@ -1,0 +1,35 @@
+{
+  "status": "READ_ONLY_ARCHIVED_INPUT_REVIEW_PASS",
+  "created_utc": "2026-10-28T11:01:32.466276+00:00",
+  "question_post": "https://x.com/rodneylabnotes/status/2115313108105179184",
+  "parent_post": "https://x.com/NickLo641579/status/2115295689785610329",
+  "film_cell": "04",
+  "profile": "oct9",
+  "actual_external_native_query_inputs_checked": 288,
+  "query_encoding_inputs": [
+    "h0_pool from actual initial observation",
+    "h5_pool from actual observation after short movement",
+    "h5_pool-h0_pool",
+    "commanded program ID",
+    "same fixed three outcome-probe candidates"
+  ],
+  "physics_setting_or_gain_label_in_query": false,
+  "scene_context_ID_in_query": false,
+  "query_teacher_mode": "inference, constant metadata label0",
+  "outcome_label": "released after query; used to teach outcomes, not physics-setting identity",
+  "regime_tags": "audit grouping, plotting and prespecified control freeze clocks; not selected memory key",
+  "distinct_memory_keys": 8,
+  "contexts": 4,
+  "physics_settings_per_context": 2,
+  "per_context_program_unchanged_across_settings": true,
+  "repeat_cached_key_identical": true,
+  "encoding_source_sha256": "3422a3d7fb8a1067396db1ca964f90694e6948348f64ef695c1eb39b1fe7ec6f",
+  "fixture_source_sha256": "b5d17f52c60bcfbd83979650da212f8bd74512b5c7d9ed6d58a3f19aa835b568",
+  "native_archive_sha256": "65b3bc2a513938fad846bf2c83e21bea136097cec46988b7b8022347d97b3dc1",
+  "limitations": [
+    "Selected repeated simulator contexts; cached recorded states, not96 independent new scenes",
+    "Host frozen PCA/bin encoder; not direct pixel ingestion",
+    "No claim of identifying arbitrary unseen physics or a general physics law"
+  ],
+  "new_physical_attempts": 0
+}

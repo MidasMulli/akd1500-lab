@@ -1,3 +1,4 @@
+from media_binding import binding_digest
 """Native repair, retained maps, complete RAM deltas and preserved source identity."""
 import copy
 import hashlib
@@ -55,7 +56,7 @@ class ORRelay(unittest.TestCase):
         self.assertEqual(wrong['connection_stats']['repair_connection_edit_events'],[0,0,0])
 
     def test_native_sources_match_executed_freeze(self):
-        for p,h in self.meta['executed_sources'].items():self.assertEqual(hashlib.sha256((or_archive.P/p).read_bytes()).hexdigest(),h,p)
+        for p,h in self.meta['executed_sources'].items():self.assertEqual(binding_digest(or_archive.P,p),h,p)
 
     def test_new_native_records_preserve_all_old_record_words(self):
         actual=or_recruitment.derive(self.meta,self.z)
@@ -69,7 +70,7 @@ class ORRelay(unittest.TestCase):
         self.assertEqual((binding['duration_seconds'],binding['display_fps']),(24,60))
         self.assertIn('visual/fnp-or-relay-4k60.mp4',binding['hashes'])
         for p,h in binding['hashes'].items():
-            self.assertEqual(hashlib.sha256((or_archive.P/p).read_bytes()).hexdigest(),h,p)
+            self.assertEqual(binding_digest(or_archive.P,p),h,p)
 
     def test_replay_events_use_measured_outputs_and_current_record_changes(self):
         replay=json.loads((or_archive.P/'visual/fnp-or-relay-replay.json').read_text())

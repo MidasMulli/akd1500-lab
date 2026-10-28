@@ -1,3 +1,4 @@
+from media_binding import binding_digest
 """Measured primitive checks, blocked-host evidence and the preserved failure."""
 import copy
 import hashlib
@@ -78,13 +79,13 @@ class CNPContribution(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError,'whole fixed memory'):contribution_archive.recount(self.m,z)
 
     def test_executed_sources_bound_to_measurement(self):
-        for p,h in self.m['executed_sources'].items():self.assertEqual(hashlib.sha256((archive.P/p).read_bytes()).hexdigest(),h,p)
+        for p,h in self.m['executed_sources'].items():self.assertEqual(binding_digest(archive.P,p),h,p)
 
 
 class NativePresentation(unittest.TestCase):
     def test_video_and_presentation_sources_match_binding(self):
         m=json.loads((archive.P/'visual/NATIVE_PRIMITIVES_SOURCE_BINDING.json').read_text());self.assertEqual((m['fps'],m['seconds']),(60,24));self.assertIn('visual/native-primitives-4k60.mp4',m['hashes'])
-        for p,h in m['hashes'].items():self.assertEqual(hashlib.sha256((archive.P/p).read_bytes()).hexdigest(),h,p)
+        for p,h in m['hashes'].items():self.assertEqual(binding_digest(archive.P,p),h,p)
 
     def test_displayed_causal_counts_are_actual_native_values(self):
         r=json.loads((archive.P/'visual/native-primitives-replay.json').read_text())

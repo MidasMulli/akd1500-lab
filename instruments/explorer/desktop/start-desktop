@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+desktop_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -n "${AKD_ELECTRON_BIN:-}" ]; then
+  electron_bin=$AKD_ELECTRON_BIN
+elif [ -x "$desktop_dir/node_modules/.bin/electron" ]; then
+  electron_bin="$desktop_dir/node_modules/.bin/electron"
+else
+  printf '%s\n' 'Set AKD_ELECTRON_BIN to an installed Electron executable. No runtime is downloaded automatically.' >&2
+  exit 1
+fi
+unset ELECTRON_RUN_AS_NODE
+exec "$electron_bin" "$desktop_dir"

@@ -1,0 +1,12 @@
+{
+  "status": "EXPLORER_EXPORT_PASS",
+  "independently_checked_streams": 14,
+  "hardware_arms": 4,
+  "events_per_arm": 536,
+  "data_sha256": "53ff9e47af23c25b7f89204013d1e509feddb32f8c43c46efa1bde0e787280e5",
+  "source": {
+    "study": "20261026-pending-eight",
+    "archive_sha256": "ab6e03d6b6c166169f971e559e4383f10135d7a6a97099bb63629f8c6cfc9e71",
+    "metadata_sha256": "9deb4ea90ec1aa23c60eb4babcbc042ad57e928684fd13409b5992a2aa0147f3"
+  }
+}

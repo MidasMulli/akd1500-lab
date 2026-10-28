@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "tranche": "HELD",
+  "raw_RAM_query_replays": 3960,
+  "scalar_probability_max_error": 7.771561172376096e-16,
+  "streams": {
+    "CPU_HELD_joint10_INFORMATIVE_K2": {
+      "checks": {
+        "all-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 164
+        },
+        "all-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 82
+        },
+        "all-AB-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 164
+        },
+        "all-retire-cut": {
+          "queries": 48,
+          "software_RAM_bits_changed": 164
+        },
+        "error-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 0
+        },
+        "error-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint10_INFORMATIVE_K4": {
+      "checks": {
+        "all-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 358
+        },
+        "all-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 170
+        },
+        "all-AB-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 358
+        },
+        "all-retire-cut": {
+          "queries": 96,
+          "software_RAM_bits_changed": 358
+        },
+        "error-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 0
+        },
+        "error-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint10_INFORMATIVE_K8": {
+      "checks": {
+        "all-normal": {
+          "queries": 180,
+          "software_RAM_bits_changed": 340
+        },
+        "all-A-frozen": {
+          "queries": 180,
+          "software_RAM_bits_changed": 300
+        },
+        "all-AB-frozen": {
+          "queries": 180,
+          "software_RAM_bits_changed": 340
+        },
+        "all-retire-cut": {
+          "queries": 180,
+          "software_RAM_bits_changed": 340
+        },
+        "error-normal": {
+          "queries": 180,
+          "software_RAM_bits_changed": 0
+        },
+        "error-A-frozen": {
+          "queries": 180,
+          "software_RAM_bits_changed": 0
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 12
+    },
+    "CPU_HELD_joint10_UNINFORMATIVE_K2": {
+      "checks": {
+        "all-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 104
+        },
+        "all-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 84
+        },
+        "all-AB-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 88
+        },
+        "all-retire-cut": {
+          "queries": 48,
+          "software_RAM_bits_changed": 104
+        },
+        "error-normal": {
+          "queries": 48,
+          "software_RAM_bits_changed": 122
+        },
+        "error-A-frozen": {
+          "queries": 48,
+          "software_RAM_bits_changed": 38
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint10_UNINFORMATIVE_K4": {
+      "checks": {
+        "all-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 198
+        },
+        "all-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 168
+        },
+        "all-AB-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 174
+        },
+        "all-retire-cut": {
+          "queries": 96,
+          "software_RAM_bits_changed": 198
+        },
+        "error-normal": {
+          "queries": 96,
+          "software_RAM_bits_changed": 192
+        },
+        "error-A-frozen": {
+          "queries": 96,
+          "software_RAM_bits_changed": 38
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    },
+    "CPU_HELD_joint10_UNINFORMATIVE_K8": {
+      "checks": {
+        "all-normal": {
+          "queries": 192,
+          "software_RAM_bits_changed": 356
+        },
+        "all-A-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 306
+        },
+        "all-AB-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 316
+        },
+        "all-retire-cut": {
+          "queries": 192,
+          "software_RAM_bits_changed": 356
+        },
+        "error-normal": {
+          "queries": 192,
+          "software_RAM_bits_changed": 338
+        },
+        "error-A-frozen": {
+          "queries": 192,
+          "software_RAM_bits_changed": 38
+        }
+      },
+      "status": "FAILED_GATE",
+      "terminal_episodes": 0
+    }
+  },
+  "physical_evidence": false
+}
