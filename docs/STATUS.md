@@ -1,6 +1,17 @@
-# Current research status, October 28,2026
+# Current research status, November 16, 2026
 
 This page separates physical results, numerical references and unbuilt ideas. All listed scientific campaigns are closed. Publishing their evidence does not authorize another hardware run.
+
+## November results on physical AKD1500
+
+- **Label-free learning from stored inputs:** one native learning layer produced the memories and full-panel scores behind 63.6–69.0% balanced atlas agreement, versus 18.3–23.1% with unchanged memory. The host encoded profiles and classified from chip scores using a fixed 60-label budget. Conventional software controls scored higher. One continuous capture repeats a prior run exactly.
+- **Four-observation prediction:** on six synthetic streams, a fixed on-chip history and error circuit opened teaching only on the first error for each of two changed rules. Always-teach opened 48 gates. Gating and history controls establish which parts of the circuit mattered on those streams.
+- **Connected learning:** all four learner banks changed connections on all 64 inputs in the all-learning session. Freeze controls preserved the frozen banks, and a change to the final fixed encoder changed fourth-bank output and the edited record as predicted. Every bank received the same external teaching label.
+- **MechDog vision scoring:** the physical scorer replayed 309 saved frames and matched 618 host selections against the reference. A separate stationary live check cleared a known brown-box site when the box was removed. Acquisition of a relocated object and any use of the visual decision for motor control remain open; the saved finder missed five of 239 protected requests.
+
+[Full November findings and downloads](NOVEMBER_2026.md).
+
+## October 28 baselines
 
 ## Native managed image memory
 

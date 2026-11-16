@@ -2,6 +2,17 @@
 
 The source checkout provides the Explorer and static recorded demos. Evidence bundles are immutable public editions of the preserved numeric captures; scientific bytes retain their hashes. Operator authority/session metadata, draft posts and linked SDK binaries are excluded. Original private review packages remain preserved separately.
 
+## November 2026 downloads
+
+The [November release](https://github.com/MidasMulli/akd1500-lab/releases/tag/research-20261116) includes the continuous film and a curated projection of the audited results. The ZIP includes a manifest and `verify.py`; run `python3 verify.py` after extraction to check file integrity and reproduce the published tallies without hardware. It contains summary counts and anonymous case rows, without the original hardware programs, readbacks, or input data.
+
+| Artifact | Bytes | SHA-256 |
+|---|---:|---|
+| [Continuous 1080p60 recording](https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261116/AKD1500_atlas_live_1080p60.mp4) | 8,385,117 | `15bff57776b67e4b47d1ae104ecbc4e8018444b5706adf38abd30253949559c2` |
+| [Atlas map](https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261116/AKD1500_atlas_map.png) | 2,456,681 | `e5224884bb09dd1d2b853e2f09529da7c21e20c221ed1d2855620396f84fa6f0` |
+| [Label budget figure](https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261116/AKD1500_label_budget.png) | 185,657 | `8cbd1014429f464e323b150fedf6cec5a322afa2610caf0a46d606ca899b0919` |
+| [Audited result tables](https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261116/akd1500-november-result-tables.zip) | 6,954 | `872435fbf949eb890fe873db571a08b2e3c3619ef85f2618e43b226a1bc5dbdd` |
+
 ## Versioned research downloads
 
 | Artifact | Size | SHA256 |

@@ -4,6 +4,7 @@ Start with [current findings](STATUS.md), then inspect the study-specific record
 
 | Record | Scope |
 |---|---|
+| [November research release](NOVEMBER_2026.md) | Recorded native label-free training and scoring, synthetic prediction-error teaching, four connected learning banks, and MechDog patch scoring |
 | [20261027-native-memory-fabric](../studies/20261027-native-memory-fabric/REPORT.md) | Closed native study with controls and stated limits |
 | [20261027-native-separation](../studies/20261027-native-separation/REPORT.md) | Closed native study with controls and stated limits |
 | [20261027-repeated-native-memory](../studies/20261027-repeated-native-memory/REPORT.md) | Closed native study with controls and stated limits |

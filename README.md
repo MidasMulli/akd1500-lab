@@ -2,12 +2,15 @@
 
 Independent experiments and instruments for **native learning, connected memory and model correction on BrainChip's AKD1500**. Recorded chip responses and connection changes are inspectable alongside matched controls.
 
-The current result is bounded: native memory can learn and retain useful corrections for selected recurring situations while a larger world model stays fixed. New-scene usefulness and a fully native replacement manager remain open. Strong adaptive CPU controls also pass; no speed or energy advantage is established.
+**November 2026:** watch [the continuous AKD1500 capture](https://github.com/MidasMulli/akd1500-lab/releases/download/research-20261116/AKD1500_atlas_live_1080p60.mp4). The chip learns from 8,192 saved, unlabelled encoded profiles, then scores 9,511 cells with learning switched off. The host encodes inputs, names records using 60 examples, and draws the atlas. The run reproduced the prior chip outputs exactly; agreement with the atlas labels was 69.0% with classes and sections weighted equally.
+
+The [November evidence release](docs/NOVEMBER_2026.md) also covers prediction-error gated teaching, four connected learning banks, and the AKD scoring path on MechDog. Each result has a specific boundary; no speed or energy advantage is established.
 
 ## Start here
 
 | Explore | What you get |
 |---|---|
+| [November research release](https://github.com/MidasMulli/akd1500-lab/releases/tag/research-20261116) | Live video, atlas figures, and checkable result tables |
 | [Interactive Network Explorer](instruments/explorer/README.md) | Orbit, inspect stored connections, scrub measured events and compare controls; recorded replay needs no chip |
 | [World-model memory replay](demos/world-model-memory/README.md) | New 32-record stream study, measured responses/edits and reconstructed simulator scenes |
 | [Image-memory replay](demos/image-memory/README.md) | Four stored silhouettes, partial-cue recall and native source-gated revision |
@@ -36,7 +39,7 @@ python -m http.server 8000 --bind 127.0.0.1
 
 Open `http://127.0.0.1:8000/demos/world-model-memory/` or `http://127.0.0.1:8000/demos/image-memory/`.
 
-## Latest measured results
+## October baselines
 
 | Study | Result | Boundary |
 |---|---|---|
